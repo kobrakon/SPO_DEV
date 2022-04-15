@@ -1,4 +1,4 @@
-# DEV-SinglePlayerOverhaul
+# SPO_DEV
 Repository for prerelease development builds of SPO
 
 NOTE: These are unstable prerelease builds of SPO used for testing new additions and may result in profile corruption and/or Tarkov/SPT file damage. Use at your own risk
