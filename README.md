@@ -9,7 +9,7 @@ SPO is a project with the goal of fine-tuning SPT to have a perfect blend of EFT
 
 If you wish to stay up-to-date with information on SPO or wish to contribute in any way, then please join our Discord at https://discord.gg/Gd2xPpf
 
-# Credits:
+## Credits:
 
 Project Lead: Gabe_Over
 
@@ -39,4 +39,4 @@ Mod Authors and Contributors:
 - Fershte
 - jbs4bmx
 
-# _(credits are important for the integrity of SPO, if a author/contributor's credit is missing PLEASE let us know asap on our discord)_
+#### _(credits are important for the integrity of SPO, if a author/contributor's credit is missing PLEASE let us know asap on our discord)_
