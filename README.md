@@ -39,4 +39,4 @@ Mod Authors and Contributors:
 - Fershte
 - jbs4bmx
 
-### (credits are important for the integrity of SPO, if a author/contributor's credit is missing PLEASE let us know asap on our discord)
+# _(credits are important for the integrity of SPO, if a author/contributor's credit is missing PLEASE let us know asap on our discord)_
