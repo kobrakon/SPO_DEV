@@ -1,0 +1,65 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Trigger for M1911A1",
+			"UID"	: "5e81c6a2ac2bb513793cdc7f",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Hammer for M1911A1",
+			"UID"	: "5e81c550763d9f754677befd",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Slide lock for M1911A1",
+			"UID"	: "5e81c539cb2b95385c177553",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Slide lock for M45A1",
+			"UID"	: "5f3e777688ca2d00ad199d25",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Hammer for M45A1",
+			"UID"	: "5f3e76d86cda304dcc634054",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Trigger for M45A1",
+			"UID"	: "5f3e772a670e2a7b01739a52",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

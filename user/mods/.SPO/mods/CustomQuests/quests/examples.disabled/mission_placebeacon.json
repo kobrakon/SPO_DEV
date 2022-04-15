@@ -1,0 +1,18 @@
+[
+    {
+        "id": "trap_example_mission_placebeacon",
+        "trader_id": "fence",
+        "name": "PlaceBeacon mission",
+        "description": "Place a beacon where you know",
+        "success_message": "Bravo!",
+        "missions": [
+            {
+                "type": "PlaceBeacon",
+                "zone_id": "case_extraction",
+                "message": "Place a ms2000 markers at case_extraction on factory",
+                "plant_time": 2,
+                "need_survive": "You need to survive the raid"
+            }
+        ]
+    }
+]

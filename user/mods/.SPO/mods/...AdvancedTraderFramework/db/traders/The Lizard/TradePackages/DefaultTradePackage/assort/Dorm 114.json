@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "Dorm114",
+			"_tpl": "59387a4986f77401cc236e62",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"Dorm114": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590c35a486f774273531c822"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Dorm114": 1
+	}
+}

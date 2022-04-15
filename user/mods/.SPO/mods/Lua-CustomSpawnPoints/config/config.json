@@ -1,0 +1,51 @@
+{
+	"Enabled": true,
+	"PrintMapLoadLogs": true,
+	"DisableDefaultSpawnPoints":
+	{
+		"Bot":
+		{
+			"bigmap": false,
+			"factory4_day": false,
+			"factory4_night": false,
+			"interchange": false,
+			"laboratory": false,
+			"rezervbase": false,
+			"shoreline": false,
+			"woods": false
+		},
+
+		"Player":
+		{
+			"bigmap": false,
+			"factory4_day": false,
+			"factory4_night": false,
+			"interchange": false,
+			"laboratory": false,
+			"rezervbase": false,
+			"shoreline": false,
+			"woods": false
+		},
+
+		"Boss":
+		{
+			"bigmap": false,
+			"factory4_day": false,
+			"factory4_night": false,
+			"interchange": false,
+			"laboratory": false,
+			"rezervbase": false,
+			"shoreline": false,
+			"woods": false
+		}
+	},
+	"DisableFolderList": "!Readme",
+
+	"DEBUG":
+	{
+		"PrintAddedSpawnPoints": false,
+		"NoFallDamage": false,
+		"UnlimitedRaidTime": false,
+		"UnlimitedStamina": false
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"Information":
+	{
+		"###Changes the amount of Hydration and Energy Drain. hydration defualt is 2.6 energy default is 3.2": "///",
+		"### Regen Defaults are 1 for regen while in hideout": "///"
+	},
+	"values":
+	{
+		"hydration": "1",
+		"energy": "2.3",
+		"hydrationRegen": "0",
+		"energyRegen": "0"
+	}
+}

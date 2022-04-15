@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "SAN306EAST",
+			"_tpl": "5a145d4786f7744cbb6f4a12",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"SAN306EAST": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5d1b304286f774253763a528"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SAN306EAST": 2
+	}
+}

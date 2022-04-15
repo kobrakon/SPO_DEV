@@ -1,0 +1,125 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Izhmash 5.56x45 AK-101 muzzlebrake n compensator",
+			"UID"	: "5ac72e615acfc43f67248aa0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Izhmash 5.45x39 AK-105 muzzlebrake n compensator (6P44 0-20)",
+			"UID"	: "5ac72e945acfc43f3b691116",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Izhmash 5.45x39 RPK-16 muzzle brake n compensator",
+			"UID"	: "5beec3420db834001b095429",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Izhmash 7.62x39 AK-103 muzzlebrake n compensator",
+			"UID"	: "5ac72e7d5acfc40016339a02",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Desert Tech 5.56x45 Flash hider",
+			"UID"	: "5c48a2a42e221602b66d1e07",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Izhmash 5.56x45 AK-102 muzzlebrake n compensator (6P44 0-20)",
+			"UID"	: "5ac72e725acfc400180ae701",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Thread protection for AKM-VPO-209",
+			"UID"	: "59e8a00d86f7742ad93b569c",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Izhmash 7.62x54 SVDS muzzlebrake n compensator",
+			"UID"	: "5c471bfc2e221602b21d4e17",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Orsis T-5000M muzzle brake",
+			"UID"	: "5df35e7f2a78646d96665dd4",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "KAC QDC Flash suppressor kit 7.62x51 flash hider",
+			"UID"	: "5dfa3cd1b33c0951220c079b",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "SilencerCo AC-858 ASR .338 LM Muzzle brake",
+			"UID"	: "5fc23636016cce60e8341b05",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "SV-98 muzzle device",
+			"UID"	: "560e620e4bdc2d724b8b456b",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

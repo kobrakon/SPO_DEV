@@ -1,0 +1,79 @@
+{
+	"_id": "Lizard",
+	"working": true,
+	"customization_seller": false,
+	"name": "Lizard",
+	"surname": "Lizard",
+	"nickname": "The Lizard",
+	"location": "Russia",
+	"description": "Out of luck? Help yourself with my wares!",
+	"avatar": "/files/trader/avatar/lizard.jpg",
+	"balance_rub": 5000000,
+	"balance_dol": 0,
+	"balance_eur": 0,
+	"unlockedByDefault": true,
+	"discount": 0,
+	"discount_end": 0,
+	"buyer_up": true,
+	"currency": "RUB",
+	"nextResupply": 7200,
+	"repair": {
+		"availability": true,
+		"quality": "1.5",
+		"excluded_id_list": [],
+		"excluded_category": ["5448e54d4bdc2dcc718b4568", "5422acb9af1c889c16000029"],
+		"currency": "5449016a4bdc2d6f028b456f",
+		"currency_coefficient": 0.8
+	},
+	"insurance": {
+        "availability": false,
+        "min_payment": 0,
+        "min_return_hour": 2,
+        "max_return_hour": 4,
+        "max_storage_time": 144,
+        "excluded_category": []
+    },
+	"medic": true,
+	"gridHeight": 300,
+		"loyaltyLevels": [{
+			"minLevel": 1,
+			"minSalesSum": 0,
+			"minStanding": 0,
+			"buy_price_coef": 90,
+			"repair_price_coef": 0,
+			"insurance_price_coef": 14,
+			"exchange_price_coef": 0,
+			"heal_price_coef": 0
+		}, {
+			"minLevel": 15,
+			"minSalesSum": 100000,
+			"minStanding": 0,
+			"buy_price_coef": 85,
+			"repair_price_coef": 0,
+			"insurance_price_coef": "18",
+			"exchange_price_coef": 0,
+			"heal_price_coef": 0
+		}, {
+			"minLevel": "26",
+			"minSalesSum": 220000,
+			"minStanding": 0,
+			"buy_price_coef": 80,
+			"repair_price_coef": 0,
+			"insurance_price_coef": "22",
+			"exchange_price_coef": 0,
+			"heal_price_coef": 0
+		}, {
+			"minLevel": "36",
+			"minSalesSum": 350000,
+			"minStanding": 0,
+			"buy_price_coef": 70,
+			"repair_price_coef": 0,
+			"insurance_price_coef": "26",
+			"exchange_price_coef": 0,
+			"heal_price_coef": 0
+		}
+	],
+	"sell_category": [
+	
+	]
+}

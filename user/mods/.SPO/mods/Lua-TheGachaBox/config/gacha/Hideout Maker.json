@@ -1,0 +1,68 @@
+{
+    "Scrap":
+    {
+        "Name": "Scrap",
+        "Description": "Maybe you can find something useful here?",
+        "LoyaltyLevel": 1,
+        "ShowPrizeList": true,
+        "ShowPrizeChance": true,
+        "ShowFailedPrizeList": true,
+		"RestockTimeInSecond": 3600,
+        "BaseDummyItem": "59e35ef086f7741777737012",
+        "Width": 1,
+        "Height": 1,
+        "BackgroundColor": "blue",
+        "Price":
+        [
+            {
+                "Item": "5449016a4bdc2d6f028b456f",
+                "Count": 50000
+            }
+        ],
+        "Stock":
+        {
+            "UnlimitedCount": false,
+            "StackObjectsCount": 2
+        },
+        "PrizeList":
+        [
+            {
+                "Item": "BarterItem",
+                "Count": "3, 7",
+                "Chance": 25,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            }
+
+        ],
+        "FailedPrizeList":
+        [
+            {
+                "Item": "BarterItem",
+                "Count": 1,
+                "FIR": false,
+                "AllowNotExaminedItems": false,
+                "AllowQuestItems": false
+            }
+        ],
+        "ItemBlacklist": [
+            "5c12613b86f7743bbe2c3f76",
+            "57347ca924597744596b4e71",
+            "590de7e986f7741b096e5f32",
+            "590de71386f774347051a052",
+            "59faff1d86f7746c51718c9c",
+            "5bc9bc53d4351e00367fbcee",
+            "59faf7ca86f7740dbe19f6c2",
+            "5bc9c049d4351e44f824d360",
+            "5bc9b355d4351e6d1509862a",
+            "5bc9c377d4351e3bac12251b",
+            "5bc9b9ecd4351e3bac122519",
+            "5bc9b720d4351e450201234b",
+            "5c12620d86f7743f8b198b72",
+            "5c1267ee86f77416ec610f72",
+            "5d03794386f77420415576f5",
+            "5d235b4d86f7742e017bc88a"
+        ]
+    }
+}

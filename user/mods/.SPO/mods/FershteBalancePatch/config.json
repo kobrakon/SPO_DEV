@@ -1,0 +1,10 @@
+{
+	"optics":true,
+	"pistolGrips":true,
+	"furniture":true,
+	"stocks":true,
+	"foregrips":true,
+	"muzzleDevices":true,
+	"tweaks":true,
+	"experimental":true
+}

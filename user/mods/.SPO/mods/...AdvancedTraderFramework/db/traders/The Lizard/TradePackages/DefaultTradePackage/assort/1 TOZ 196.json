@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "toz 106 mag",
+			"_tpl": "5a38ee51c4a282000c5a955c",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"toz 106 mag": [
+			[
+				{
+					"count": 511,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"toz 106 mag": 1
+	}
+}

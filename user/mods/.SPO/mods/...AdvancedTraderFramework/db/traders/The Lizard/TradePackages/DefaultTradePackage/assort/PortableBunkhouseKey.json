@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "PortableBunkhouse",
+			"_tpl": "5938144586f77473c2087145",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"PortableBunkhouse": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59e366c186f7741778269d85"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"PortableBunkhouse": 1
+	}
+}

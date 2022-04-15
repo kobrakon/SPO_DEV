@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "2 5.45x39mm PS gs",
+			"_tpl": "56dff338d2720bbd668b4569",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"2 5.45x39mm PS gs": [
+			[
+				{
+					"count": 46,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"2 5.45x39mm PS gs": 1
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "SHRIMP mag",
+			"_tpl": "59f99a7d86f7745b134aa97b",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"SHRIMP mag": [
+			[
+				{
+					"count": 8644,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SHRIMP mag": 3
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "hideoutandflea",
+  "author": "Kobrakon",
+  "description": "b",
+  "license": "NCSA",
+  "version": "1.0.0",
+  "akiVersion": "2.3.1",
+	"dependencies": {},
+  "main": "package.js"
+}

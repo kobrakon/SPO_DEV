@@ -1,0 +1,153 @@
+{
+    "Rewards": [{
+        "target": "ITEMID",
+        "value": "NUMBERS",
+        "id": "CHANGEME",
+        "type": "Item",
+        "unknown": false,
+        "index": 0,
+        "items": []
+    }],
+    "Finish conditions": {
+        "Other": {
+            "Visibility": {
+                "_parent": "CompleteCondition",
+                "_props": {
+                    "target": "CONDITIONID",
+                    "id": "CHANGEME"
+                }
+            },
+            "KillCondition": {
+                "_parent": "Kills",
+                "_props": {
+                    "target": "SIDE",
+                    "compareMethod": "CHANGEME",
+                    "value": "CHANGEME",
+                    "id": "CHANGEME"
+                }
+            }
+        },
+        "Objectives": {
+            "Elimination": {
+                "_parent": "CounterCreator",
+                "_props": {
+                    "value": "CHANGEME",
+                    "type": "Elimination",
+                    "counter": {
+                        "id": "CHANGEME",
+                        "conditions": []
+                    },
+                    "index": 0,
+                    "parentId": "",
+                    "id": "CHANGEME"
+                }
+            },
+            "Find item": {
+                "_parent": "FindItem",
+                "_props": {
+                    "target": [],
+                    "value": "CHANGEME",
+                    "index": 0,
+                    "parentId": "",
+                    "id": "CHANGEME"
+                }
+            },
+            "Hand over item": {
+                "_parent": "HandoverItem",
+                "_props": {
+                    "target": [],
+                    "value": "CHANGEME",
+                    "index": 1,
+                    "parentId": "",
+                    "id": "CHANGEME",
+                    "visibilityConditions": []
+                }
+            },
+            "Place Item": {
+                "_parent": "PlaceBeacon",
+                "_props": {
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "zoneId": "gazel",
+                    "value": "1",
+                    "index": 2,
+                    "parentId": "",
+                    "id": "5998360886f77456936817f3",
+                    "plantTime": 30
+                }
+            },
+            "Exploration": {
+                "_parent": "VisitPlace",
+                "_props": {
+                    "target": "ZONEID",
+                    "value": "1",
+                    "id": "CHANGEME"
+                }
+            },
+            "Completion": {
+                "_parent": "CounterCreator",
+                "_props": {
+                    "value": "1",
+                    "type": "Completion",
+                    "counter": {
+                        "id": "CHANGEME",
+                        "conditions": [{
+                                "_parent": "ExitStatus",
+                                "_props": {
+                                    "status": [
+                                        "Survived",
+                                        "Runner"
+                                    ],
+                                    "id": "CHANGEME"
+                                }
+                            },
+                            {
+                                "_parent": "Location",
+                                "_props": {
+                                    "target": [
+                                        "factory4_day",
+                                        "factory4_night"
+                                    ],
+                                    "id": "CHANGEME"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "Extra Conditions": {
+                "MapCondition": {
+                    "_parent": "Location",
+                    "_props": {
+                        "target": [],
+                        "id": "CHANGEME"
+                    }
+                }
+            }
+        }
+    },
+    "Start conditions": {
+        "Level Condition": {
+            "_parent": "Level",
+            "_props": {
+                "compareMethod": "CHANGEME",
+                "value": "CHANGEME",
+                "index": 0,
+                "parentId": "",
+                "id": "CHANGEME"
+            }
+        },
+        "Trader Loyalty Condition": {
+            "_parent": "TraderLoyalty",
+            "_props": {
+                "target": "TRADER",
+                "compareMethod": "CHANGEME",
+                "value": "LL",
+                "index": 0,
+                "parentId": "",
+                "id": "CHANGEME"
+            }
+        }
+    }
+}

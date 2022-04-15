@@ -1,0 +1,176 @@
+[
+    {
+        "id": "L1",
+        "trader_id": "prapor",
+        "name": "The Hard Way",
+        "description": "Hey Mercenary, I need a special favor from you. As you may know, Elvira and I used to have a history. Its complicated but the short story is, I want to make things right. Its quite lonely in Tarkov. Could you bring me some things for her? She always adored carvings, if you could find something nice. I also need some -- special medical items. If you could bring me some antibiotic pills and adrenaline injector, I am sure she will appreciate it.",
+        "success_message": "You have no idea how much this means to me. With my old age its gotten hard to get it u-- Ahem -- Here is your payment",
+        "rewards": {
+            "xp": 10000,
+            "items": {
+                "5fd4c474dd870108a754b241": 1,
+                "5e00c1ad86f774747333222c": 1,
+                "5e00cdd986f7747473332240": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "59e3647686f774176a362507",
+                    "59e3658a86f7741776641ac4",
+                    "573478bc24597738002c6175",
+                    "59e3639286f7741777737013",
+                    "5e54f62086f774219b0f1937"
+                ],
+                "message": "Find a gift for Elvira",
+                "count": 1
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "590c695186f7741e566b64a2"
+                ],
+                "message": "Get some antibiotic pills",
+                "count": 1
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c10c8fd86f7743d7d706df3"
+                ],
+                "message": "Find an adrenaline injector",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "L2",
+        "trader_id": "ragman",
+        "name": "Unexpected Connections",
+        "description": "Alright, its the mercenary. I have work for you. Got a special meeting in a couple days and could use a couple things for it. I need some roach spray got a little problem with them at my place. Wanna make it look a little better. Also, a little embarrassing but I need some toothpaste. Im out. Kind of important for my da--i mean my meeting.",
+        "success_message": "Many thanks. A little something for you. Wish me luck!",
+        "unlock_on_quest_start": [
+            "L1"
+        ],
+        "rewards": {
+            "xp": 10000,
+            "items": {
+                "5447a9cd4bdc2dbd208b4567": 1,
+                "5c07a8770db8340023300450": 1,
+                "56ea7165d2720b6e518b4583": 1,
+                "5c793fb92e221644f31bfb64": 1,
+                "5d135e83d7ad1a21b83f42d8": 1,
+                "55802f5d4bdc2dac148b458f": 1,
+                "5c78f26f2e221601da3581d1": 1,
+                "5c0e2f94d174af029f650d56": 1,
+                "615d8e2f1cb55961fa0fd9a4": 1,
+                "56ea8d2fd2720b7c698b4570": 1,
+                "5dfa3d950dee1b22f862eae0": 1,
+                "5dfa3d7ac41b2312ea33362a": 1,
+                "57cffb66245977632f391a99": 1,
+                "5a1ead28fcdbcb001912fa9f": 1,
+                "5a1eaa87fcdbcb001865f75e": 1,
+                "5a1eacb3fcdbcb09800872be": 1,
+                "59c1383d86f774290a37e0ca": 3,
+                "54527ac44bdc2d36668b4567": 180
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "59e3596386f774176c10a2a2"
+                ],
+                "message": "Get some roach spray",
+                "count": 1
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "57347c93245977448d35f6e3"
+                ],
+                "message": "Get some Toothpaste",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "L3",
+        "trader_id": "therapist",
+        "locked_by_quests": [
+            "L2",
+            "L1"
+        ],
+        "name": "If you are Brave enough...",
+        "description": "This zone takes its toll on everyone. We all have -- needs -- and no man out here has the right tools -- Oh, mercenary, when did you get here? Ah nevermind what I was saying. Could you help me with something? I really need something to -- take the edge off. If you get my saying. I got some good gear if you can help me out.",
+        "success_message": "You know, that has to be the last thing I thought you would have brought me. But...I understand it is quite a strange request, and I would appreciate it if we could never speak of this again. Your gear is outside the door.",
+        "rewards": {
+            "xp": 12000,
+            "items": {
+                "5df8a4d786f77412672a1e3b": 1,
+                "5aa7e373e5b5b000137b76f0": 1,
+                "5aa7e276e5b5b000171d0647": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5d0379a886f77420407aa271"
+                ],
+                "message": "Find something to help Therapist",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "L4",
+        "trader_id": "prapor",
+        "locked_by_quests": [],
+        "unlock_on_quest_start": [
+            "L3"
+        ],
+        "rewards": {
+            "xp": 10000,
+            "items": {
+                "5d5d87f786f77427997cfaef": 1,
+                "5cf50fc5d7f00c056c53f83c": 1,
+                "5ae30c9a5acfc408fb139a03": 1,
+                "5c6bf4aa2e2216001219b0ae": 1,
+                "5ac50da15acfc4001718d287": 1,
+                "5ac72e475acfc400180ae6fe": 1,
+                "59c6633186f7740cf0493bb9": 1,
+                "5648b4534bdc2d3d1c8b4580": 1,
+                "5ac66d2e5acfc43b321d4b53": 1,
+                "59fc48e086f77463b1118392": 1,
+                "5d10b49bd7ad1a1a560708b0": 1,
+                "5c90c3622e221601da359851": 1,
+                "570fd6c2d2720bc6458b457f": 1,
+                "59d6272486f77466146386ff": 6,
+                "59e0d99486f7744a32234762": 240
+            }
+        },
+        "name": "Five Finger Shuffle",
+        "description": "Well things fell through merc. Those meds didn't do the trick. Got a little shopping list for you if you have time. Try not to judge.",
+        "success_message": "Your gear is in the corner",
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c13cef886f774072e618e82"
+                ],
+                "message": "Get some toilet paper",
+                "count": 1
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5d40412b86f7743cb332ac3a"
+                ],
+                "message": "Get some lotion?",
+                "count": 1
+            }
+        ]
+    }
+]

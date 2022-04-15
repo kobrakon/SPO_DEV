@@ -1,0 +1,42 @@
+{
+	"RemoveTraderLoyaltyForUpgrades" : false,
+	"EnableNakedEdition" : true,
+	"RemoveExaminedByDefault" : false,
+	"ExpandRandomStackLimits" : false,
+	"RemoveInRaidLootingRestrictions" : false,
+	"RemoveInRaidCarryRestrictions" : false,
+
+	"ItemsLootExperienceMultiplier" : 1,
+	"ItemsExamineExperienceMultiplier" : 2,
+	"ItemsExamineTimeMultiplier" : 0.5,
+	
+	"PlayerLeftRaidMultiplier" : 0,
+	"PlayerMiaMultiplier" : 1,
+	"PlayerSurvivedRaidMultiplier" : 1,
+	"PlayerRunThroughMultiplier" : 0.5,
+	"PlayerKilledMultiplier" : 1,
+
+	"TimeBeforeDeployLocal" : 10,
+	"NumberOfUsagesForUnlimitedKeys" : 0,
+	
+	"BoughtItemsCountedAsFiR": false,
+	"AllowLootOverlay" : false,
+	"GlobalLootChanceModifier" : null,
+	"LocationsLootChanceModifier" : null,
+
+	"GrinchStoleChristmas" : false,
+	"EnableChristmas" : false,
+	"EnableHalloween" : false,
+	
+	"ForceAllLooseLootSpawn" : false,
+	"LootContainerSpawnLootChance" : null,
+	"MinRelativeChance" : null,
+	"AdjustItemsSpawnInContainers" : false,
+
+	"EXPERIMENTAL": "-----------------------------------------------------------------------",
+	"HeapPreAllocationEnabled" : false,
+	"OverrideRamCleanerSettings" : false,
+	"RamCleanerEnabled" : false, 
+	"DisableReleaseProfiler" : true,
+	"EnableNewSpawnForMaps" : false
+}

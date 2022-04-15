@@ -1,0 +1,1 @@
+Logger.info(`Loading: BetterLasers`);

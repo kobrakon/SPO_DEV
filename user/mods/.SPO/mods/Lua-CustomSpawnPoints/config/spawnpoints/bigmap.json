@@ -1,0 +1,55 @@
+{
+	"SpawnZone Available List": "ZoneBrige, ZoneCrossRoad, ZoneDormitory, ZoneGasStation, ZoneFactoryCenter, ZoneFactorySide, ZoneOldAZS, ZoneSnipeBrige, ZoneSnipeTower, ZoneSnipeFactory, ZoneBlockPost, ZoneBlockPostSniper, ZoneBlockPostSniper3, ZoneTankSquare, ZoneWade, ZoneCustoms, ZoneScavBase",
+	"Infiltration Available List": "Boiler Tanks, Customs",
+
+	"ZoneBrige": [
+	],
+
+	"ZoneCrossRoad": [
+	],
+
+	"ZoneDormitory": [
+	],
+
+	"ZoneGasStation": [
+	],
+
+	"ZoneFactoryCenter": [
+	],
+
+	"ZoneFactorySide": [
+	],
+
+	"ZoneOldAZS": [
+	],
+
+	"ZoneSnipeBrige": [
+	],
+
+	"ZoneSnipeTower": [
+	],
+
+	"ZoneSnipeFactory": [
+	],
+
+	"ZoneBlockPost": [
+	],
+
+	"ZoneBlockPostSniper": [
+	],
+
+	"ZoneBlockPostSniper3": [
+	],
+
+	"ZoneTankSquare": [
+	],
+
+	"ZoneWade": [
+	],
+
+	"ZoneCustoms": [
+	],
+
+	"ZoneScavBase": [
+	]
+}

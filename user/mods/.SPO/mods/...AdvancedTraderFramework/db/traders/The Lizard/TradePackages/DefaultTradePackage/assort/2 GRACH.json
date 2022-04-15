@@ -1,0 +1,41 @@
+{
+	"items": [
+		{
+			"_id": "GRACH",
+			"_tpl": "576a581d2459771e7b1bc4f1",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 200000,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "3bfce3a134bbf212082f5335",
+			"_tpl": "576a5ed62459771e9c2096cb",
+			"parentId": "GRACH",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "244eaf98950b30f2b0d80e41",
+			"_tpl": "576a63cd2459771e796e0e11",
+			"parentId": "GRACH",
+			"slotId": "mod_pistol_grip"
+		}
+	],
+	"barter_scheme": {
+		"GRACH": [
+			[
+				{
+					"count": 16816,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"GRACH": 2
+	}
+}

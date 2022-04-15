@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "KeycardBlueMarking",
+			"_tpl": "5efde6b4f5448336730dbd61",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"KeycardBlueMarking": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59faff1d86f7746c51718c9c"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"KeycardBlueMarking": 3
+	}
+}

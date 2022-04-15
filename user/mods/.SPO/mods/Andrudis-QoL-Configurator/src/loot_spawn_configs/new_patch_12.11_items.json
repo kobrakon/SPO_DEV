@@ -1,0 +1,25 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "WZ Wallet",
+			"UID"	: "60b0f6c058e0b0481a09ad11",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5783c43d2459774bbe137486",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MP-155 Ultima pistol grip",
+			"UID"	: "606eef46232e5a31c233d500",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5d15cf3bd7ad1a67e71518b2",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

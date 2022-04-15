@@ -1,0 +1,97 @@
+{
+	"items": [
+		{
+			"_id": "c85c41ac2aa77ad02b9326c1",
+			"_tpl": "5cadc190ae921500103bb3b6",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		},
+		{
+			"_id": "fc1c083ec8a139479b146c22",
+			"_tpl": "5cadc1c6ae9215000f2775a4",
+			"parentId": "c85c41ac2aa77ad02b9326c1",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "ab64a3c1c654de11b43141ce",
+			"_tpl": "5cadc431ae921500113bb8d5",
+			"parentId": "c85c41ac2aa77ad02b9326c1",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "aa527b045f9fb2ce92c04c18",
+			"_tpl": "5cadc55cae921500103bb3be",
+			"parentId": "c85c41ac2aa77ad02b9326c1",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "8852b38605f9a878f96607d0",
+			"_tpl": "5cadc2e0ae9215051e1c21e7",
+			"parentId": "c85c41ac2aa77ad02b9326c1",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "0d217da5c31f710f8a59ef19",
+			"_tpl": "56def37dd2720bec348b456a",
+			"parentId": "c85c41ac2aa77ad02b9326c1",
+			"slotId": "mod_tactical"
+		},
+		{
+			"_id": "3d8da56fde8e846107fde1ec",
+			"_tpl": "5a32a064c4a28200741e22de",
+			"parentId": "fc1c083ec8a139479b146c22",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "37f0bef0e2557f0341c9dcc1",
+			"_tpl": "5cadd954ae921500103bb3c2",
+			"parentId": "aa527b045f9fb2ce92c04c18",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "accc01c7b01d31928df46e07",
+			"_tpl": "5cadd919ae921500126a77f3",
+			"parentId": "aa527b045f9fb2ce92c04c18",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "c45c904868aa627da8e554b9",
+			"_tpl": "56d59d3ad2720bdb418b4577",
+			"parentId": "8852b38605f9a878f96607d0",
+			"slotId": "cartridges"
+		},
+		{
+			"_id": "79663fa557db47552f48abb9",
+			"_tpl": "577d128124597739d65d0e56",
+			"parentId": "37f0bef0e2557f0341c9dcc1",
+			"slotId": "mod_scope"
+		},
+		{
+			"_id": "9f5917bda5741b2c542ce9a1",
+			"_tpl": "577d141e24597739c5255e01",
+			"parentId": "79663fa557db47552f48abb9",
+			"slotId": "mod_scope"
+		}
+	],
+	"barter_scheme": {
+		"c85c41ac2aa77ad02b9326c1": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59faff1d86f7746c51718c9c"
+				},
+				{
+					"count": 1,
+					"_tpl": "59faf7ca86f7740dbe19f6c2"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"c85c41ac2aa77ad02b9326c1": 1
+	}
+}

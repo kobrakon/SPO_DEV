@@ -1,0 +1,29 @@
+[
+    {
+        "id": "trap_example_mission_kill_1",
+        "trader_id": "fence",
+        "name": "Kill mission",
+        "description": "Kill 5 scavs on factory and 2 pmcs on customs",
+        "type": "Elimination",
+        "success_message": "Bravo!",
+        "missions": [
+            {
+                "type": "Kill",
+                "count": 5,
+                "message": "Kill 5 scavs on factory",
+                "locations": [
+                    "factory"
+                ]
+            },
+            {
+                "type": "Kill",
+                "message": "Kill 2 pmcs on customs",
+                "target": "AnyPmc",
+                "count": 2,
+                "locations": [
+                    "customs"
+                ]
+            }
+        ]
+    }
+]

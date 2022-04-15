@@ -1,0 +1,85 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Crash Axe",
+			"UID"	: "5bffe7930db834001b734a39",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Freeman crowbar",
+			"UID"	: "5c07df7f0db834001b73588a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Bars A-2607- 95x18",
+			"UID"	: "57e26fc7245977162a14b800",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Bars A-2607- Damascus",
+			"UID"	: "57e26ea924597715ca604a09",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Miller Bros. Blades M-2 Tactical Sword",
+			"UID"	: "5bffdd7e0db834001b734a1a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 5,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Kiba Arms Tactical Tomahawk",
+			"UID"	: "57cd379a24597778e7682ecf",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 5,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MPL-50 entrenching tool",
+			"UID"	: "5bead2e00db834001c062938",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6h5 Bayonet",
+			"UID"	: "5bffdc370db834001d23eca8",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

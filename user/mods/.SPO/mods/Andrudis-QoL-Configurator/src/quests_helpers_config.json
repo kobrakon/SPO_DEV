@@ -1,0 +1,9 @@
+{
+	"ChangeUsecToAnyPmc" 			: true,
+	"ChangeBearToAnyPmc" 			: true,
+	"GrenadierCounter" 				: 4,
+	"TheStylishOneCounter" 			: 25,
+	"AShooterBornInHeavenCounter" 	: 25,
+	"HunterCounter" 				: 10,
+	"ForceMarkedOphthalmoscopeSpawn": true
+}

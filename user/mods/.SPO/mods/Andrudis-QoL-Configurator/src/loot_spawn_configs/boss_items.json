@@ -1,0 +1,85 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Superfors DB 2020 Dead Blow Hammer",
+			"UID"	: "6087e570b998180e9f76dc24",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "601948682627df266209af05",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Sanitar bag",
+			"UID"	: "5e997f0b86f7741ac73993e2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56e33634d2720bd8058b456b",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "TT pistol 7.62x25 TT Gold",
+			"UID"	: "5b3b713c5acfc4330140bd8d",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Cultist's knife",
+			"UID"	: "5fc64ea372b0dd78d51159dc",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Crye Precision AVS MBAV (Tagilla Edition)",
+			"UID"	: "609e860ebd219504d8507525",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Tagilla's welding mask 'Gorilla'",
+			"UID"	: "60a7ad3a0c5cb24b0134664a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Tagilla's welding mask 'UBEY'",
+			"UID"	: "60a7ad2a2198820d95707a2e",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "BOSS cap",
+			"UID"	: "60a7acf20c5cb24b01346648",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "571a12c42459771f627b58a0",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

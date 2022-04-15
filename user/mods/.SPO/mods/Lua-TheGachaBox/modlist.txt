@@ -1,0 +1,20 @@
+[
+  'mod_gas_block',        'mod_reciever',     'mod_sight_rear',
+  'mod_scope',            'mod_stock',        'mod_magazine',
+  'mod_mount',            'mod_tactical',     'mod_scope_000',
+  'mod_scope_001',        'mod_scope_002',    'mod_scope_003',
+  'mod_flashlight',       'mod_muzzle',       'mod_pistol_grip',
+  'mod_tactical_000',     'mod_tactical_001', 'mod_tactical_002',
+  'mod_mount_001',        'mod_tactical_003', 'mod_foregrip',
+  'mod_mount_000',        'mod_stock_000',    'mod_charge',
+  'mod_mount_004',        'mod_handguard',    'mod_mount_002',
+  'mod_sight_front',      'mod_barrel',       'mod_muzzle_000',
+  'mod_muzzle_001',       'mod_mount_003',    'mod_launcher',
+  'mod_pistol_grip_akms', 'mod_stock_akms',   'mod_stock_001',
+  'mod_stock_002',        'mod_tactical001',  'mod_tactical002',
+  'mod_tactical_2',       'mod_mount_005',    'mod_pistolgrip',
+  'mod_trigger',          'mod_hammer',       'mod_catch',
+  'mod_tactical_004',     'mod_mount_006',    'mod_bipod',
+  'mod_stock_axis',       'camora_000',       'camora_001',
+  'camora_002',           'camora_003',       'camora_004'
+]

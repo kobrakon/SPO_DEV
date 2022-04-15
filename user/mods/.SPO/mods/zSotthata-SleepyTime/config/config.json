@@ -1,0 +1,29 @@
+{
+	"_": [
+        "`activate-distance` applies to all maps, but individual maps can have ",
+        "different settings if listed inside of `overrides` stanza in the form ",
+        "of 'map: distance'. If the distance is `null`, it will use the ",
+        "respective map's default.",
+
+        "The map names are: bigmap, factory4_day, factory4_night, interchange, ",
+        "laboratory, lighthouse, rezervbase, shoreline, and woods. Most of ",
+        "these are self-explanatory except for `bigmap`, which is `Customs`.",
+
+        "NOTE: If you get a traceback on server start, you probably mucked up ",
+        "this file. Find your errors and clean it in https://jsonlint.com/"
+	],
+
+    "activation-distance": 100,
+    "overrides": {
+        "factory4_day": null,
+        "factory4_night": null,
+        "laboratory": null,
+        "lighthouse": 150,
+        "rezervbase": 150,
+        "shoreline": 150,
+        "woods": 200
+    },
+
+    "_": "This allows all bots to nap (PMCs and bosses do not by default).",
+    "allow-all-to-sleep": true
+}

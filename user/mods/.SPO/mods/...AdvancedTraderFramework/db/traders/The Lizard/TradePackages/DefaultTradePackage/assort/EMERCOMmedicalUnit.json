@@ -1,0 +1,31 @@
+{
+	"items": [
+		{
+			"_id": "EMERCOMmedical",
+			"_tpl": "5ad5db3786f7743568421cce",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"EMERCOMmedical": [
+			[
+				{
+					"count": 6,
+					"_tpl": "5b4335ba86f7744d2837a264"
+				},
+				{				
+					"count": 2,
+					"_tpl": "59e361e886f774176c10a2a5"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"EMERCOMmedical": 3
+	}
+}

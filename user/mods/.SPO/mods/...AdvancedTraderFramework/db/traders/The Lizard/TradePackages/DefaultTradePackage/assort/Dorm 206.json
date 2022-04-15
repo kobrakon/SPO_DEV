@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "Dorm206",
+			"_tpl": "5938603e86f77435642354f4",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"Dorm206": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590c346786f77423e50ed342"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Dorm206": 1
+	}
+}

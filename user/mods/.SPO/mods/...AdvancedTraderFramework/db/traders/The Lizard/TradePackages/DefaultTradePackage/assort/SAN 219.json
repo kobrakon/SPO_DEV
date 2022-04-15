@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "SAN219",
+			"_tpl": "5a13ef0686f7746e5a411744",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"SAN219": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5d40419286f774318526545f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SAN219": 2
+	}
+}

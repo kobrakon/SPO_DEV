@@ -1,0 +1,41 @@
+{
+	"items": [
+		{
+			"_id": "KEDR",
+			"_tpl": "57d14d2524597714373db789",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "378e0c12158b921fd50de6f5",
+			"_tpl": "57d152ec245977144076ccdf",
+			"parentId": "KEDR",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "ff7d970af1e954b14a45315b",
+			"_tpl": "57d1519e24597714373db79d",
+			"parentId": "KEDR",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"KEDR": [
+			[
+				{
+					"count": 21349,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"KEDR": 2
+	}
+}

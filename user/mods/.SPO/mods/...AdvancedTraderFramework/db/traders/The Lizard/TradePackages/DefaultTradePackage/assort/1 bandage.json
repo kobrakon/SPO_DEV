@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "Bandage",
+			"_tpl": "544fb25a4bdc2dfb738b4567",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"Bandage": [
+			[
+				{
+					"count": 2121,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Bandage": 1
+	}
+}

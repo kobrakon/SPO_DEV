@@ -1,0 +1,9 @@
+{
+    "name": "MarkItemsFIR",
+    "author": "Rev",
+    "license": "License",
+    "version": "1.0.0",
+    "dependencies": {},
+    "main": "index.js",
+    "akiVersion": "2.3.0"
+}

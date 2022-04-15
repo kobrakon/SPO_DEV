@@ -1,0 +1,285 @@
+{
+	"AdjustAlreadyExistingItems" : false,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "MSA TC APH - Black",
+			"UID"	: "APH_BLACK",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 220,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MSA TC APH - GREEN",
+			"UID"	: "APH_GREEN",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 220,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MSA TC APH - TAN",
+			"UID"	: "APH_TAN",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 220,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "US CVC Helm",
+			"UID"	: "DH_132",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "British CVC Helm",
+			"UID"	: "CVC_83",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Pilot Helm Visor",
+			"UID"	: "SPH4_VISOR",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Pilot Helm",
+			"UID"	: "SPH4",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Swedish M1990 Helm",
+			"UID"	: "M1990",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "British Mk 6A Helm",
+			"UID"	: "MK6A",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "SpecFo TacRecon",
+			"UID"	: "SFTR",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 750,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5aa7d03ae5b5b00016327db5",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Black  B O S S  Cap",
+			"UID"	: "DACAPPY",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1250,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Spectre Bandana",
+			"UID"	: "SPECTRE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "FM53 Gas Mask",
+			"UID"	: "FM53",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "GP21 Gas Mask",
+			"UID"	: "GP21",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1150,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCU2P Gas Mask",
+			"UID"	: "MCU2P",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1150,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "OPS_SOTR Gas Mask",
+			"UID"	: "OPS_SOTR",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 800,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PMG Small Gas Mask",
+			"UID"	: "PMG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PVS21 NIGHT VISION",
+			"UID"	: "PVS21",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c066e3a0db834001b7353f0",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PMG Gas Mask",
+			"UID"	: "PMG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 700,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "S10 Gas Mask",
+			"UID"	: "S10",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 700,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Armatus 2",
+			"UID"	: "RIG_ARMA2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 150,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5b44c8ea86f7742d1627baf1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Condor Tac Rig",
+			"UID"	: "RIG_CONDOR",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5b44c8ea86f7742d1627baf1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "VX500 Armored Rig",
+			"UID"	: "RIG_VX500",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5b44c8ea86f7742d1627baf1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Spearone Tan",
+			"UID"	: "ARMOR_SEIGE_TAN",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Spearone Black",
+			"UID"	: "ARMOR_SEIGE_BLACK",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Geronimo",
+			"UID"	: "ARMOR_T3_G2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "CVC 6B48",
+			"UID"	: "ARMOR_CVC_6B48",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 250,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Defender 2 Assault",
+			"UID"	: "ARMOR_DFNDR2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 250,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

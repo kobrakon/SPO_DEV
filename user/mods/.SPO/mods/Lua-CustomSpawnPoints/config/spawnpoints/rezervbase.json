@@ -1,0 +1,25 @@
+{
+	"SpawnZone Available List": "ZoneRailStrorage, ZonePTOR1, ZonePTOR2, ZoneBarrack, ZoneBunkerStorage, ZoneSubStorage, ZoneSubCommand",
+	"Infiltration Available List": "Common",
+
+	"ZoneRailStrorage": [
+	],
+
+	"ZonePTOR1": [
+	],
+
+	"ZonePTOR2": [
+	],
+
+	"ZoneBarrack": [
+	],
+
+	"ZoneBunkerStorage": [
+	],
+
+	"ZoneSubStorage": [
+	],
+
+	"ZoneSubCommand": [
+	]
+}

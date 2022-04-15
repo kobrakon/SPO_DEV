@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "UnknownKey",
+			"_tpl": "593962ca86f774068014d9af",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"UnknownKey": [
+			[
+				{
+					"count": 1,
+					"_tpl": "57347b8b24597737dd42e192"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"UnknownKey": 1
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "PU 3.5x riflescope",
+			"UID"	: "5b3f7c1c5acfc40dc5296b1d",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope",
+			"UID"	: "5d1b5e94d7ad1a2b865a96b0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 20,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Trijicon REAP-IR thermal riflescope",
+			"UID"	: "5a1eaa87fcdbcb001865f75e",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 20,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Belomo PK-06 reflex sight",
+			"UID"	: "57ae0171245977343c27bfcf",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "FN Ring sight reflex sight",
+			"UID"	: "5cebec38d7f00c00110a652a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Eotech EXPS3 holographic sight",
+			"UID"	: "558022b54bdc2dac148b458d",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Eotech HHS-1 sight Tan",
+			"UID"	: "5c0a2cec0db834001b7ce47d",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		}
+
+	]
+}

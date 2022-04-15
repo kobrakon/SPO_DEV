@@ -1,0 +1,34 @@
+{
+	"SpawnZone Available List": "ZoneClearVill, ZoneHouse, ZoneScavBase2, ZoneWoodCutter, ZoneBigRocks, ZoneRoad, ZoneHighRocks, ZoneMiniHouse, ZoneBrokenVill, ZoneRedHouse",
+	"Infiltration Available List": "House, Old Station",
+
+	"ZoneClearVill": [
+	],
+
+	"ZoneHouse": [
+	],
+
+	"ZoneScavBase2": [
+	],
+
+	"ZoneWoodCutter": [
+	],
+
+	"ZoneBigRocks": [
+	],
+
+	"ZoneRoad": [
+	],
+
+	"ZoneHighRocks": [
+	],
+
+	"ZoneMiniHouse": [
+	],
+
+	"ZoneBrokenVill": [
+	],
+
+	"ZoneRedHouse": [
+	]
+}

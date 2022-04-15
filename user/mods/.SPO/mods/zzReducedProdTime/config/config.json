@@ -1,0 +1,6 @@
+{
+    "EnableFastProd": true,
+    "percentProd": 15,
+    "EnableFastConst": true,
+    "percentConst": 15
+}

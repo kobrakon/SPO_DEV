@@ -1,0 +1,85 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "BnT MP9 9x19mm sound suppressor",
+			"UID"	: "5de8f2d5b74cd90030650c72",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PP-91-01 Kedr-B 9x18PM suppressor",
+			"UID"	: "57f3c8cc2459773ec4480328",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "KAC PRS QDC 7.62x51 Sound Suppressor",
+			"UID"	: "5dfa3d2b0dee1b22f862eade",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "AS VAL 9x39 integral barrel-suppressor",
+			"UID"	: "57c44dd02459772d2e0ae249",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "VSS 9x39 integral barrel-suppressor",
+			"UID"	: "57838c962459774a1651ec63",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "FN Attenuator 5.7x28 silencer",
+			"UID"	: "5cebec00d7f00c065c53522a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MP5SD 9x19 silencer",
+			"UID"	: "5926d33d86f77410de68ebc0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Stock silencer for PB 9x18 PM",
+			"UID"	: "56e05b06d2720bb2668b4586",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

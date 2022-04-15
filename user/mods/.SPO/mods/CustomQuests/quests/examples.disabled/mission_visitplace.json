@@ -1,0 +1,19 @@
+[
+    {
+        "id": "trap_example_mission_visitplace",
+        "trader_id": "fence",
+        "name": "VisitPlace mission",
+        "description": "Visit gazel place on customs",
+        "success_message": "Bravo!",
+        "descriptive_location": "customs",
+        "type": "Discover",
+        "missions": [
+            {
+                "type": "VisitPlace",
+                "place_id": "gazel",
+                "message": "Visit gazel place on customs",
+                "need_survive": "You need to survive the raid"
+            }
+        ]
+    }
+]

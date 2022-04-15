@@ -1,0 +1,1538 @@
+{
+	"SpawnZone Available List": "ZoneRailStrorage, ZonePTOR1, ZonePTOR2, ZoneBarrack, ZoneBunkerStorage, ZoneSubStorage, ZoneSubCommand",
+	"Infiltration Available List": "Common",
+	"ZoneRailStrorage": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-255.36792,
+				-5.391809,
+				-2.18080378
+			],
+			"Rotation": 72.95368,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Boss",
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-154.772232,
+				-6.79391336,
+				106.91275
+			],
+			"Rotation": 107.200569,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Boss",
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-14.5548105,
+				22.36834,
+				165.983353
+			],
+			"Rotation": 271.876862,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-9.003309,
+				25.8544025,
+				180.344711
+			],
+			"Rotation": 92.43739,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				83.5413,
+				-0.9975151,
+				-17.323597
+			],
+			"Rotation": 291.4569,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				62.10474,
+				-6.78643274,
+				30.2198563
+			],
+			"Rotation": 266.028,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+			  -26.4087677,
+			  -6.9464674,
+			  36.6918831
+			],
+			"Rotation": 292.5271,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -81.38339,
+			  -6.94646645,
+			  22.2922668
+			],
+			"Rotation": 286.86142,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -71.73882,
+			  -6.98000526,
+			  -29.81742
+			],
+			"Rotation": 285.262115,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -68.3580856,
+			  -9.889726,
+			  -25.9641685
+			],
+			"Rotation": 113.584839,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -53.6899948,
+			  -9.88992,
+			  -37.89264
+			],
+			"Rotation": 294.319336,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -61.94572,
+			  -6.980007,
+			  -28.4425335
+			],
+			"Rotation": 14.6436367,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  }
+	],
+	"ZonePTOR1": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-84.7784042,
+				-9.218827,
+				92.67296
+			],
+			"Rotation": 6.30705547,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-103.043663,
+				-18.40645,
+				159.086761
+			],
+			"Rotation": 104.709846,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-112.122627,
+				-15.6882,
+				167.97879
+			],
+			"Rotation": 292.978058,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				15.1078148,
+				16.5670471,
+				182.511673
+			],
+			"Rotation": 188.719849,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+			  -65.98356,
+			  -6.9086113,
+			  -46.48541
+			],
+			"Rotation": 93.81382,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -110.6549,
+			  -5.499803,
+			  -22.36906
+			],
+			"Rotation": 13.9543324,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -119.750053,
+			  -5.50103045,
+			  -12.4619064
+			],
+			"Rotation": 185.398514,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -122.983856,
+			  -9.326833,
+			  -22.6474972
+			],
+			"Rotation": 147.959229,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -111.007187,
+			  -9.397872,
+			  -16.1258888
+			],
+			"Rotation": 152.395737,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -118.374023,
+			  -9.490587,
+			  -13.523138
+			],
+			"Rotation": 105.463219,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  }
+	],
+	"ZonePTOR2": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-67.74398,
+				-18.8226681,
+				88.36571
+			],
+			"Rotation": 200.061859,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-82.95382,
+				-16.2609329,
+				150.534821
+			],
+			"Rotation": 184.609039,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				15.1078148,
+				16.5670471,
+				182.511673
+			],
+			"Rotation": 188.719849,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneBarrack": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+			  -117.050926,
+			  8.989391,
+			  166.404572
+			],
+			"Rotation": 233.304626,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -140.6593,
+			  -1.66379893,
+			  148.1205
+			],
+			"Rotation": 182.311127,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -166.415009,
+			  -6.90514231,
+			  125.165741
+			],
+			"Rotation": 168.488571,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -197.299255,
+			  -4.9038825,
+			  103.111259
+			],
+			"Rotation": 210.077148,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -255.513245,
+			  -0.245005012,
+			  58.5482178
+			],
+			"Rotation": 103.664711,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -221.207825,
+			  -10.8689327,
+			  48.8052979
+			],
+			"Rotation": 160.249374,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		  
+		  {
+			"Comment": "RezervBase",
+			"Position": [
+			  -210.4556,
+			  -10.6463,
+			  46.9198761
+			],
+			"Rotation": 200.99295,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		  },
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-46.3087578,
+				-14.7088652,
+				127.415596
+			],
+			"Rotation": 298.7105,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-66.8788,
+				-14.703867,
+				145.194061
+			],
+			"Rotation": 206.048248,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-58.7604752,
+				-15.901721,
+				186.725586
+			],
+			"Rotation": 188.712143,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				117.680473,
+				-3.34022617,
+				-84.3343658
+			],
+			"Rotation": 84.72274,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-14.5548105,
+				22.36834,
+				165.983353
+			],
+			"Rotation": 271.876862,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				40.5109024,
+				-6.736497,
+				62.31259
+			],
+			"Rotation": 275.0802,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				68.59202,
+				-6.92452,
+				139.24295
+			],
+			"Rotation": 228.792877,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneBunkerStorage": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				15.1078148,
+				16.5670471,
+				182.511673
+			],
+			"Rotation": 188.719849,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-295.513916,
+				2.923037,
+				-88.43921
+			],
+			"Rotation": 48.4349022,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneSubStorage": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				15.1078148,
+				16.5670471,
+				182.511673
+			],
+			"Rotation": 188.719849,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-197.328217,
+				-4.792204,
+				-103.125626
+			],
+			"Rotation": 243.108124,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-24.205204,
+				4.279347,
+				17.7432976
+			],
+			"Rotation": 106.064545,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				1.55061114,
+				-0.9975203,
+				-24.5931511
+			],
+			"Rotation": 9.39469,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				25.62679,
+				-1.667103,
+				3.29067278
+			],
+			"Rotation": 85.58436,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				16.8253365,
+				-1.88934314,
+				8.421528
+			],
+			"Rotation": 285.320251,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				19.5318451,
+				2.25554729,
+				-30.0751629
+			],
+			"Rotation": 96.01513,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-52.8969078,
+				-6.51411247,
+				33.4403458
+			],
+			"Rotation": 121.15786,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-29.9896164,
+				-6.477078,
+				13.9334011
+			],
+			"Rotation": 107.732246,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-49.4603348,
+				-0.7102226,
+				14.2541237
+			],
+			"Rotation": 76.56707,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-53.31371,
+				-0.706389844,
+				35.4450722
+			],
+			"Rotation": 295.814331,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-68.3243256,
+				-0.70638895,
+				32.3083267
+			],
+			"Rotation": 289.304718,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				272.319153,
+				2.24703813,
+				21.436594
+			],
+			"Rotation": 278.967682,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				64.83058,
+				-4.34523344,
+				35.2082176
+			],
+			"Rotation": 280.7132,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				8.719449,
+				-6.83596468,
+				-2.2630837
+			],
+			"Rotation": 106.714653,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				7.12517357,
+				-6.836153,
+				-5.78170443
+			],
+			"Rotation": 283.036377,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				21.1707249,
+				-3.9700017,
+				-23.9461975
+			],
+			"Rotation": 106.252129,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				0.96829313,
+				-3.97000217,
+				-24.2555847
+			],
+			"Rotation": 36.839077,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				16.5370235,
+				-3.97000146,
+				-27.7565727
+			],
+			"Rotation": 181.183563,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				10.9922915,
+				-3.97000122,
+				-26.7945633
+			],
+			"Rotation": 117.931389,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				20.0380421,
+				-0.9975203,
+				-28.00645
+			],
+			"Rotation": 289.909882,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				11.3233662,
+				-0.9975214,
+				-28.1220512
+			],
+			"Rotation": 123.652367,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneSubCommand": [
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				15.1078148,
+				16.5670471,
+				182.511673
+			],
+			"Rotation": 188.719849,
+			"Sides": [
+				"Savage",
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-132.624466,
+				-3.68817639,
+				-126.059746
+			],
+			"Rotation": 328.968,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-16.9105625,
+				-6.94097853,
+				18.2617245
+			],
+			"Rotation": 147.813187,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-101.3335,
+				-6.29849339,
+				93.47085
+			],
+			"Rotation": 204.519882,
+			"Sides": [
+				"Usec",
+				"Bear"
+			],
+			"Categories": [
+				"Player",
+				"Bot"
+			],
+			"Infiltration": "Common",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-98.1974258,
+				-2.16539931,
+				138.59967
+			],
+			"Rotation": 259.3479,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-117.224365,
+				8.952613,
+				166.151291
+			],
+			"Rotation": 219.160324,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-74.87395,
+				21.2891369,
+				194.722778
+			],
+			"Rotation": 135.825348,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-42.0428925,
+				18.5722961,
+				183.77272
+			],
+			"Rotation": 196.385223,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-27.6152458,
+				18.6769867,
+				179.757523
+			],
+			"Rotation": 24.9986153,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-0.741504252,
+				29.5931129,
+				181.02092
+			],
+			"Rotation": 177.535629,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-9.612527,
+				32.7222939,
+				166.8722
+			],
+			"Rotation": 187.0285,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "RezervBase",
+			"Position": [
+				-6.4483304,
+				32.72229,
+				180.259338
+			],
+			"Rotation": 18.9331322,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	]
+}

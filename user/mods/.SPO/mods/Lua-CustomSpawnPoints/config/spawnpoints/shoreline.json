@@ -1,0 +1,64 @@
+{
+	"SpawnZone Available List": "ZoneSanatorium1, ZoneSanatorium2, ZoneIsland, ZoneGasStation, ZoneMeteoStation, ZonePowerStation, ZoneBusStation, ZoneRailWays, ZonePort, ZoneBunkeSniper, ZonePowerStationSniper, ZoneForestTruck, ZoneForestSpawn, ZoneForestGasStation, ZoneGreenHouses, ZoneStartVillage, ZoneBunker, ZonePassFar, ZoneTunnel, ZonePassClose",
+	"Infiltration Available List": "Riverside, Village",
+
+	"ZoneSanatorium1": [
+	],
+
+	"ZoneSanatorium2": [
+	],
+
+	"ZoneIsland": [
+	],
+
+	"ZoneGasStation": [
+	],
+
+	"ZoneMeteoStation": [
+	],
+
+	"ZonePowerStation": [
+	],
+
+	"ZoneBusStation": [
+	],
+
+	"ZoneRailWays": [
+	],
+
+	"ZonePort": [
+	],
+
+	"ZoneBunkeSniper": [
+	],
+
+	"ZonePowerStationSniper": [
+	],
+
+	"ZoneForestTruck": [
+	],
+
+	"ZoneForestSpawn": [
+	],
+
+	"ZoneForestGasStation": [
+	],
+
+	"ZoneGreenHouses": [
+	],
+
+	"ZoneStartVillage": [
+	],
+
+	"ZoneBunker": [
+	],
+
+	"ZonePassFar": [
+	],
+
+	"ZoneTunnel": [
+	],
+
+	"ZonePassClose": [
+	]
+}

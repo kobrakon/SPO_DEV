@@ -1,0 +1,320 @@
+[
+    {
+        "id": "supplier_1",
+        "trader_id": "prapor",
+        "name": "Supplier Pt. 1",
+        "description": "I have good and bad news which one first? Good? Well I have more work for you. The bad is: It was a dead end. Had heard a rumor one of the boatheads may have left his keys around the pier. A boat ride out of here would have been just the thing for you. Can't win them all merc. I'll keep an ear out. In the meantime, go check out the military base, bring me some guns; My clients like anything Kalashnikov, but don't bring me that old junk. Shipments are getting harder to get. You might also check with the Doctor. She will always take the help she can get.",
+        "success_message": "Good work. Should fetch a good price. Still haven't found anything. Hang in there.",
+        "locked_by_quests": [
+            "eft3"
+        ],
+        "rewards": {
+            "xp": 18000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 25000,
+                "5c0e746986f7741453628fe5": 2,
+                "5aa7e454e5b5b0214e506fa2": 2,
+                "5aa7e3abe5b5b000171d064d": 2
+            }
+        },
+        "missions": [
+            {
+                "type": "VisitPlace",
+                "place_id": "baraholshik_arsenal_area_1",
+                "message": "Check out the arsenals in the Military Base"
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5ac66c5d5acfc4001718d314",
+                    "5ac72e725acfc400180ae701",
+                    "5ac66d2e5acfc43b321d4b53",
+                    "5ac66d725acfc43b321d4b60",
+                    "5ac66d9b5acfc4001633997a",
+                    "5ac4cd105acfc40016339859",
+                    "59984ab886f7743e98271174"
+                ],
+                "message": "Turn in 6 Kalashnikov 100 series rifles",
+                "count": 6
+            }
+        ]
+    },
+    {
+        "id": "supplier_2",
+        "trader_id": "prapor",
+        "name": "Supplier Pt. 2",
+        "description": "Good afternoon, Merc. I need some more supplies if you can help. Got some fellas wanting M4s. They don't want to buy from the blue helmets for whatever reason. I don't know anything about those rifles, so whatever you find will do.",
+        "success_message": "Bol'shoye Spasibo! Here is your cut of the profits.",
+        "locked_by_quests": [
+            "supplier_2"
+        ],
+        "rewards": {
+            "xp": 25000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 50000,
+                "5f60c74e3b85f6263c145586": 1,
+                "5f60c85b58eff926626a60f7": 1,
+                "59e0d99486f7744a32234762": 200,
+                "56dff026d2720bb8668b4567": 200
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5447a9cd4bdc2dbd208b4567"
+                ],
+                "message": "Find 4 M4s for Prapor",
+                "count": 4
+            }
+        ]
+    },
+    {
+        "id": "busy_1",
+        "trader_id": "mechanic",
+        "name": "Busy Work Pt. 1",
+        "description": "I heard you're looking for a way out of Tarkov? Relax, I don't have a magic ticket for you. You are gonna be stuck here for some time, you might want some help getting that little safehouse of yours set up. More like a home. I have the materials but I need some, exotic parts. If you can bring me a GPU, I would be able to help you out.",
+        "success_message": "This should be a healthy relationship for us. I appreciate the help.",
+        "unlock_on_quest_start": [
+            "eft1"
+        ],
+        "rewards": {
+            "xp": 5000,
+            "items": {
+		"5449016a4bdc2d6f028b456f": 500000,
+                "57347c77245977448d35f6e2": 5,
+                "57347c5b245977448d35f6e1": 5,
+                "59e35cbb86f7741778269d83": 2,
+                "59e3606886f77417674759a5": 3,
+                "590a373286f774287540368b": 2,
+                "59e35ef086f7741777737012": 4,
+				"5d1b392c86f77425243e98fe": 4,
+                "5d1b317c86f7742523398392": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "57347ca924597744596b4e71"
+                ],
+                "message": "Retrieve a GPU",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "busy_2",
+        "trader_id": "mechanic",
+        "name": "Busy Work Pt. 2",
+        "description": "Its really miraculous, the crypto market. Constant up and down. That's what the GPU was for. Had one burn out in the mine. Slowed the process down by a considerable amount. I could use some more parts. Just some spare fans and powercords. Usually the first things to fail. Should be a bit easier than a GPU.",
+        "success_message": "Excellent. That safehouse of yours is coming along well? If not, I guess it keeps you occupied. ",
+        "unlock_on_quest_start": [],
+        "rewards": {
+            "xp": 5000,
+            "items": {
+		"5449016a4bdc2d6f028b456f": 2500000,
+                "59e35cbb86f7741778269d83": 5,
+                "59e35ef086f7741777737012": 5,
+                "59e35de086f7741778269d84": 2
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "59e36c6f86f774176c10a2a7"
+                ],
+                "message": "Gather 4 powercords",
+                "count": 4
+            },
+	{
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5734779624597737e04bf329"
+                ],
+                "message": "Gather 6 Fans",
+                "count": 6
+            }
+        ],
+        "locked_by_quests": [
+            "busy_1"
+        ]
+    },
+    {
+        "id": "dirty_1",
+        "trader_id": "skier",
+        "locked_by_quests": [
+            "eft3"
+        ],
+        "name": "Dirty Work Pt. 1",
+        "description": "Ah, So this is the merc I've been hearing about. You want out of Tarkov? I do not see why, friend, it is full of opportunity. If you are willing to take the risk. You want some work? I've heard there's some USEC camp in the woods. Go check that out and bring me back some Tags. Don't worry why. I have my reasons.",
+        "success_message": "Molodets! Those bastards had it coming. Here, take this. Hopefully you take better care of it than its previous owner.",
+        "type": "Elimination",
+        "descriptive_location": "woods",
+        "rewards": {
+            "xp": 20000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 50000,
+                "5a367e5dc4a282000e49738f": 1,
+                "5d120a10d7ad1a4e1026ba85": 1,
+                "5d120a28d7ad1a1c8962e295": 1,
+                "615d8faecabb9b7ad90f4d5d": 1,
+                "60658776f2cb2e02a42ace2b": 1,
+                "558022b54bdc2dac148b458d": 1,
+                "5dfa3d7ac41b2312ea33362a": 1,
+                "5dfa3d950dee1b22f862eae0": 1,
+                "5cdd7693d7f00c0010373aa5": 1,
+                "5b7be4895acfc400170e2dd5": 1,
+                "59fc48e086f77463b1118392": 1,
+                "5a3501acc4a282000d72293a": 5,
+                "58dd3ad986f77403051cba8f": 100
+            }
+        },
+        "missions": [
+            {
+                "type": "VisitPlace",
+                "place_id": "pr_scout_base",
+                "message": "Check out the USEC base in the Woods"
+            },
+            {
+                "type": "Kill",
+                "target": "AnyPmc",
+                "message": "Kill 3 PMC on Woods",
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "dirty_2",
+        "trader_id": "skier",
+        "locked_by_quests": [
+            "dirty_1"
+        ],
+        "name": "Dirty Work Pt. 2",
+        "description": "Hey Merc, I got more work for you -- Hey man, chill out I'm not the bad guy here. Just trying to make a living like anyone else. I took care of you last time yeah? Well then, lets do business friend. Got a few more undesirables I would like gone. Backstabbing cunts. Heard they were headed to area around the lighthouse. Take care of them and I'll make sure you're taken care of",
+        "success_message": "Blyat! You always get the job done. And as always I got a little supply for you.",
+        "type": "Elimination",
+        "descriptive_location": "lighthouse",
+        "rewards": {
+            "xp": 35000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 80000,
+                "60a3c68c37ea821725773ef5": 2,
+                "5c17a7ed2e2216152142459c": 2,
+                "5c178a942e22164bef5ceca3": 2
+            }
+        },
+        "missions": [
+            {
+                "type": "Kill",
+                "target": "AnyPmc",
+                "message": "Eliminate 5 PMCs in the Lighthouse region",
+                "count": 5,
+                "locations": [
+                    "lighthouse"
+                ]
+            }
+        ],
+        "unlock_on_quest_start": [
+            "comp"
+        ]
+    },
+    {
+        "id": "human",
+        "trader_id": "therapist",
+        "name": "Humanitarian Work",
+        "locked_by_quests": [
+            "eft3"
+        ],
+        "description": "Mercenary, I appreciate the work you have done for me but I need help again. These refugees need more than medical help. They need food and water. Bring me some ration packs and water for them. Some chocolate or crackers too. It really goes a long way for morale. ",
+        "success_message": "You have both my thanks and the thanks of all the sick and homeless here. You have done a good deed.",
+        "type": "PickUp",
+        "rewards": {
+            "xp": 25000,
+            "items": {
+                "5696686a4bdc2da3298b456a": 500,
+                "5d02797c86f774203f38e30a": 2,
+                "590c657e86f77412b013051d": 2,
+                "60098ad7c2240c0fe85c570a": 2,
+                "5af0548586f7743a532b7e99": 2
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "590c5f0d86f77413997acfab",
+                    "590c5d4b86f774784e1b9c45"
+                ],
+                "message": "Gather 10 Ration Packs",
+                "count": 10
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c0fa877d174af02a012e1cf",
+                    "60098b1705871270cd5352a1",
+                    "5448fee04bdc2dbc018b4567"
+                ],
+                "message": "Gather some water",
+                "count": 10
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "544fb6cc4bdc2d34748b456e",
+                    "57505f6224597709a92585a9",
+                    "5448ff904bdc2d6f028b456e",
+                    "57347d90245977448f7b7f65",
+                    "57347da92459774491567cf5",
+                    "57347d7224597744596b4e72",
+                    "5673de654bdc2d180f8b456d",
+                    "57347d5f245977448b40fa81",
+                    "57513fcc24597720a31c09a6",
+                    "575146b724597720a27126d5",
+                    "57513f9324597720a7128161",
+                    "57513f9324597720a7128161",
+                    "57513f07245977207e26a311"
+                ],
+                "message": "Collect some assorted foods",
+                "count": 15
+            }
+        ]
+    },
+    {
+        "id": "climb",
+        "trader_id": "jaeger",
+        "name": "Climbing Gear",
+        "description": "Good day merc. If you need a job I got something for you. Several days ago I came across a wounded USEC; pretty messed up. I tried to help him, but he passed. I've always been pretty neutral in this conflict. I help who I can. Anyhow, I need some supplies that can be a little difficult to find and that USEC had a little something you might be interested in. I need some paracord and one of those climbing picks. Come see me when you have them.",
+        "success_message": "Thank you friend. Here you are, some keycard from the terragroup and this key. I am not sure what lock it opens but it may prove useful to you.",
+        "locked_by_quests": [
+            "eft3"
+        ],
+        "rewards": {
+            "xp": 30000,
+            "items": {
+                "5d8e15b686f774445103b190": 1,
+                "5e42c83786f7742a021fdf3c": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c0126f40db834002a125382"
+                ],
+                "message": "Find a Climbing Pick",
+                "count": 1
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c12688486f77426843c7d32"
+                ],
+                "message": "Get some Paracord",
+                "count": 1
+            }
+        ]
+    }
+]

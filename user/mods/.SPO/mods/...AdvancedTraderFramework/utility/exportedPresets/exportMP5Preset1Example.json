@@ -1,0 +1,97 @@
+{
+	"items": [
+		{
+			"_id": "b183aa6d29862f962b9eaae6",
+			"_tpl": "5926bb2186f7744b1c6c6e60",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		},
+		{
+			"_id": "030b2f7a92fed986b760a59a",
+			"_tpl": "5a351711c4a282000b1521a4",
+			"parentId": "b183aa6d29862f962b9eaae6",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "f3166e17b5b0c896212d37b5",
+			"_tpl": "5926f2e086f7745aae644231",
+			"parentId": "b183aa6d29862f962b9eaae6",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "31bf17549187914d3f321298",
+			"_tpl": "5926c32286f774616e42de99",
+			"parentId": "b183aa6d29862f962b9eaae6",
+			"slotId": "mod_charge"
+		},
+		{
+			"_id": "5294ca2b01ca685eda4dc12d",
+			"_tpl": "5926f34786f77469195bfe92",
+			"parentId": "f3166e17b5b0c896212d37b5",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "20bbbdf981b56d3cb0ac0539",
+			"_tpl": "5926d2be86f774134d668e4e",
+			"parentId": "f3166e17b5b0c896212d37b5",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "3bd2140da005b8460b83a970",
+			"_tpl": "5926d40686f7740f152b6b7e",
+			"parentId": "f3166e17b5b0c896212d37b5",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "1e7851ae34de594c2b4a4c7b",
+			"_tpl": "5926d33d86f77410de68ebc0",
+			"parentId": "f3166e17b5b0c896212d37b5",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "019cb7db8c932184fba6e847",
+			"_tpl": "5926dad986f7741f82604363",
+			"parentId": "f3166e17b5b0c896212d37b5",
+			"slotId": "mod_mount"
+		},
+		{
+			"_id": "c6dfd15d2ad4f9338eb5182a",
+			"_tpl": "59c63b4486f7747afb151c1c",
+			"parentId": "1e7851ae34de594c2b4a4c7b",
+			"slotId": "mod_mount"
+		},
+		{
+			"_id": "37c5d346b645ecf318beacb8",
+			"_tpl": "59f9d81586f7744c7506ee62",
+			"parentId": "019cb7db8c932184fba6e847",
+			"slotId": "mod_scope"
+		},
+		{
+			"_id": "18bb0a65860e44218e734db7",
+			"_tpl": "5a800961159bd4315e3a1657",
+			"parentId": "c6dfd15d2ad4f9338eb5182a",
+			"slotId": "mod_tactical_000"
+		}
+	],
+	"barter_scheme": {
+		"b183aa6d29862f962b9eaae6": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59faff1d86f7746c51718c9c"
+				},
+				{
+					"count": 1,
+					"_tpl": "59faf7ca86f7740dbe19f6c2"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"b183aa6d29862f962b9eaae6": 1
+	}
+}

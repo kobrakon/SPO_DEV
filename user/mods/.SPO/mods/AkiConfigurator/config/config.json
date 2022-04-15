@@ -1,0 +1,629 @@
+{
+	"Server values": {
+		"Enable Christmas Gifts": false,
+		"HTTP": {
+			"ip": "127.0.0.1",
+			"port": 6969
+		},
+		"Health": {
+			"healthMultipliers": {
+				"death": 0.3,
+				"blacked": 0.1
+			},
+			"save": {
+				"health": true,
+				"effects": true
+			}
+		},
+		"Hideout": {
+			"runIntervalSeconds": 900,
+			"scavCase": {
+				"rewardParentBlacklist": [
+					"5485a8684bdc2da71d8b4567",
+					"543be5dd4bdc2deb348b4569"
+				],
+				"rewardItemBlacklist": [],
+				"ammoRewards": {
+					"giveMultipleOfTen": true,
+					"minAmount": 10
+				},
+				"moneyRewards": {
+					"enabled": false,
+					"rub": {
+						"min": 1000,
+						"max": 200000
+					},
+					"usd": {
+						"min": 100,
+						"max": 2000
+					},
+					"eur": {
+						"min": 100,
+						"max": 2000
+					}
+				}
+			}
+		}
+	},
+	"Raids values": {
+		"Loot values": {
+			"allowLootOverlay": false,
+			"looseLootMultiplier": {
+				"bigmap": 0.9,
+				"develop": 1,
+				"factory4_day": 2,
+				"factory4_night": 1.35,
+				"interchange": 1.35,
+				"laboratory": 1.55,
+				"rezervbase": 1.45,
+				"shoreline": 1.35,
+				"woods": 1.25,
+				"hideout": 0,
+				"lighthouse": 1.45,
+				"privatearea": 1,
+				"suburbs": 1,
+				"tarkovstreets": 1,
+				"terminal": 1,
+				"town": 1
+			},
+			"staticLootMultiplier": {
+				"bigmap": 0.95,
+				"develop": 1,
+				"factory4_day": 1.1,
+				"factory4_night": 1.1,
+				"interchange": 1.1,
+				"laboratory": 1.2,
+				"rezervbase": 1.2,
+				"shoreline": 1.1,
+				"woods": 1.1,
+				"hideout": 0,
+				"lighthouse": 1.2,
+				"privatearea": 1,
+				"suburbs": 1,
+				"tarkovstreets": 1,
+				"terminal": 1,
+				"town": 1
+			},
+			"limits": {
+				"bigmap": 1250,
+				"develop": 30,
+				"factory4_day": 500,
+				"factory4_night": 1000,
+				"interchange": 2000,
+				"laboratory": 1500,
+				"rezervbase": 3500,
+				"shoreline": 1250,
+				"woods": 200,
+				"hideout": 0,
+				"lighthouse": 1500,
+				"privatearea": 0,
+				"suburbs": 0,
+				"tarkovstreets": 0,
+				"terminal": 0,
+				"town": 0
+			}
+		},
+		"MIAOnRaidEnd": true,
+		"raidMenuSettings": {
+			"aiAmount": "AsOnline",
+			"aiDifficulty": "AsOnline",
+			"bossEnabled": true,
+			"scavWars": false,
+			"taggedAndCursed": false
+		},
+		"save": {
+			"loot": true,
+			"durability": true
+		},
+		"carExtracts": [
+			"Dorms V-Ex",
+			"PP Exfil",
+			"V-Ex_light",
+			"South V-Ex"
+		],
+		"carExtractBaseStandingGain": 0.25,
+		"scavExtractGain": 0.25
+	},
+	"Traders values": {
+		"Traders": {
+			"updateTime": [
+				{
+					"traderId": "54cb50c76803fa8b248b4571",
+					"seconds": 60
+				},
+				{
+					"traderId": "54cb57776803fa99248b456e",
+					"seconds": 60
+				},
+				{
+					"traderId": "579dc571d53a0658a154fbec",
+					"seconds": 60
+				},
+				{
+					"traderId": "58330581ace78e27b8b10cee",
+					"seconds": 60
+				},
+				{
+					"traderId": "5935c25fb3acc3127c3d8cd9",
+					"seconds": 60
+				},
+				{
+					"traderId": "5a7c2eca46aef81a7ca2145d",
+					"seconds": 60
+				},
+				{
+					"traderId": "5ac3b934156ae10c4430e83c",
+					"seconds": 60
+				},
+				{
+					"traderId": "5c0647fdd443bc2504c2d371",
+					"seconds": 60
+				},
+				{
+					"traderId": "ragfair",
+					"seconds": 60
+				}
+			],
+			"updateTimeDefault": 2400,
+			"fenceAssortSize": 150,
+			"fenceMaxPresetsCount": 5,
+			"fencePresetPriceMult": 2,
+			"minDurabilityForSale": 60,
+			"fenceItemIgnoreList": [
+				"58ac60eb86f77401897560ff",
+				"59e8936686f77467ce798647",
+				"56e294cdd2720b603a8b4575",
+				"5661632d4bdc2d903d8b456b",
+				"543be5e94bdc2df1348b4568",
+				"543be6674bdc2df1348b4569",
+				"5448bf274bdc2dfc2f8b456a",
+				"543be5664bdc2dd4348b4569",
+				"5447bedf4bdc2d87278b4568"
+			]
+		},
+		"Repair": {
+			"priceMultiplier": 1
+		},
+		"Insurances": {
+			"insuranceMultiplier": {
+				"54cb50c76803fa8b248b4571": 0.5,
+				"5ac3b934156ae10c4430e83c": 0.72
+			},
+			"returnChancePercent": {
+				"54cb50c76803fa8b248b4571": 70,
+				"5ac3b934156ae10c4430e83c": 85
+			},
+			"runIntervalSeconds": 600
+		},
+		"Trading": {
+			"newItemsMarkedFound": true
+		}
+	},
+	"FleaMarket configuration": {
+		"runIntervalSeconds": 60,
+		"sell": {
+			"fees": true,
+			"chance": {
+				"base": 50,
+				"overprices": 0.5,
+				"underpriced": 2
+			},
+			"time": {
+				"base": 15,
+				"min": 5,
+				"max": 15
+			},
+			"reputation": {
+				"gain": 2e-7,
+				"loss": 2e-7
+			}
+		},
+		"traders": {
+			"EnablePraporOffers": true,
+			"EnableTheRapistOffers": true,
+			"EnableFenceOffers": false,
+			"EnableSkierOffers": true,
+			"EnablePeacekeeperOffers": true,
+			"EnableMechanicOffers": true,
+			"EnableRagmanOffers": true,
+			"EnableJaegerOffers": true,
+			"EnableAllAvailableOffers": false
+		},
+		"dynamic": {
+			"expiredOfferThreshold": 1500,
+			"offerItemCount": {
+				"min": 0,
+				"max": 3
+			},
+			"price": {
+				"min": 2,
+				"max": 5
+			},
+			"endTimeSeconds": {
+				"min": 360,
+				"max": 3600
+			},
+			"condition": {
+				"conditionChance": 0.2,
+				"min": 0.5,
+				"max": 0.75
+			},
+			"stackablePercent": {
+				"min": 0,
+				"max": 10
+			},
+			"nonStackableCount": {
+				"min": 0,
+				"max": 2
+			},
+			"rating": {
+				"min": 0.1,
+				"max": 0.95
+			},
+			"currencies": {
+				"5449016a4bdc2d6f028b456f": 75,
+				"5696686a4bdc2da3298b456a": 23,
+				"569668774bdc2da2298b4568": 2
+			},
+			"showAsSingleStack": [
+				"5422acb9af1c889c16000029",
+				"5448e54d4bdc2dcc718b4568",
+				"5795f317245977243854e041",
+				"5448e53e4bdc2d60728b4567",
+				"5448bf274bdc2dfc2f8b456a",
+				"543be5e94bdc2df1348b4568",
+				"5448f39d4bdc2d0a728b4568"
+			],
+			"blacklist": {
+				"custom": [
+					"5cdeb229d7f00c000e7ce174",
+					"5996f6d686f77467977ba6cc",
+					"5996f6cb86f774678763a6ca",
+					"5943d9c186f7745a13413ac9",
+					"5996f6fc86f7745e585b4de3",
+					"5cde8864d7f00c0010373be1",
+					"5d2f2ab648f03550091993ca"
+				],
+				"enableBsgList": true,
+				"enableQuestList": true
+			}
+		}
+	},
+	"Bots": {
+		"presetBatch": {
+			"assault": 120,
+			"bossBully": 1,
+			"bossGluhar": 1,
+			"bossKilla": 1,
+			"bossKojaniy": 1,
+			"bossSanitar": 1,
+			"bossTagilla": 1,
+			"bossTest": 40,
+			"cursedAssault": 120,
+			"followerBully": 4,
+			"followerGluharAssault": 2,
+			"followerGluharScout": 2,
+			"followerGluharSecurity": 2,
+			"followerGluharSnipe": 2,
+			"followerKojaniy": 2,
+			"followerSanitar": 2,
+			"followerTagilla": 2,
+			"followerTest": 4,
+			"marksman": 30,
+			"pmcBot": 120,
+			"sectantPriest": 1,
+			"sectantWarrior": 5,
+			"gifter": 1,
+			"test": 40,
+			"exUsec": 15
+		},
+		"bosses": [
+			"bossbully",
+			"bossgluhar",
+			"bosskilla",
+			"bosskojaniy",
+			"bosssanitar",
+			"bosstagilla"
+		],
+		"durability": {
+			"default": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 50,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"pmc": {
+				"armor": {
+					"lowestMaxPercent": 90,
+					"highestMaxPercent": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 95,
+					"highestMax": 100,
+					"maxDelta": 5,
+					"minDelta": 0
+				}
+			},
+			"boss": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 80,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"follower": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 80,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"assault": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 48,
+					"highestMax": 70,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"cursedassault": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 50,
+					"highestMax": 70,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"marksman": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 50,
+					"highestMax": 70,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"pmcbot": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 80,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"exusec": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 79,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"sectantpriest": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 90,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			},
+			"sectantwarrior": {
+				"armor": {
+					"maxDelta": 10,
+					"minDelta": 0
+				},
+				"weapon": {
+					"lowestMax": 90,
+					"highestMax": 100,
+					"maxDelta": 10,
+					"minDelta": 0
+				}
+			}
+		},
+		"lootNValue": {
+			"scav": 3,
+			"pmc": 1.8
+		},
+		"pmc": {
+			"dynamicLoot": {
+				"whitelist": [
+					"57864a3d24597754843f8721",
+					"57864a66245977548f04a81f",
+					"57864ada245977548638de91",
+					"57864bb7245977548b3b66c2",
+					"57864c322459775490116fbf",
+					"57864c8c245977548867e7f1",
+					"57864e4c24597754843f8723",
+					"57864ee62459775490116fc1",
+					"5c164d2286f774194c5e69fa",
+					"5c99f98d86f7745c314214b3",
+					"55818add4bdc2d5b648b456f",
+					"55818ad54bdc2ddc698b4569",
+					"55818aeb4bdc2ddc698b456a",
+					"55818ae44bdc2dde698b456c",
+					"55818b164bdc2ddc698b456c",
+					"5448bc234bdc2d3c308b4569",
+					"5447e1d04bdc2dff2f8b4567",
+					"5448eb774bdc2d0a728b4567",
+					"550aa4cd4bdc2dd8348b456c",
+					"55818af64bdc2d5b648b4570",
+					"5448ecbe4bdc2d60728b4568",
+					"5448e8d04bdc2ddf718b4569",
+					"5d650c3e815116009f6201d2",
+					"5448e8d64bdc2dce718b4568",
+					"5448f3a14bdc2d27728b4569",
+					"5448e54d4bdc2dcc718b4568",
+					"5448f3a64bdc2d60728b456a",
+					"543be5cb4bdc2deb348b4568",
+					"5485a8684bdc2da71d8b4567",
+					"543be5dd4bdc2deb348b4569",
+					"590c745b86f7743cc433c5f2",
+					"5448f39d4bdc2d0a728b4568",
+					"543be6564bdc2df4348b4568"
+				],
+				"blacklist": [
+					"5fca13ca637ee0341a484f46",
+					"59f32c3b86f77472a31742f0",
+					"59f32bb586f774757e1e8442",
+					"617aa4dd8166f034d57de9c5",
+					"5a2a57cfc4a2826c6e06d44a",
+					"619256e5f8af2c1a4e1f5d92",
+					"5a0c27731526d80618476ac4"
+				],
+				"spawnLimits": {
+					"5c99f98d86f7745c314214b3": 1,
+					"5c164d2286f774194c5e69fa": 1,
+					"550aa4cd4bdc2dd8348b456c": 2,
+					"55818add4bdc2d5b648b456f": 1,
+					"55818ad54bdc2ddc698b4569": 1,
+					"55818aeb4bdc2ddc698b456a": 1,
+					"55818ae44bdc2dde698b456c": 1,
+					"55818af64bdc2d5b648b4570": 1,
+					"5448e54d4bdc2dcc718b4568": 1,
+					"5448f3a64bdc2d60728b456a": 2,
+					"5447e1d04bdc2dff2f8b4567": 1,
+					"5a341c4686f77469e155819e": 1,
+					"55818b164bdc2ddc698b456c": 2,
+					"5448bc234bdc2d3c308b4569": 2,
+					"543be5dd4bdc2deb348b4569": 2,
+					"543be5cb4bdc2deb348b4568": 2,
+					"5485a8684bdc2da71d8b4567": 2,
+					"5d650c3e815116009f6201d2": 2,
+					"5448f39d4bdc2d0a728b4568": 2,
+					"543be6564bdc2df4348b4568": 1
+				},
+				"moneyStackLimits": {
+					"5449016a4bdc2d6f028b456f": 4000,
+					"5696686a4bdc2da3298b456a": 50,
+					"569668774bdc2da2298b4568": 50
+				}
+			},
+			"cartridgeBlacklist": [
+				"56dff421d2720b5f5a8b4567",
+				"56dff216d2720bbd668b4568",
+				"56dff338d2720bbd668b4569",
+				"56dff4ecd2720b5f5a8b4568",
+				"59e6918f86f7746c9f75e849",
+				"5c0d5ae286f7741e46554302",
+				"5c0d56a986f774449d5de529",
+				"5efb0e16aeb21837e749c7ff",
+				"5737218f245977612125ba51",
+				"57372140245977611f70ee91",
+				"57371aab2459775a77142f22",
+				"573719762459775a626ccbc1",
+				"573601b42459776410737435",
+				"573602322459776445391df1",
+				"59e4d3d286f774176a36250a",
+				"5e023e88277cce2b522ff2b1",
+				"59e6658b86f77411d949b250",
+				"5c0d591486f7744c505b416f",
+				"5d6e68d1a4b93622fe60e845",
+				"5d6e6869a4b9361c140bcfde",
+				"5e85a9f4add9fe03027d9bf1",
+				"5cadf6e5ae921500113bb973",
+				"5cadf6ddae9215051e1c23b2",
+				"6196365d58ef8c428c287da1",
+				"5ba26812d4351e003201fef1",
+				"5cc80f79e4a949033c7343b2"
+			],
+			"difficulty": "AsOnline",
+			"isUsec": 50,
+			"chanceSameSideIsHostilePercent": 50,
+			"usecType": "bosstest",
+			"bearType": "test",
+			"maxBackpackLootTotalRub": 150000,
+			"maxPocketLootTotalRub": 50000,
+			"maxVestLootTotalRub": 50000,
+			"types": {
+				"assault": 25,
+				"cursedAssault": 25,
+				"pmcBot": 25,
+				"exUsec": 10
+			}
+		},
+		"showTypeInNickname": false,
+		"maxBotCap": 20
+	},
+	"Weather values": {
+		"acceleration": 3,
+		"weather": {
+			"clouds": {
+				"min": -1.5,
+				"max": 1.5
+			},
+			"windSpeed": {
+				"min": 0,
+				"max": 3
+			},
+			"windDirection": {
+				"min": 0,
+				"max": 3
+			},
+			"windGustiness": {
+				"min": 0,
+				"max": 1
+			},
+			"rain": {
+				"min": 1,
+				"max": 4
+			},
+			"rainIntensity": {
+				"min": 0.1,
+				"max": 1
+			},
+			"fog": {
+				"min": 0.001,
+				"max": 0.03
+			},
+			"temp": {
+				"min": 0,
+				"max": 16
+			},
+			"pressure": {
+				"min": 760,
+				"max": 764
+			}
+		}
+	}
+}

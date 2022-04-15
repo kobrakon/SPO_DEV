@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "9x21mm P gzh",
+			"_tpl": "5a26abfac4a28232980eabff",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 22,
+				"BuyRestrictionMax": 22,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"9x21mm P gzh": [
+			[
+				{
+					"count": 211,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"9x21mm P gzh": 3
+	}
+}

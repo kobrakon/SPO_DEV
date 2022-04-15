@@ -1,0 +1,10 @@
+{
+    "_id": "superscav",
+    "_tpl": "superscav",
+    "parentId": "hideout",
+    "slotId": "hideout",
+    "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+    }
+}

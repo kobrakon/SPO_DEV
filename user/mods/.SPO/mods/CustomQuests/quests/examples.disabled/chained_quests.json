@@ -1,0 +1,29 @@
+[
+    {
+        "id": "trap_example_chained_quest_1",
+        "trader_id": "fence",
+        "name": "Chained quests part 1",
+        "success_message": "Bravo!",
+        "description": "First part of the chain of quest"
+    },
+    {
+        "id": "trap_example_chained_quest_2",
+        "trader_id": "fence",
+        "name": "Chained quests part 2",
+        "locked_by_quests": [
+            "trap_example_chained_quest_1"
+        ],
+        "success_message": "Bravo!",
+        "description": "Second part of the chain of quest"
+    },
+    {
+        "id": "trap_example_chained_quest_3",
+        "trader_id": "fence",
+        "name": "Chained quests part 3",
+        "locked_by_quests": [
+            "trap_example_chained_quest_2"
+        ],
+        "description": "Third and last part of the chain of quest",
+        "success_message": "Bravo!"
+    }
+]

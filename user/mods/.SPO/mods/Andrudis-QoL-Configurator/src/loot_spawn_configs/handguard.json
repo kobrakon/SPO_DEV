@@ -1,0 +1,95 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Polymer SVDS handguard",
+			"UID"	: "5c471c6c2e221602b66cd9ae",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Desert Tech foregrip for MDR",
+			"UID"	: "5c48a14f2e2216152006edd7",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Desert Tech foregrip for MDR blk",
+			"UID"	: "5dcbd6b46ec07c0c4347a564",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Kel-Tec RFB regular handguard",
+			"UID"	: "5f2aa47a200e2c0ee46efa71",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Aim sport Universal M-LOK foregrip for FAL",
+			"UID"	: "5b7bebc85acfc43bca706666",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Orsis handguard for T-5000",
+			"UID"	: "5df25d3bfd6b4e6e2276dc9a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Sword int. 18 inch handguard for Mk-18",
+			"UID"	: "5fc235db2770a0045c59c683",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "UltiMAK M1-B handguard for AK",
+			"UID"	: "5648b2414bdc2d3b4c8b4578",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Speedfeed short M590A1 forestock",
+			"UID"	: "5e87076ce2db31558c75a11d",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

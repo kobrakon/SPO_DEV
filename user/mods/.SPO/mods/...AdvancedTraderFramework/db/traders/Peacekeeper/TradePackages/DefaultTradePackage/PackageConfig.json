@@ -1,0 +1,9 @@
+{
+	"Package": "DefaultAssort",
+	"enabled": true,
+	"comment": "RequiredMod names can be found in the package.json of the main folder of the mod you want to require",
+	"RequiredMods": {
+		"Mod1": "AdvancedTraderFramework", 
+		"Mod2": "AdvancedTraderFramework"
+	}
+}

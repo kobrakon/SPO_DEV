@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "UniqueTradeId2",
+			"_tpl": "59faff1d86f7746c51718c9c",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"UniqueTradeId2": [
+			[
+				{
+					"count": 100,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"UniqueTradeId2": 1
+	}
+}

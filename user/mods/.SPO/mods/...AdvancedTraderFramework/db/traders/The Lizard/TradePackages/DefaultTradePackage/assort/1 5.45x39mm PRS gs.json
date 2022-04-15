@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "1 5.45x39mm PRS gs",
+			"_tpl": "56dff338d2720bbd668b4569",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 27,
+				"BuyRestrictionMax": 27,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"1 5.45x39mm PRS gs": [
+			[
+				{
+					"count": 59,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"1 5.45x39mm PRS gs": 1
+	}
+}

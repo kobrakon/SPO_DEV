@@ -1,0 +1,10 @@
+{
+    "name": "SeeItemValue",
+    "author": "KcY",
+    "version": "1.2.1",
+    "license": "NCSA Open Source",
+    "main": "modloader.js",
+    "akiVersion": "2.3.1",
+    "UpdatedBy": "CWX"
+}
+

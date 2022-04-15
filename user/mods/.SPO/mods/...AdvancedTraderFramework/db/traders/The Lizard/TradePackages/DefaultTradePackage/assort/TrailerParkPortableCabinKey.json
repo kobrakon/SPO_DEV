@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "TrailerParkPortable",
+			"_tpl": "5913611c86f77479e0084092",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"TrailerParkPortable": [
+			[
+				{
+					"count": 2,
+					"_tpl": "56742c2e4bdc2d95058b456d"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"TrailerParkPortable": 1
+	}
+}

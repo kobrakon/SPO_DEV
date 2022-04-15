@@ -1,0 +1,13 @@
+{
+    "default_pattern": "scav",
+
+	"use_random_patterns": true,
+	"random_patterns": {
+		"scav": 1,
+		"raid": 1,
+		"boss": 1
+
+	},
+
+	"__DEBUG__Generate_bots_on_start": false
+}

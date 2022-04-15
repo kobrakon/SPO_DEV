@@ -1,0 +1,35 @@
+{
+	"--UsecPercentage - % chance PMC will be USEC, valid values: null, [0, 100]. BEAR chance will be (100-UsecChance)%." : "Default : null",
+	"UsecChance" : null,
+
+	"--SameSideIsHostileChance - % chance PMCs of same faction are hostile, valid values: null, [0, 100]." : "Default : null",
+	"SameFactionIsHostileChance" : null,
+	
+	"--MaxPMCLootTotalRoubles - default SPT-AKI value is 150000, leave 'null' to keep that" : "Default : null",
+	"MaxPMCLootTotalRoubles" : null,
+		
+	"ShowBotTypeInNickname" : false,
+	
+	"MaxBackpackLootTotalRub" : null,
+	"MaxPocketLootTotalRub" : null,
+	"MaxVestLootTotalRub" : null,
+	
+	"OverridePMCCartridgeBlacklist" : true,
+	"PMCCartridgeBlacklist": [
+            "5d6e68a8a4b9360b6c0d54e2", 
+            "5d6e6a05a4b93618084f58d0", 
+            "5e85aa1a988a8701445df1f5", 
+            "573719df2459775a626ccbc2", 
+            "573603562459776430731618", 
+            "5efb0cabfb3e451d70735af5", 
+            "5a26ac0ec4a28200741e1e18", 
+            "5cc80f38e4a949001152b560", 
+            "5ba26835d4351e0035628ff5", 
+            "5c0d5e4486f77478390952fe", 
+            "59e690b686f7746c9f75e848", 
+            "59e0d99486f7744a32234762", 
+            "5a6086ea4f39f99cd479502f", 
+            "5fc382a9d724d907e2077dab", 
+            "5cadf6eeae921500134b2799"
+        ]
+}

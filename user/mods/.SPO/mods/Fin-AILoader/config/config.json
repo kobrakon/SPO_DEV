@@ -1,0 +1,40 @@
+{
+    "Explanation": {
+        "############## Set the values to true or false, or to a number if it's that type of value. It should be fairly self explanatory, but if there's anything weird I'll make a readme file that explains more. It should be in the mod's main folder.######################": "///",
+        "############## For real, check the README file if anything here confuses you in the slighest. Heck, even if it doesn't confuse you, it can't hurt to glance over it anyways.######################": "///",
+        "Notes on Bot Names": "Scav = assault; Sniper = marksman; Raider = pmcbot; Cultist leader = sectantpriest; Cultist = sectantwarrior; PMC = bear, usec; Reshala = bossbully; Gluhar = bossgluhar; Killa = bosskilla; Shturman = bosskojaniy; Sanitar = bosssanitar; Boss minions = followerbully, followergluharassault, followergluharscout, followergluharsecurity, followergluharsnipe, followerkojaniy, followersanitar"
+    },
+	
+	"DEBUGGING_print_current_AI_settings": false,
+	
+	"aiTemplateName": "default.json",
+	
+    "aiChanges": {
+		
+		"Note": "This value is added to ALL bot difficulties, unless that bot is in the botsToLeaveUnchanged list",
+        "overallAIDifficultyMod": -0.85,
+		
+		"Note": "The default difficulty setting will be used for any non-boss AI *NOT* present in botDifficulties or botsToLeaveUnchanged. This difficulty setting IS modified by overallAIDifficultyMod",
+		"defaultDifficulty": 4,
+		
+		"botDifficulties":{
+			"assault": 3,
+			"pmcbot": 4,
+			"bear": 5,
+			"usec": 5,
+			"followerBully": 4,
+			"followerGluharScout": 4,
+			"followerGluharSecurity": 5,
+			"followerGluharSnipe": 4,
+			"followerKojaniy": 4,
+			"followerSanitar": 4
+			
+		},
+		"botsToLeaveUnchanged":[
+			"sectantWarrior",
+			"sectantPriest",
+			"add new bot names here",
+			"add new bot names here"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "_id": "superkappa",
+    "_tpl": "superkappa",
+    "parentId": "hideout",
+    "slotId": "hideout",
+    "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"_id": "SHRIMP",
+			"_tpl": "59f98b4986f7746f546d2cef",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "22f6646b3b8ec09d0948796d",
+			"_tpl": "59f99a7d86f7745b134aa97b",
+			"parentId": "SHRIMP",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"SHRIMP": [
+			[
+				{
+					"count": 26670,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SHRIMP": 3
+	}
+}

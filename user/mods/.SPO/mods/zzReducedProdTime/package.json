@@ -1,0 +1,9 @@
+{
+	"name": "Reduced Production Time",
+	"author": "PhantomInTime",
+	"version": "1.0.0",
+	"license": "NCSA Open Source",
+	"dependencies": {},
+	"main": "package.js",
+	"akiVersion": "2.3.0"
+}

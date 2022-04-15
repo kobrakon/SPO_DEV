@@ -1,0 +1,9 @@
+{
+    "enableMod": true,
+    "overwriteItemGeneration": true,
+    "overwriteEquipmentChances": true,
+    "overwriteModsChances": true,
+    "addEquipment": true,
+    "removeEquipment": true,
+    "overwriteHealth": false
+}

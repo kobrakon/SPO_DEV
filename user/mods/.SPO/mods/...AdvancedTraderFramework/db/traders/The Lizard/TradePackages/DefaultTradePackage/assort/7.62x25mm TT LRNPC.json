@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "7.62x25mm TT LRNPC",
+			"_tpl": "573602322459776445391df1",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 41,
+				"BuyRestrictionMax": 41,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"7.62x25mm TT LRNPC": [
+			[
+				{
+					"count": 76,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"7.62x25mm TT LRNPC": 1
+	}
+}

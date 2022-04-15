@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "SAN112",
+			"_tpl": "5a0dc95c86f77452440fc675",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"SAN112": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5af04b6486f774195a3ebb49"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SAN112": 2
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "_id": "superpilgrim",
+    "_tpl": "superpilgrim",
+    "parentId": "hideout",
+    "slotId": "hideout",
+    "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 999999999
+    }
+}

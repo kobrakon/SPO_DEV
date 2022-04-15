@@ -1,0 +1,31 @@
+{
+	"items": [
+		{
+			"_id": "ZB014",
+			"_tpl": "591afe0186f77431bd616a11",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"ZB014": [
+			[
+				{
+					"count": 3,
+					"_tpl": "57347c77245977448d35f6e2"
+				},
+				{				
+					"count": 2,
+					"_tpl": "57347c5b245977448d35f6e1"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"ZB014": 1
+	}
+}

@@ -1,0 +1,146 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "12x70 5.25mm Buckshot",
+			"UID"	: "5d6e6772a4b936088465b17c",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5d6e6911a4b9361bd5780d52",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "12x70 6.5 mm 'Express' Buckshot",
+			"UID"	: "5d6e67fba4b9361bc73bc779",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5d6e6911a4b9361bd5780d52",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18mm PM RG028 gzh",
+			"UID"	: "573720e02459776143012541",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM PS gs PPO",
+			"UID"	: "57371f2b24597761224311f1",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM 9 P gzh",
+			"UID"	: "573719762459775a626ccbc1",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM Pst gzh",
+			"UID"	: "5737201124597760fc4431f1",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM PSO gzh",
+			"UID"	: "57371f8d24597761006c6a81",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM PRS gs",
+			"UID"	: "57371eb62459776125652ac1",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x18 mm PM PPe gzh",
+			"UID"	: "57371b192459775a9f58a5e0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7.62x25mm TT Pst gzh",
+			"UID"	: "573603562459776430731618",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7.62x25mm TT P gl",
+			"UID"	: "5736026a245977644601dc61",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7.62x25mm TT LRNPC",
+			"UID"	: "573602322459776445391df1",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7.62x25mm TT AKBS",
+			"UID"	: "5735fdcd2459776445391d61",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7.62x25mm TT PT gzh",
+			"UID"	: "573603c924597764442bd9cb",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		}
+
+	]
+}

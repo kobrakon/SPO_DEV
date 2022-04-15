@@ -1,0 +1,23 @@
+{
+    "GachaRedeemTimeInSecond": 86400,
+    "ShowServerLogs":
+    {
+        "Info": true,
+        "Success": true,
+        "Warning": true,
+        "Error": true
+    },
+    "GlobalItemBlacklist":
+    [
+        "Default Inventory",
+        "MobContainer",
+        "LockableContainer",
+        "LootContainer"
+    ],
+    "CHEATS": {
+        "Enable": false,
+        "ResetStocksOnServerStart": true,
+        "UnlimitedStockForAllGacha": false,
+        "FreeGacha": false
+    }
+}

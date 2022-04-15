@@ -1,0 +1,9 @@
+{
+  "NeededForHideoutDefinition": "NextLevel"/*
+	NeededForHideoutDefinition - Defines the logic used to determine which items are marked. See mod page for details. 
+	Options: 
+		NextLevel: Generally marks items required for the facility's next upgrade
+		NextLevelReady: Marks items required for the facility's next upgrade only when its other facility pre-requisites are fulfilled. (e.g. Items for Lavatory 2 won't be marked until Water Collector 1 is finished.)*/,
+  "TooltipHeaderColor": "#56C427"/*
+	TooltipHeaderColor - Color of the tooltip 'Needed for hideout' header.*/
+}

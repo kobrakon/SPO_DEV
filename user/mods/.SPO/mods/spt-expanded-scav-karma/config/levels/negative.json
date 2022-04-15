@@ -1,0 +1,139 @@
+{
+    "equipmentChances": {
+        "Headwear": 38,
+        "Earpiece": 0,
+        "FaceCover": 21,
+        "ArmorVest": 17,
+        "Eyewear": 10,
+        "ArmBand": 0,
+        "TacticalVest": 45,
+        "Backpack": 33,
+        "FirstPrimaryWeapon": 51,
+        "SecondPrimaryWeapon": 0,
+        "Holster": 0,
+        "Scabbard": 90
+    },
+    "modsChances": {
+        "mod_mount": 12,
+        "mod_mount_000": 32,
+        "mod_muzzle": 25,
+        "mod_tactical_001": 65,
+        "mod_tactical_002": 5,
+        "mod_tactical_003": 0,
+        "mod_flashlight": 100,
+        "mod_mount_001": 4,
+        "mod_scope": 0,
+        "mod_stock": 33,
+        "mod_charge": 0,
+        "mod_magazine": 100,
+        "mod_reciever": 94,
+        "mod_sight_rear": 29,
+        "mod_tactical": 10,
+        "mod_nvg": 0,
+        "mod_equipment": 0,
+        "mod_foregrip": 0,
+        "mod_tactical_000": 0,
+        "mod_launcher": 0,
+        "mod_sight_front": 28,
+        "mod_stock_000": 0,
+        "mod_stock_akms": 100,
+        "mod_equipment_000": 0,
+        "mod_equipment_001": 0,
+        "mod_equipment_002": 0,
+        "mod_pistol_grip": 0
+    },
+    "addEquipment": {
+        "ArmBand": {},
+        "ArmorVest": {
+            "5648a7494bdc2d9d488b4583": 4,
+            "59e7635f86f7742cbf2c1095": 5,
+            "5c0e5edb86f77461f55ed1f7": 1,
+            "5df8a2ca86f7740bfe6df777": 2
+        },
+        "Backpack": {},
+        "Earpiece": {},
+        "Eyewear": {},
+        "FaceCover": {},
+        "FirstPrimaryWeapon": {},
+        "Headwear": {},
+        "Holster": {},
+        "Scabbard": {},
+        "SecondPrimaryWeapon": {},
+        "TacticalVest": {}
+    },
+    "removeEquipment": {
+        "ArmBand": [],
+        "ArmorVest": [
+            "5ab8e4ed86f7742d8e50c7fa",
+            "5ab8e79e86f7742d8b372e78",
+            "5b44d22286f774172b0c9de8",
+            "5c0e53c886f7747fa54205c7",
+            "609e8540d5c319764c2bc2e9"
+        ],
+        "Backpack": [
+            "544a5cde4bdc2d39388b456b",
+            "56e335e4d2720b6c058b456d",
+            "59e763f286f7742ee57895da",
+            "60a2828e8689911a226117f9"
+        ],
+        "Earpiece": [],
+        "Eyewear": [],
+        "FaceCover": [
+            "5e54f79686f7744022011103",
+            "60363c0c92ec1c31037959f5"
+        ],
+        "FirstPrimaryWeapon": [
+            "5644bd2b4bdc2d3b4c8b4572",
+            "5ab8e9fcd8ce870019439434",
+            "5ac4cd105acfc40016339859",
+            "5ac66d9b5acfc4001633997a"
+        ],
+        "Headwear": [],
+        "Holster": [
+            "56d59856d2720bd8418b456a"
+        ],
+        "Scabbard": [],
+        "SecondPrimaryWeapon": [],
+        "TacticalVest": [
+            "544a5caa4bdc2d1a388b4568",
+            "5648a69d4bdc2ded0b8b457b",
+            "592c2d1a86f7746dbe2af32a",
+            "5ab8dab586f77441cd04f2a2",
+            "5c0e446786f7742013381639",
+            "5c0e6a1586f77404597b4965",
+            "603648ff5a45383c122086ac",
+            "6040dd4ddcf9592f401632d2"
+        ]
+    },
+    "itemGeneration": {
+        "specialItems": {
+            "min": 0,
+            "max": 0
+        },
+        "healing": {
+            "min": 0,
+            "max": 1
+        },
+        "looseLoot": {
+            "min": 1,
+            "max": 2
+        },
+        "magazines": {
+            "min": 1,
+            "max": 2
+        },
+        "grenades": {
+            "min": 0,
+            "max": 0
+        }
+    },
+    "overwriteHealth": {
+        "Chest": 1,
+        "Head": 1,
+        "LeftArm": 1,
+        "RightArm": 1,
+        "LeftLeg": 1,
+        "RightLeg": 1,
+        "Stomach": 1
+    }
+}

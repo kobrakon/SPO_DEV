@@ -1,0 +1,12 @@
+{
+	"NewItems": {
+		"Ammo Pouch": {
+			"Enable": true,
+			"Internal Height": 2,
+			"Internal Width": 2
+		}
+	},
+	"Debug": {
+		"Enable": true
+	}
+}

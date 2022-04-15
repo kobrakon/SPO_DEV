@@ -1,0 +1,14 @@
+{
+	"traderID": "5935c25fb3acc3127c3d8cd9",
+	"enabled": true,
+	"1.comment": "Enables the Trader for modifying",
+	"--------------":"--------------",	
+	"Options": {
+		"modifyAssort": true,
+		"2.comment": "if enabled, enables the use of TradePackages",	
+		"modifyBase": true,
+		"3.comment": "if enabled, applies new Trader base (IMPORTANT: traderID has to be the same as _id in base.json)",			
+		"modifyQuests":false,
+		"4.comment": "(Not yet implemented) if enabled, applies the new Quests"
+	}
+}

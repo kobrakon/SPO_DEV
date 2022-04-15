@@ -1,0 +1,9 @@
+{
+	"name": "Sotthata-SleepyTime",
+	"author": "Sotthata",
+	"version": "1.0.1",
+	"akiVersion": "2.3",
+	"license": "MIT",
+	"main": "modloader.js",
+	"contributors": []
+}

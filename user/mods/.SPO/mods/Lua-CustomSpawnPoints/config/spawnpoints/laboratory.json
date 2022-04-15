@@ -1,0 +1,19 @@
+{
+	"SpawnZone Available List": "BotZoneFloor1, BotZoneFloor2, BotZoneBasement, BotZoneGate2, BotZoneGate1",
+	"Infiltration Available List": "Common",
+
+	"BotZoneFloor1": [
+	],
+
+	"BotZoneFloor2": [
+	],
+
+	"BotZoneBasement": [
+	],
+
+	"BotZoneGate2": [
+	],
+
+	"BotZoneGate1": [
+	]
+}

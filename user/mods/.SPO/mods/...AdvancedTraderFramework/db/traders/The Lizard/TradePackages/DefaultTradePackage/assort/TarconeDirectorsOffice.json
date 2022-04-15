@@ -1,0 +1,31 @@
+{
+	"items": [
+		{
+			"_id": "TarconeDirectorsOffice",
+			"_tpl": "5780d0532459777a5108b9a2",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"TarconeDirectorsOffice": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5c12688486f77426843c7d32"
+				},
+				{				
+					"count": 1,
+					"_tpl": "59e3647686f774176a362507"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"TarconeDirectorsOffice": 1
+	}
+}

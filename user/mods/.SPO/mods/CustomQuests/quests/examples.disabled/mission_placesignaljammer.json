@@ -1,0 +1,18 @@
+[
+    {
+        "id": "trap_example_mission_placesignaljammer",
+        "trader_id": "fence",
+        "name": "PlaceSignalJammer mission",
+        "description": "Place a signal jammer where you know",
+        "success_message": "Bravo!",
+        "missions": [
+            {
+                "type": "PlaceSignalJammer",
+                "zone_id": "case_extraction",
+                "message": "Place a signal jammer at case_extraction on factory",
+                "need_survive": "You need to survive the raid"
+            }
+        ],
+        "descriptive_location": "factory"
+    }
+]

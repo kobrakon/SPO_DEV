@@ -1,0 +1,107 @@
+{
+    "equipmentChances": {
+        "Headwear": 81,
+        "Earpiece": 17,
+        "FaceCover": 48,
+        "ArmorVest": 44,
+        "Eyewear": 31,
+        "ArmBand": 0,
+        "TacticalVest": 89,
+        "Backpack": 68,
+        "FirstPrimaryWeapon": 92,
+        "SecondPrimaryWeapon": 0,
+        "Holster": 12,
+        "Scabbard": 100
+    },
+    "modsChances": {
+        "mod_mount": 34,
+        "mod_mount_000": 39,
+        "mod_muzzle": 56,
+        "mod_tactical_001": 82,
+        "mod_tactical_002": 21,
+        "mod_tactical_003": 12,
+        "mod_flashlight": 100,
+        "mod_mount_001": 27,
+        "mod_scope": 34,
+        "mod_stock": 78,
+        "mod_charge": 0,
+        "mod_magazine": 100,
+        "mod_reciever": 94,
+        "mod_sight_rear": 61,
+        "mod_tactical": 45,
+        "mod_nvg": 0,
+        "mod_equipment": 38,
+        "mod_foregrip": 25,
+        "mod_tactical_000": 12,
+        "mod_launcher": 0,
+        "mod_sight_front": 61,
+        "mod_stock_000": 3,
+        "mod_stock_akms": 100,
+        "mod_equipment_000": 15,
+        "mod_equipment_001": 9,
+        "mod_equipment_002": 7,
+        "mod_pistol_grip": 0
+    },
+    "addEquipment": {
+        "ArmBand": {},
+        "ArmorVest": {},
+        "Backpack": {},
+        "Earpiece": {
+            "5b432b965acfc47a8774094e": 2,
+            "5aa2ba71e5b5b000137b758f": 1
+        },
+        "Eyewear": {},
+        "FaceCover": {},
+        "FirstPrimaryWeapon": {},
+        "Headwear": {},
+        "Holster": {},
+        "Scabbard": {},
+        "SecondPrimaryWeapon": {},
+        "TacticalVest": {}
+    },
+    "removeEquipment": {
+        "ArmBand": [],
+        "ArmorVest": [],
+        "Backpack": [],
+        "Earpiece": [],
+        "Eyewear": [],
+        "FaceCover": [],
+        "FirstPrimaryWeapon": [],
+        "Headwear": [],
+        "Holster": [],
+        "Scabbard": [],
+        "SecondPrimaryWeapon": [],
+        "TacticalVest": []
+    },
+    "itemGeneration": {
+        "specialItems": {
+            "min": 0,
+            "max": 1
+        },
+        "healing": {
+            "min": 2,
+            "max": 3
+        },
+        "looseLoot": {
+            "min": 2,
+            "max": 4
+        },
+        "magazines": {
+            "min": 3,
+            "max": 4
+        },
+        "grenades": {
+            "min": 2,
+            "max": 3
+        }
+    },
+    "overwriteHealth": {
+        "Chest": 1,
+        "Head": 1,
+        "LeftArm": 1,
+        "RightArm": 1,
+        "LeftLeg": 1,
+        "RightLeg": 1,
+        "Stomach": 1
+    }
+}

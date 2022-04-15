@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "pp-19-01 mag",
+			"_tpl": "599860ac86f77436b225ed1a",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"pp-19-01 mag": [
+			[
+				{
+					"count": 5443,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"pp-19-01 mag": 2
+	}
+}

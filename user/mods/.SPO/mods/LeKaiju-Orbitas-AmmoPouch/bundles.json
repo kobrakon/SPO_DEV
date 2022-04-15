@@ -1,0 +1,11 @@
+{
+    "manifest": [
+    {
+      "key": "AmmoPouch/item_food_mayo.bundle",
+      "dependencyKeys": [
+          "shaders",
+          "cubemaps",
+		  "assets/commonassets/physics/physicsmaterials.bundle"
+        ]
+    }]
+}

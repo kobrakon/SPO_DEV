@@ -1,0 +1,56 @@
+{
+    "items": {
+        "supperkeytool": "db/items/superkeytool.json",
+		"superscav": "db/items/superscav.json",
+		"superammo": "db/items/superammo.json",	
+		"superdog": "db/items/superdog.json"	
+    },
+    "templates": {
+        "items": {
+           
+            "superkeytool": "/db/templates/items/superkeytool.json",
+			"superscav": "db/templates/items/superscav.json",
+			"superammo": "db/templates/items/superammo.json",
+			"superdog": "db/templates/items/superdog.json"
+
+        },
+        "handbook": {
+            "superkeytool": "db/templates/handbook/superkeytool.json",
+			"superscav": "db/templates/handbook/superscav.json",
+			"superammo": "db/templates/handbook/superammo.json",
+			"superdog": "db/templates/handbook/superdog.json"
+        }
+    },
+    "locales": {
+        "en": {
+            "templates": {
+                "superkeytool": "db/locales/en/templates/superkeytool.json",
+				"superscav": "db/locales/en/templates/superscav.json",
+				"superammo": "db/locales/en/templates/superammo.json",
+				"superdog": "db/locales/en/templates/superdog.json"
+            }
+        }
+    },
+    "assort": {
+        "ragfair": {
+            "items": { 
+                "superkeytool": "db/assort/ragfair/items/superkeytool.json",
+				"superscav": "db/assort/ragfair/items/superscav.json",
+				"superammo": "db/assort/ragfair/items/superammo.json",
+				"superdog": "db/assort/ragfair/items/superdog.json"				
+            },
+            "loyal_level_items": {
+                "superkeytool": "db/assort/ragfair/loyal_level_items/superkeytool.json",
+				"superscav": "db/assort/ragfair/loyal_level_items/superscav.json",
+				"superammo": "db/assort/ragfair/loyal_level_items/superammo.json",
+				"superdog": "db/assort/ragfair/loyal_level_items/superdog.json"
+            },
+            "barter_scheme": {
+                "superkeytool": "db/assort/ragfair/barter_scheme/superkeytool.json",
+				"superscav": "db/assort/ragfair/barter_scheme/superscav.json",
+				"superammo": "db/assort/ragfair/barter_scheme/superammo.json",
+                "superdog": "db/assort/ragfair/barter_scheme/superdog.json"
+            }
+        }
+    }
+}

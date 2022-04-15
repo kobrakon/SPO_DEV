@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "gameplay": {
+        "enabled": true,
+        "headSegments": false,
+        "hearing": false,
+        "ammoLoad": false,
+        "ammoStacks": false,
+        "thermal": true,
+        "white_nvg": false,
+        "holsterSMG": true,
+        "allItemsExamined": false
+    },
+    "gunsmith": {
+        "enabled": true,
+        "removeConflicts": true,
+        "mags": false,
+        "drums": false,
+        "vector_1_height": false,
+        "mp155_1_height": true,
+        "ergo_mult": 1,
+        "vertical_recoilMult": 1,
+        "horizontal_recoilMult": 1,
+        "better_hipfire": false
+    },
+    "operator": {
+        "enabled": false,
+        "maxLevelTrades": false,
+        "priceMult": 1,
+        "buyMult": 20
+    }
+}

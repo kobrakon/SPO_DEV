@@ -1,0 +1,155 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Molot AKM type gas tube",
+			"UID"	: "Gas block",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "JP Enterprises Gas System-5b",
+			"UID"	: "5d00ec68d7ad1a04a067e5be",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PP-19-01 gas tube",
+			"UID"	: "59ccd11386f77428f24a488f",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "SIG MCX Gas Block",
+			"UID"	: "5fbc210bf24b94483f726481",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Colt M4 Front sight",
+			"UID"	: "5ae30e795acfc408fb139a0b",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "HK 416A5 Regular Low Profile Gas Block",
+			"UID"	: "5bb20dcad4351e3bac1212da",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "KAC Low Profile Gas Block",
+			"UID"	: "5dfa3d45dfc58d14537c20b0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Mk-18 Gas Block",
+			"UID"	: "5fc2360f900b1d5091531e19",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Kiba Arms VDM CS gas tube",
+			"UID"	: "5a01ad4786f77450561fda02",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Windham Weaponry Rail Gas Block",
+			"UID"	: "56ea8d2fd2720b7c698b4570",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "VPO-101 Gas tube",
+			"UID"	: "5c5039be2e221602b177c9ff",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "AK-74 Gas tube",
+			"UID"	: "59c6633186f7740cf0493bb9",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "AKM (6P1 Sb.1-2) gas tube",
+			"UID"	: "59d64ec286f774171d1e0a42",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "SVDS Gas tube",
+			"UID"	: "5c471c842e221615214259b5",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "AKS-74U Gas tube",
+			"UID"	: "59d36a0086f7747e673f3946",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "6065dc8a132d4d12c81fd8e3",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "ShorlineCottageKey",
+			"_tpl": "5a0eb6ac86f7743124037a28",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"ShorlineCottageKey": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590c2e1186f77425357b6124"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"ShorlineCottageKey": 1
+	}
+}

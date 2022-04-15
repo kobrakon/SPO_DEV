@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "PL-15 mag",
+			"_tpl": "602286df23506e50807090c6",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"PL-15 mag": [
+			[
+				{
+					"count": 4137,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"PL-15 mag": 3
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "TP-200 TNT brick",
+			"UID"	: "60391b0fb847c71012789415",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "",
+			"IntendedContainers"  :[
+				"5909d36d86f774660f0bb900",
+				"5d6d2bb386f774785b07a77a",
+				"5d6fd45b86f774317075ed43"
+			]			
+		},
+		{
+			"Name"	: "Can of thermite",
+			"UID"	: "60391a8b3364dc22b04d0ce5",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "",
+			"IntendedContainers"  :[
+				"5d6d2b5486f774785c2ba8ea"
+			]			
+		},
+		{
+			"Name"	: "Ratchet wrench",
+			"UID"	: "60391afc25aff57af81f7085",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5d1c774f86f7746d6620f8db",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Hemostatic tourniquet CAT",
+			"UID"	: "60098af40accd37ef2175f27",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "544fb25a4bdc2dfb738b4567",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

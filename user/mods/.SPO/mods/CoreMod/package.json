@@ -1,0 +1,9 @@
+{
+	"name": "CoreMod",
+	"author": "Ereshkigal",
+	"version": "2.2.2",
+	"akiVersion": "2.3",
+	"license": "NCSA Open Source",
+	"main": "package.js",
+	"dependencies": {}
+}

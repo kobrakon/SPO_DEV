@@ -1,0 +1,213 @@
+{
+	"AdjustAlreadyExistingItems" : false,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "Twitch Rivals 2020 mask",
+			"UID"	: "5e71f6be86f77429f2683c44",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Santa's hat",
+			"UID"	: "5a43957686f7742a2c2f11b0",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Ded Moroz hat",
+			"UID"	: "5a43943586f77416ad2f06e2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Rivals 2020 cap",
+			"UID"	: "5f99418230835532b445e954",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Rivals 2020 beanie",
+			"UID"	: "5f994730c91ed922dd355de3",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Slender mask",
+			"UID"	: "5bd06f5d86f77427101ad47c",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Fake white beard",
+			"UID"	: "5c1a1e3f2e221602b66cc4c2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Jason mask",
+			"UID"	: "5bd071d786f7747e707b93a3",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Misha Mayorov's mask",
+			"UID"	: "5bd0716d86f774171822ef4b",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Twitch Rivals 2021 balaclava",
+			"UID"	: "607f201b3c672b3b3a24a800",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "PACA Soft Armor (Rivals Edition)",
+			"UID"	: "607f20859ee58b18e41ecd90",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Jack-o'-lantern tactical pumpkin helmet",
+			"UID"	: "59ef13ca86f77445fd0e2483",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c0d2727d174af02a012cf58",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Christmas tree decoration ball (red)",
+			"UID"	: "5df8a6a186f77412640e2e80",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "",
+			"IntendedContainers"  :[
+				"578f8782245977354405a1e3",
+				"5d6d2b5486f774785c2ba8ea",
+				"578f87a3245977356274f2cb",
+				"5909e4b686f7747f5b744fa4",
+				"5c052cea86f7746b2101e8d8",
+				"5d6d2bb386f774785b07a77a"
+			]			
+		},
+		{
+			"Name"	: "Christmas tree decoration ball (silver)",
+			"UID"	: "5df8a72c86f77412640e2e83",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "",
+			"IntendedContainers"  :[
+				"578f8782245977354405a1e3",
+				"5d6d2b5486f774785c2ba8ea",
+				"578f87a3245977356274f2cb",
+				"5909e4b686f7747f5b744fa4",
+				"5c052cea86f7746b2101e8d8",
+				"5d6d2bb386f774785b07a77a"
+			]			
+		},
+		{
+			"Name"	: "Christmas tree decoration ball (violet)",
+			"UID"	: "5df8a77486f77412672a1e3f",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "",
+			"IntendedContainers"  :[
+				"578f8782245977354405a1e3",
+				"5d6d2b5486f774785c2ba8ea",
+				"578f87a3245977356274f2cb",
+				"5909e4b686f7747f5b744fa4",
+				"5c052cea86f7746b2101e8d8",
+				"5d6d2bb386f774785b07a77a"
+			]			
+		},
+		{
+			"Name"	: "Twitch Rivals 2021 mask",
+			"UID"	: "607f201b3c672b3b3a24a800",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Ghoul mask",
+			"UID"	: "6176a40f0b8c0312ac75a3d3",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Faceless mask",
+			"UID"	: "6176a48d732a664031271438",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7f1624597762ae139822",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Santa's bag",
+			"UID"	: "61b9e1aaef9a1b5d6a79899a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "618bb76513f5097c8d5aa2d5",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "BnT MP9-N Vertical grip",
+			"UID"	: "5de8fbad2fbe23140d3ee9c4",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "T-5000 Pad",
+			"UID"	: "5df36948bb49d91fb446d5ad",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Magpul M-LOK AFG (Olive Drab) Tactical grip",
+			"UID"	: "57cffcdd24597763f5110006",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "ASh-12 Vertical pistol grip",
+			"UID"	: "5cda9bcfd7f00c0c0b53e900",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Zenit RK-1 Foregrip",
+			"UID"	: "5c1bc5612e221602b5429350",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Zenit RK-2 Foregrip",
+			"UID"	: "5c1bc5af2e221602b412949b",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Zenit RK-6 Foregrip",
+			"UID"	: "5c1bc7752e221602b1779b34",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Magpul M-LOK AFG (Flat Dark Earth) Tactical grip",
+			"UID"	: "57cffcd624597763133760c5",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Magpul M-LOK AFG (Stealth Gray) Tactical grip",
+			"UID"	: "57cffce524597763b31685d8",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59f8a37386f7747af3328f06",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

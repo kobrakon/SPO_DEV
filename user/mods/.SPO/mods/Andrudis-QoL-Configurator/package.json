@@ -1,0 +1,8 @@
+{
+    "name": "Andrudis-QoL-Configurator",
+    "author": "Andrudis",
+    "version": "3.2.3",
+    "license": "MIT",
+    "main": "package.js",
+    "akiVersion": "2.3"
+}

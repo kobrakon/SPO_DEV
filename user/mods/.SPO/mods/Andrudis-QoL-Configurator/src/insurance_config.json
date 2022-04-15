@@ -1,0 +1,13 @@
+{
+	"ChangeInsuranceAvailability" : {
+		"Customs" 		: true,
+		"FactoryDay" 	: true,
+		"FactoryNight" 	: true,
+		"Interchange" 	: true,
+		"Lighthouse"	: true,
+		"Reserve" 		: true,
+		"Shoreline" 	: true,
+		"The_Lab" 		: false,
+		"Woods" 		: true		
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"items": [
+		{
+			"_id": "ShturmanKey",
+			"_tpl": "5d08d21286f774736e7c94c3",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"ShturmanKey": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5c052f6886f7746b1e3db148"
+				},
+				{				
+					"count": 1,
+					"_tpl": "59e3639286f7741777737013"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"ShturmanKey": 3
+	}
+}

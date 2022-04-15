@@ -1,0 +1,32 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/items/barter/item_container_keybar/item_container_super_keybar.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+		{
+            "key": "assets/content/items/containers/item_container_super_junk/item_container_super_junk.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+		{
+            "key": "assets/content/items/containers/item_container_superammo/item_container_superammo.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"]
+        },
+		{
+            "key": "assets/content/items/containers/item_container_superdog/item_container_superdog.bundle",
+            "dependencyKeys":[
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"]
+        }
+    ]
+}

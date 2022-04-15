@@ -1,0 +1,11 @@
+{
+    "name": "SuperItems",
+    "author": "JoshJ5Hawk",
+    "version": "2.0.0",
+    "license": "NCSA",
+    "main": "package.js",
+	"akiVersion": "2.3",
+	"dependencies": {
+		"CoreMod": "2.2.2"
+	}
+}

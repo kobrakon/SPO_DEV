@@ -1,0 +1,120 @@
+{
+	"############################################################":"#############################################################",
+	"Every map JSON files will be auto-generated once mod loaded when JSON files are doesn't exists":"",
+	"If you want SpawnZone/Infiltration Lists to be updated, delete JSON files and restart the server":"",
+
+	"You can make an folder and put JSON files to be custom preset and easily share to others":"",
+	"Also specific folders can be disabled in config.json":"",
+	"If you want to disable to load folder set DisableFolderList in config.json, multiple names by comma (Like, This, Easy)":"",
+
+	"Before asking about JSON errors, Always check the config file after edits with JSON checker!" : " https://jsonformatter.curiousconcept.com/ ",
+	"#############################################################":"############################################################"
+},
+
+{
+	"How to get your current Coordinates": {
+
+		"USE:" " https://hub.sp-tarkov.com/files/file/306-lua-s-custom-spawn-point-maker/ ",
+		
+		"OPTION A. Take the screenshot (default key: Print Screen), check the file name that contains location and rotation": [
+			"File name has [Date] and "X, Y, Z" for current location and after roation values",
+			"You need to convert roation values by using this", " https://docs.unity3d.com/ScriptReference/Transform-eulerAngles.html ",
+			"Or you can put random numbers (0.0 ~ 360.0) as well",
+		],
+
+		"OPTION B. Enable the dev module 'CoordinatesPatch' and build": [
+			"Visit AKI-Modules git and download CORRECT Branch/Tags for your AKI" : " https://dev.sp-tarkov.com/SPT-AKI/Modules ",
+			"Edit 'Aki.SinglePlayer/Program.cs' file to remove // in front of 'new CoordinatesPatch().Apply();' and Save",
+			"Follow the 'Build' section guide from git site",
+			"After build, go to project/Build/Aki_Data/Modules/aki-singleplayer and overwrite module.dll to your Aki_Data/Modules/aki-singleplayer",
+
+			"Press 'Left CTRL' key in-game to logging current coordinates with rotation",
+			"Check out 'user/logs/modules.log'"
+
+			"Time to work."
+		],
+	}
+},
+
+{
+	!!!!!!! DO NOT EDIT VALUES OR DELETE THE LIST !!!!!!!
+
+	"SpawnZone Available List": "ZoneBrige, ZoneCrossRoad, ZoneDormitory, ZoneGasStation, ZoneFactoryCenter, ZoneFactorySide, ZoneOldAZS, ZoneSnipeBrige, ZoneSnipeTower, ZoneSnipeFactory, ZoneBlockPost, ZoneBlockPostSniper, ZoneBlockPostSniper3, ZoneTankSquare, ZoneWade, ZoneScavBase",
+		[CASE SENSITIVE] (You can only available to use these otherwise it won't work, chooese where to add extra spawn point)
+
+	"Infiltration Available List": "Boiler Tanks, Customs",
+		[CASE SENSITIVE] (This only required when you use on "Categories": ["Player"] to add extra spawn point for player, Other scav bots can be empty as "")
+
+	!!!!!!! DO NOT EDIT VALUES OR DELETE THE LIST !!!!!!!
+
+	(SpawnZone Name, select from "SpawnZone Available List")
+	"ZoneCrossRoad": [
+		{
+			(Write any comments for yourself to note)
+			"Comment": "Example Location, Don't know where the heck is this",
+			"Position": [-17.2, 1.7, -57.6],	: Position [x, y, z]
+			"Rotation": 90.0,					: Spawn Rotation Angle, 0.0 ~ 360.0
+			"Sides": ["Savage"],				: Factions, can use "Usec" | "Bear" | "Savage" | "All" also can be multiple. ex) ["Usec", "Bear"]
+			"Categories": ["Bot"],				: Player category, can use "Player", "Bot", "Boss" also can be multiple. ex) ["Player", "Boss"]
+												  "Boss" is not required for Bosses to spawns they also uses "Bot" spawns
+												  "Player" used for player only not PMC bot
+												  And Player's Scav always use "Player" category spawn point first if "Sides" is "Savage" or "All"
+												  "Player" spawn points are not binded to Spawn Zone
+			"Infiltration": "",					: Player Infiltration, required if you set categories "Player", select from "Infiltration Available List"
+			"DelayToCanSpawnSec": 5,			: Spawn Delay Time
+			"ColliderRadius": 80.0				: Collider Radius Check, 0.0 for disable
+		},
+		{
+			(If you enabled [DisableDefaultSpawnPoints], You need to have at least One player spawn point to spawn YOU, otherwise Game will stuck in the loading)
+			"Comment": "Spawn with Scav? Poggers",
+			"Position": [-17.2, 1.7, -57.6],
+			"Rotation": 90.0,
+			"Sides": ["Usec", "Bear"],
+			"Categories": ["Player"],
+			"Infiltration": "Boiler Tanks",
+			"DelayToCanSpawnSec": 0,
+			"ColliderRadius": 0.0
+		},
+		{
+			(Bad Example, This won't be add because of "Infiltration" value is empty when "Categories" is "Player")
+			"Comment": "For the errors",
+			"Position": [-17.2, 1.7, -57.6],
+			"Rotation": 90.0,
+			"Sides": ["Usec", "Bear"],
+			"Categories": ["Player"],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 0,
+			"ColliderRadius": 0.0
+		},
+		{
+			(Bad Example, This won't be add because of "Infiltration" value is not on the list)
+			"Comment": "For the errors",
+			"Position": [-17.2, 1.7, -57.6],
+			"Rotation": 90.0,
+			"Sides": ["Usec", "Bear"],
+			"Categories": ["Player"],
+			"Infiltration": "asd",
+			"DelayToCanSpawnSec": 0,
+			"ColliderRadius": 0.0
+		},
+		{
+			(Bad Example, This won't be add because of "Infiltration" value is not on the list [CASE SENSITIVE])
+			"Comment": "For the errors",
+			"Position": [-17.2, 1.7, -57.6],
+			"Rotation": 90.0,
+			"Sides": ["Usec", "Bear"],
+			"Categories": ["Player"],
+			"Infiltration": "customs",
+			"DelayToCanSpawnSec": 0,
+			"ColliderRadius": 0.0
+		}
+	],
+
+	(Bad Example, SpawnZone Name is not on the list)
+	"Custom Name Yay": [
+	],
+
+	(Bad Example, SpawnZone Name is not on the list [CASE SENSITIVE])
+	"Zonecrossroad": [
+	]
+}

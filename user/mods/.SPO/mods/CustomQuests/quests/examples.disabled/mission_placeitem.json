@@ -1,0 +1,25 @@
+[
+    {
+        "id": "trap_example_mission_placeitem",
+        "trader_id": "fence",
+        "description": "Place an ai-2 kit where you know",
+        "name": "PlaceItem mission",
+        "success_message": "Bravo!",
+        "descriptive_location": "factory",
+        "missions": [
+            {
+                "type": "PlaceItem",
+                "accepted_items": [
+                    "5755356824597772cb798962"
+                ],
+                "zone_id": "case_extraction",
+                "message": "Place ai-2 at case_extraction on factory",
+                "plant_time": 2,
+                "need_survive": {
+                    "fr": "",
+                    "en": "You need to survive the raid"
+                }
+            }
+        ]
+    }
+]

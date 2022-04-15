@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "Makarov mag",
+			"_tpl": "5448c12b4bdc2d02308b456f",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"Makarov mag": [
+			[
+				{
+					"count": 1822,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Makarov mag": 1
+	}
+}

@@ -1,0 +1,241 @@
+[
+    {
+        "id": "tutorial_1",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 1",
+        "description": "Welcome to Tarkov, Mercenary. The Contract Wars are over and now your commanders have left you stranded here, yes? I have some work that should help you get on your feet. First thing you should know is this: Money is practically worthless now. Sure some people will still do business with it. But bartering is king out here. There's a few traders still in the zone, you'll find them as you go. I need some things from a couple of them. First, I need a new scope for my Dragunov; Prapor has them, try bringing some pliers or spark plugs. As it turns out, those little items can get you a lot if its the right person at the right time. Prapor is located between the woods and the Factory; the doctor, Therapist is also there should you need medical items. You can get to them either through the Factory entrance on the South-East end of the woods, or by going through Gate 3 in the Factory; though you'll need a key for that.",
+        "success_message": "Good work, my friend. Maybe you'll be able to survive after all.",
+        "image": "57e4f1852459772a15635633",
+        "rewards": {
+            "xp": 6000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 12000,
+                "590c657e86f77412b013051d": 1,
+                "5696686a4bdc2da3298b456a": 250
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5c82342f2e221644f31c060e",
+                    "576fd4ec2459777f0b518431",
+                    "5c82343a2e221644f31c0611"
+                ],
+                "count": 1,
+                "message": "Get a PSO scope from Prapor"
+            }
+        ]
+    },
+    {
+        "id": "tutorial_2",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 2",
+        "description": "So you see now, money is almost worthless. Sure there are some things people will take money for but if you want the good stuff, you'll have to earn the loyalty of those traders. Hell, they probably won't even talk to you right now. Nobody knows you. Anyhow, I got another little job for you, same as last time. I need some 5.56 ammo. Peacekeeper will have them, I think he usually trades for batteries. You will have to take the boat to get to him.",
+        "success_message": "I appreciate it. Got a little reward for you.",
+        "image": "57e4f1852459772a15635633",
+        "rewards": {
+            "xp": 6000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 12000,
+                "587e02ff24597743df3deaeb": 1,
+                "587e0531245977466077a0f7": 1,
+                "587e08ee245977446b4410cf": 1,
+                "5c82342f2e221644f31c060e": 1,
+                "587df3a12459772c28142567": 1,
+                "59e358a886f7741776641ac3": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "54527a984bdc2d4e668b4567",
+                    "59e68f6f86f7746c9f75e846"
+                ],
+                "count": 120,
+                "message": "Get 120rds of 556 from Peacekeeper"
+            }
+        ],
+        "locked_by_quests": [
+            "tutorial_1"
+        ]
+    },
+    {
+        "id": "tutorial_3",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 3",
+        "description": "Another little job for you, Merc. I need a new CMS kit. Ran into a little trouble on my last trip and ended up pulling a bullet out of my thigh. Jaeger has them, usually trades for some common tools like wire nippers. You can find Jaeger by the car extracts",
+        "success_message": "Thank you, mercenary. Here: A little something for the trouble",
+        "image": "57e4f1852459772a15635633",
+        "rewards": {
+            "xp": 7000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 12000,
+                "5f4f9eb969cdc30ff33f09db": 1,
+                "5c0e722886f7740458316a57": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5d02778e86f774203e7dedbe"
+                ],
+                "count": 1,
+                "message": "Get a CMS Kit from Jaeger"
+            }
+        ],
+        "locked_by_quests": [
+            "tutorial_2"
+        ]
+    },
+    {
+        "id": "tutorial_4",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 4",
+        "description": "Need some more work? I need a new chest rig. Mine got tore to shreds crawling through razor wire. Just one of the small ones, dark color. Ragman should have them, but you'll have to use cash. The smuggler has a lot of use for it compared to most. He is by the railroad at the mall, you can get there through the crossroads on the west side of the Customs zone; or you can take Jaeger's car.",
+        "success_message": "Good job man. You are proving to be a reliable source.",
+        "image": "57e4f1852459772a15635633",
+        "rewards": {
+            "xp": 7000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 14000,
+                "5645bc214bdc2d363b8b4571": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5e4abc1f86f774069619fbaa",
+                    "6034d0230ca681766b6a0fb5"
+                ],
+                "count": 1,
+                "message": "Get the requested rig from Ragman"
+            }
+        ],
+        "locked_by_quests": [
+            "tutorial_3"
+        ]
+    },
+    {
+        "id": "tutorial_5",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 5",
+        "description": "I'm about to run out of work for you Merc. Just need a suppressor for my handgun. Skier has some for trade usually. He likes that Majaica coffee, bring him some for that suppressor. You can get to him at the RUAF/UN roadblocks on Customs or Woods respectively.",
+        "success_message": "I'll be in touch if I have more work for you",
+        "image": "57e4f1852459772a15635633",
+        "rewards": {
+            "xp": 8000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 14000,
+                "5d0379a886f77420407aa271": 1,
+                "5bfea6e90db834001b7347f3": 1,
+                "5bfeb32b0db834001a6694d9": 1,
+                "5bfebc5e0db834001a6694e5": 1,
+                "5bfebc250db834001a6694e1": 1,
+                "5b2388675acfc4771e1be0be": 1,
+                "5bfea7ad0db834001c38f1ee": 1,
+                "590a391c86f774385a33c404": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5a9fb739a2750c003215717f"
+                ],
+                "count": 1,
+                "message": "Get a Rotor 43 Suppressor from Skier"
+            }
+        ],
+        "locked_by_quests": [
+            "tutorial_4"
+        ]
+    },
+    {
+        "id": "tutorial_6",
+        "trader_id": "Lizard",
+        "name": "Welcome to Tarkov Pt. 6",
+        "description": "So, you should have met most of the key players now. Hopefully, it hasn't been too harsh on you. But, even the best of us, will have bad days. Those days where we limp back to our nearest stash with a bullet in our gut, so we can stitch ourselves up, and get back at it. My best advice for you is to always have a spare kit and medical items near each location. Just in case you lose consciousness due to bloodloss and wake up with everything picked off you. I got a job to help you out with that. Head to the military base. If you can make it there and back, then I'm confident you'll be able to survive out here. I heard there's some big food stockpile there, check it out; and bring back a little something to celebrate your success.",
+        "success_message": "Well color me impressed. Good work. You got the booze? Cheers! Also here's a little something for you. Help you get started with stashing extra gear. Just don't tell anyone where you hide it.",
+        "image": "5d77a10586f7745041358b41",
+        "rewards": {
+            "xp": 12000,
+            "items": {
+                "55d480c04bdc2d1d4e8b456a": 5,
+                "57372e73245977685d4159b4": 2,
+                "60098ad7c2240c0fe85c570a": 1,
+                "5d02778e86f774203e7dedbe": 1,
+                "590c661e86f7741e566b646a": 2,
+                "5af0454c86f7746bf20992e8": 1,
+                "5c94bbff86f7747ee735c08f": 1,
+                "5644bd2b4bdc2d3b4c8b4572": 1,
+                "5649b0fc4bdc2d17108b4588": 1,
+                "59c6633186f7740cf0493bb9": 1,
+                "5649ade84bdc2d1b2b8b4587": 1,
+                "5648ae314bdc2d3d1c8b457f": 1,
+                "5649b0544bdc2d1b2b8b458a": 1,
+                "5649aa744bdc2ded0b8b457e": 1,
+                "5649af094bdc2df8348b4586": 1,
+                "558032614bdc2de7118b4585": 1,
+                "56def37dd2720bec348b456a": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "VisitPlace",
+                "place_id": "huntsman_029",
+                "message": "Find the food Storage in the military base"
+            },
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5d403f9186f7743cac3f229b",
+                    "614451b71e5874611e2c7ae5",
+                    "5d40407c86f774318526545a",
+                    "5d1b376e86f774252519444e"
+                ],
+                "message": "Bring back some Alcohol to celebrate",
+                "count": 1
+            }
+        ],
+        "locked_by_quests": [
+            "tutorial_5"
+        ],
+        "type": "Discover",
+        "descriptive_location": "reserve"
+    },
+    {
+        "id": "tutorial_7",
+        "trader_id": "Lizard",
+        "locked_by_quests": [
+            "tutorial_6"
+        ],
+        "name": "Debut",
+        "description": "Alright my friend, the last bit of advice I have for you is to make a name for yourself. Get the other traders to notice you. Maybe they'll even have work for you. I suggest you go to the laboratory and kill a few of those raiders. Anyone that can go to the lab, and come out alive is a true warrior. Hell I'll even give you a reward if you can make it through there.",
+        "success_message": "Bravo, my friend. I'm certain the traders will be as impressed as I am. I know your end goal is to get out of Tarkov, so I would suggest talking with Prapor to see if he can help you. I'll still be around if you need some help. May have some work for you here and there too. Good luck, Mercenary",
+        "type": "Elimination",
+        "descriptive_location": "laboratory",
+        "image": "5d694c9086f77468c86a6ada",
+        "rewards": {
+            "xp": 20000,
+            "items": {
+                "5449016a4bdc2d6f028b456f": 50000,
+                "5696686a4bdc2da3298b456a": 500,
+                "544a11ac4bdc2d470e8b456a": 1
+            }
+        },
+        "missions": [
+            {
+                "type": "Kill",
+                "message": "Kill 3 Raiders in the Laboratory",
+                "count": 3,
+                "locations": [
+                    "laboratory"
+                ]
+            }
+        ]
+    }
+]

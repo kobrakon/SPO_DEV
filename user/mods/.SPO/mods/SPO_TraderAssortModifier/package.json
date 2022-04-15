@@ -1,0 +1,8 @@
+{
+  "name": "TraderAssortModifier",
+  "author": "",
+  "version": "1.0.0",
+  "akiVersion": "2.3.0",
+  "license": "NCSA",
+  "main": "mod.js"
+}

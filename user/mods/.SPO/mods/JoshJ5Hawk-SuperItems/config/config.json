@@ -1,0 +1,18 @@
+{
+    "Information":
+    {
+        "####Change these values to the price you would like, to something cheaper. If you would like to add super items to the flea market (which makes them about 70K) change addToFlea to true####": "///"
+    },
+    "prices":
+    {
+        
+        "scav":  "1",
+        "dog": "1",
+        "keytool": "1",
+        "ammo": "1" 
+    },
+    "options":
+    {
+        "addToFlea": "false"
+    }
+}

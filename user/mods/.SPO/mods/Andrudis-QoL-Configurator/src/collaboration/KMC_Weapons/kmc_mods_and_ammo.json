@@ -1,0 +1,818 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "25mm Grendade - HEDP",
+			"UID"	: "XM_HEDP",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 50,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+				"5909d36d86f774660f0bb900"
+			]			
+		},
+		{
+			"Name"	: "25mm Grendade - HEI",
+			"UID"	: "XM_HEI",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 50,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+				"5909d36d86f774660f0bb900"
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel FMJ",
+			"UID"	: "FMJ_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel FMJ Pack",
+			"UID"	: "BOX_FMJ_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel HP Pack",
+			"UID"	: "BOX_HP_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel TRC",
+			"UID"	: "TRC_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56dff2ced2720bb4668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel AP",
+			"UID"	: "AP_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 150,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel HP",
+			"UID"	: "HP_GRENDEL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 350,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P FMJ",
+			"UID"	: "AMMO_FMJ_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P FMJ Pack",
+			"UID"	: "BOX_FMJ_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P+ Glaser Blue",
+			"UID"	: "AMMO_CCI_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P+ Glaser Blue Pack",
+			"UID"	: "BOX_CCI_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm DD",
+			"UID"	: "AMMO_DD_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P JHP",
+			"UID"	: "AMMO_JHP_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P JHP Pack",
+			"UID"	: "BOX_JHP_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm +P RIP Pack",
+			"UID"	: "BOX_RIP_9MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "9x19mm TRC",
+			"UID"	: "AMMO_TRC_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm FMJ",
+			"UID"	: "AMMO_FMJ_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm TRC",
+			"UID"	: "AMMO_TRC_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 450,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm DD",
+			"UID"	: "AMMO_DD_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm EXD",
+			"UID"	: "AMMO_XD_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 250,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c925fa22e221601da359b7b",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm XP",
+			"UID"	: "AMMO_XP_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c925fa22e221601da359b7b",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10mm TRC",
+			"UID"	: "AMMO_CCI_10MM",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a3c16fe86f77452b62de32a",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 BEOWULF FMJ",
+			"UID"	: "AMMO_FMJ_50WLF",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "54527ac44bdc2d36668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 BEOWULF JHP",
+			"UID"	: "AMMO_JHP_50WLF",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "54527ac44bdc2d36668b4567",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 AE FMJ",
+			"UID"	: "AMMO_FMJ_50WLF",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e690b686f7746c9f75e848",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 AE JHP",
+			"UID"	: "AMMO_JHP_50WLF",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e690b686f7746c9f75e848",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 AE JSP",
+			"UID"	: "AMMO_JSP_50WLF",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e690b686f7746c9f75e848",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".40SW FMJ",
+			"UID"	: "AMMO_FMJ_40SW",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".40SW JHP",
+			"UID"	: "AMMO_JHP_40SW",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".40SW DD",
+			"UID"	: "AMMO_DD_40SW",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".40SW TRC",
+			"UID"	: "AMMO_TRC_40SW",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".45 ACP FMJ",
+			"UID"	: "AMMO_FMJ_45ACP",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".45 ACP JHP",
+			"UID"	: "AMMO_JHP_45ACP",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".45 ACP DD",
+			"UID"	: "AMMO_DD_45ACP",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".45 ACP TRC",
+			"UID"	: "AMMO_TRC_45ACP",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 350,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "56d59d3ad2720bdb418b4577",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 FMJ",
+			"UID"	: "AMMO_FMJ_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 DD",
+			"UID"	: "AMMO_DD_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 TRC",
+			"UID"	: "AMMO_TRC_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 700,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 HP",
+			"UID"	: "AMMO_HP_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 CCI",
+			"UID"	: "AMMO_CCI_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 525,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".357 FMJ",
+			"UID"	: "AMMO_FMJ_357SIG",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 700,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 HP",
+			"UID"	: "AMMO_HP_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 850,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 FMJ",
+			"UID"	: "AMMO_FMJ_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 DD",
+			"UID"	: "AMMO_DD_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 800,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 TRC",
+			"UID"	: "AMMO_TRC_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 1100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 XD",
+			"UID"	: "AMMO_XD_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".380 XP",
+			"UID"	: "AMMO_XP_380AUTO",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 850,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5737201124597760fc4431f1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.8 TVCM",
+			"UID"	: "AMMO_FMJ_277",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 120,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "59e6927d86f77411da468256",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 21",
+			"UID"	: "WEAP_GLOCK21",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 22",
+			"UID"	: "WEAP_GLOCK22",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 650,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 25",
+			"UID"	: "weapon_glock_glock_25_gen3_0380",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 32",
+			"UID"	: "WEAP_GLOCK32",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 750,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 40",
+			"UID"	: "weapon_glock_glock_40_gen3_10mm",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 21 Slide",
+			"UID"	: "MOD_GLOCK21_SLIDE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 475,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 22 Slide",
+			"UID"	: "MOD_GLOCK22_SLIDE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 750,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 25 Slide",
+			"UID"	: "MOD_GLOCK25_SLIDE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 675,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 32 Slide",
+			"UID"	: "MOD_GLOCK32_SLIDE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 750,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 40 Slide",
+			"UID"	: "MOD_GLOCK40_SLIDE",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 21 Barrel",
+			"UID"	: "MOD_GLOCK21_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 22 Barrel",
+			"UID"	: "MOD_GLOCK22_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 650,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 24 Barrel",
+			"UID"	: "MOD_GLOCK25_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 32 Barrel",
+			"UID"	: "MOD_GLOCK32_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 900,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Glock 40 Barrel",
+			"UID"	: "MOD_GLOCK40_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 425,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW 5.45 UPPER",
+			"UID"	: "MOD_545_UPPER",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 475,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW 9x39 UPPER",
+			"UID"	: "MOD_939_UPPER",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW .300 BLK UPPER",
+			"UID"	: "MOD_AAC_UPPER",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 325,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW .50 BEO UPPER",
+			"UID"	: "MOD_AR50_UPPER",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 50,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW 6.5 GRENDEL UPPER",
+			"UID"	: "MOD_CMMG200_UPPER",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 350,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel MCACW",
+			"UID"	: "WEAP_CMMG100",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 450,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5644bd2b4bdc2d3b4c8b4572",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Barrel for MCACW in 6.5 Grendel",
+			"UID"	: "MOD_CMMG200_BARREL_10",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Barrel for MCACW in 5.45x39",
+			"UID"	: "MOD_545_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 600,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Barrel for MCACW in 9x39",
+			"UID"	: "MOD_939_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 275,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Barrel for MCACW in .50BEO",
+			"UID"	: "MOD_AR50_BARREL",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 175,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW 5.45 Magazine",
+			"UID"	: "MAG_545_30RND",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 750,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MCACW 9x39 Magazine",
+			"UID"	: "MAG_939_30RND",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 350,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel 26-Rnd Magazine",
+			"UID"	: "MAG_VIRTUE26",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6.5 Grendel 50-rnd Drum",
+			"UID"	: "MAG_VIRTUE50",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 125,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 BW 5-Rnd Magazine",
+			"UID"	: "MAG_AR50_5RND",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 BW 10-Rnd Magazine",
+			"UID"	: "MAG_AR50_10RND",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 200,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: ".50 BW 22-Rnd Magazine",
+			"UID"	: "MAG_AR50_22RND",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 150,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		}
+
+	]
+}

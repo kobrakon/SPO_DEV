@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "2070 75mm",
+			"_tpl": "5a38ebd9c4a282000d722a5b",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"2070 75mm": [
+			[
+				{
+					"count": 31,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"2070 75mm": 1
+	}
+}

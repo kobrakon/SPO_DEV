@@ -1,0 +1,9 @@
+{
+	"name": "SVM",
+	"author": "EmuRC/GhostFenixx",
+	"version": "1.4.6",
+	"akiVersion": "2.3.0",
+	"license": "NCSA/CC BY-NC-ND",
+	"dependencies": {},
+	"main": "package.js"
+}

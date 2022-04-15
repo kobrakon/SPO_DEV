@@ -1,0 +1,21 @@
+[
+    {
+        "id": "trap_example_simple_quest_rewards",
+        "trader_id": "fence",
+        "name": {
+            "en": "Free medkit !"
+        },
+        "description": {
+            "en": "Complete the quest to get a free ai-2 medkit and some xp"
+        },
+        "success_message": {
+            "en": "Bravo!"
+        },
+        "rewards": {
+            "xp": 500,
+            "items": {
+                "5755356824597772cb798962": 1
+            }
+        }
+    }
+]

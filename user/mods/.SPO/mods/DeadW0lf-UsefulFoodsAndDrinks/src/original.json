@@ -1,0 +1,221 @@
+{
+    "Army_Crackers": {
+        "id": "5448ff904bdc2d6f028b456e",
+        "maxResource": 1,
+        "energy": 10,
+        "hydration": -5
+    },
+    "Condensed_milk": {
+        "id": "5734773724597737fd047c14",
+        "maxResource": 1,
+        "energy": 75,
+        "hydration": -65
+    },
+    "Slickers_bar": {
+        "id": "544fb6cc4bdc2d34748b456e",
+        "maxResource": 1,
+        "energy": 30,
+        "hydration": -15
+    },
+    "Pack_of_sugar": {
+        "id": "59e3577886f774176a362503",
+        "maxResource": 1,
+        "energy": 70,
+        "hydration": -45
+    },
+    "Can_of_pacific_saury": {
+        "id": "5673de654bdc2d180f8b456d",
+        "maxResource": 1,
+        "energy": 48,
+        "hydration": -2
+    },
+    "Rye_croutons": {
+        "id": "57347d3d245977448f7b7f61",
+        "maxResource": 1,
+        "energy": 10,
+        "hydration": -10
+    },
+    "Emelya_rye_croutons": {
+        "id": "5751487e245977207e26a315",
+        "maxResource": 1,
+        "energy": 20,
+        "hydration": -10
+    },
+    "Humpback_salmon": {
+        "id": "57347d5f245977448b40fa81",
+        "maxResource": 1,
+        "energy": 50,
+        "hydration": -5
+    },
+    "Can_of_green_peas": {
+        "id": "57347d692459774491567cf1",
+        "maxResource": 1,
+        "energy": 35,
+        "hydration": 5
+    },
+    "Can_of_delicious_beef_stew": {
+        "id": "57347da92459774491567cf5",
+        "maxResource": 1,
+        "energy": 50,
+        "hydration": -5
+    },
+    "Can_of_beef_stew": {
+        "id": "57347d7224597744596b4e72",
+        "maxResource": 1,
+        "energy": 45,
+        "hydration": -5
+    },
+    "Pack_of_oat_flakes": {
+        "id": "57347d90245977448f7b7f65",
+        "maxResource": 1,
+        "energy": 40,
+        "hydration": -13
+    },
+    "Can_of_herring": {
+        "id": "57347d9c245977448b40fa85",
+        "maxResource": 1,
+        "energy": 47,
+        "hydration": -3
+    },
+    "Squash_spread": {
+        "id": "57347d8724597744596b4e76",
+        "maxResource": 1,
+        "energy": 40,
+        "hydration": 0
+    },
+    "Alyonka_chocolate_bar": {
+        "id": "57505f6224597709a92585a9",
+        "maxResource": 1,
+        "energy": 35,
+        "hydration": -15
+    },
+    "Iskra_lunch_box": {
+        "id": "590c5d4b86f774784e1b9c45",
+        "maxResource": 1,
+        "energy": 80,
+        "hydration": 0
+    },
+    "MRE_lunch_box": {
+        "id": "590c5f0d86f77413997acfab",
+        "maxResource": 1,
+        "energy": 70,
+        "hydration": 0
+    },
+    "Emergency_water_ration": {
+        "id": "60098b1705871270cd5352a1",
+        "maxResource": 1,
+        "energy": 5,
+        "hydration": 50
+    },
+    "0.6L_water_bottle": {
+        "id": "5448fee04bdc2dbc018b4567",
+        "maxResource": 60,
+        "energy": 0,
+        "hydration": 60
+    },
+    "Water_bottle_with_a_filter_Aquamari": {
+        "id": "5c0fa877d174af02a012e1cf",
+        "maxResource": 150,
+        "energy": 20,
+        "hydration": 350
+    },
+    "Russian_Army_pineapple_juice": {
+        "id": "544fb62a4bdc2dfb738b4568",
+        "maxResource": 1,
+        "energy": 8,
+        "hydration": 30
+    },
+    "Green_Ice": {
+        "id": "575062b524597720a31c09a1",
+        "maxResource": 1,
+        "energy": 0,
+        "hydration": 15
+    },
+    "Apple_juice": {
+        "id": "57513f07245977207e26a311",
+        "maxResource": 40,
+        "energy": 5,
+        "hydration": 25
+    },
+    "Grand_juice": {
+        "id": "57513f9324597720a7128161",
+        "maxResource": 40,
+        "energy": 6,
+        "hydration": 30
+    },
+    "Vita_juice": {
+        "id": "57513fcc24597720a31c09a6",
+        "maxResource": 40,
+        "energy": 8,
+        "hydration": 28
+    },
+    "Max_energy": {
+        "id": "5751435d24597720a27126d1",
+        "maxResource": 1,
+        "energy": 12,
+        "hydration": 20
+    },
+    "TarCola": {
+        "id": "57514643245977207f2c2d09",
+        "maxResource": 1,
+        "energy": 5,
+        "hydration": 15
+    },
+    "Pack_of_milk": {
+        "id": "575146b724597720a27126d5",
+        "maxResource": 1,
+        "energy": 20,
+        "hydration": 30
+    },
+    "Premium_Kvass": {
+        "id": "5e8f3423fd7471236e6e3b64",
+        "maxResource": 60,
+        "energy": 15,
+        "hydration": 65
+    },
+    "Hot_Rod": {
+        "id": "5751496424597720a27126da",
+        "maxResource": 1,
+        "energy": 10,
+        "hydration": 20
+    },
+    "Jar_of_DevilDog_mayo": {
+        "id": "5bc9b156d4351e00367fbce9",
+        "maxResource": 1,
+        "energy": 100,
+        "hydration": -99
+    },
+    "Can_of_sprats": {
+        "id": "5bc9c29cd4351e003562b8a3",
+        "maxResource": 1,
+        "energy": 55,
+        "hydration": -5
+    },
+    "Purified_water": {
+        "id": "5d1b33a686f7742523398398",
+        "maxResource": 1,
+        "energy": 25,
+        "hydration": 100
+    },
+    "moonshine": {
+        "id": "5d1b376e86f774252519444e",
+        "maxResource": 1,
+        "energy": 20,
+        "hydration": -10,
+        "painDuration": 500
+    },
+    "Bottle_of_vodka_Tarkovskaya": {
+        "id": "5d40407c86f774318526545a",
+        "maxResource": 1,
+        "energy": 0,
+        "hydration": -50,
+        "painDuration": 250
+    },
+    "Bottle_of_Dan_Jackiel_Whiskey": {
+        "id": "5d403f9186f7743cac3f229b",
+        "maxResource": 1,
+        "energy": 10,
+        "hydration": -35,
+        "painDuration": 210
+    }
+}

@@ -1,0 +1,40 @@
+{
+	"ExtendRaidTime" : false,
+	"RaidTimeByMapInMinutes" : 
+	{
+		"Customs" 		: 300,
+		"FactoryDay" 	: 300, 
+		"FactoryNight" 	: 300, 
+		"Interchange" 	: 300, 
+		"Lighthouse" 	: 300,
+		"Reserve" 		: 300, 
+		"Shoreline" 	: 300, 
+		"The_Lab" 		: 300, 
+		"Woods" 		: 300
+	},
+
+	"RestrictMapsByPlayerLevel" : false,
+	"MapsRestrictionsByLevel" : 
+	{
+		"Customs" 		: 0,
+		"FactoryDay" 	: 10, 
+		"FactoryNight" 	: 10, 
+		"Interchange" 	: 18, 
+		"Lighthouse" 	: 22,
+		"Reserve" 		: 25, 
+		"Shoreline" 	: 20, 
+		"The_Lab" 		: 10, 
+		"Woods" 		: 6		
+	},
+		
+	"DisabledForScav" : {
+		"Customs" 		: false,
+		"FactoryDay" 	: false,
+		"FactoryNight" 	: false,
+		"Interchange" 	: false,
+		"Lighthouse"	: false,
+		"Reserve" 		: false,
+		"Shoreline" 	: false,
+		"Woods" 		: false		
+	}
+}

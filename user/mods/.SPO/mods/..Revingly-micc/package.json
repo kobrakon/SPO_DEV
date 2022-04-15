@@ -1,0 +1,9 @@
+{
+    "name": "MICC",
+    "author": "Revingly",
+    "version": "2.0.0",
+    "license": "NCSA",
+    "dependencies": {},
+    "main": "package.js",
+    "akiVersion": "2.3"
+}

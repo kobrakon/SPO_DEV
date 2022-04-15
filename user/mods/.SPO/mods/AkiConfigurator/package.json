@@ -1,0 +1,10 @@
+{
+	"name": "AkiConfigurator",
+	"author": "Ereshkigal",
+	"version": "2.1.3",
+	"akiVersion": "2.3.1",
+	"license": "NCSA Open Source",
+	"dependencies": {},
+	"main": "package.js",
+	"updated by": "CWX, Valens"
+}

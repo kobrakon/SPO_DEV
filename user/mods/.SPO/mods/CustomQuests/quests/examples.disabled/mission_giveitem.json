@@ -1,0 +1,19 @@
+[
+    {
+        "id": "trap_example_mission_giveitem",
+        "trader_id": "fence",
+        "name": "GiveItem mission",
+        "description": "Give me some meds",
+        "success_message": "Bravo!",
+        "missions": [
+            {
+                "type": "GiveItem",
+                "accepted_items": [
+                    "5755356824597772cb798962"
+                ],
+                "count": 2,
+                "message": "Give 2 ai-2 kits"
+            }
+        ]
+    }
+]

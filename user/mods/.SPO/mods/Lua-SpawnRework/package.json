@@ -1,0 +1,8 @@
+{
+	"name": "SpawnRework",
+	"author": "Lua",
+	"version": "1.4.1",
+	"akiVersion": "2.3",
+	"license": "MIT/NCSA",
+	"main": "SpawnReworkLoader.js"
+}

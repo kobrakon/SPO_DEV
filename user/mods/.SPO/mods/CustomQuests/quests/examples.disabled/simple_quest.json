@@ -1,0 +1,18 @@
+[
+    {
+        "id": "trap_example_simple_quest",
+        "trader_id": "fence",
+        "name": {
+            "en": "My first quest",
+            "fr": "Ma premiere quete"
+        },
+        "description": {
+            "fr": "Ma description",
+            "en": "My description"
+        },
+        "success_message": {
+            "en": "It works!",
+            "fr": "Ca marche !"
+        }
+    }
+]

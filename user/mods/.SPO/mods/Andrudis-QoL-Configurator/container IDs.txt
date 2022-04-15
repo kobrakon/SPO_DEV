@@ -1,0 +1,28 @@
+5d6d2bb386f774785b07a77a	 - 	Buried barrel cache
+578f879c24597735401e6bc6	 - 	Cash register
+5ad74cf586f774391278f6f0	 - 	Cash register TAR2-2
+5909e4b686f7747f5b744fa4	 - 	Dead Scav
+578f87b7245977356274f2cd	 - 	Drawer
+578f87a3245977356274f2cb	 - 	Duffle bag
+5909d36d86f774660f0bb900	 - 	Grenade box
+5d6d2b5486f774785c2ba8ea	 - 	Ground cache
+5937ef2b86f77408a47244b3	 - 	Jacket
+5914944186f774189e5e76c2	 - 	Jacket
+578f8778245977358849a9b5	 - 	Jacket
+59387ac686f77401442ddd61	 - 	Jacket
+5909d24f86f77466f56e6855	 - 	Medbag SMU06
+5909d4c186f7746ad34e805a	 - 	Medcase
+5d6fe50986f77449d97f7463	 - 	Medical supply crate
+59139c2186f77411564f8e42	 - 	PC block
+5c052cea86f7746b2101e8d8	 - 	Plastic suitcase
+5d6fd13186f77424ad2a8c69	 - 	Ration supply crate
+578f8782245977354405a1e3	 - 	Safe
+5d6fd45b86f774317075ed43	 - 	Technical supply crate
+5909d50c86f774659e6aaebe	 - 	Toolbox
+5909d5ef86f77467974efbd8	 - 	Weapon box
+5909d7cf86f77470ee57d75a	 - 	Weapon box
+5909d76c86f77471e53d2adf	 - 	Weapon box
+5909d89086f77472591234a0	 - 	Weapon box
+5909d45286f77465a8136dc6	 - 	Wooden ammo box
+578f87ad245977356274f2cc	 - 	Wooden crate
+5d07b91b86f7745a077a9432	 - 	Ñommon fund stash

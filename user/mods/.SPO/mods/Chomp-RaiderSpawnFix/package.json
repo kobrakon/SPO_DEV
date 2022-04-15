@@ -1,0 +1,9 @@
+{
+	"name": "RaiderSpawnFix",
+	"author": "Chomp",
+	"version": "1.0.0",
+	"akiVersion": "2.2.x",
+	"license": "N/A",
+	"main": "modloader.js",
+	"contributors": ["StealthSuit", "CWX", "ThatGuyXIV"]
+}

@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"_id": "Makarov",
+			"_tpl": "5448bd6b4bdc2dfc2f8b4569",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "d4b1d6c67b9f8eb65175af27",
+			"_tpl": "5448c12b4bdc2d02308b456f",
+			"parentId": "Makarov",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"Makarov": [
+			[
+				{
+					"count": 9822,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Makarov": 1
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"_id": "CustomsMarked",
+			"_tpl": "5780cf7f2459777de4559322",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"CustomsMarked": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59e3639286f7741777737013"
+				},
+				{				
+					"count": 1,
+					"_tpl": "59e3658a86f7741776641ac4"
+				},
+				{
+					"count": 2,
+					"_tpl": "573478bc24597738002c6175"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"CustomsMarked": 3
+	}
+}

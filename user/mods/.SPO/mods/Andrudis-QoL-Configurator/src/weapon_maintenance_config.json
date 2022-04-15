@@ -1,0 +1,51 @@
+{
+	"--MaxDurability valid values: null, IntNumber with Default:": null,
+	"MaxDurability" : null,
+	
+	"--DurabilityBurnRatio valid values: null, IntNumber with Default:": null,
+	"DurabilityBurnRatio" : null,
+
+	"--DurabilitySpawnMin valid values: null, [0-100] with Default:": true,
+	"DurabilitySpawnMin" : null,
+	
+	"--DurabilitySpawnMax valid values: null, [0-100] with Default:": true,
+	"DurabilitySpawnMax" : null,
+	
+	"--MinRepairDegradation valid values: null, [0-1.0] with Default:": null,
+	"MinRepairDegradation": null,
+	
+	"--MaxRepairDegradation valid values: null, [0.0-1.0] with Default:": true,
+	"MaxRepairDegradation": null,
+				
+	"--BaseMalfunctionChance valid values: null, [0.0-10.0] with Default:": null,
+	"BaseMalfunctionChance" : null,
+	
+	
+	"--AllowMisfire valid values: null, true, false with Default:": null,
+	"AllowMisfire" : null,
+
+	"--AllowJam valid values: null, true, false with Default:": null,
+	"AllowJam": null,
+	
+	"--AllowFeed valid values: null, true, false with Default:": null,
+	"AllowFeed" : null,
+	
+	"--AllowSlide valid values: null, true, false with Default:": null,
+	"AllowSlide" : null,
+	
+	"--AllowOverheat valid values: null, true, false with Default:": null,
+	"AllowOverheat" : null,
+
+
+	"--HeatFactorGun - most guns have values between 0.85 and 1.05. Valid values: null, [0.0-100.0] with Default:": null,
+	"HeatFactorGun" 	: null,
+	
+	"--CoolFactorGun - most guns have values between 0.75 and 5.76. Valid values: null, [0.0-100.0] with Default:": null,
+	"CoolFactorGun" 	: null,
+	
+	"--CoolFactorGunMods - most guns have values between 0.9 and 1.5. Valid values: null, [0.0-100.0] with Default:": null,
+	"CoolFactorGunMods" : null,
+	
+	"--HeatFactorByShot - most guns have values between 1.2 and 11.7. Valid values: null, [0.0-100.0] with Default:": null,
+	"HeatFactorByShot" 	: null
+}

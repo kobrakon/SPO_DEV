@@ -1,0 +1,55 @@
+{
+	"SpawnZone Available List": "Zone_Containers, Zone_Rocks, Zone_Chalet, Zone_Village, Zone_Bridge, Zone_OldHouse, Zone_LongRoad, Zone_DestroyedHouse, Zone_SniperPeak, Zone_TreatmentRocks, Zone_TreatmentContainers, Zone_TreatmentBeach, Zone_RoofBeach, Zone_RoofContainers, Zone_RoofRocks, Zone_Hellicopter, Zone_Blockpost",
+	"Infiltration Available List": "Tunnel, North",
+
+	"Zone_Containers": [
+	],
+
+	"Zone_Rocks": [
+	],
+
+	"Zone_Chalet": [
+	],
+
+	"Zone_Village": [
+	],
+
+	"Zone_Bridge": [
+	],
+
+	"Zone_OldHouse": [
+	],
+
+	"Zone_LongRoad": [
+	],
+
+	"Zone_DestroyedHouse": [
+	],
+
+	"Zone_SniperPeak": [
+	],
+
+	"Zone_TreatmentRocks": [
+	],
+
+	"Zone_TreatmentContainers": [
+	],
+
+	"Zone_TreatmentBeach": [
+	],
+
+	"Zone_RoofBeach": [
+	],
+
+	"Zone_RoofContainers": [
+	],
+
+	"Zone_RoofRocks": [
+	],
+
+	"Zone_Hellicopter": [
+	],
+
+	"Zone_Blockpost": [
+	]
+}

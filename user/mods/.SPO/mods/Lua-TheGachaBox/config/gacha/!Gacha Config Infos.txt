@@ -1,0 +1,204 @@
+for "The Gacha Box" Config
+===============================================
+Item ID Search: https://db.sp-tarkov.com/
+===============================================
+"BaseDummyItem": "Item ID" or "Preset:Name" (Weapon Only)
+ - The base item which is used and shows on the trader item list
+
+ "Width" and "Height": Number
+  - Dummy item size but Weapon Preset dummy item is not using this
+
+"BackgroundColor": "Color"
+ - Only acceptable from BackgroundColor list
+
+"StackObjectsCount": Number
+ - Gacha Stock Amount
+
+"Item": "Item ID" or "Item Node" or "Preset:Name"
+Example)  "Item": "5449016a4bdc2d6f028b456f" @ Ruble
+          "Item": "Weapon" @ Random "Weapon" item will be selected
+          "Item": "Item" @ "Item" is root node which is all items are included
+          "Item": "Preset:My dumdum preset" @ using "My dumdum preset" from ItemPresets (Check the Preset Example)
+
+"Count": "Can be Number or "Min, Max" or "Number%" or "Min" or "Max" or "Random"
+         "Values are based on item's max stack size, can't be 0 or higher than max stack size"
+         "Presets are not allowed to use Min, Max, Random, Number% for "Count"
+Example)  "Count": 3 @ just 3
+          "Count": "1, 10" or "30%, 60%" or "1, 69%" or "30%, Max" @ Random between 1 to 10 or 30% to 60% or 1 to 69% or 30% to "Max"
+          "Count": "50%" @ Half of max stack size
+          "Count": "Min" @ Minimum Stack, which is 1
+          "Count": "Max" @ Maximum Stack
+          "Count": "Random" @ Random between 1 to max stack size
+
+"ExcludedItems": "Can be only ["Item ID"]"
+"ItemBlacklist": "Same as Item, can be ["Item ID"] or ["Item Node"]"
+
+"ItemPresets": There is two type of preset, Item and Weapon. You can grab your saved weapon preset from profile in user/profiles folder and search "weaponbuilds" then copy and paste to use.
+               Item presets are just like "PrizeList" section, It should be Array type.
+===============================================
+BackgroundColor:
+  'default',
+  'blue',
+  'black',
+  'yellow',
+  'violet',
+  'grey',
+  'green',
+  'orange',
+  'red'
+
+
+Item Node List:
+  'Item'
+  'Weapon'
+  'Meds'
+  'AmmoBox'
+  'Money'
+  'Key'
+  'Equipment'
+  'ThrowWeap'
+  'FoodDrink'
+  'Pistol'
+  'Smg'
+  'AssaultRifle'
+  'AssaultCarbine'
+  'Shotgun'
+  'MarksmanRifle'
+  'SniperRifle'
+  'MachineGun'
+  'GrenadeLauncher'
+  'SpecialWeapon'
+  'SpecItem'
+  'Knife'
+  'Magazine'
+  'MobContainer'
+  'Vest'
+  'Backpack'
+  'Armor'
+  'Visors'
+  'Food'
+  'Drink'
+  'BarterItem'
+  'Info'
+  'MedKit'
+  'Drugs'
+  'Stimulator'
+  'Medical'
+  'Mod'
+  'Muzzle'
+  'Sights'
+  'Ammo'
+  'FunctionalMod'
+  'Compensator'
+  'FlashHider'
+  'Silencer'
+  'MuzzleCombo'
+  'Pms'
+  'Barrel'
+  'Pockets'
+  'GearMod'
+  'MasterMod'
+  'Handguard'
+  'Receiver'
+  'Stock'
+  'Shaft'
+  'PistolGrip'
+  'Charge'
+  'IronSight'
+  'CompactCollimator'
+  'Collimator'
+  'AssaultScope'
+  'OpticScope'
+  'SpecialScope'
+  'Foregrip'
+  'Bipod'
+  'Launcher'
+  'Flashlight'
+  'LightLaser'
+  'TacticalCombo'
+  'RailCovers'
+  'Mount'
+  'Inventory'
+  'Headphones'
+  'CompoundItem'
+  'StackableItem'
+  'SearchableItem'
+  'LootContainer'
+  'Stash'
+  'LockableContainer'
+  'StationaryContainer'
+  'Map'
+  'Gasblock'
+  'Jewelry'
+  'Electronics'
+  'BuildingMaterial'
+  'Tool'
+  'HouseholdGoods'
+  'MedicalSupplies'
+  'Lubricant'
+  'Battery'
+  'SimpleContainer'
+  'ArmoredEquipment'
+  'Other'
+  'NightVision'
+  'Headwear'
+  'FaceCover'
+  'AuxiliaryMod'
+  'ArmBand'
+  'Keycard'
+  'KeyMechanical'
+  'ThermalVision'
+  'Fuel'
+  'Compass'
+  'SortingTable'
+
+
+Weapon Mod Parts List:
+  'mod_barrel':       Barrel (Required)
+  'mod_gas_block:'    Gas block (Required)
+  'mod_handguard:'    Handguard (Required)
+  'mod_muzzle':       Slot for muzzle device on barrels (and for extra silencer on muzzles)
+  'mod_muzzle_000':   Slot for multiple piece muzzle device 1
+  'mod_muzzle_001':   Slot for multiple piece muzzle device 2
+  'mod_foregrip':     Foregrip
+  'mod_bipod:'        Bipod
+  'mod_flashlight':   Slot for flashlight on flashlight ring
+  'mod_mount:'        Slot for other mounts, including barrel mount, reflex sight mount on ACOG, helmet tactical device mount
+  'mod_mount_000:'    Slot for special mounts (including dovetail mount, M-LOK forgrips)
+  'mod_mount_001:'    Slot for side rail 1 on handguards
+  'mod_mount_002:'    Slot for side rail 2 on handguards 
+  'mod_mount_003:'    Slot for side rail 3 on handguards 
+  'mod_mount_004:'    Slot for side rail 4 on handguards 
+  'mod_mount_005:'    Slot for side rail 5 on handguards 
+  'mod_mount_006:'    Slot for side rail 6 on handguards 
+  'mod_tactical':     Slot for top tactical device on top of handguards 
+  'mod_tactical_2':   Slot for tactical device on KAC RIS handguard only
+  'mod_tactical_000': Slot for side tactical device 1
+  'mod_tactical_001': Slot for side tactical device 2
+  'mod_tactical_002': Slot for side tactical device 3
+  'mod_tactical_003': Slot for side tactical device 4
+  'mod_tactical001':  Slot for side tactical device 1 on RIS II 9.5 only
+  'mod_tactical002':  Slot for side tactical device 2 on RIS II 9.5 only
+  'mod_magazine':     Magazine
+  'mod_reciever':     Slot for upper reciever (weapon itself is lower reciever)
+  'mod_charge':       Slot for charging handle (including the Zenit RP-1 for AK)
+  'mod_scope:'        Slot for sights on weapon (on weaver mount, risers too)
+  'mod_scope_000:'    Slot for sniper scopes on scope mounts
+  'mod_scope_001:'    Slot for small sight 1 on scope mounts
+  'mod_scope_002:'    Slot for small sight 2 on scope mounts
+  'mod_scope_003:'    Slot for small sight 3 on scope mounts
+  'mod_sight_front':  Front sight
+  'mod_sight_rear':   Rear sight
+  'mod_stock:'        Slot for stock or buffer tube on weapons
+  'mod_stock_000:'    Slot for stock on buffer tube
+  'mod_stock_001:'    Slot for buffer tube on specific weapons (RPK, MK18, STM, MK47)
+  'mod_stock_axis':   Slot for ORSIS T5000M stock on aluminum body only
+  'mod_pistol_grip':  Slot for grip
+  'mod_pistolgrip':   Slot for grip on M14 Troy SASS chasis only
+  'mod_stock_akms':   Slot for stock on AKMS and AKMSN only
+  'mod_trigger':      Slot for trigger on M1911 and M45A1 only
+  'mod_hammer':       Slot for hammer on M1911 and M45A1 only
+  'mod_catch:'        Slot for catch on M1911 and M45A1 only
+  'mod_launcher':     Grenade launcher (there's no underbarrel GLs in the game now)
+  'mod_equipment:'    THESE FIVE BELOW ARE ALL FOR HELMETS
+  'mod_pistol_grip_akms':     Slot for grip on AKMS and AKMSN only

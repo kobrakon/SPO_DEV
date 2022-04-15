@@ -1,0 +1,9 @@
+{
+    "name": "Advanced skill config",
+    "author": "Yoshka",
+    "version": "1.0.0",
+    "akiVersion": "2.1.0",
+    "license": "Artistic License 2.0",
+    "main": "package.js",
+    "akiVersion": "2.3"
+}

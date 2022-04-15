@@ -1,0 +1,12 @@
+{
+    "manifest": [
+        {
+            "key": "micc.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

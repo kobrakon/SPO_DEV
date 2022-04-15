@@ -1,0 +1,8 @@
+{
+	"name": "CustomSpawnPoints",
+	"author": "Lua",
+	"version": "1.4.2",
+	"akiVersion": "2.3",
+	"license": "MIT/NCSA",
+	"main": "main.js"
+}

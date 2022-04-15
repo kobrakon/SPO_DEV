@@ -1,0 +1,9 @@
+{
+    "name": "lasers",
+    "author": "Alex",
+    "license": "CC",
+    "main": "package.js",
+    "version": "2.2.3",
+    "akiVersion": "2.3",
+    "dependencies": {}
+}

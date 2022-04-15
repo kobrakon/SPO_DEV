@@ -1,0 +1,11 @@
+{
+    "name": "NoHydroEnergy",
+    "author": "JoshJ5Hawk",
+    "version": "1.2.0",
+    "license": "NCSA",
+    "main": "package.js",
+	"akiVersion": "2.3",
+	"dependencies": {
+		"CoreMod": "2.2.2"
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Faupi-HideoutArchitect",
+    "author": "Faupi",
+    "version": "1.4.1",
+    "license": "NCSA Open Source",
+    "main": "./src/hideoutarchitect.js",
+    "akiVersion": "2.3.1"
+}

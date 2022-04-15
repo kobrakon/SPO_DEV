@@ -1,0 +1,11 @@
+{
+    "price": 1,
+    "trader_loyalty_level": 1,
+    "columns": [
+        {"cellH": 2, "cellV": 2},
+        {"cellH": 1, "cellV": 2},
+        {"cellH": 1, "cellV": 2},
+        {"cellH": 1, "cellV": 1},
+        {"cellH": 1, "cellV": 1}
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "Armor box":
+    {
+        "Name": "Armor box",
+        "Description": "Box labeled rags",
+        "LoyaltyLevel": 1,
+        "ShowPrizeList": true,
+        "ShowPrizeChance": true,
+        "ShowFailedPrizeList": true,
+        "RestockTimeInSecond": 3600,
+        "BaseDummyItem": "5b7c710788a4506dec015957",
+        "Width": 3,
+        "Height": 3,
+        "BackgroundColor": "default",
+        "Price":
+        [
+            {
+                "Item": "5449016a4bdc2d6f028b456f",
+                "Count": 25000
+            }
+        ],
+        "Stock":
+        {
+            "UnlimitedCount": false,
+            "StackObjectsCount": 2
+        },
+        "PrizeList":
+        [
+            {
+                "Item": "5648a7494bdc2d9d488b4583",
+                "Count": "1",
+                "Chance": 8.0,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "5df8a2ca86f7740bfe6df777",
+                "Count": "1",
+                "Chance": 7.5,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "5d5d646386f7742797261fd9",
+                "Count": "1",
+                "Chance": 5.0,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "5c08f87c0db8340019124324",
+                "Count": "1",
+                "Chance": 8.0,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "5ea05cf85ad9772e6624305d",
+                "Count": "1",
+                "Chance": 4.0,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "59e7711e86f7746cae05fbe1",
+                "Count": "1",
+                "Chance": 7.0,
+                "FIR": true,
+                "AllowNotExaminedItems": true,
+                "AllowQuestItems": false
+            },
+            {
+                "Item": "Preset:3m+fire",
+                "Count": 1,
+                "Chance": 5.0
+            },
+            {
+                "Item": "Preset:3m+kolpak",
+                "Count": 1,
+                "Chance": 5.0
+            },
+            {
+                "Item": "Preset:3m+fire",
+                "Count": 1,
+                "Chance": 5.0
+            },
+            {
+                "Item": "Preset:paca+fast",
+                "Count": 1,
+                "Chance": 4.0
+            },
+            {
+                "Item": "Preset:paca+fire",
+                "Count": 1,
+                "Chance": 4.0
+            },
+            {
+                "Item": "Preset:paca+kolpak",
+                "Count": 1,
+                "Chance": 4.0
+            },
+            {
+                "Item": "Preset:flora+fire",
+                "Count": 1,
+                "Chance": 3.0
+            },
+            {
+                "Item": "Preset:flora+kolpak",
+                "Count": 1,
+                "Chance": 3.0
+            },
+            {
+                "Item": "Preset:flora+fast",
+                "Count": 1,
+                "Chance": 3.0
+            },
+            {
+                "Item": "Preset:6b+fire",
+                "Count": 1,
+                "Chance": 2.0
+            },
+            {
+                "Item": "Preset:6b+kolpak",
+                "Count": 1,
+                "Chance": 2.0
+            },
+            {
+                "Item": "Preset:6b+fast",
+                "Count": 1,
+                "Chance": 2.0
+            }
+        ],
+        "FailedPrizeList":
+        [
+            {
+                "Item": "59e7635f86f7742cbf2c1095",
+                "Count": "1",
+                "Chance": 2.5,
+                "FIR": false,
+                "AllowNotExaminedItems": false,
+                "AllowQuestItems": false
+            }
+        ],
+        "ItemPresets": {
+            "3m+fire": [
+              {
+                "Item": "59e7635f86f7742cbf2c1095",
+                "Count": "1",
+                "FIR": false
+              },
+              {
+                "Item": "5c08f87c0db8340019124324",
+                "Count": "1",
+                "FIR": false
+              }
+            ],
+            "3m+kolpak": [
+                {
+                  "Item": "59e7635f86f7742cbf2c1095",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "59e7711e86f7746cae05fbe1",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "3m+fast": [
+                {
+                  "Item": "59e7635f86f7742cbf2c1095",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5ea05cf85ad9772e6624305d",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "paca+fire": [
+                {
+                  "Item": "5648a7494bdc2d9d488b4583",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5c08f87c0db8340019124324",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "paca+kolpak": [
+                {
+                  "Item": "5648a7494bdc2d9d488b4583",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "59e7711e86f7746cae05fbe1",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "paca+fast": [
+                {
+                  "Item": "5648a7494bdc2d9d488b4583",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5ea05cf85ad9772e6624305d",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "flora+fire": [
+                {
+                  "Item": "5df8a2ca86f7740bfe6df777",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5c08f87c0db8340019124324",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "flora+kolpak": [
+                {
+                  "Item": "5df8a2ca86f7740bfe6df777",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "59e7711e86f7746cae05fbe1",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "flora+fast": [
+                {
+                  "Item": "5df8a2ca86f7740bfe6df777",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5ea05cf85ad9772e6624305d",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "6b+fire": [
+                {
+                  "Item": "5d5d646386f7742797261fd9",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5c08f87c0db8340019124324",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "6b+kolpak": [
+                {
+                  "Item": "5d5d646386f7742797261fd9",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "59e7711e86f7746cae05fbe1",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ],
+              "6b+fast": [
+                {
+                  "Item": "5d5d646386f7742797261fd9",
+                  "Count": "1",
+                  "FIR": false
+                },
+                {
+                  "Item": "5ea05cf85ad9772e6624305d",
+                  "Count": "1",
+                  "FIR": false
+                }
+              ]
+          }
+    }
+}

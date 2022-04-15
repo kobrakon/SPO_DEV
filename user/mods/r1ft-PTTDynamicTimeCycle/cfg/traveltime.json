@@ -1,0 +1,54 @@
+[
+    {
+        "OffraidPosition": "LighthouseReservePath", 
+        "TravelTime": 60
+    },
+    {
+        "OffraidPosition": "ShorelineLighthouseTunnel", 
+        "TravelTime": 120
+    },
+    {
+        "OffraidPosition": "ShorelineLighthousePath", 
+        "TravelTime": 20
+    },
+    {
+        "OffraidPosition": "ShorelineNorthMoutains", 
+        "TravelTime": 60
+    },
+    {
+        "OffraidPosition": "WoodsReserve", 
+        "TravelTime": 200
+    },
+    {
+        "OffraidPosition": "InterchangeCustoms", 
+        "TravelTime": 600
+    },
+    {
+        "OffraidPosition": "Boat", 
+        "TravelTime": 220
+    },
+    {
+        "OffraidPosition": "Car", 
+        "TravelTime": 120
+    },
+    {
+        "OffraidPosition": "CustomsMilitaryBaseCP", 
+        "TravelTime": 120
+    },
+    {
+        "OffraidPosition": "FactoryZB-1013", 
+        "TravelTime": 200
+    },
+    {
+        "OffraidPosition": "FactoryZB-1012", 
+        "TravelTime": 200
+    },
+    {
+        "OffraidPosition": "FactoryZB-1011", 
+        "TravelTime": 200
+    },
+    {
+        "OffraidPosition": "WoodsFactoryGate", 
+        "TravelTime": 390
+    }
+]

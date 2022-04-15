@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "RBORB3",
+			"_tpl": "5d80cd1a86f77402aa362f42",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"RBORB3": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5733279d245977289b77ec24"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"RBORB3": 3
+	}
+}

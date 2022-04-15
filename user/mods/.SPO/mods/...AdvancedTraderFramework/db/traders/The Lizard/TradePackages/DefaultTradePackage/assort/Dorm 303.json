@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "Dorm303",
+			"_tpl": "593aa4be86f77457f56379f8",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"Dorm303": [
+			[
+				{
+					"count": 1,
+					"_tpl": "59faf98186f774067b6be103"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Dorm303": 1
+	}
+}

@@ -1,0 +1,1086 @@
+{
+	"SpawnZone Available List": "ZoneRedHouse, ZoneHighRocks, ZoneWoodCutter, ZoneHouse, ZoneBigRocks, ZoneRoad, ZoneMiniHouse, , ZoneClearVill, ZoneScavBase2, ZoneBrokenVill",
+	"Infiltration Available List": "House, Old Station",
+	"ZoneRedHouse": [
+		{
+			"Comment": "Woods",
+			"Position": [
+				-40.5032539,
+				-14.2267466,
+				345.76
+			],
+			"Rotation": 216.999664,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				153.555939,
+				-16.5069752,
+				160.769516
+			],
+			"Rotation": 110.254478,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				425.885956,
+				-5.111445,
+				-28.22291
+			],
+			"Rotation": 76.5745,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-79.72209,
+				9.82548,
+				-560.1111
+			],
+			"Rotation": 330.413269,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-104.869484,
+				19.8307858,
+				-481.550446
+			],
+			"Rotation": 343.96524,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				120.566917,
+				7.72142839,
+				-605.5634
+			],
+			"Rotation": 286.892273,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				124.103554,
+				7.707528,
+				-622.9437
+			],
+			"Rotation": 182.934937,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-15.4041557,
+				8.518419,
+				-602.8843
+			],
+			"Rotation": 235.378479,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-71.2956848,
+				-0.6118459,
+				372.651642
+			],
+			"Rotation": 252.880188,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneHighRocks": [
+		{
+			"Comment": "Woods - Sniper",
+			"Position": [
+				-504.6727,
+				15.27975,
+				146.490311
+			],
+			"Rotation": 140.898285,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				134.017609,
+				24.5597134,
+				-759.689941
+			],
+			"Rotation": 33.59696,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				138.822876,
+				27.19339,
+				-727.820068
+			],
+			"Rotation": 51.9376526,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				225.205475,
+				24.2623825,
+				-704.9857
+			],
+			"Rotation": 161.451584,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneWoodCutter": [
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				-158.617325,
+				0.4737791,
+				435.9049
+			],
+			"Rotation": 212.4869,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				-334.933,
+				-0.971869946,
+				365.575745
+			],
+			"Rotation": 149.191956,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				-303.200653,
+				-0.8241639,
+				291.652985
+			],
+			"Rotation": 248.58345,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Evac",
+			"Position": [
+				-527.1532,
+				-1.30167043,
+				287.06073
+			],
+			"Rotation": 248.58345,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Sniper",
+			"Position": [
+				-189.969833,
+				3.37476444,
+				201.986115
+			],
+			"Rotation": 187.601608,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Sniper",
+			"Position": [
+				-211.08255,
+				20.33561,
+				238.192062
+			],
+			"Rotation": 113.494179,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				151.766113,
+				12.0012932,
+				-262.188232
+			],
+			"Rotation": 4.81630468,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				47.8701935,
+				22.8197632,
+				-254.175659
+			],
+			"Rotation": 27.1370087,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				-206.774261,
+				29.7859287,
+				-214.645157
+			],
+			"Rotation": 315.080444,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				-260.488434,
+				8.414909,
+				4.99878025
+			],
+			"Rotation": 105.402596,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Innawoods",
+			"Position": [
+				107.3875,
+				6.87562847,
+				-147.096985
+			],
+			"Rotation": 43.50885,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneHouse": [
+		{
+			"Comment": "Woods - PatrolB",
+			"Position": [
+				-501.026337,
+				15.0059061,
+				-387.7899
+			],
+			"Rotation": 135.796371,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - PatrolB",
+			"Position": [
+				-501.026337,
+				15.0059061,
+				-387.7899
+			],
+			"Rotation": 135.796371,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - PatrolB",
+			"Position": [
+				-451.881836,
+				15.0432644,
+				-405.406769
+			],
+			"Rotation": 190.070755,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - PatrolB",
+			"Position": [
+				-494.22525,
+				15.0384989,
+				-437.705719
+			],
+			"Rotation": 139.603363,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneBigRocks": [],
+	"ZoneRoad": [
+		{
+			"Comment": "Woods",
+			"Position": [
+				22.1597576,
+				-16.2705421,
+				91.28051
+			],
+			"Rotation": 191.8428,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-40.6029854,
+				-13.02467,
+				120.699982
+			],
+			"Rotation": 13.463789,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-163.738632,
+				11.9036236,
+				-681.4912
+			],
+			"Rotation": 354.245758,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-128.66127,
+				10.5440474,
+				-709.0013
+			],
+			"Rotation": 29.1178379,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-87.197464,
+				8.356286,
+				-661.243
+			],
+			"Rotation": 19.4970055,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-85.94329,
+				7.92209244,
+				-619.950562
+			],
+			"Rotation": 18.96913,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneMiniHouse": [
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				470.763519,
+				-20.3207664,
+				334.8253
+			],
+			"Rotation": 194.75766,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				532.888062,
+				-21.5785713,
+				311.8015
+			],
+			"Rotation": 199.171234,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				503.526764,
+				-15.7971659,
+				236.278351
+			],
+			"Rotation": 311.6589,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				476.3804,
+				-14.8674021,
+				181.084351
+			],
+			"Rotation": 291.026337,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				451.564423,
+				-12.650135,
+				126.912407
+			],
+			"Rotation": 228.284729,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods",
+			"Position": [
+				447.548157,
+				-10.072073,
+				72.15286
+			],
+			"Rotation": 283.0868,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "outdawoods - scav house",
+			"Position": [
+				445.662048,
+				-14.2454071,
+				69.8845444
+			],
+			"Rotation": 277.636658,
+			"Sides": [
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"": [],
+	"ZoneClearVill": [
+		{
+			"Comment": "Woods - Usec Scout",
+			"Position": [
+				258.463745,
+				29.7264538,
+				-433.773468
+			],
+			"Rotation": 320.543579,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Usec",
+			"Position": [
+				277.982147,
+				22.9701786,
+				-434.360138
+			],
+			"Rotation": 168.26741,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Usec",
+			"Position": [
+				308.179382,
+				23.0325489,
+				-463.003448
+			],
+			"Rotation": 354.349274,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Usec",
+			"Position": [
+				306.839722,
+				22.8832073,
+				-519.80304
+			],
+			"Rotation": 164.5255,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Usec",
+			"Position": [
+				288.0509,
+				22.8832073,
+				-512.7964
+			],
+			"Rotation": 100.476875,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Usec",
+			"Position": [
+				266.30777,
+				22.8432159,
+				-519.54126
+			],
+			"Rotation": 230.386032,
+			"Sides": [
+				"Usec"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneScavBase2": [
+		{
+			"Comment": "Woods - BridgeTown",
+			"Position": [
+				-463.775269,
+				15.0439882,
+				-392.659149
+			],
+			"Rotation": 357.2912,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - BridgeTown",
+			"Position": [
+				-453.2918,
+				15.3044538,
+				-363.1002
+			],
+			"Rotation": 176.592865,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - BridgeTown",
+			"Position": [
+				-499.070679,
+				15.2425184,
+				-402.4873
+			],
+			"Rotation": 183.7375,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	],
+	"ZoneBrokenVill": [
+		{
+			"Comment": "Woods",
+			"Position": [
+				-509.932953,
+				15.9153662,
+				-176.335373
+			],
+			"Rotation": 247.8135,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods",
+			"Position": [
+				-545.8028,
+				20.4870853,
+				-238.056686
+			],
+			"Rotation": 146.614334,
+			"Sides": [
+				"Usec",
+				"Bear",
+				"Savage"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Bear Scout",
+			"Position": [
+				-573.4928,
+				32.90463,
+				-115.409744
+			],
+			"Rotation": 102.73587,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Bear Scout",
+			"Position": [
+				-519.4722,
+				25.785759,
+				-127.231888
+			],
+			"Rotation": 114.34182,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Bear",
+			"Position": [
+				-475.202057,
+				21.51882,
+				-229.871246
+			],
+			"Rotation": 51.14164,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		},
+		{
+			"Comment": "Woods - Bear",
+			"Position": [
+				-447.340851,
+				15.0978432,
+				-399.7977
+			],
+			"Rotation": 6.13263464,
+			"Sides": [
+				"Bear"
+			],
+			"Categories": [
+				"Bot"
+			],
+			"Infiltration": "",
+			"DelayToCanSpawnSec": 3,
+			"ColliderRadius": 0.0
+		}
+	]
+}

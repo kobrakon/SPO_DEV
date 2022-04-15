@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "TT mag",
+			"_tpl": "571a29dc2459771fb2755a6a",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 200000
+			}
+		}
+	],
+	"barter_scheme": {
+		"TT mag": [
+			[
+				{
+					"count": 1994,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"TT mag": 2
+	}
+}

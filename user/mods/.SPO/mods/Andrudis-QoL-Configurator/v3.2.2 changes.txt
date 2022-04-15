@@ -1,0 +1,12 @@
+Changes in 3.2.3 from 3.2.2
+
+Compatible with SPT-AKI 2.2.2 Release
+
+### Added new config - bots_durability.config
+* EnableDurabilityOverride - when set to 'true', overrides bot's armor and weapon durability configuration with values from 'durability' section
+* durability - holds configuration for bot's armor and weapon durability, does nothing if 'EnableDurabilityOverride' is not enabled.
+
+### Added new params to bots_config.json
+* MaxBackpackLootTotalRub - enter value in Roubles for max PMC loot worth on backpacks. Default value is 'null' which will leave default SPT-AKI value '150'000' unchanged
+* MaxPocketLootTotalRub - enter value in Roubles for max PMC loot worth on pockets. Default value is 'null' which will leave default SPT-AKI value '50'000' unchanged
+* MaxVestLootTotalRub - enter value in Roubles for max PMC loot worth on chest rigs (vests). Default value is 'null' which will leave default SPT-AKI value '50'000' unchanged

@@ -1,0 +1,59 @@
+{
+	"items": [
+		{
+			"_id": "Mosin Inf",
+			"_tpl": "5bfd297f0db834001a669119",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "e5a2d749d64443ef2b22ce84",
+			"_tpl": "5ae0973a5acfc4001562206c",
+			"parentId": "Mosin Inf",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "8967fd36ea066a6bcf1beceb",
+			"_tpl": "5bfd384c0db834001a6691d3",
+			"parentId": "Mosin Inf",
+			"slotId": "mod_stock"
+		},
+		{
+			"_id": "74e498c7ed8d2a1b0af388d2",
+			"_tpl": "5bfd4cbe0db834001b73449f",
+			"parentId": "Mosin Inf",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "569580c87073b7ee8a1b2cf4",
+			"_tpl": "5ae099875acfc4001714e593",
+			"parentId": "74e498c7ed8d2a1b0af388d2",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "f96cc92870df2e81feb4c1c6",
+			"_tpl": "5bfd4c980db834001b73449d",
+			"parentId": "74e498c7ed8d2a1b0af388d2",
+			"slotId": "mod_sight_rear"
+		}
+	],
+	"barter_scheme": {
+		"Mosin Inf": [
+			[
+				{
+					"count": 38825,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"Mosin Inf": 2
+	}
+}

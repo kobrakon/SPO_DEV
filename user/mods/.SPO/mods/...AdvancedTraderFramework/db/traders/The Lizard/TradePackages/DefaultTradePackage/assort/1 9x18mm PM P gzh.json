@@ -1,0 +1,29 @@
+{
+	"items": [
+		{
+			"_id": "1 9x18mm PM P gzh",
+			"_tpl": "573719762459775a626ccbc1",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 63,
+				"BuyRestrictionMax": 63,
+				"BuyRestrictionCurrent": 0
+			}
+		}
+	],
+	"barter_scheme": {
+		"1 9x18mm PM P gzh": [
+			[
+				{
+					"count": 19,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"1 9x18mm PM P gzh": 1
+	}
+}

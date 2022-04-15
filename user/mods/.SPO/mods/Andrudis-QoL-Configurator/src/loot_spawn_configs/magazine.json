@@ -1,0 +1,95 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "MP-153 7-rd magazine extension",
+			"UID"	: "5882163224597757561aa920",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MP-153 6-rd magazine extension",
+			"UID"	: "5882163824597757561aa922",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MP-153 8-rd magazine extension",
+			"UID"	: "56deeefcd2720bc8328b4568",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "MP-153 5-rd magazine extension",
+			"UID"	: "5882163e24597758206fee8c",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "10 rnds. SKS internal box magazine 7.62x39",
+			"UID"	: "587df3a12459772c28142567",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "12.7x55 magazine for ASh-12, 10-round capacity",
+			"UID"	: "5caf1041ae92157c28402e3f",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "5-round .308 T-5000 magazine",
+			"UID"	: "5df25b6c0b92095fd441e4cf",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "8-shell M590A1 12ga magazine cap",
+			"UID"	: "5e87080c81c4ed43e83cefda",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "7-shell M870x7 12ga magazine",
+			"UID"	: "5a78830bc5856700137e4c90",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 300,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

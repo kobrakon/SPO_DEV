@@ -1,0 +1,130 @@
+{
+  "kr": {
+    "Items": "아이템",
+    "Random": "무작위",
+    "Min": "최소",
+    "Max": "최대",
+    "NotExaminedItems": "미확인 아이템",
+    "QuestItems": "퀘스트 아이템"
+  },
+  "ch": {
+    "Items": "物品数",
+    "Random": "随机",
+    "Min": "最低价",
+    "Max": "最高价",
+    "NotExaminedItems": "未知物品",
+    "QuestItems": "任务物品"
+  },
+  "cz": {
+    "Items": "Předměty",
+    "Random": "Náhodné",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Neznámý předmět",
+    "QuestItems": "ÚKOLOVÉ PŘEDMĚTY"
+  },
+  "en": {
+    "Items": "Items",
+    "Random": "Random",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Unknown Item",
+    "QuestItems": "QUEST ITEMS"
+  },
+  "es-mx": {
+    "Items": "Objetos",
+    "Random": "Aleatorio",
+    "Min": "MÍN",
+    "Max": "MÁX",
+    "NotExaminedItems": "Objeto Desconocido",
+    "QuestItems": "OBJETOS DE MISIÓN"
+  },
+  "es": {
+    "Items": "Objetos",
+    "Random": "Al azar",
+    "Min": "MÍN",
+    "Max": "MÁX",
+    "NotExaminedItems": "Objeto desconocido",
+    "QuestItems": "OBJETOS DE MISIÓN"
+  },
+  "fr": {
+    "Items": "Objets",
+    "Random": "Aléatoire",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Objet inconnu",
+    "QuestItems": "OBJ QUÊTE"
+  },
+  "ge": {
+    "Items": "Gegenstände",
+    "Random": "Zufällig",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Unbekannter Gegenstand",
+    "QuestItems": "QUESTGEGENSTÄNDE"
+  },
+  "hu": {
+    "Items": "Tárgyak",
+    "Random": "Véletlenszerű",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Ismeretlen tárgy",
+    "QuestItems": "KÜLD. TÁRGYAK"
+  },
+  "it": {
+    "Items": "Oggetti",
+    "Random": "Casuale",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Oggetto Sconosciuto",
+    "QuestItems": "OGG. MISSIONE"
+  },
+  "jp": {
+    "Items": "アイテム",
+    "Random": "ランダム",
+    "Min": "最安値",
+    "Max": "最高値",
+    "NotExaminedItems": "不明なアイテム",
+    "QuestItems": "QUEST ITEMS"
+  },
+  "pl": {
+    "Items": "Przedmioty",
+    "Random": "Losowy",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Nieznany przedmiot",
+    "QuestItems": "PRZEDMIOTY FABULARNE"
+  },
+  "po": {
+    "Items": "Itens",
+    "Random": "Aleatório",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Item desconhecido",
+    "QuestItems": "ITENS"
+  },
+  "ru": {
+    "Items": "Предметы",
+    "Random": "Случайный",
+    "Min": "МИН",
+    "Max": "МАКС",
+    "NotExaminedItems": "Предмет не изучен",
+    "QuestItems": "ПРЕДМЕТЫ"
+  },
+  "sk": {
+    "Items": "Položky",
+    "Random": "Náhodná",
+    "Min": "MIN",
+    "Max": "MAX",
+    "NotExaminedItems": "Neznáma položka",
+    "QuestItems": "PREDMETY PRE ÚLOHU"
+  },
+  "tu": {
+    "Items": "Eşyalar",
+    "Random": "Rastgele",
+    "Min": "DAK",
+    "Max": "MAKS",
+    "NotExaminedItems": "Bilinmeyen eşya",
+    "QuestItems": "GÖREV EŞYALARI"
+  }
+}

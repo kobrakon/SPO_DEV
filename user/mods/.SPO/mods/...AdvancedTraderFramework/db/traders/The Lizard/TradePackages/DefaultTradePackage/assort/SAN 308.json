@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "SAN308",
+			"_tpl": "5a145d7b86f7744cbb6f4a13",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"SAN308": [
+			[
+				{
+					"count": 1,
+					"_tpl": "5d1b385e86f774252167b98a"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"SAN308": 2
+	}
+}

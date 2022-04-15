@@ -1,0 +1,53 @@
+{
+	"items": [
+		{
+			"_id": "APS",
+			"_tpl": "5a17f98cfcdbcb0980087290",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 1,
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "81688fee605aa65f78aa0a77",
+			"_tpl": "5a17fb03fcdbcbcae668728f",
+			"parentId": "APS",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "8ee5d860bec55d4363cdbfda",
+			"_tpl": "5a17fc70fcdbcb0176308b3d",
+			"parentId": "APS",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "c9181d5f6f9261f2d01dcbdf",
+			"_tpl": "5aba62f8d8ce87001943946b",
+			"parentId": "APS",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "c126f77d2a3967e8af2d905c",
+			"_tpl": "5aba637ad8ce87001773e17f",
+			"parentId": "APS",
+			"slotId": "mod_sight_rear"
+		}
+	],
+	"barter_scheme": {
+		"APS": [
+			[
+				{
+					"count": 19864,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"APS": 2
+	}
+}

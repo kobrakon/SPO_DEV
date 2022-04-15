@@ -1,0 +1,10 @@
+{
+  "name": "SPO_Ammo",
+  "author": "Gabe_Over",
+  "description": "Ammo boxes galore",
+  "license": "NCSA",
+  "version": "1.0.0",
+  "akiVersion": "2.3",
+  "dependencies": {},
+  "main": "package.js"
+}

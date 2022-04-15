@@ -1,0 +1,27 @@
+{
+	"items": [
+		{
+			"_id": "KeyToClosedPremises",
+			"_tpl": "5a0448bc86f774736f14efa8",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"KeyToClosedPremises": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590a373286f774287540368b"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"KeyToClosedPremises": 2
+	}
+}

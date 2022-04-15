@@ -1,0 +1,13 @@
+{
+	"OverrideTradersDiscounts" : false,
+	"TradersDiscounts" : {
+		"Prapor" 		: 45,
+		"Therapist" 	: 25,
+		"Fence" 		: 70,
+		"Skier" 		: 33,
+		"Peacekeeper" 	: 43,
+		"Mechanic" 		: 43,
+		"Ragman" 		: 40,
+		"Jaeger" 		: 15
+	}
+}

@@ -1,0 +1,30 @@
+Configuration Guide
+
+{
+    "MainArmor": {
+        "Head": false,          // [Boolean] Set "true" to enable protection for this part of the body.
+        "Chest": false,         // [Boolean] Set "true" to enable protection for this part of the body.
+        "Stomach": false,       // [Boolean] Set "true" to enable protection for this part of the body.
+        "LeftArm": false,       // [Boolean] Set "true" to enable protection for this part of the body.
+        "RightArm": false,      // [Boolean] Set "true" to enable protection for this part of the body.
+        "LeftLeg": false,       // [Boolean] Set "true" to enable protection for this part of the body.
+        "RightLeg": false       // [Boolean] Set "true" to enable protection for this part of the body.
+    },
+    "HeadAreas": {
+        "Top": false,           // [Boolean] Set "true" to enable protection for this part of the body.
+        "Nape": false,          // [Boolean] Set "true" to enable protection for this part of the body.
+        "Ears": false,          // [Boolean] Set "true" to enable protection for this part of the body.
+        "Eyes": false,          // [Boolean] Set "true" to enable protection for this part of the body.
+        "Jaws": false           // [Boolean] Set "true" to enable protection for this part of the body.
+    },
+    "Resources": {
+        "RepairCost": 24869,    // [Number] (Any number >= 0) Sets the cost of repairing the item.
+        "Durability": 1500,     // [Number] (Any number >= 0) Increases or decreases the amount of armor this item provides.
+        "minTraderLevel": 1,    // [Number] (Any number between 1 and 4) Sets the minimum trader level to have before you can purchase the item.
+        "marketPrice": 134889,  // [Number] (Any number >= 0) Sets the market price of the item as found in the flea market.
+        "traderPrice": 124479   // [Number] (Any number >= 0) Sets the price charged by Ragman.
+    },
+    "other": {
+        "HideWarningMessage": false     // [Boolean] Set "true" to disable this message when the server starts.
+    }
+}

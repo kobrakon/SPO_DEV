@@ -1,0 +1,17 @@
+{
+	"instructions": "Find the item ID of the shotgun whose spread you want to change by enabling print_shotgun_names_and_IDs_on_server_startup. If the shotgun whose spread you want to modify has an attachable barrel, you'll instead need to enter its ID into print_barrel_names_and_IDs_for_these_weapon_IDs to get a list of all the barrels it can use. Finally, enter the shotgun or barrel's ID into itemIDs_and_spread, along with the spread you want it to have.",
+	
+	"NOTE": "If a weapon has an attachable barrel, the barrel's spread value will determine the spread of its shots. This means that for weapons with swappable barrels, you will need to change the BARREL's spread value, and not the weapon's.",
+	
+	"print_shotgun_names_and_IDs_on_server_startup": false,
+	
+	"print_barrel_names_and_IDs_for_these_weapon_IDs": [
+			"enter_id_here",
+			"enter_id_here",
+			"enter_id_here"
+		],
+	
+	"itemIDs_and_spread":{
+		"5e81ebcd8e146c7080625e15": 3
+	}
+}

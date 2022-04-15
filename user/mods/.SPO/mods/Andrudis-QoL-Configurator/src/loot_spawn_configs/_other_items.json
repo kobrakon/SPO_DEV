@@ -1,0 +1,235 @@
+{
+	"AdjustAlreadyExistingItems" : true,
+	"ItemsSpawnConfigs" : [
+		{
+			"Name"	: "SHPM Firefighter's helmet",
+			"UID"	: "5c08f87c0db8340019124324",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c0d2727d174af02a012cf58",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Combat stimulant injector SJ9 TGLabs",
+			"UID"	: "5fca13ca637ee0341a484f46",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5ed51652f6c34d2cc26336a1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Fake mustache",
+			"UID"	: "5bd073a586f7747e6f135799",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "572b7fa524597762b747ce82",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Blackhawk! Commando Chest Harness (black)",
+			"UID"	: "5c0e9f2c86f77432297fe0a3",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 400,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5b44c8ea86f7742d1627baf1",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Small S I C C case",
+			"UID"	: "5d235bb686f77443f4331278",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 10,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5783c43d2459774bbe137486",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Key to KIBA Outlet grate door",
+			"UID"	: "5addaffe86f77470b455f900",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Key to HEP station storage",
+			"UID"	: "5d8e15b686f774445103b190",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Purified water",
+			"UID"	: "5d1b33a686f7742523398398",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 25,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5c0fa877d174af02a012e1cf",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "6B13 M assault armor (tan)",
+			"UID"	: "5c0e541586f7747fa54205c9",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "FORT Redut-T5 body armor",
+			"UID"	: "5ca21c6986f77479963115a7",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "IOTV Gen4 armor (full protection)",
+			"UID"	: "5b44cd8b86f774503d30cba2",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Rys-T helmet",
+			"UID"	: "5f60c74e3b85f6263c145586",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 75,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5648a7494bdc2d9d488b4583",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "GP-34 underbarrel grenade launcher",
+			"UID"	: "5648b62b4bdc2d9d488b4585",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 50,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5a718b548dc32e000d46d262",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "T-7 Thermal Goggles with Night Vision Mounts",
+			"UID"	: "5c110624d174af029e69734c",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 5,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Keycard holder case",
+			"UID"	: "619cbf9e0a7c3a1a2731940a",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5783c43d2459774bbe137486",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Injector case",
+			"UID"	: "619cbf7d23893217ec30b689",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 100,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "5783c43d2459774bbe137486",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Vortex Ranger 1500 rangefinder",
+			"UID"	: "61605e13ffa6e502ac5e7eef",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 50,
+			"SpawnInAnyContainer" : false,
+			"MimicItemSpawn"	: "57486e672459770abd687134",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Customs plan",
+			"UID"	: "5798a2832459774b53341029",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Factory Plan",
+			"UID"	: "574eb85c245977648157eec3",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Shoreline resort plan",
+			"UID"	: "5a80a29286f7742b25692012",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Woods Plan",
+			"UID"	: "5900b89686f7744e704a8747",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Shoreline paper map",
+			"UID"	: "5a8036fb86f77407252ddc02",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		},
+		{
+			"Name"	: "Interchange paper map",
+			"UID"	: "5be4038986f774527d3fae60",
+			"EnableSpawnChanceAdjustment" : true,
+			"RelativeSpawnChance" : 500,
+			"SpawnInAnyContainer" : true,
+			"MimicItemSpawn"	: "5780cf7f2459777de4559322",
+			"IntendedContainers"  :[
+			]			
+		}
+	]
+}

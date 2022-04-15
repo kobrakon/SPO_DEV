@@ -1,0 +1,114 @@
+[
+  {
+    "id": "quest_one_million_roubles",
+    "trader_id": "prapor",
+    "name": "I'll make you rich",
+    "description": "Complete this quest and I will make you rich",
+    "success_message": "Bravo, here is one million roubles!",
+    "rewards": {
+      "items": {
+        "5449016a4bdc2d6f028b456f": 1000000
+      }
+    }
+  },
+  {
+    "id": "dev_trap_quest_item_spawn_in_raid_1",
+    "trader_id": "prapor",
+    "descriptive_location": "factory",
+    "name": "find the letter",
+    "description": "Find the letter on the body inside the bunker",
+    "success_message": "It works !",
+    "missions": [
+      {
+        "type": "GiveItem",
+        "message": "Find the letter inside the bunker in factory",
+        "accepted_items": [
+          "591093bb86f7747caa7bb2ee"
+        ],
+        "need_survive": "Need to survive the raid"
+      }
+    ],
+    "rewards": {
+      "items": {
+        "5449016a4bdc2d6f028b456f": 2000000
+      }
+    }
+  },
+  {
+    "id": "dev_trap_quest_example_1",
+    "disabled": false,
+    "trader_id": "mechanic",
+    "descriptive_location": "factory",
+    "missions": [
+      {
+        "type": "PlaceBeacon",
+        "message": "1 - Place the beacon where you know",
+        "zone_id": "case_extraction",
+        "plant_time": 10,
+        "need_survive": "Need to survive the raid"
+      },
+      {
+        "type": "PlaceSignalJammer",
+        "message": "2 - Place the signal jammer where you know",
+        "zone_id": "case_extraction",
+        "plant_time": 5,
+        "need_survive": "Need to survive the raid"
+      },
+      {
+        "type": "PlaceItem",
+        "message": "3 - Place the ai-2 where you know",
+        "zone_id": "case_extraction",
+        "accepted_items": [
+          "5755356824597772cb798962"
+        ],
+        "plant_time": 2,
+        "need_survive": "Need to survive the raid"
+      }
+    ],
+    "name": {
+      "en": "Example quest part 1"
+    },
+    "description": {
+      "en": "Just a minimum quest config"
+    },
+    "success_message": {
+      "fr": "Ca marche!"
+    }
+  },
+  {
+    "id": "dev_trap_quest_example_2",
+    "descriptive_location": "bigmap",
+    "disabled": false,
+    "trader_id": "mechanic",
+    "missions": [
+      {
+        "type": "VisitPlace",
+        "message": "visit the place you know ;-)",
+        "place_id": "gazel",
+        "need_survive": {
+          "en": "Need to survive the raid on the concerned map"
+        }
+      }
+    ],
+    "name": {
+      "en": "Example quest part 2"
+    },
+    "description": {
+      "en": "Just a minimum quest config"
+    },
+    "success_message": {
+      "fr": "Ca marche!"
+    }
+  },
+  {
+    "id": "dev_trap_quest_example_3",
+    "trader_id": "mechanic",
+    "name": "My quest name !!!",
+    "description": "My quest description !!!"
+  },
+  {
+    "id": "dev_trap_quest_example_4",
+    "disabled": false,
+    "trader_id": "ragman"
+  }
+]
