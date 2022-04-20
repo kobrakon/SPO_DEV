@@ -5,4 +5,4 @@
 [submodule "user/mods/DynamicTravelTime"]
 	path = user/mods/DynamicTravelTime
 	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
-	branch = release
+	branch = release-server
