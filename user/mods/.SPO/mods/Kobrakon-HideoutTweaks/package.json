@@ -1,0 +1,9 @@
+{
+"name": "SPO-HideoutTweaks",
+"author": "Kobrakon",
+"version": "1.0.0",
+"license": "NCSA",
+"dependencies": {},
+"akiVersion": ">2.3.1",
+"main": "package.js"
+}

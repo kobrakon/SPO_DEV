@@ -129,45 +129,45 @@
 			"updateTime": [
 				{
 					"traderId": "54cb50c76803fa8b248b4571",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "54cb57776803fa99248b456e",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "579dc571d53a0658a154fbec",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "58330581ace78e27b8b10cee",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "5935c25fb3acc3127c3d8cd9",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "5a7c2eca46aef81a7ca2145d",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "5ac3b934156ae10c4430e83c",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "5c0647fdd443bc2504c2d371",
-					"seconds": 60
+					"seconds": 3600
 				},
 				{
 					"traderId": "ragfair",
-					"seconds": 60
+					"seconds": 3600
 				}
 			],
-			"updateTimeDefault": 2400,
+			"updateTimeDefault": 3600,
 			"fenceAssortSize": 150,
 			"fenceMaxPresetsCount": 5,
-			"fencePresetPriceMult": 2,
+			"fencePresetPriceMult": 2.5,
 			"minDurabilityForSale": 60,
 			"fenceItemIgnoreList": [
 				"58ac60eb86f77401897560ff",
@@ -190,10 +190,11 @@
 				"5ac3b934156ae10c4430e83c": 0.72
 			},
 			"returnChancePercent": {
-				"54cb50c76803fa8b248b4571": 70,
+				"54cb50c76803fa8b248b4571": 80,
 				"5ac3b934156ae10c4430e83c": 85
 			},
-			"runIntervalSeconds": 600
+			"runIntervalSeconds": 600,
+			"returnChance": 70
 		},
 		"Trading": {
 			"newItemsMarkedFound": true
@@ -204,14 +205,14 @@
 		"sell": {
 			"fees": true,
 			"chance": {
-				"base": 50,
-				"overprices": 0.5,
-				"underpriced": 2
+				"base": 15,
+				"overprices": 0,
+				"underpriced": 0
 			},
 			"time": {
-				"base": 15,
-				"min": 5,
-				"max": 15
+				"base": 100,
+				"min": 100,
+				"max": 100
 			},
 			"reputation": {
 				"gain": 2e-7,
@@ -241,7 +242,7 @@
 			},
 			"endTimeSeconds": {
 				"min": 360,
-				"max": 3600
+				"max": 1800
 			},
 			"condition": {
 				"conditionChance": 0.2,
@@ -284,9 +285,10 @@
 					"5cde8864d7f00c0010373be1",
 					"5d2f2ab648f03550091993ca"
 				],
-				"enableBsgList": true,
+				"enableBsgList": false,
 				"enableQuestList": true
-			}
+			},
+			"expiredOfferCountRegenThreshold": 1500
 		}
 	},
 	"Bots": {

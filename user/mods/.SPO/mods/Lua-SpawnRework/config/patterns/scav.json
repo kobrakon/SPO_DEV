@@ -5,7 +5,7 @@
 
 	"spawns":{
 		"max_alive_bots": 32,
-		"pmc_usec_chance": 50,
+		"pmc_usec_chance": 0,
 		"pmc_behavior_role": "assaultgroup",
 		"usec_default_enemy": {
 			"DEFAULT_ENEMY_BEAR": true,
@@ -22,7 +22,7 @@
 			"ENEMY_BY_GROUPS_SAVAGE_PLAYERS": true
 		},
 		"pmc_showTypeInNickname": true,
-		"chanceSameSideIsHostilePercent": 50,
+		"chanceSameSideIsHostilePercent": 0,
 
 		"customs":{
 			"map_rules": "AvoidAllPmc",
