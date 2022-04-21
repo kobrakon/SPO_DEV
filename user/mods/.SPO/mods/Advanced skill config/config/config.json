@@ -1,7 +1,7 @@
 {
 	"GlobalModifiers": {
 		"enable": true, 
-		"SkillProgressRate": 0.35, 
+		"SkillProgressRate": 0.45, 
 		"WeaponSkillProgressRate": 1,
 		"SkillAtrophy": false,
 		"SkillEnduranceWeightThreshold": 0.65,
@@ -15,7 +15,7 @@
 	},
 	"AimDrills": {
 		"enable": true,
-		"WeaponShotAction": 0.6
+		"WeaponShotAction": 0.7
 	},
 	"Assault": {
 		"enable": true,
@@ -27,8 +27,8 @@
 	"Attention": {
 		"enable": true,
 		"ExamineWithInstruction": 4,
-		"FindActionFalse": 0.334,
-		"FindActionTrue": 0.167
+		"FindActionFalse": 0.734,
+		"FindActionTrue": 0.567
 	},
 	"Charisma": {
 		"enable": true,
@@ -38,7 +38,7 @@
 	},
 	"CovertMovement": {
 		"enable": true,
-		"MovementAction": 0.1
+		"MovementAction": 0.2
 	},
 	"Crafting": {
 		"enable": true,
@@ -62,7 +62,7 @@
 		"enable": true,
 		"GainPerFatigueStack": 0.05,
 		"MovementAction": 0.005,
-		"SprintAction": 0.04
+		"SprintAction": 0.08
 	},
 	"Health": {
 		"enable": true,
@@ -113,10 +113,10 @@
 	},
 	"Immunity": {
 		"enable": true,
-		"HealthNegativeEffect": 0.5,
-		"ImmunityMiscEffects": 1,
-		"ImmunityPainKiller": 1,
-		"ImmunityPoisonBuff": 1,
+		"HealthNegativeEffect": 1,
+		"ImmunityMiscEffects": 3,
+		"ImmunityPainKiller": 3,
+		"ImmunityPoisonBuff": 3,
 		"StimulatorNegativeBuff": 0.011
 	},
 	"Intellect": {
@@ -127,9 +127,9 @@
 	},
 	"MagDrills": {
 		"enable": true,
-		"MagazineCheckAction": 0.05,
-		"RaidLoadedAmmoAction": 0.3,
-		"RaidUnloadedAmmoAction": 0.1
+		"MagazineCheckAction": 0.1,
+		"RaidLoadedAmmoAction": 0.8,
+		"RaidUnloadedAmmoAction": 0.25
 	},
 	"Memory": {
 		"enable": true,

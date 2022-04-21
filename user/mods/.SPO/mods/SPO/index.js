@@ -103,7 +103,7 @@ const prices = DatabaseServer.tables.templates.prices;
 const filters = ["54009119af1c881c07000029",];
 const globals = DatabaseServer.tables.globals;
 const KNIFE_ID = "5447e1d04bdc2dff2f8b4567";
-
+const Labcard = "5c94bbff86f7747ee735c08f"
 const DB = DatabaseServer.tables;
 const itemDB = DB.templates.items;
 const globalDB = DB.globals.config;
@@ -121,7 +121,7 @@ for (const id in items){
     }
 }
 
-
+itemDB[Labcard]._props.MaximumNumberOfUsage = 3
 //Increase base stamina
 globalDB.Stamina.Capacity = 150;
 

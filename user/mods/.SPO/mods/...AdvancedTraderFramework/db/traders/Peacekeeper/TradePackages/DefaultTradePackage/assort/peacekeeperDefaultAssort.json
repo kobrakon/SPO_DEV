@@ -12,6 +12,16 @@
 			}
 		},
 		{
+			"_id": "TerraGroupsLabs",
+			"_tpl": "5c94bbff86f7747ee735c08f",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		},
+		{
 			"_id": "76c614fb2af63d2757c53d0b",
 			"_tpl": "5b099ac65acfc400186331e1",
 			"parentId": "069b9606fe3eda4a98c150a1",
@@ -7289,6 +7299,30 @@
 		}
 	],
 	"barter_scheme": {
+		"TerraGroupsLabs": [
+			[
+				{				
+					"count": 1,
+					"_tpl": "573477e124597737dd42e191"
+				},
+				{				
+					"count": 1,
+					"_tpl": "5734779624597737e04bf329"
+				},
+				{				
+					"count": 1,
+					"_tpl": "57347baf24597738002c6178"
+				},
+				{				
+					"count": 1,
+					"_tpl": "57347c2e24597744902c94a1"
+				},
+				{				
+					"count": 1,
+					"_tpl": "5734781f24597737e04bf32a"
+				}
+			]
+		],
 		"069b9606fe3eda4a98c150a1": [
 			[
 				{
@@ -11111,6 +11145,7 @@
 		"61e0a29e033bdc459438cddf": 1,
 		"61e0a29e033bdc459438cde1": 3,
 		"61e0a29e033bdc459438cde3": 1,
+		"TerraGroupsLabs": 2,
 		"61e0a29e033bdc459438cde5": 3,
 		"61e0a29e033bdc459438cde7": 3,
 		"61e0a29e033bdc459438cde9": 3,

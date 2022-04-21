@@ -1,6 +1,5 @@
 [	
 	"...AdvancedTraderFramework",
-	"flealock",
 	"ServerValueModifier",
 	"Kaiju-api",
 	"CoreMod",
@@ -35,7 +34,9 @@
 	"Alex-AIO",
 	"zzReducedProdTime",
 	"Kobrakon-HideoutTweaks",
+	"flealock",
 	"SPO",
 	"SPO_ammo",
+	//"SPO-LootProgression",
 	"Orbitas-MarkItemsFIR"
 ] 
