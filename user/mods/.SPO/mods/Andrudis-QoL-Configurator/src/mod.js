@@ -522,7 +522,7 @@ class Mod {
 	// add DTC
 	pmc.DynamicTimeCycle = {};
 	pmc.DynamicTimeCycle.hour = 7;
-	pmc.DynamicTimeCycle.min = 00;
+	pmc.DynamicTimeCycle.min = 0;
 	pmc.DynamicTimeCycle.hideout = false;
 	    
         profile.character = pmc;
