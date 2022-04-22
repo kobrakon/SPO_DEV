@@ -274,7 +274,7 @@
 		"LabInsurance":false,
 		"EnableRaids":true,
 		"SCAVTimer":false,
-		"Timeacceleration":7,
+		"Timeacceleration":5,
 		"Weather":
 		{
 		"Pressure_max":764,

@@ -519,8 +519,14 @@ class Mod {
 
         // set large profile changes
 		pmc.Inventory = JsonUtil.deserialize(VFS.readFile(`${filepath}profile/inventory.json`));;
-		
-        profile.character = pmc;
+		// add DTC
+		pmc.DynamicTimeCycle = {};
+		pmc.DynamicTimeCycle.hour = 7;
+		pmc.DynamicTimeCycle.min = 0;
+		pmc.DynamicTimeCycle.min = 0;
+		pmc.DynamicTimeCycle.hideout = false;
+
+        profile.character = pmc;	
         return profile;
     } 	
 	

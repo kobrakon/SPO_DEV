@@ -1,0 +1,20 @@
+{
+    "manifest": [
+        {
+            "key": "assets/content/items/mods/scopes/scope_base_trijicon_reap-ir.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/content/items/mods/scopes/scope_all_torrey_pines_logic_t12_w_30hz.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/content/items/mods/scopes/scope_all_flir_rs32_225_9x_35_60hz.bundle",
+            "dependencyKeys": []
+        },
+        {
+            "key": "assets/content/items/mods/scopes/scope_all_belomo_pk_06.bundle",
+            "dependencyKeys": []
+        }
+    ]
+}

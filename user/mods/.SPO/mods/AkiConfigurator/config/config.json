@@ -868,7 +868,7 @@
 		"maxBotCap": 20
 	},
 	"Weather values": {
-		"acceleration": 7,
+		"acceleration": 5,
 		"weather": {
 			"clouds": {
 				"min": -1.5,
