@@ -16,7 +16,7 @@
     ],
     "CHEATS": {
         "Enable": false,
-        "ResetStocksOnServerStart": true,
+        "ResetStocksOnServerStart": false,
         "UnlimitedStockForAllGacha": false,
         "FreeGacha": false
     }

@@ -129,42 +129,46 @@
 			"updateTime": [
 				{
 					"traderId": "54cb50c76803fa8b248b4571",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "54cb57776803fa99248b456e",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "579dc571d53a0658a154fbec",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "58330581ace78e27b8b10cee",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "5935c25fb3acc3127c3d8cd9",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "5a7c2eca46aef81a7ca2145d",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "5ac3b934156ae10c4430e83c",
-					"seconds": 3600
+					"seconds": 7200
 				},
 				{
 					"traderId": "5c0647fdd443bc2504c2d371",
-					"seconds": 3600
+					"seconds": 7200
+				},
+				{
+					"traderId": "Lizard",
+					"seconds": 14400
 				},
 				{
 					"traderId": "ragfair",
 					"seconds": 3600
 				}
 			],
-			"updateTimeDefault": 3600,
+			"updateTimeDefault": 7200,
 			"fenceAssortSize": 150,
 			"fenceMaxPresetsCount": 5,
 			"fencePresetPriceMult": 2.5,

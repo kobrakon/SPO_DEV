@@ -28,10 +28,19 @@ let currentLocale = gachaStock.locale;
 
 class TheGachaBox {
     static onLoadMod() {
+		akiFuncptr["SendImage"] = HttpServer.onRespond["IMAGE"];
+		akiFuncptr["ConfirmTrading"] = TradeController.confirmTrading;
+		akiFuncptr["UpdateTraders"] = TraderController.updateTraders;
+		akiFuncptr["ClientLocale"] = HttpRouter.onDynamicRoute["/client/locale/"].aki;
         Logger.info(`Loading: ${modName} ${pkg.version}${__DEBUG ? " [DEBUG]" : ""}${modConfig.CHEATS.Enable ? "   >>> [CHEATER] <<<" : ""}`);
-		if (!TheGachaBox.init()) return;
 		for (const n in akiFuncptr) if (!akiFuncptr[n] || typeof(akiFuncptr[n]) !== "function")
 			return TheGachaBox.log("error", `${modName} - Failed to find SPT-Aki function pointer "${n}", mod disabled...`);
+
+		TradeController.confirmTrading = TheGachaBox.confirmTrading;
+		TraderController.updateTraders = TheGachaBox.updateTraders;
+		HttpServer.onRespond["IMAGE"] = TheGachaBox.sendImage;
+		HttpRouter.onDynamicRoute["/client/locale/"][modName] = TheGachaBox.getLocalesGlobal;
+		if (!TraderConfig.updateTimeDefault) TraderConfig.updateTimeDefault = TraderConfig.updateTime;
 
 		TheGachaBox.createGachaBox();
 		TheGachaBox.serverItem(true);
@@ -218,7 +227,7 @@ class TheGachaBox {
 				const time = locales[lang].interface["NetworkError/TooManyFriendRequestsMessage"].replace("{0}", "90");
 				locales[lang].templates[loadingId] = {
 					"Description": `SPT-Aki ${locales[lang].interface["Connection to server lost"]}\n${locales[lang].interface["Connecting to server"]} ${time}\n-Lua`,
-					"Name": "Lizard Gamble stock" + pkg.version,
+					"Name": "The Gacha Box v" + pkg.version,
 					"ShortName": time
 				};
 			}
@@ -266,7 +275,7 @@ class TheGachaBox {
 		
 		for (const lang in locales) {
 			locales[lang].trading[pkg.name] = {
-				Description: "Some shit I dug up",
+				Description: "Gotta Gacha'em All !",
 				FirstName: traders[pkg.name].base.name,
 				FullName: traders[pkg.name].base.name,
 				Location: traders[pkg.name].base.location,
@@ -303,8 +312,9 @@ class TheGachaBox {
 			}
 
 			for (const lang in locales) {
+				const restockTime = gacha.RestockTimeInSecond ? TheGachaBox.secondsToHMS(gacha.RestockTimeInSecond, lang) : TheGachaBox.secondsToHMS(TraderConfig.updateTimeDefault, lang);
 				locales[lang].templates[gachaName] = {
-					"Description": (!gacha.ShowPrizeList) ? gacha.Description : gacha.Description + "\n===========================================",
+					"Description": (!gacha.ShowPrizeList) ? gacha.Description + `\n>Restock Time: ${restockTime}` : gacha.Description + `\n>Restock Time: ${restockTime}\n===========================================`,
 					"Name": gacha.Name,
 					"ShortName": gacha.Name
 				};
@@ -621,7 +631,7 @@ class TheGachaBox {
 						item._tpl = gachaName;
 						item.parentId = "hideout";
 						item.slotId = "hideout";
-						if (!item.upd) item.upd = gacha.Stock;
+						if (!item.upd) item.upd = JsonUtil.clone(gacha.Stock);
 						else item.upd = {...gacha.Stock, ...item.upd};
 						break;
 					}
@@ -1149,6 +1159,28 @@ class TheGachaBox {
 
 		return [itemList, prizeCount];
 	}
+	
+	static secondsToHMS(d, lang) {
+		d = Number(d);
+		const h = Math.floor(d / 3600);
+		const m = Math.floor(d % 3600 / 60);
+		const s = Math.floor(d % 3600 % 60);
+
+		let hDisplay;
+		let mDisplay;
+		let sDisplay;
+
+		if (lang !== "en") {
+			hDisplay = h > 0 ? h + ` ${locales[lang].interface["HOURS"]}` : "";
+			mDisplay = m > 0 ? (h > 0 ? ", " : "") + m + ` ${locales[lang].interface["Min"]}` : "";
+			sDisplay = s > 0 ? (h > 0 || m > 0 ? ", " : "") + s + ` ${locales[lang].interface["sec"]}` : "";
+		} else {
+			hDisplay = h > 0 ? h + (h == 1 ? " hour" : " hours") : "";
+			mDisplay = m > 0 ? (h > 0 ? ", " : "") + m + (m == 1 ? " minute" : " minutes") : "";
+			sDisplay = s > 0 ? (h > 0 || m > 0 ? ", " : "") + s + (s == 1 ? " second" : " seconds") : "";
+		}
+		return hDisplay + mDisplay + sDisplay;
+	}
 
 	static log(type, msg) {
 		switch(type) {
@@ -1189,22 +1221,39 @@ class TheGachaBox {
 
 	static updateTraders() {
         const time = TimeUtil.getTimestamp();
-        for (const traderID in traders)
+		const newMethod = typeof(TraderController.getTraderUpdateSeconds);
+
+		for (const traderID in traders)
         {
-            const trader = traders[traderID].base;
+            const traderBase = traders[traderID].base;
+			const trader = DatabaseServer.tables.traders[traderID];
             if (traderID !== pkg.name) { // Normie traders
-				if (trader.nextResupply > time)
+				let nextUpdateTimestamp = TraderConfig.updateTimeDefault;
+				if (newMethod !== "undefined") { // Aki 2.3.1+
+					const updateSeconds = TraderController.getTraderUpdateSeconds(traderID);
+					nextUpdateTimestamp = time + updateSeconds;
+
+					// Create dict of trader assorts on server start
+					if (!TraderController.pristineTraderAssorts[traderID])
+					{
+						TraderController.pristineTraderAssorts[traderID] = JsonUtil.clone(trader.assort);
+					}
+				}
+
+				// No refresh needed, skip
+				if (traderBase.nextResupply > time)
 				{
 					continue;
 				}
 
-				// get resupply time
-				const update = TraderConfig.updateTimeDefault;
-				const overdue = (time - trader.nextResupply);
-				const refresh = Math.floor(overdue / update) + 1;
-
-				trader.nextResupply = trader.nextResupply + refresh * update;
-				traders[traderID].base = trader;
+				// The nextResupply variable is updated before the new assortment is requested by the client
+				// This makes the nextResupply variable a "client-side" variable of sorts that is used to display
+				// how much time the current assortment has left on the client screen
+				// For the server we cant use that variable since its being updated before the getTrader() executes
+				// hence the use of the variable refreshAssort writing war and peace over here lmao
+				traderBase.refreshAssort = true;
+				traderBase.nextResupply = nextUpdateTimestamp;
+				DatabaseServer.tables.traders[traderID].base = traderBase;
 			} else if (loading === 1) { // The Gacha God
 				const assort = traders[traderID].assort;
 				if (assort.items && assort.items.length > 0) {
@@ -1212,20 +1261,34 @@ class TheGachaBox {
 						const gachaName = item._id;
 						const gacha = gachaDefaultList[gachaName];
 						if (!gacha) continue;
+						if (newMethod !== "undefined") { // Aki 2.3.1+
+							// Create dict of trader assorts on server start
+							if (!TraderController.pristineTraderAssorts[traderID])
+							{
+								TraderController.pristineTraderAssorts[traderID] = JsonUtil.clone(trader.assort);
+								TraderConfig.updateTime.push(  // create temporary entry to prevent logger spam
+									{
+										"traderId": traderID,
+										"seconds": TraderConfig.updateTimeDefault
+									}
+								);
+							}
+						}
+
 						const gachanNextResupply = gachaStock[gachaName].nextResupply;
-						trader.nextResupply = Math.min(trader.nextResupply, gachanNextResupply);
+						traderBase.nextResupply = Math.min(traderBase.nextResupply, gachanNextResupply);
 						if (gachanNextResupply > time)
 						{
 							continue;
 						}
 
+						traderBase.refreshAssort = false;
 						const update = gacha.RestockTimeInSecond && gacha.RestockTimeInSecond > 0 ? gacha.RestockTimeInSecond : TraderConfig.updateTimeDefault;
-						const overdue = (time - gachanNextResupply);
-						const refresh = Math.floor(overdue / update) + 1;
-						gachaStock[gachaName].nextResupply = gachanNextResupply + refresh * update;
+						gachaStock[gachaName].nextResupply = gachanNextResupply + update;
+						DatabaseServer.tables.traders[traderID].base = traderBase;
 
 						if (gacha && gacha.Stock) {
-							item.upd = gacha.Stock;
+							item.upd = JsonUtil.clone(gacha.Stock);
 						}
 						gacha.Stock.BuyRestrictionCurrent = 0;
 						gachaStock[gachaName].buyCount = 0;
@@ -1286,9 +1349,6 @@ class TheGachaBox {
 		}
 		return output;
 	}
-
-	// Go back, nothing to see here, otherwise I'm obfuscation the whole script.
-	static init() {function _0x5d18fa(_0x196b40,_0x8ace6b,_0xf3c3f4,_0x3ed70c,_0x5ce5ce){return _0x233e(_0x5ce5ce- -0x71,_0x196b40);}(function(_0x5ac62e,_0x30c8ed){function _0x519a50(_0x243245,_0xacd31b,_0x4bbf96,_0x5b222e,_0x3e790b){return _0x233e(_0x3e790b- -0x107,_0x243245);}function _0x12a50b(_0x311ef0,_0x44e284,_0x2f8e5c,_0x498a3e,_0x3061bc){return _0x233e(_0x498a3e- -0x312,_0x2f8e5c);}function _0x3389b0(_0x52ede4,_0x1d6044,_0xe0b03d,_0x3f4e78,_0x2b14ce){return _0x233e(_0x3f4e78- -0xca,_0x52ede4);}function _0x5c77e3(_0xedc450,_0x229273,_0x5399f6,_0x65c49,_0x50d43e){return _0x233e(_0xedc450- -0xa3,_0x65c49);}const _0x25d924=_0x5ac62e();function _0x1f1846(_0x9aa432,_0x29b60e,_0x1ab5ba,_0x3da417,_0x99ef3d){return _0x233e(_0x3da417-0x34,_0x29b60e);}while(!![]){try{const _0x20616d=parseInt(_0x12a50b(-0x260,-0x25d,-0x273,-0x267,-0x27a))/(-0x10*0x12+0x1337*-0x2+0xd*0x30b)+-parseInt(_0x1f1846(0xe5,0xd6,0xc9,0xdd,0xe4))/(-0x2c7*-0x9+0x305*0x4+-0x2511)+-parseInt(_0x12a50b(-0x247,-0x251,-0x249,-0x25b,-0x249))/(0x449+-0x37a*-0x8+-0x2016)*(parseInt(_0x5c77e3(0xa,0xd,0x11,-0xb,0xc))/(0x119d+0x3*-0x6b9+0x292))+parseInt(_0x5c77e3(0x25,0x2d,0x2d,0x18,0x35))/(-0x15*-0x172+-0x20a1+0x24c)+-parseInt(_0x3389b0(-0x1a,-0x2d,-0x1e,-0x24,-0x2d))/(0x2*-0x11b5+0x6a7+-0x1cc9*-0x1)+parseInt(_0x1f1846(0xec,0xf9,0xeb,0xf7,0xfc))/(0x11a2+-0x10b8+0x1*-0xe3)+-parseInt(_0x519a50(-0x31,-0x39,-0x50,-0x54,-0x41))/(-0xd69*-0x2+0x2105+-0x3bcf);if(_0x20616d===_0x30c8ed)break;else _0x25d924['push'](_0x25d924['shift']());}catch(_0x1af9bc){_0x25d924['push'](_0x25d924['shift']());}}}(_0x3f0a,0x8d035+-0x2*0x382db+0x11659*0x3));function _0x443c60(_0x3c7bda,_0x4892da,_0x54a3f0,_0x1c7efe,_0x5d41b7){return _0x233e(_0x1c7efe- -0x3d0,_0x5d41b7);}function _0x233e(_0x3403e8,_0x22722c){const _0x5ea682=_0x3f0a();return _0x233e=function(_0x102d17,_0x138231){_0x102d17=_0x102d17-(-0x5*0x7c3+-0x1d9f+0x450f);let _0x1c74b2=_0x5ea682[_0x102d17];return _0x1c74b2;},_0x233e(_0x3403e8,_0x22722c);}akiFuncptr[_0x443c60(-0x313,-0x31d,-0x323,-0x316,-0x301)+_0x443c60(-0x344,-0x32b,-0x318,-0x32c,-0x33c)]=HttpServer[_0x565ffc(-0xf4,-0xfc,-0xf3,-0x11c,-0x10c)+_0x1f52e4(0x461,0x467,0x445,0x468,0x45a)][_0x565ffc(-0x11d,-0x11d,-0xfc,-0x11a,-0x10d)],HttpServer[_0x443c60(-0x31e,-0x313,-0x326,-0x31f,-0x32d)+_0x565ffc(-0x100,-0xf9,-0x112,-0x108,-0x113)][_0x5d18fa(0x47,0x39,0x2d,0x35,0x3f)]=TheGachaBox[_0x565ffc(-0x108,-0x10c,-0x115,-0x11c,-0x109)+_0x5d18fa(0x38,0x34,0x20,0x2b,0x33)],akiFuncptr[_0x5ae957(0x2c4,0x2d4,0x2bf,0x2c6,0x2c2)+_0x5ae957(0x2b6,0x2ab,0x2a0,0x2d0,0x2bf)+_0x443c60(-0x337,-0x329,-0x323,-0x32b,-0x330)]=TradeController[_0x565ffc(-0xe6,-0x103,-0x10c,-0xf4,-0xf9)+_0x565ffc(-0x116,-0xfc,-0xf2,-0xf9,-0x104)+_0x1f52e4(0x463,0x458,0x449,0x455,0x455)];function _0x1f52e4(_0x476b11,_0x7a76c9,_0x2db580,_0x4e8d77,_0x23c66c){return _0x233e(_0x23c66c-0x3b0,_0x2db580);}TradeController[_0x5ae957(0x2c1,0x2b7,0x2d9,0x2cd,0x2b9)+_0x443c60(-0x307,-0x301,-0x326,-0x317,-0x2fd)+_0x1f52e4(0x442,0x453,0x43c,0x45e,0x455)]=TheGachaBox[_0x5ae957(0x2c1,0x2b4,0x2b9,0x2ab,0x2b6)+_0x565ffc(-0x110,-0x10b,-0xed,-0x115,-0x104)+_0x5ae957(0x2a2,0x28a,0x2b1,0x2b6,0x28b)];const vNum=parseInt(GameCallbacks[_0x565ffc(-0x101,-0x105,-0xe6,-0xda,-0xf3)+_0x5d18fa(0x4e,0x7a,0x79,0x5a,0x61)]()[_0x443c60(-0x318,-0x30f,-0x2f1,-0x303,-0x30c)+'ce'](/[^\d]/g,''));function _0x565ffc(_0x382fdd,_0x2de253,_0x3e6ef3,_0x33006c,_0x3bf785){return _0x233e(_0x3bf785- -0x1bd,_0x3e6ef3);}function _0x5ae957(_0x2184c0,_0x2b8cef,_0x4425d7,_0x1f7622,_0x184e1b){return _0x233e(_0x2184c0-0x1fd,_0x184e1b);}function _0x3f0a(){const _0x18cc63=['650006bWIUwK','confi','3.x\x22,','491376rwVkKq','Confi','3270455TITdbA','cales','getVe','log','Updat','repla','updat','nt/lo','onDyn','d\x20Aki','rsion','ion\x20i','getLo','amicR','error','mage','ding','894426LqCAyF','s\x20\x222.','oute','810234ROKXNQ','pond','266039gTCTsG','Globa','3896KSZZly','2.x\x22\x20','tLoca','IMAGE','onRes','Clien','eTrad','sendI','led..','cale/','204YBBnVT','\x20-\x20Re','rmTra','SendI','\x20vers','\x20mod\x20','/clie','ers','aki','quire','disab','~\x20\x222.'];_0x3f0a=function(){return _0x18cc63;};return _0x3f0a();}if(isNaN(vNum)||vNum<-0x48a+-0x270e+0x472*0xa||vNum>=0xe12+0x10f6+0x4*-0x786)return TheGachaBox[_0x565ffc(-0xdd,-0xdd,-0xeb,-0xe1,-0xf2)](_0x565ffc(-0x125,-0x133,-0x122,-0x11a,-0x11a),modName+(_0x443c60(-0x30c,-0x30e,-0x319,-0x318,-0x311)+_0x5ae957(0x2bd,0x2cc,0x2d3,0x2ba,0x2c1)+_0x443c60(-0x30d,-0x2f7,-0x315,-0x2ff,-0x2e8)+_0x443c60(-0x305,-0x320,-0x329,-0x315,-0x304)+_0x5d18fa(0x4d,0x61,0x49,0x54,0x62)+_0x5ae957(0x2a4,0x291,0x2b0,0x2b2,0x290)+_0x1f52e4(0x46d,0x459,0x45a,0x476,0x45e)+_0x565ffc(-0xf0,-0xfb,-0xe2,-0xf8,-0xfb)+_0x5d18fa(0x5c,0x6d,0x4a,0x50,0x54)+_0x443c60(-0x329,-0x318,-0x2fe,-0x314,-0x311)+_0x5d18fa(0x50,0x43,0x40,0x56,0x50)+_0x443c60(-0x311,-0x31b,-0x310,-0x31b,-0x31d)+'.')),!!![];else akiFuncptr[_0x565ffc(-0xe9,-0x100,-0x101,-0x106,-0xf1)+_0x5d18fa(0x4a,0x35,0x2e,0x48,0x42)+_0x443c60(-0x30d,-0x316,-0x302,-0x312,-0x31f)]=TraderController[_0x565ffc(-0x109,-0xf8,-0xf0,-0xee,-0xef)+_0x1f52e4(0x46e,0x472,0x451,0x458,0x463)+_0x443c60(-0x324,-0x326,-0x319,-0x312,-0x30e)],akiFuncptr[_0x565ffc(-0xf3,-0x10f,-0xf3,-0x112,-0x10b)+_0x5ae957(0x2ac,0x2a1,0x2c4,0x2b3,0x2a4)+'le']=HttpRouter[_0x5ae957(0x2cd,0x2d6,0x2ce,0x2dd,0x2d6)+_0x5ae957(0x29f,0x2a5,0x2b8,0x293,0x287)+_0x1f52e4(0x460,0x449,0x461,0x43f,0x458)][_0x443c60(-0x30e,-0x320,-0x31f,-0x313,-0x315)+_0x5ae957(0x2cc,0x2d3,0x2c2,0x2dc,0x2c7)+_0x5ae957(0x2b3,0x2c6,0x2ad,0x2a4,0x2ad)][_0x5ae957(0x2bc,0x2c9,0x2aa,0x2b7,0x2bf)],TraderController[_0x443c60(-0x2ec,-0x2fb,-0x2fb,-0x302,-0x311)+_0x565ffc(-0x11b,-0xf8,-0x10e,-0x11b,-0x10a)+_0x1f52e4(0x45e,0x46d,0x463,0x45a,0x46e)]=TheGachaBox[_0x5ae957(0x2cb,0x2c6,0x2dc,0x2e2,0x2e4)+_0x5d18fa(0x32,0x5a,0x36,0x51,0x42)+_0x5d18fa(0x64,0x4e,0x61,0x34,0x4d)],HttpRouter[_0x5d18fa(0x5e,0x48,0x57,0x6b,0x5f)+_0x5ae957(0x29f,0x2a4,0x2a6,0x28c,0x289)+_0x5ae957(0x2a5,0x2a2,0x2a0,0x28f,0x2a1)][_0x5ae957(0x2ba,0x2d2,0x2a2,0x2af,0x2ac)+_0x5ae957(0x2cc,0x2c3,0x2c8,0x2b3,0x2c3)+_0x5d18fa(0x36,0x58,0x49,0x49,0x45)][modName]=TheGachaBox[_0x5ae957(0x29e,0x288,0x2a1,0x2ae,0x2b2)+_0x565ffc(-0xf2,-0xee,-0x10a,-0xf9,-0xf4)+_0x5d18fa(0x4d,0x27,0x25,0x3e,0x3b)+'l'];return!![];}
 }
 
 const __DEBUG = false;

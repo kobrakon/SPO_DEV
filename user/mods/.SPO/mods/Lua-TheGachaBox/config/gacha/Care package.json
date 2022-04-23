@@ -1,0 +1,120 @@
+{
+    "Loose meds":
+    {
+        "Name": "Care package",
+        "Description": "Hungry? Rough day? Here. Keep those gain going!",
+        "LoyaltyLevel": 1,
+        "ShowPrizeList": true,
+        "ShowPrizeChance": true,
+        "ShowFailedPrizeList": true,
+		"RestockTimeInSecond": 57600,
+        "BaseDummyItem": "5c093db286f7740a1b2617e3",
+        "Width": 2,
+        "Height": 2,
+        "BackgroundColor": "blue",
+        "Price":
+        [
+            {
+                "Item": "5449016a4bdc2d6f028b456f",
+                "Count": 10000
+            }
+        ],
+        "Stock":
+        {
+            "UnlimitedCount": false,
+            "StackObjectsCount": 1
+        },
+        "PrizeList":
+        [
+            {
+                "Item": "Preset:food1",
+                "Count": "1",
+                "Chance": 20.0
+            },
+            {
+              "Item": "Preset:food2",
+              "Count": "1",
+              "Chance": 20.0
+            },
+            {
+              "Item": "Preset:food3",
+              "Count": "1",
+              "Chance": 12.0
+            },
+            {
+              "Item": "Preset:food4",
+              "Count": "1",
+              "Chance": 12.0
+            }
+
+        ],
+        "FailedPrizeList":
+        [
+            {
+                "Item": "Preset:basefood",
+                "Count": "1",
+                "Chance": 100
+              }
+        ], 
+        "ItemPresets": {
+            "basefood": [
+              {
+                "Item": "5448fee04bdc2dbc018b4567",
+                "Count": "1"
+              },
+              {
+                "Item": "5448ff904bdc2d6f028b456e",
+                "Count": "2"
+
+              }
+            ],
+            "food1": [
+              {
+                "Item": "5448fee04bdc2dbc018b4567",
+                "Count": "1"
+              },
+              {
+                "Item": "590c5d4b86f774784e1b9c45",
+                "Count": "1"
+              }
+            ],
+            "food2": [
+                {
+                  "Item": "5448fee04bdc2dbc018b4567",
+                  "Count": "1"
+                },
+                {
+                  "Item": "590c5f0d86f77413997acfab",
+                  "Count": "1"
+                }
+              ],
+              "food3": [
+                {
+                  "Item": "5c0fa877d174af02a012e1cf",
+                  "Count": "1"
+                },
+                {
+                  "Item": "590c5f0d86f77413997acfab",
+                  "Count": "1"
+                }
+              ],
+              "food4": [
+                {
+                  "Item": "5c0fa877d174af02a012e1cf",
+                  "Count": "1"
+                },
+                {
+                  "Item": "590c5d4b86f774784e1b9c45",
+                  "Count": "1"
+                }
+              ]
+    
+      },
+     "ItemBlacklist": [
+  	  	"5e99711486f7744bfc4af328",
+	    	"590c657e86f77412b013051d",
+        "5d02797c86f774203f38e30a"
+
+	]
+  }
+}

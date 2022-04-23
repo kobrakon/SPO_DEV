@@ -6,10 +6,12 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
+				"Repairable": {
+					"MaxDurability": 75,
+					"Durability": 75
+				},
 				"UnlimitedCount": false,
-				"StackObjectsCount": 27,
-				"BuyRestrictionMax": 27,
-				"BuyRestrictionCurrent": 0
+				"StackObjectsCount": 2
 			}
 		}
 	],

@@ -1,0 +1,55 @@
+{
+	"items": [
+		{
+			"_id": "1573b529e64b37f0c2e80a70",
+			"_tpl": "560d657b4bdc2da74d8b4572",
+			"parentId": "d23931ff2284e83ea3a77fcd",
+			"slotId": "mod_tactical"
+		},
+		{
+			"_id": "d23931ff2284e83ea3a77fcd",
+			"_tpl": "576a7c512459771e796e0e17",
+			"parentId": "grach_light",
+			"slotId": "mod_mount"
+		},
+		{
+			"_id": "6b7d58a58a9217d2dd923548",
+			"_tpl": "576a5ed62459771e9c2096cb",
+			"parentId": "grach_light",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "38090b40b3307477a66200d8",
+			"_tpl": "576a63cd2459771e796e0e11",
+			"parentId": "grach_light",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "grach_light",
+			"_tpl": "576a581d2459771e7b1bc4f1",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"Repairable": {
+					"MaxDurability": 75,
+					"Durability": 75
+				},
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1
+			}
+		}
+	],
+	"barter_scheme": {
+		"grach_light": [
+			[
+				{
+					"count": 30000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"grach_light": 1
+	}
+}

@@ -1,9 +1,9 @@
 {
 	"name": "TheGachaBox",
 	"author": "Lua",
-	"version": "0.9.4",
-	"akiVersion": "2.3.0",
-	"license": "MIT/NCSA",
+	"version": "1.0.0",
+	"akiVersion": "2.3.*",
+	"license": "CC BY-NC-SA 4.0",
 	"dependencies": {
 	},
 	"main": "gachaworker.js"

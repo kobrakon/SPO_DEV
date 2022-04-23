@@ -12,7 +12,7 @@
     "aiChanges": {
 		
 		"Note": "This value is added to ALL bot difficulties, unless that bot is in the botsToLeaveUnchanged list",
-        "overallAIDifficultyMod": -0.65,
+        "overallAIDifficultyMod": -0.45,
 		
 		"Note": "The default difficulty setting will be used for any non-boss AI *NOT* present in botDifficulties or botsToLeaveUnchanged. This difficulty setting IS modified by overallAIDifficultyMod",
 		"defaultDifficulty": 4,

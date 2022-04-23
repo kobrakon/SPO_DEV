@@ -7,9 +7,7 @@
 			"slotId": "hideout",
 			"upd": {
 				"UnlimitedCount": true,
-				"StackObjectsCount": 1,
-				"BuyRestrictionMax": 1,
-				"BuyRestrictionCurrent": 0
+				"StackObjectsCount": 3
 			}
 		}
 	],
