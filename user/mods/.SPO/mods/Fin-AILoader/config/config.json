@@ -20,8 +20,8 @@
 		"botDifficulties":{
 			"assault": 3,
 			"pmcbot": 4,
-			"bear": 5,
-			"usec": 5,
+			"bear": 7,
+			"usec": 7,
 			"followerBully": 4,
 			"followerGluharScout": 4,
 			"followerGluharSecurity": 5,

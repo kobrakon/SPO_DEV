@@ -1,10 +1,16 @@
 [	
+	
 	"...AdvancedTraderFramework",
+	"r1ft-BackpackResize",
 	"ServerValueModifier",
 	"Kaiju-api",
+	
 	"CoreMod",
+	
 	"..Revingly-micc",
+	
 	"AkiConfigurator",
+	
 	"Andrudis-QoL-Configurator",
 	"CustomQuests",
 	"Chomp-RaiderSpawnFix",
@@ -16,6 +22,7 @@
 	"Faupi-HideoutArchitect",
 	"FershteBalancePatch",
 	"HoltzmanShield",
+	
 	"JoshJ5Hawk-NoHydroEnergy",
 	"JoshJ5Hawk-SuperItems",
 	"Kiki-ScavTweaks",
@@ -25,6 +32,9 @@
 	"LeKaiju-Orbitas-AmmoPouch",
 	"Lua-TheGachaBox",
 	"Kiki-HealthMultiplier2.0.4",
+
+	"Fin-BigRigs",
+
 	"SPT-Realism-Mod",
 	"Fin-AILoader",
 	"Lua-CustomSpawnPoints",
@@ -35,8 +45,10 @@
 	"zzReducedProdTime",
 	"Kobrakon-HideoutTweaks",
 	"flealock",
-	"SPO",
+	//"SPO",
+	"SPO_Tweaks",
 	"SPO_ammo",
 	"SPO-LootProgression",
+	
 	"Orbitas-MarkItemsFIR"
 ] 

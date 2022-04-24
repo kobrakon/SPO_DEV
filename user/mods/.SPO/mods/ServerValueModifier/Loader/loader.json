@@ -1,8 +1,4 @@
 {
-	"ModsCompat":
-	{
-		"checkBox5":false
-	},
 	"Loot":
 	{
 		"EnableLoot":false
@@ -42,30 +38,17 @@
 		"Therapist_Min":1
 		}
 	},
-	"Bots":
+	"ModsCompat":
 	{
-		"HostilePMC":50,
-		"EnableBots":false,
-		"PMCRatio":50
-	},
-	"BL":
-	{
-		"LootableMelee":false,
-		"EnableAdvLoad":false,
-		"AddAllKeys":false,
-		"AddAllContainers":false
-	},
-	"Deprecated":
-	{
-		"EnableDeprecated":false
+		"checkBox5":false
 	},
 	"Items":
 	{
-		"BallisticCoefMult":0.75,
+		"BallisticCoefMult":1,
 		"MisfireChance":1,
-		"MalfunctChanceMult":1.1,
+		"MalfunctChanceMult":1,
 		"ItemPriceMult":0.5,
-		"AmmoLoadSpeed":33,
+		"AmmoLoadSpeed":35,
 		"EnableItems":true,
 		"AmmoStacks":
 		{
@@ -75,11 +58,11 @@
 		"PistolRound":100
 		},
 		"RemoveRaidRestr":false,
-		"IDChanger":true,
+		"IDChanger":false,
 		"EnableBarterStack":false,
 		"RemoveKeysUsageNumber":false,
 		"NoGearPenalty":false,
-		"RemoveBackpacksRestrictions":true,
+		"RemoveBackpacksRestrictions":false,
 		"ExamineExp":1,
 		"LootExp":1,
 		"CashStack":1000000,
@@ -92,51 +75,13 @@
 	"Fleamarket":
 	{
 		"DisableBSGList":true,
-		"EnableFleamarket":true,
-		"DynamicOffers":
-		{
-		"ExpireThreshold":1500,
-		"Stack_min":0,
-		"PerOffer_min":0,
-		"Stack_max":0,
-		"PerOffer_max":0,
-		"Eurooffers":2,
-		"Dollaroffers":23,
-		"Roubleoffers":75,
-		"Rating_min":0.1,
-		"NonStack_min":0,
-		"Condition_min":0.5,
-		"Time_min":360,
-		"Price_min":3,
-		"Rating_max":0.95,
-		"NonStack_max":0,
-		"Condition_max":0.75,
-		"Time_max":1800,
-		"Price_max":6
-		},
-		"PlayerOffers":
-		{
-		"Tradeoffer_max":100,
-		"Rep_loss":2E-07,
-		"Rep_gain":2E-07,
-		"Tradeoffer_min":100,
-		"Tradeoffer_avg":100,
-		"Sell_underprice":0,
-		"Sell_overprice":0,
-		"Sell_chance":15,
-		"EnableFees":true
-		},
-		"TraderStaticOffers":
-		{
-		"Jaegeroffers":true,
-		"Peacekeeperoffers":true,
-		"Fenceoffers":true,
-		"Praporoffers":true,
-		"SkierOffers":true,
-		"Therapistoffers":true,
-		"Mechanicoffers":true,
-		"Ragmanoffers":true
-		}
+		"EnableFleamarket":false
+	},
+	"Bots":
+	{
+		"HostilePMC":50,
+		"EnableBots":false,
+		"PMCRatio":50
 	},
 	"CSM":
 	{
@@ -218,6 +163,17 @@
 		},
 		"EnableCSM":true
 	},
+	"BL":
+	{
+		"LootableMelee":false,
+		"EnableAdvLoad":false,
+		"AddAllKeys":false,
+		"AddAllContainers":false
+	},
+	"Deprecated":
+	{
+		"EnableDeprecated":false
+	},
 	"Hideout":
 	{
 		"RemoveConstructionsRequirements":false,
@@ -274,7 +230,7 @@
 		"LabInsurance":false,
 		"EnableRaids":true,
 		"SCAVTimer":false,
-		"Timeacceleration":5,
+		"Timeacceleration":3,
 		"Weather":
 		{
 		"Pressure_max":764,
@@ -312,7 +268,7 @@
 		{
 		"MIA":1,
 		"Runner":0.5,
-		"Survived":1,
+		"Survived":1.5,
 		"Killed":1
 		},
 		"ExtendedExtracts":false,
@@ -321,7 +277,5 @@
 		"ExtendedRaid":true,
 		"AllExtractionsAvailable":false,
 		"NoExtractRestric":false
-	},
-"ItemList":[
-]
+	}
 }

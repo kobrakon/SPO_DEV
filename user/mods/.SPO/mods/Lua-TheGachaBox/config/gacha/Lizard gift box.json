@@ -203,7 +203,13 @@
           "Item": "5c07c60e0db834002330051f",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "55d4887d4bdc2d962f8b4570",
@@ -236,7 +242,13 @@
           "Item": "5ac66d9b5acfc4001633997a",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -269,7 +281,13 @@
           "Item": "5bf3e03b0db834001d2c4a9c",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -307,7 +325,13 @@
         {
           "Item": "564ca99c4bdc2d16268b4589",
           "Count": "1, 2",
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "56dff0bed2720bb0668b4567",
@@ -335,7 +359,13 @@
           "Item": "5bf3e0490db83400196199af",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -368,7 +398,13 @@
           "Item": "583990e32459771419544dd2",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -401,7 +437,13 @@
           "Item": "5839a40f24597726f856b511",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -434,7 +476,13 @@
           "Item": "5ea03f7400685063ec28bfa8",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5ea034eb5aad6446a939737b",
@@ -472,7 +520,13 @@
           "Item": "5ac66d2e5acfc43b321d4b53",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -500,7 +554,13 @@
           "Item": "5ac66d725acfc43b321d4b60",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -528,7 +588,13 @@
           "Item": "5a0ec13bfcdbcb00165aa685",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -556,7 +622,13 @@
           "Item": "59ff346386f77477562ff5e2",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -584,7 +656,13 @@
           "Item": "59e6542b86f77411dc52a77a",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -607,7 +685,13 @@
           "Item": "587e02ff24597743df3deaeb",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5656d7c34bdc2d9d198b4587",
@@ -625,7 +709,13 @@
           "Item": "574d967124597745970e7c94",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5656d7c34bdc2d9d198b4587",
@@ -643,7 +733,13 @@
           "Item": "5de652c31b7e3716273428be",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a01c29586f77474660c694c",
@@ -671,7 +767,13 @@
           "Item": "5c501a4d2e221602b412b540",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5c503ac82e221602b21d6e9a",
@@ -694,7 +796,13 @@
           "Item": "5bfd297f0db834001a669119",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5887431f2459777e1612938f",
@@ -712,7 +820,13 @@
           "Item": "5ae08f0a5acfc408fb1398a1",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5887431f2459777e1612938f",
@@ -730,7 +844,13 @@
           "Item": "57838ad32459774a17445cd2",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "57838f0b2459774a256959b2",
@@ -758,7 +878,13 @@
           "Item": "5beed0f50db834001c062b12",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "564ca99c4bdc2d16268b4589",
@@ -791,7 +917,13 @@
           "Item": "57f3c6bd24597738e730fa2f",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "57d14e1724597714010c3f4b",
@@ -824,7 +956,13 @@
           "Item": "59984ab886f7743e98271174",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5998529a86f774647f44f421",
@@ -857,7 +995,13 @@
           "Item": "57f3c6bd24597738e730fa2f",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5998529a86f774647f44f421",
@@ -890,7 +1034,13 @@
           "Item": "60339954d62c9b14ed777c06",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a7ad2e851dfba0016153692",
@@ -913,7 +1063,13 @@
           "Item": "5b0bbe4e5acfc40dc528a72d",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5b099ac65acfc400186331e1",
@@ -936,7 +1092,13 @@
           "Item": "5448bd6b4bdc2dfc2f8b4569",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5448c12b4bdc2d02308b456f",
@@ -964,7 +1126,13 @@
           "Item": "5a17f98cfcdbcb0980087290",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a17fb03fcdbcbcae668728f",
@@ -1002,7 +1170,13 @@
         {
           "Item": "5a17fb03fcdbcbcae668728f",
           "Count": "2, 3",
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "573719762459775a626ccbc1",
@@ -1027,10 +1201,16 @@
       ],
       "M1911A1": [
         {
-          "Item": "5abccb7dd8ce87001773e277",
+          "Item": "5e81c3cbac2bb513793cdc75",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5e81c4ca763d9f754677befa",
@@ -1053,7 +1233,13 @@
           "Item": "576a581d2459771e7b1bc4f1",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "576a5ed62459771e9c2096cb",
@@ -1076,7 +1262,13 @@
           "Item": "56d59856d2720bd8418b456a",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "56d59948d2720bb7418b4582",
@@ -1099,7 +1291,13 @@
           "Item": "5448bd6b4bdc2dfc2f8b4569",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5448c12b4bdc2d02308b456f",
@@ -1122,7 +1320,13 @@
           "Item": "5448bd6b4bdc2dfc2f8b4569",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5448c12b4bdc2d02308b456f",
@@ -1150,7 +1354,13 @@
         {
           "Item": "5448c12b4bdc2d02308b456f",
           "Count": "2, 3",
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "573719762459775a626ccbc1",
@@ -1168,7 +1378,13 @@
           "Item": "5448bd6b4bdc2dfc2f8b4569",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "59f99a7d86f7745b134aa97b",
@@ -1191,7 +1407,13 @@
           "Item": "5448bd6b4bdc2dfc2f8b4569",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "571a29dc2459771fb2755a6a",
@@ -1214,7 +1436,13 @@
           "Item": "6193a720f8ee7e52e42109ed",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "6193d338de3cdf1d2614a6fc",
@@ -1237,7 +1465,13 @@
           "Item": "5580223e4bdc2d1c128b457f",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "560d5e524bdc2d25448b4571",
@@ -1255,7 +1489,13 @@
           "Item": "60db29ce99594040e04c4a27",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "560d5e524bdc2d25448b4571",
@@ -1273,7 +1513,13 @@
           "Item": "60db29ce99594040e04c4a27",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "560d5e524bdc2d25448b4571",
@@ -1291,7 +1537,13 @@
           "Item": "576165642459773c7a400233",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "57616a9e2459773c7a400234",
@@ -1314,7 +1566,13 @@
           "Item": "576165642459773c7a400233",
           "Count": "1",
           "WeaponPrebuilChance": 100.0,
-          "FIR": false
+          "FIR": false,
+          "upd": {
+            "Repairable": {
+              "MaxDurability": 75,
+              "Durability": 75
+            }
+          }
         },
         {
           "Item": "5a38ee51c4a282000c5a955c",

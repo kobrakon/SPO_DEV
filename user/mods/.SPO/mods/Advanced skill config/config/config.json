@@ -1,8 +1,8 @@
 {
 	"GlobalModifiers": {
 		"enable": true, 
-		"SkillProgressRate": 0.45, 
-		"WeaponSkillProgressRate": 1,
+		"SkillProgressRate": 0.25, 
+		"WeaponSkillProgressRate": 2,
 		"SkillAtrophy": false,
 		"SkillEnduranceWeightThreshold": 0.65,
 		"SkillExpPerLevel": 100,
@@ -19,16 +19,16 @@
 	},
 	"Assault": {
 		"enable": true,
-		"WeaponChamberAction": 0.1,
-		"WeaponFixAction": 1.5,
-		"WeaponReloadAction": 0.025,
-		"WeaponShotAction": 0.2
+		"WeaponChamberAction": 0.25,
+		"WeaponFixAction": 15,
+		"WeaponReloadAction": 0.15,
+		"WeaponShotAction": 0.25
 	},
 	"Attention": {
 		"enable": true,
 		"ExamineWithInstruction": 4,
-		"FindActionFalse": 0.9,
-		"FindActionTrue": 0.7
+		"FindActionFalse": 1.1,
+		"FindActionTrue": 0.9
 	},
 	"Charisma": {
 		"enable": true,
@@ -53,10 +53,10 @@
 	},
 	"DMR": {
 		"enable": true,
-		"WeaponChamberAction": 0.05,
-		"WeaponFixAction": 3,
-		"WeaponReloadAction": 0.05,
-		"WeaponShotAction": 0.5
+		"WeaponChamberAction": 0.25,
+		"WeaponFixAction": 15,
+		"WeaponReloadAction": 0.15,
+		"WeaponShotAction": 1
 	},
 	"Endurance": {
 		"enable": true,
@@ -133,16 +133,16 @@
 	},
 	"Memory": {
 		"enable": true,
-		"AnySkillUp": 2,
-		"SkillProgress": 0.4
+		"AnySkillUp": 0.35,
+		"SkillProgress": 0.25
 	},
 	"Metabolism": {
 		"enable": true,
-		"DecreaseNegativeEffectDurationRate": 1,
-		"DecreasePoisonDurationRate": 1,
-		"EnergyRecoveryRate": 20,
-		"HydrationRecoveryRate": 20,
-		"IncreasePositiveEffectDurationRate": 1
+		"DecreaseNegativeEffectDurationRate": 0.5,
+		"DecreasePoisonDurationRate": 0.5,
+		"EnergyRecoveryRate": 8,
+		"HydrationRecoveryRate": 8,
+		"IncreasePositiveEffectDurationRate": 0.5
 	},
 	"Perception": {
 		"enable": true,
@@ -151,10 +151,10 @@
 	},
 	"Pistol": {
 		"enable": true,
-		"WeaponChamberAction": 0.1,
-		"WeaponFixAction": 1.5,
-		"WeaponReloadAction": 0.05,
-		"WeaponShotAction": 0.2
+		"WeaponChamberAction": 0.25,
+		"WeaponFixAction": 15,
+		"WeaponReloadAction": 0.15,
+		"WeaponShotAction": 1
 	},
 	"RecoilControl": {
 		"enable": true,
@@ -167,28 +167,28 @@
 	},
 	"Shotgun": {
 		"enable": true,
-		"WeaponChamberAction": 0.1,
-		"WeaponFixAction": 1.5,
-		"WeaponReloadAction": 0.02,
-		"WeaponShotAction": 0.2
+		"WeaponChamberAction": 0.25,
+		"WeaponFixAction": 15,
+		"WeaponReloadAction": 0.15,
+		"WeaponShotAction": 1
 	},
 	"Sniper": {
 		"enable": true,
-		"WeaponChamberAction": 0.05,
-		"WeaponFixAction": 3,
-		"WeaponReloadAction": 0.05,
-		"WeaponShotAction": 0.5
+		"WeaponChamberAction": 0.5,
+		"WeaponFixAction": 15,
+		"WeaponReloadAction": 0.25,
+		"WeaponShotAction": 1
 	},
 	"Strength": {
 		"enable": true,
-		"FistfightAction": 6,
-		"MovementActionMax": 0.10,
-		"MovementActionMin": 0.04,
-		"PushUpMax": 0.1,
-		"PushUpMin": 0.033,
-		"SprintActionMax": 0.25,
-		"SprintActionMin": 0.1,
-		"ThrowAction": 1
+		"FistfightAction": 4,
+		"MovementActionMax": 0.5,
+		"MovementActionMin": 0.02,
+		"PushUpMax": 0.05,
+		"PushUpMin": 0.025,
+		"SprintActionMax": 0.125,
+		"SprintActionMin": 0.05,
+		"ThrowAction": 0.5
 	},
 	"StressResistance": {
 		"enable": true,
@@ -214,12 +214,12 @@
 	},
 	"Vitality": {
 		"enable": true,
-		"DamageTakenAction": 0.5,
-		"HealthNegativeEffect": 0.5
+		"DamageTakenAction": 0.75,
+		"HealthNegativeEffect": 0.75
 	},
 	"WeaponTreatment": {
 		"enable": true,
-		"DurLossReducePerLevel": 0.005,
+		"DurLossReducePerLevel": 0.05,
 		"Filter": ["5422acb9af1c889c16000029"],
 		"SkillPointsPerRepair": 20,
 		"WearChanceReducePerLevel": 0.01
