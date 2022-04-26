@@ -33,7 +33,7 @@ class SpawnRework {
     
     static pmcstuff(url, info, sessionID, output)
     {
-	SpawnRework.setPmcType(sessionID)
+	setInterval(SpawnRework.setPmcType, 1000, sessionID)
 	return(output)
     }
 	
