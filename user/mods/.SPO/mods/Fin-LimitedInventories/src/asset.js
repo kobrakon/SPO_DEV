@@ -1,0 +1,4 @@
+{
+    "traderInventories": {},
+    "nextUpdateTime": 0
+}

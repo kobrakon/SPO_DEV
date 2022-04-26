@@ -3,6 +3,25 @@
 	{
 		"EnableLoot":false
 	},
+	"Insurance":
+	{
+		"InsuranceMultTherapist":0.5,
+		"EnableInsurance":true,
+		"InsuranceStorageTime":72,
+		"ReturnChance":70,
+		"InsuranceMultPrapor":0.32,
+		"InsuranceTime":
+		{
+		"Prapor_Max":4,
+		"Prapor_Min":2,
+		"Therapist_Max":2,
+		"Therapist_Min":1
+		}
+	},
+	"ModsCompat":
+	{
+		"checkBox5":false
+	},
 	"Player":
 	{
 		"EnableHealth":false,
@@ -23,24 +42,22 @@
 		"SkillProgMult":1,
 		"SkillFatigue":false
 	},
-	"Insurance":
+	"BL":
 	{
-		"InsuranceMultTherapist":0.5,
-		"EnableInsurance":true,
-		"InsuranceStorageTime":72,
-		"ReturnChance":70,
-		"InsuranceMultPrapor":0.32,
-		"InsuranceTime":
-		{
-		"Prapor_Max":4,
-		"Prapor_Min":2,
-		"Therapist_Max":2,
-		"Therapist_Min":1
-		}
+		"LootableMelee":false,
+		"EnableAdvLoad":false,
+		"AddAllKeys":false,
+		"AddAllContainers":false
 	},
-	"ModsCompat":
+	"Bots":
 	{
-		"checkBox5":false
+		"HostilePMC":50,
+		"EnableBots":false,
+		"PMCRatio":50
+	},
+	"Deprecated":
+	{
+		"EnableDeprecated":false
 	},
 	"Items":
 	{
@@ -57,12 +74,12 @@
 		"ShotgunRound":80,
 		"PistolRound":100
 		},
-		"RemoveRaidRestr":false,
+		"RemoveRaidRestr":true,
 		"IDChanger":false,
 		"EnableBarterStack":false,
 		"RemoveKeysUsageNumber":false,
 		"NoGearPenalty":false,
-		"RemoveBackpacksRestrictions":false,
+		"RemoveBackpacksRestrictions":true,
 		"ExamineExp":1,
 		"LootExp":1,
 		"CashStack":1000000,
@@ -76,12 +93,6 @@
 	{
 		"DisableBSGList":true,
 		"EnableFleamarket":false
-	},
-	"Bots":
-	{
-		"HostilePMC":50,
-		"EnableBots":false,
-		"PMCRatio":50
 	},
 	"CSM":
 	{
@@ -162,17 +173,6 @@
 		"EpsilonVSize":3
 		},
 		"EnableCSM":true
-	},
-	"BL":
-	{
-		"LootableMelee":false,
-		"EnableAdvLoad":false,
-		"AddAllKeys":false,
-		"AddAllContainers":false
-	},
-	"Deprecated":
-	{
-		"EnableDeprecated":false
 	},
 	"Hideout":
 	{

@@ -1,0 +1,26 @@
+{
+	"items": [
+		{
+			"_id": "61e0a2a7033bdc459438d29e",
+			"_tpl": "5a01c29586f77474660c694c",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"StackObjectsCount": 3
+			}
+		}
+	],
+	"barter_scheme": {
+		"61e0a2a7033bdc459438d29e": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590c2b4386f77425357b6123"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a2a7033bdc459438d29e": 1
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"items": [
+		{
+			"_id": "61e0a289033bdc459438bf04",
+			"_tpl": "592c2d1a86f7746dbe2af32a",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0,
+				"StackObjectsCount": 1
+			}
+		}
+	],
+	"barter_scheme": {
+		"61e0a289033bdc459438bf04": [
+			[
+				{
+					"count": 5,
+					"_tpl": "57347c1124597737fb1379e3"
+				},
+				{
+					"count": 1,
+					"_tpl": "59faf98186f774067b6be103"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a289033bdc459438bf04": 2
+	}
+}

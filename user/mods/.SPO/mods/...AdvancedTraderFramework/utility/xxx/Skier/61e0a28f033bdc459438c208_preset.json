@@ -1,0 +1,88 @@
+{
+	"items": [
+		{
+			"_id": "61e0a28f033bdc459438c208",
+			"_tpl": "60339954d62c9b14ed777c06",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"BuyRestrictionMax": 2,
+				"BuyRestrictionCurrent": 0,
+				"StackObjectsCount": 2
+			}
+		},
+		{
+			"_id": "61e0a28f033bdc459438c209",
+			"_tpl": "602e71bd53a60014f9705bfa",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_pistol_grip"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20a",
+			"_tpl": "5a7ad2e851dfba0016153692",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_magazine"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20b",
+			"_tpl": "602e63fb6335467b0c5ac94d",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20c",
+			"_tpl": "603372b4da11d6478d5a07ff",
+			"parentId": "61e0a28f033bdc459438c20b",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20d",
+			"_tpl": "60337f5dce399e10262255d1",
+			"parentId": "61e0a28f033bdc459438c20c",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20e",
+			"_tpl": "6034e3cb0ddce744014cb870",
+			"parentId": "61e0a28f033bdc459438c20b",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c20f",
+			"_tpl": "602e3f1254072b51b239f713",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_stock_001"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c210",
+			"_tpl": "602e620f9b513876d4338d9a",
+			"parentId": "61e0a28f033bdc459438c20f",
+			"slotId": "mod_stock_000"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c211",
+			"_tpl": "6033749e88382f4fab3fd2c5",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_charge"
+		},
+		{
+			"_id": "61e0a28f033bdc459438c212",
+			"_tpl": "602f85fd9b513876d4338d9c",
+			"parentId": "61e0a28f033bdc459438c208",
+			"slotId": "mod_tactical_000"
+		}
+	],
+	"barter_scheme": {
+		"61e0a28f033bdc459438c208": [
+			[
+				{
+					"count": 44121,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a28f033bdc459438c208": 2
+	}
+}

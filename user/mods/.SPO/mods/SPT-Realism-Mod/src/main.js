@@ -69,27 +69,27 @@ class Main {
 
     static checkLVL(pmcData) {
         if (config.botChanges == true) {
-            if (pmcData.Info.Level >= 0 && pmcData.Info.Level <= 14) {
+            if (pmcData.Info.Level >= 0 && pmcData.Info.Level <= 8) {
                 Bots.botConfig1();
                 Logger.info("Realism mod: Bots have been set to tier 1");
             }
     
-            if (pmcData.Info.Level >= 15 && pmcData.Info.Level <= 25) {
+            if (pmcData.Info.Level >= 9 && pmcData.Info.Level <= 15) {
                 Bots.botConfig1_5();
                 Logger.info("Realism mod: Bots have been adjusted to tier 1_5");
             }
     
-            if (pmcData.Info.Level >= 26 && pmcData.Info.Level <= 35) {
+            if (pmcData.Info.Level >= 16 && pmcData.Info.Level <= 22) {
                 Bots.botConfig2();
                 Logger.info("Realism mod: Bots have been adjusted to tier 2");
             }
     
-            if (pmcData.Info.Level >= 36 && pmcData.Info.Level <= 44) {
+            if (pmcData.Info.Level >= 23 && pmcData.Info.Level <= 29) {
                 Bots.botConfig2_5();
                 Logger.info("Realism mod: Bots have been adjusted to tier 2_5");
             }
     
-            if (pmcData.Info.Level >= 45 && pmcData.Info.Level <= 100) {
+            if (pmcData.Info.Level >= 30 && pmcData.Info.Level <= 100) {
                 Bots.botConfig3();
                 Logger.info("Realism mod: Bots have been adjusted to tier 3");
             }

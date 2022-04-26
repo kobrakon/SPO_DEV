@@ -1,0 +1,76 @@
+{
+	"items": [
+		{
+			"_id": "61e0a2a5033bdc459438d09a",
+			"_tpl": "5abcbc27d8ce8700182eceeb",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0,
+				"StackObjectsCount": 1
+			}
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d09b",
+			"_tpl": "59d64ec286f774171d1e0a42",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_gas_block"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d09c",
+			"_tpl": "59d64f2f86f77417193ef8b3",
+			"parentId": "61e0a2a5033bdc459438d09b",
+			"slotId": "mod_handguard"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d09d",
+			"_tpl": "59e61eb386f77440d64f5daf",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_muzzle"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d09e",
+			"_tpl": "5a0071d486f77404e23a12b2",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_pistol_grip_akms"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d09f",
+			"_tpl": "59d6507c86f7741b846413a2",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d0a0",
+			"_tpl": "59d650cf86f7741b846413a4",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d0a1",
+			"_tpl": "5abcd472d8ce8700166032ae",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_stock_akms"
+		},
+		{
+			"_id": "61e0a2a5033bdc459438d0a2",
+			"_tpl": "5a0060fc86f7745793204432",
+			"parentId": "61e0a2a5033bdc459438d09a",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"61e0a2a5033bdc459438d09a": [
+			[
+				{
+					"count": 43063,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a2a5033bdc459438d09a": 3
+	}
+}

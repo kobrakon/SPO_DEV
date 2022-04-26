@@ -1,0 +1,28 @@
+{
+	"allow_barter_trades": true,
+		"show_unavailable_barters_as_zero_stock": false,
+		
+	"reduce_armor_durability": false,
+	
+	"condense_identical_items_into_one_stack": true,
+	
+	"price_multipliers" : {
+			"guns": 			1,
+			"ammo": 			1,
+			"throwables": 		1,
+			"vitalMods": 		1,
+			"optionalMods": 	1,
+			"armors": 			1,
+			"helmets": 			1,
+			"eyewear": 			1,
+			"backpack": 		1,
+			"magazine":			1,
+			"rig": 				1,
+			"headset": 			1,
+			"barter": 			1,
+			"melee": 			1,
+			"tech":				1,
+			"meds": 			1,
+			"food": 			1
+	}
+}

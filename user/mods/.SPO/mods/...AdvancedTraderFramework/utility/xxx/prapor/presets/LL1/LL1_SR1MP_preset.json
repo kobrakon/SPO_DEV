@@ -1,0 +1,34 @@
+{
+	"items": [
+		{
+			"_id": "61e0a2a6033bdc459438d139",
+			"_tpl": "59f98b4986f7746f546d2cef",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"BuyRestrictionMax": 3,
+				"BuyRestrictionCurrent": 0,
+				"StackObjectsCount": 3
+			}
+		},
+		{
+			"_id": "61e0a2a6033bdc459438d13a",
+			"_tpl": "59f99a7d86f7745b134aa97b",
+			"parentId": "61e0a2a6033bdc459438d139",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"61e0a2a6033bdc459438d139": [
+			[
+				{
+					"count": 1,
+					"_tpl": "590c5a7286f7747884343aea"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a2a6033bdc459438d139": 1
+	}
+}

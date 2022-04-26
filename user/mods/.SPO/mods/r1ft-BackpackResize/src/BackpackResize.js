@@ -27,8 +27,8 @@ class BackpackResize {
       items["5f5e46b96bdad616ad46d613"]._props.Width = 4
       items["5f5e46b96bdad616ad46d613"]._props.Height = 6
       //sling
-      items["5f5e46b96bdad616ad46d613"]._props.Width = 3
-      items["5f5e46b96bdad616ad46d613"]._props.Height = 4
+      items["5ab8f04f86f774585f4237d8"]._props.Width = 3
+      items["5ab8f04f86f774585f4237d8"]._props.Height = 4
         // Loop over the items to modify
         for (const id in itemsToModify) {
           const excludeFilters = [];

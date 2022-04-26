@@ -1,0 +1,58 @@
+{
+	"items": [
+		{
+			"_id": "61e0a29c033bdc459438cb61",
+			"_tpl": "5d67abc1a4b93614ec50137f",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"BuyRestrictionMax": 1,
+				"BuyRestrictionCurrent": 0,
+				"StackObjectsCount": 1
+			}
+		},
+		{
+			"_id": "61e0a29c033bdc459438cb62",
+			"_tpl": "5d3eb5b6a4b9361eab311902",
+			"parentId": "61e0a29c033bdc459438cb61",
+			"slotId": "mod_barrel"
+		},
+		{
+			"_id": "61e0a29c033bdc459438cb63",
+			"_tpl": "5d3eb44aa4b93650d64e4979",
+			"parentId": "61e0a29c033bdc459438cb61",
+			"slotId": "mod_reciever"
+		},
+		{
+			"_id": "61e0a29c033bdc459438cb64",
+			"_tpl": "5d3eb4aba4b93650d64e497d",
+			"parentId": "61e0a29c033bdc459438cb63",
+			"slotId": "mod_sight_rear"
+		},
+		{
+			"_id": "61e0a29c033bdc459438cb65",
+			"_tpl": "5d3eb536a4b9363b1f22f8e2",
+			"parentId": "61e0a29c033bdc459438cb63",
+			"slotId": "mod_sight_front"
+		},
+		{
+			"_id": "61e0a29c033bdc459438cb66",
+			"_tpl": "5d3eb5eca4b9363b1f22f8e4",
+			"parentId": "61e0a29c033bdc459438cb61",
+			"slotId": "mod_magazine"
+		}
+	],
+	"barter_scheme": {
+		"61e0a29c033bdc459438cb61": [
+			[
+				{
+					"count": 262.42,
+					"_tpl": "5696686a4bdc2da3298b456a"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"61e0a29c033bdc459438cb61": 3
+	}
+}

@@ -26,7 +26,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.45;
                 fileData._props.FragmentationChance = 0.6;
                 fileData._props.BulletMassGram = 0.47;
-                fileData._props.HeavyBleedingDelta = 0.13;
+                fileData._props.HeavyBleedingDelta = 0.2;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //5.25mm Buckshot
@@ -39,8 +39,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.25;
                 fileData._props.BulletMassGram = 0.9;
-                fileData._props.HeavyBleedingDelta = 0.2;
-                fileData._props.LightBleedingDelta = 0.5;
+                fileData._props.HeavyBleedingDelta = 0.1;
+                fileData._props.LightBleedingDelta = 0.25;
             }
             //7mm Buckshot
             if (fileData._id === "560d5e524bdc2d25448b4571") {
@@ -52,8 +52,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.28;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 1.9;
-                fileData._props.HeavyBleedingDelta = 0.3;
-                fileData._props.LightBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.1;
+                fileData._props.LightBleedingDelta = 0.3;
             }
             //8.5mm Buckshot "Magnum"
             if (fileData._id === "5d6e6806a4b936088465b17e") {
@@ -65,8 +65,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.24;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 3.38;
-                fileData._props.HeavyBleedingDelta = 0.4;
-                fileData._props.LightBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.2;
+                fileData._props.LightBleedingDelta = 0.32;
             }
             //6.5mm Buckshot "Express"
             if (fileData._id === "5d6e67fba4b9361bc73bc779") {
@@ -78,8 +78,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.22;
                 fileData._props.FragmentationChance = 0.23;
                 fileData._props.BulletMassGram = 2.1;
-                fileData._props.HeavyBleedingDelta = 0.25;
-                fileData._props.LightBleedingDelta = 0.65;
+                fileData._props.HeavyBleedingDelta = 0.1;
+                fileData._props.LightBleedingDelta = 0.35;
             }
             //.50 BMG
             if (fileData._id === "5d6e68c4a4b9361b93413f79") {
@@ -90,7 +90,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.17;
                 fileData._props.FragmentationChance = 0.3;
                 fileData._props.BulletMassGram = 20;
-                fileData._props.HeavyBleedingDelta = 0.65;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Lead slug  
@@ -102,7 +102,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 36.6;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Dual Sabot
@@ -115,7 +115,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.24;
                 fileData._props.BulletMassGram = 22.5;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.2;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Poleva-3 (HP)
@@ -127,7 +127,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.14;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 28;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Grizzly (HP)
@@ -139,7 +139,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.18;
                 fileData._props.BulletMassGram = 40;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //RIP (HP copper)
@@ -151,7 +151,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.28;
                 fileData._props.BulletMassGram = 19.6;
-                fileData._props.HeavyBleedingDelta = 0.75
+                fileData._props.HeavyBleedingDelta = 0.45
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Poleva-6u (FMJ)
@@ -163,7 +163,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.22;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 33.5;
-                fileData._props.HeavyBleedingDelta = 0.5;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Copper Sabot (HP)
@@ -175,7 +175,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 28.35;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //FTX custom light
@@ -187,7 +187,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.17;
                 fileData._props.BulletMassGram = 19.4;
-                fileData._props.HeavyBleedingDelta = 0.65;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //SuperPerformance (HP)
@@ -199,7 +199,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 19.5;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.40;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //AP-20 
@@ -211,7 +211,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.05;
                 fileData._props.BulletMassGram = 28.3;
-                fileData._props.HeavyBleedingDelta = 0.60;
+                fileData._props.HeavyBleedingDelta = 0.40;
                 fileData._props.LightBleedingDelta = 0.75;
             }
 
@@ -226,7 +226,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.33;
                 fileData._props.FragmentationChance = 0.12;
                 fileData._props.BulletMassGram = 1;
-                fileData._props.HeavyBleedingDelta = 0.13;
+                fileData._props.HeavyBleedingDelta = 0.05;
                 fileData._props.LightBleedingDelta = 0.5;
             }
             //6.2mm buckshot
@@ -239,7 +239,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 1.26;
-                fileData._props.HeavyBleedingDelta = 0.25;
+                fileData._props.HeavyBleedingDelta = 0.1;
                 fileData._props.LightBleedingDelta = 0.6;
             }
             //7.5mm buckshot
@@ -252,8 +252,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.24;
                 fileData._props.FragmentationChance = 0.17;
                 fileData._props.BulletMassGram = 3.5;
-                fileData._props.HeavyBleedingDelta = 0.35;
-                fileData._props.LightBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.1;
+                fileData._props.LightBleedingDelta = 0.32;
             }
             //7.3mm buckshot
             if (fileData._id === "5a38ebd9c4a282000d722a5b") {
@@ -265,8 +265,8 @@ class Ammo {
                 fileData._props.RicochetChance = 0.26;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 2;
-                fileData._props.HeavyBleedingDelta = 0.3;
-                fileData._props.LightBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.1;
+                fileData._props.LightBleedingDelta = 0.3;
             }
 
             //Star slug
@@ -278,7 +278,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 31.2;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Devestator HP slug
@@ -290,7 +290,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.18;
                 fileData._props.FragmentationChance = 0.27;
                 fileData._props.BulletMassGram = 19.4;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Poleva 3 HP slug
@@ -302,7 +302,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 20;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Poleva 6u FMJ slug
@@ -314,7 +314,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.12;
                 fileData._props.BulletMassGram = 28.7;
-                fileData._props.HeavyBleedingDelta = 0.60;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// KS23 ////
@@ -327,7 +327,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.01;
                 fileData._props.BulletMassGram = 3.38;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Shrap 25
@@ -339,7 +339,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.01;
                 fileData._props.BulletMassGram = 3.38;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Barrikada
@@ -351,7 +351,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.01;
                 fileData._props.BulletMassGram = 80;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 9X18 ////
@@ -546,7 +546,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.19;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 11.99;
-                fileData._props.HeavyBleedingDelta = 0.53;
+                fileData._props.HeavyBleedingDelta = 0.33;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //PSO gzh
@@ -558,7 +558,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.4;
                 fileData._props.FragmentationChance = 0.31;
                 fileData._props.BulletMassGram = 7.46;
-                fileData._props.HeavyBleedingDelta = 0.35;
+                fileData._props.HeavyBleedingDelta = 0.25;
                 fileData._props.LightBleedingDelta = 0.65;
             }
             //Luger CCI
@@ -680,7 +680,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 10.5;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.2;
                 fileData._props.LightBleedingDelta = 0.70;
             }
             //Hydra-Shok
@@ -692,7 +692,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 14.9;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.25;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Lasermatch FMJ
@@ -900,7 +900,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.34;
                 fileData._props.BulletMassGram = 7.2;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //AKBS
@@ -912,7 +912,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.19;
                 fileData._props.FragmentationChance = 0.38;
                 fileData._props.BulletMassGram = 5.5;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.65;
             }
             //P gl
@@ -921,7 +921,7 @@ class Ammo {
                 fileData._props.ArmorDamage = 40;
                 fileData._props.Damage = 38;
                 fileData._props.InitialSpeed = 430;
-                fileData._props.RicochetChance = 0.4;
+                fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.27;
                 fileData._props.BulletMassGram = 5.5;
                 fileData._props.HeavyBleedingDelta = 0.3;
@@ -933,7 +933,7 @@ class Ammo {
                 fileData._props.ArmorDamage = 48;
                 fileData._props.Damage = 39;
                 fileData._props.InitialSpeed = 415;
-                fileData._props.RicochetChance = 0.4;
+                fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.28;
                 fileData._props.BulletMassGram = 5.39;
                 fileData._props.HeavyBleedingDelta = 0.3;
@@ -961,7 +961,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.18;
                 fileData._props.FragmentationChance = 0.33;
                 fileData._props.BulletMassGram = 16.8;
-                fileData._props.HeavyBleedingDelta = 0.55;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //PAB-9
@@ -973,7 +973,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.55;
                 fileData._props.FragmentationChance = 0.1;
                 fileData._props.BulletMassGram = 17.3;
-                fileData._props.HeavyBleedingDelta = 0.40;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //SP6
@@ -985,7 +985,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.27;
                 fileData._props.BulletMassGram = 15.6;
-                fileData._props.HeavyBleedingDelta = 0.50;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //7N9 SPP
@@ -997,7 +997,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.24;
                 fileData._props.BulletMassGram = 16;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.25;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //7N12 BP
@@ -1009,7 +1009,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.34;
                 fileData._props.FragmentationChance = 0.19;
                 fileData._props.BulletMassGram = 15.6;
-                fileData._props.HeavyBleedingDelta = 0.40;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// .338 ////
@@ -1022,7 +1022,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.1;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 18.5;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // UCW
@@ -1034,7 +1034,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.12;
                 fileData._props.FragmentationChance = 0.15
                 fileData._props.BulletMassGram = 16.2;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // FMJ
@@ -1046,7 +1046,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.05;
                 fileData._props.BulletMassGram = 16.2;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // AP
@@ -1058,7 +1058,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.01;
                 fileData._props.BulletMassGram = 15.5;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// .300 BLK ////
@@ -1071,7 +1071,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 9.2;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // V-Max
@@ -1083,7 +1083,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.3;
                 fileData._props.BulletMassGram = 7.13;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
 
@@ -1096,7 +1096,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.1;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 14;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.70;
             }
 
@@ -1109,7 +1109,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.12;
                 fileData._props.FragmentationChance = 0.13;
                 fileData._props.BulletMassGram = 9.72;
-                fileData._props.HeavyBleedingDelta = 0.50;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // AAC AP
@@ -1121,7 +1121,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.08;
                 fileData._props.BulletMassGram = 9.75;
-                fileData._props.HeavyBleedingDelta = 0.40;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// .366 ////
@@ -1146,7 +1146,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.27;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 13;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // EKO
@@ -1158,7 +1158,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.3
                 fileData._props.BulletMassGram = 6.5;
-                fileData._props.HeavyBleedingDelta = 0.55;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // AP
@@ -1170,7 +1170,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.54;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 15.6;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 12.7x55 ////
@@ -1183,7 +1183,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.20;
                 fileData._props.BulletMassGram = 7;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PS12
@@ -1195,7 +1195,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.05;
                 fileData._props.FragmentationChance = 0.14;
                 fileData._props.BulletMassGram = 32.9;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PS12B
@@ -1207,7 +1207,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.1;
                 fileData._props.FragmentationChance = 0.10;
                 fileData._props.BulletMassGram = 17.95;
-                fileData._props.HeavyBleedingDelta = 0.70;
+                fileData._props.HeavyBleedingDelta = 0.30;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 7.62x54 ////
@@ -1220,7 +1220,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.12;
                 fileData._props.FragmentationChance = 0.25;
                 fileData._props.BulletMassGram = 9.4;
-                fileData._props.HeavyBleedingDelta = 0.65;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // LPS Gzh
@@ -1232,7 +1232,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.22;
                 fileData._props.FragmentationChance = 0.17;
                 fileData._props.BulletMassGram = 9.6;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.4;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // 7N1
@@ -1244,7 +1244,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.16;
                 fileData._props.BulletMassGram = 9.8;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // 7BT1
@@ -1256,7 +1256,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.18;
                 fileData._props.BulletMassGram = 9.2;
-                fileData._props.HeavyBleedingDelta = 0.5;
+                fileData._props.HeavyBleedingDelta = 0.4;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // SNB
@@ -1268,7 +1268,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.27;
                 fileData._props.FragmentationChance = 0.14;
                 fileData._props.BulletMassGram = 9.8;
-                fileData._props.HeavyBleedingDelta = 0.7;
+                fileData._props.HeavyBleedingDelta = 0.4;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // 7N37
@@ -1280,7 +1280,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.07;
                 fileData._props.BulletMassGram = 12.2;
-                fileData._props.HeavyBleedingDelta = 0.55;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 7.62x51 ////
@@ -1293,7 +1293,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.1;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 10.6;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // BPZ FMJ
@@ -1305,7 +1305,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.13;
                 fileData._props.FragmentationChance = 0.03;
                 fileData._props.BulletMassGram = 11.34;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // TPZ SP
@@ -1317,7 +1317,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.07;
                 fileData._props.FragmentationChance = 0.18;
                 fileData._props.BulletMassGram = 10.8;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.55;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M80
@@ -1329,7 +1329,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.04;
                 fileData._props.BulletMassGram = 9.2;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M62
@@ -1341,7 +1341,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.14;
                 fileData._props.FragmentationChance = 0.03;
                 fileData._props.BulletMassGram = 9.52;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M61
@@ -1353,7 +1353,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.02;
                 fileData._props.BulletMassGram = 9.75;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M993
@@ -1365,7 +1365,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.4;
                 fileData._props.FragmentationChance = 0.01;
                 fileData._props.BulletMassGram = 8.2;
-                fileData._props.HeavyBleedingDelta = 0.55;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 7.62x39 ////
@@ -1378,7 +1378,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.1;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 8;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.25;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // US
@@ -1402,7 +1402,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.12;
                 fileData._props.FragmentationChance = 0.15;
                 fileData._props.BulletMassGram = 7.6;
-                fileData._props.HeavyBleedingDelta = 0.55;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PS
@@ -1414,7 +1414,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.12;
                 fileData._props.BulletMassGram = 7.9;
-                fileData._props.HeavyBleedingDelta = 0.5;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // BP
@@ -1451,7 +1451,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 3.6;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // HP
@@ -1463,7 +1463,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.22;
                 fileData._props.FragmentationChance = 0.17;
                 fileData._props.BulletMassGram = 3.56;
-                fileData._props.HeavyBleedingDelta = 0.7;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PRS
@@ -1499,7 +1499,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.23;
                 fileData._props.FragmentationChance = 0.3;
                 fileData._props.BulletMassGram = 3.9;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // T
@@ -1511,7 +1511,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.27;
                 fileData._props.FragmentationChance = 0.28;
                 fileData._props.BulletMassGram = 3.23;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PS
@@ -1523,7 +1523,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.34;
                 fileData._props.FragmentationChance = 0.25;
                 fileData._props.BulletMassGram = 3.43;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // PP
@@ -1535,7 +1535,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.32;
                 fileData._props.FragmentationChance = 0.24;
                 fileData._props.BulletMassGram = 3.62;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // BP
@@ -1547,7 +1547,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.2;
                 fileData._props.BulletMassGram = 3.7;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // BT
@@ -1559,7 +1559,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.35;
                 fileData._props.FragmentationChance = 0.23;
                 fileData._props.BulletMassGram = 3.1;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.45;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // BS
@@ -1583,7 +1583,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.29;
                 fileData._props.FragmentationChance = 0.33;
                 fileData._props.BulletMassGram = 3.64;
-                fileData._props.HeavyBleedingDelta = 0.6;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // 7N39
@@ -1595,7 +1595,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.37;
                 fileData._props.FragmentationChance = 0.13;
                 fileData._props.BulletMassGram = 4.1;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //// 5.56x45 ////
@@ -1608,7 +1608,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 3.43;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // 55 HP
@@ -1620,7 +1620,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.2;
                 fileData._props.FragmentationChance = 0.18;
                 fileData._props.BulletMassGram = 3.63;
-                fileData._props.HeavyBleedingDelta = 0.7;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // Mk 255 Mod 0
@@ -1632,7 +1632,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.0;
                 fileData._props.FragmentationChance = 0.25;
                 fileData._props.BulletMassGram = 4;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // Mk 318 Mod 0 (SOST)
@@ -1644,7 +1644,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.15;
                 fileData._props.FragmentationChance = 0.3;
                 fileData._props.BulletMassGram = 4;
-                fileData._props.HeavyBleedingDelta = 0.65;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M856
@@ -1656,7 +1656,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.17;
                 fileData._props.BulletMassGram = 4.14;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // FMJ
@@ -1668,7 +1668,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.25;
                 fileData._props.FragmentationChance = 0.22;
                 fileData._props.BulletMassGram = 3.56;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M855
@@ -1680,7 +1680,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.5;
                 fileData._props.FragmentationChance = 0.08;
                 fileData._props.BulletMassGram = 4;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M856A1
@@ -1692,7 +1692,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.23;
                 fileData._props.FragmentationChance = 0.23;
                 fileData._props.BulletMassGram = 3.63;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M855A1
@@ -1704,7 +1704,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.3;
                 fileData._props.FragmentationChance = 0.14;
                 fileData._props.BulletMassGram = 4;
-                fileData._props.HeavyBleedingDelta = 0.5;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // M995
@@ -1716,7 +1716,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.37;
                 fileData._props.FragmentationChance = 0.1;
                 fileData._props.BulletMassGram = 3.37;
-                fileData._props.HeavyBleedingDelta = 0.45;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             // SSA AP
@@ -1728,7 +1728,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.29;
                 fileData._props.FragmentationChance = 0.09;
                 fileData._props.BulletMassGram = 4.54;
-                fileData._props.HeavyBleedingDelta = 0.4;
+                fileData._props.HeavyBleedingDelta = 0.3;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             ///.50 cal ///
@@ -1741,7 +1741,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.37;
                 fileData._props.FragmentationChance = 0.0;
                 fileData._props.BulletMassGram = 48.3;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             //Tracer
@@ -1753,7 +1753,7 @@ class Ammo {
                 fileData._props.RicochetChance = 0.37;
                 fileData._props.FragmentationChance = 0.0;
                 fileData._props.BulletMassGram = 48.3;
-                fileData._props.HeavyBleedingDelta = 0.75;
+                fileData._props.HeavyBleedingDelta = 0.35;
                 fileData._props.LightBleedingDelta = 0.75;
             }
             ///40mm////

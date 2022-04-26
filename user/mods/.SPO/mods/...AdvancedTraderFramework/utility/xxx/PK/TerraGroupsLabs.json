@@ -1,0 +1,43 @@
+{
+	"items": [
+		{
+			"_id": "TerraGroupsLabs",
+			"_tpl": "5c94bbff86f7747ee735c08f",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 999999
+			}
+		}
+	],
+	"barter_scheme": {
+		"TerraGroupsLabs": [
+			[
+				{
+					"count": 1,
+					"_tpl": "573477e124597737dd42e191"
+				},
+				{
+					"count": 1,
+					"_tpl": "5734779624597737e04bf329"
+				},
+				{
+					"count": 1,
+					"_tpl": "57347baf24597738002c6178"
+				},
+				{
+					"count": 1,
+					"_tpl": "57347c2e24597744902c94a1"
+				},
+				{
+					"count": 1,
+					"_tpl": "5734781f24597737e04bf32a"
+				}
+			]
+		]
+	},
+	"loyal_level_items": {
+		"TerraGroupsLabs": 2
+	}
+}

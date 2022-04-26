@@ -90,7 +90,7 @@
         "grid": [{"cellH": 3, "cellV": 4}, {"cellH": 3, "cellV": 8}, {"cellH": 3, "cellV": 3}],"GridLayout": "gunslinger1" 
     }, 
     "5df8a4d786f77412672a1e3b": {
-        "grid": [{"cellH": 5, "cellV": 5}, {"cellH": 1, "cellV": 4},{"cellH": 1, "cellV": 4},{"cellH": 3, "cellV": 4}],"GridLayout": "Paratus" 
+        "grid": [{"cellH": 6, "cellV": 5}, {"cellH": 1, "cellV": 3},{"cellH": 2, "cellV": 3},{"cellH": 3, "cellV": 3}],"GridLayout": "Paratus" 
     },
     "557ffd194bdc2d28148b457f": {
         "grid": [{"cellH": 1, "cellV": 1}, {"cellH": 1, "cellV": 2}, {"cellH": 1, "cellV": 2}, {"cellH": 1, "cellV": 1}] 
