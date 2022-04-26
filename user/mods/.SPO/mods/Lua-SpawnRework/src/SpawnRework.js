@@ -28,12 +28,12 @@ class SpawnRework {
 
         HttpRouter.onStaticRoute["/singleplayer/settings/raid/menu"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.RouteRaidMenu
         HttpRouter.onStaticRoute["/client/locations"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.RouteLocations
-	HttpRouter.onStaticRoute["/client/match/join"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.pmcstuff
+	HttpRouter.onStaticRoute["/client/game/start"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.pmcstuff
     }	
     
     static pmcstuff(url, info, sessionID, output)
     {
-	SpawnRework.setPmcType
+	SpawnRework.setPmcType(sessionID)
 	return(output)
     }
 	
