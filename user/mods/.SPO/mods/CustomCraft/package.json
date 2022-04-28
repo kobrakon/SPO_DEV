@@ -1,0 +1,8 @@
+{
+  "name": "CustomCrafts",
+  "Author": "Kobrakon",
+  "license": "NCSA",
+  "dependencies": {},
+  "main": "package.js",
+  "akiVersion": ">2.3.1"
+}

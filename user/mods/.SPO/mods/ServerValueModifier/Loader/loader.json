@@ -79,7 +79,7 @@
 		"EnableBarterStack":false,
 		"RemoveKeysUsageNumber":false,
 		"NoGearPenalty":false,
-		"RemoveBackpacksRestrictions":true,
+		"RemoveBackpacksRestrictions":false,
 		"ExamineExp":1,
 		"LootExp":1,
 		"CashStack":1000000,

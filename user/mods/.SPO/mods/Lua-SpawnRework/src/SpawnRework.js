@@ -5,12 +5,10 @@
 const pkg = require("../package.json")
 const helper = require("./patterns/helpfunctions")
 const modConfig = require("../config/config.json")
-const boss = require("../config/patterns/boss.json")
-const scav = require("../config/patterns/scav.json")
-const raid = require("../config/patterns/raid.json")
 const modName = `${pkg.author}-${pkg.name}`
 const locations = DatabaseServer.tables.locations
 const bots = DatabaseServer.tables.bots
+let isBear = false
 
 class SpawnRework {
     static onLoadMod() {
@@ -27,33 +25,30 @@ class SpawnRework {
 		}
 
         HttpRouter.onStaticRoute["/singleplayer/settings/raid/menu"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.RouteRaidMenu
+        HttpRouter.onStaticRoute["/client/weather"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.getPMC
         HttpRouter.onStaticRoute["/client/locations"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.RouteLocations
-	HttpRouter.onStaticRoute["/client/match/join"]["zZZmoreZZz-Lua-SpawnRework"] = SpawnRework.pmcstuff
-    }	
-    
-    static pmcstuff(url, info, sessionID, output)
-    {
-	SpawnRework.setPmcType
-	return(output)
     }
-	
-    static setPmcType(sessionID)
+    
+    static getPMC(url, info, sessionID, output)
     {
-	let pmcData = ProfileController.getPmcProfile(sessionID)
-	
-	if (pmcData.Info.Side == "Bear")
-	{
-	     boss.spawns.pmc_usec_chance = 100
-	     scav.spawns.pmc_usec_chance = 100
-	     raid.spawns.pmc_usec_chance = 100
-	}
-	
-	if (pmcData.Info.Side == "Usec")
-	{
-	     boss.spawns.pmc_usec_chance = 0
-	     scav.spawns.pmc_usec_chance = 0
-	     raid.spawns.pmc_usec_chance = 0
-	}
+        SpawnRework.setBotPMC(sessionID)
+        return(output)
+    }
+
+    static setBotPMC(sessionID)
+    {
+        let pmcData = ProfileController.getPmcProfile(sessionID)
+                
+        if (pmcData.Info.Side == "Bear")
+        {
+            isBear = true
+        }
+            
+        if (pmcData.Info.Side == "Usec")
+        {
+            isBear = false
+        }
+
     }
 
     static RouteRaidMenu(url, info, sessionID)
@@ -70,7 +65,7 @@ class SpawnRework {
         return HttpResponse.getBody(LocationController.generateAll())
     }
 	
-	static LoadModConfig() {
+	static LoadModConfig(sessionID) {
         //Load configurations
         let config = SpawnRework.GetModConfig()
         if (config === undefined) {
@@ -84,6 +79,7 @@ class SpawnRework {
 
     static GenerateMapSpawns(patternConfig, script_file, maps) {
         let behaviorRole = patternConfig.spawns.pmc_behavior_role.toLowerCase()
+	
         if (!bots.types[behaviorRole]) {
             Logger.error(`${modName} - PMC Behavior Role "${patternConfig.spawns.pmc_behavior_role}" doesn't exsist, changing to "pmcBot"...`)
             behaviorRole = "pmcbot"
@@ -117,10 +113,22 @@ class SpawnRework {
                 bots.types[role].difficulty[diff].Mind.ENEMY_BY_GROUPS_PMC_PLAYERS = patternConfig.bear_default_enemy.ENEMY_BY_GROUPS_PMC_PLAYERS
                 bots.types[role].difficulty[diff].Mind.ENEMY_BY_GROUPS_SAVAGE_PLAYERS = patternConfig.bear_default_enemy.ENEMY_BY_GROUPS_SAVAGE_PLAYERS
             }
+        }        
+        // Set Bot USEC Chance
+       
+                
+        if (isBear)
+        {
+            patternConfig.spawns.pmc_usec_chance = 100
+            BotConfig.pmc.isUsec = patternConfig.spawns.pmc_usec_chance
+        }
+            
+        if (!isBear)
+        {
+            patternConfig.spawns.pmc_usec_chance = 0
+            BotConfig.pmc.isUsec = patternConfig.spawns.pmc_usec_chance
         }
 
-        // Set Bot USEC Chance
-        BotConfig.pmc.isUsec = patternConfig.spawns.pmc_usec_chance
 
         // Set PMC Config
         BotConfig.pmc.types = {"assaultGroup": 100, "cursedAssault": 100}

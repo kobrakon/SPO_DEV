@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "mayISeeYourID", // unique craft ID, can be whatever just has to be unique
+    "areaType": 10, // hideout area it will be crafted in, 10 = workshop, check https://hub.sp-tarkov.com/doc/entry/4-resources-hideout-areas-ids/ for hideout area numbers
+    "requirements": [ // requirements to craft
+      {
+        "areaType": 10, // requires workbench level 3 to craft
+        "requiredLevel": 3,
+        "type": "Area"
+      },
+      {
+        "templateId": "5d6fc78386f77449d825f9dc", // needs eagle gunpoweder
+        "count": 2, // 2 gunpowder needed to craft
+        "isFunctional": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "590c5a7286f7747884343aea", // needs 2 kite gunpowders
+        "count": 2,
+        "isFunctional": false,
+        "type": "Item"
+      },
+      {
+        "templateId": "544fb5454bdc2df8738b456a", // needs Multitool
+        "type": "Tool"
+      }
+    ],
+    "productionTime": 60000, // takes 60000 seconds to craft (16 hours)
+    "boosters": null, // ignore
+    "endProduct": "59e0d99486f7744a32234762", // results with 7.62 BP
+    "continuous": false, // ignore unless bitcoin farm or similar
+    "count": 120, // results with 120 bullets
+    "productionLimitCount": 0 // ignore
+  }
+]

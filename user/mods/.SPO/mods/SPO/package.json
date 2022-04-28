@@ -1,8 +1,0 @@
-{
-	"name": "spo",
-	"author": "Revingly",
-	"version": "1.0.0",
-	"license": "NCSA",
-	"main": "index.js",
-	"akiVersion": "2.3"
-}

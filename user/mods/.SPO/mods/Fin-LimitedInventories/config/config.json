@@ -1,6 +1,6 @@
 {
 	"allow_barter_trades": true,
-		"show_unavailable_barters_as_zero_stock": false,
+		"show_unavailable_barters_as_zero_stock": true,
 		
 	"reduce_armor_durability": false,
 	

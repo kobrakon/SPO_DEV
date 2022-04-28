@@ -518,7 +518,7 @@
 			"expiredOfferThreshold": 1500,
 			"offerItemCount": {
 				"min": 0,
-				"max": 3
+				"max": 2
 			},
 			"price": {
 				"min": 2,
@@ -567,7 +567,8 @@
 					"5943d9c186f7745a13413ac9",
 					"5996f6fc86f7745e585b4de3",
 					"5cde8864d7f00c0010373be1",
-					"5d2f2ab648f03550091993ca"
+					"5d2f2ab648f03550091993ca",
+					"5d235b4d86f7742e017bc88a"
 				],
 				"enableBsgList": false,
 				"enableQuestList": true
