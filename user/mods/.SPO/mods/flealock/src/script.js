@@ -13,7 +13,7 @@ class tweakstuff
         ModLoader.onLoad[this.mod] = this.load.bind(this)
         HttpRouter.onStaticRoute["/client/game/start"] = Object.assign({"Interceptor": tweakstuff.intercept}, HttpRouter.onStaticRoute["/client/game/start"]) // needed in order to catch pmc data 
         HttpRouter.onStaticRoute["/client/game/start"]["Interceptor"] = tweakstuff.intercept // checks your profile and applys changes (when conditions are met) every half-second
-        HttpRouter.onStaticRoute["/client/game/logout"] = tweakstuff.endCheck
+        HttpRouter.onStaticRoute["/client/game/logout"]["Interceptor"] = tweakstuff.endCheck
     }
 
     load() 
@@ -21,9 +21,10 @@ class tweakstuff
         locales.en.interface["hideout_area_11_stage_3_description"] = "A full-fledged intelligence center equipped with computer equipment, radio devices and analytical tools. With the ability to contact anyone including traders from anywhere in Norvinsk, the escape from Tarkov has never felt so close."
     }
     
-    static endCheck()
+    static endCheck(url, info, sessionID, output)
     {
         clearInterval(check)
+        return(output)
     }
 
     static intercept(url, info, sessionID, output) 
