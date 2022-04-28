@@ -67,7 +67,7 @@ class tweakstuff
         {
             for (const trader in traders)
             {
-                if (blockedTraders !== null && blockedTraders.includes(traders[trader]))
+                if (blockedTraders !== null && traders[trader] == blockedTraders)
                 {
                     traders[trader].base.unlockedByDefault = false
                 }
