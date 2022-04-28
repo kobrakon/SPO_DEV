@@ -65,7 +65,7 @@ class tweakstuff
         {
             if (blockedTraders !== null)
             {
-                traders[blockedTraders].base.unlockedByDefault = false
+                blockedTraders.base.unlockedByDefault = false
             }
         }
 
