@@ -2,7 +2,6 @@ const database = DatabaseServer.tables
 const locales = database.locales.global
 const globals = database.globals.config
 const traders = database.traders
-let blockedTraders;
 let check;
 
 class tweakstuff 
@@ -36,6 +35,8 @@ class tweakstuff
     static doTheThing(sessionID) 
     {
         let pmcData = ProfileController.getPmcProfile(sessionID)
+        
+        let blockedTraders
 
         if (!pmcData.Info)
         return
@@ -64,9 +65,12 @@ class tweakstuff
         
         if (!pmcData.Hideout.Areas[4].active && pmcData.Hideout.Areas[11].level == 3)
         {
-            if (blockedTraders !== null)
+            for (const trader in traders)
             {
-                blockedTraders.base.unlockedByDefault = false
+                if (blockedTraders !== null && blockedTraders.includes(traders[trader]))
+                {
+                    traders[trader].base.unlockedByDefault = false
+                }
             }
         }
 
