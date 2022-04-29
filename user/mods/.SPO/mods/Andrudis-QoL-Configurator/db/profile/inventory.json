@@ -84,6 +84,24 @@
                 }
             },
             {
+                "_id": "04c1e867d32cdb15b5a634cc",
+                "_tpl": "5a398ab9c4a282000c5a9842",
+                "parentId": "0053092bdc527445e724b53c",
+                "slotId": "mod_mount"
+            },
+            {
+                "_id": "ff18c98892e39326ec65a283",
+                "_tpl": "57d17c5e2459775a5c57d17d",
+                "parentId": "04c1e867d32cdb15b5a634cc",
+                "slotId": "mod_flashlight",
+                "upd": {
+                    "Light": {
+                        "IsActive": false,
+                        "SelectedMode": 0
+                    }
+                }
+            },
+            {
                 "_id": "36ef01f689a9846eb84cc2a3",
                 "_tpl": "5732ee6a24597719ae0c0281",
                 "parentId": "5df7b9abef12bf7a252437a1",
@@ -423,6 +441,19 @@
                 },
                 "upd": {
                     "StackObjectsCount": 62500
+                }
+            },
+            {
+                "_id": "0053092bdc527445e724b53c",
+                "_tpl": "5ea05cf85ad9772e6624305d",
+                "parentId": "5df7b9abef12bf7a252437a1",
+                "slotId": "Headwear",
+                "upd": {
+                    "StackObjectsCount": 1,
+                    "Repairable": {
+                        "Durability": 40,
+                        "MaxDurability": 40
+                    }
                 }
             }
         ],
