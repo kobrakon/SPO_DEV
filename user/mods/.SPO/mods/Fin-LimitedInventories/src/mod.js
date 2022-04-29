@@ -39,7 +39,7 @@ let optionalMods = []
 class FRET
 {
     constructor()
-    {
+    {		
         this.modname = "Fin-Limited Inventories for Traders";
         Logger.info(`Loading: ${this.modname}`);
 		while (ModLoader.onLoad[this.modname])
@@ -60,6 +60,21 @@ class FRET
 		FRET.updateTraderRefreshTimes()
 		FRET.replaceAKIFunctions()
 		// TraderConfig.updateTimeDefault = RD
+	}
+	
+	static grabConfigValues()
+	{
+		if (config.I_am_using_a_mod_to_alter_trader_stock_and_want_FRET_to_play_nice_with_it)
+			origTraders = JsonUtil.clone(traders)
+		if (config.new_trader_IDs_to_modify.includes("ALL TRADERS"))
+		{
+			config.new_trader_IDs_to_modify = []
+			for (let i in traders)
+				config.new_trader_IDs_to_modify.push(i)
+		}
+		for (let id of config.new_trader_IDs_to_modify)
+			if (traders[id] && !traderIds[id])
+				traderIds[id] = id
 	}
 	
 	static updateTraderRefreshTimes()
@@ -137,7 +152,7 @@ class FRET
 	
 	static disableFence()
 	{
-		TraderConfig.fenceAssortSize = 0
+		TraderConfig.fenceAssortSize = 120
 	}
 	
 	static disableRagfair()
@@ -149,9 +164,9 @@ class FRET
 	
 	static setupTraderInventories()
 	{
-		for (let traderId in traders)
+		for (let traderId in traderIds)
 		{
-			if (["579dc571d53a0658a154fbec", "ragfair"].includes(traderId))
+			if (["579dc571d53a0658a154fbec", "ragfair"].includes(traderId) || !traders[traderId])
 				continue
 			let newInv = FRET.randomizeTraderInventory(traderId, sessionId)
 			if (newInv == false)
@@ -276,11 +291,6 @@ class FRET
 		//		Maybe store each trader's value in an array [prap, skier, pk, etc.]
 		//ORDER IS: Ther, Mech, Rag, Jaeg, Prap, PK, Skier
 		let traderIndex = {"therapist": 0,"mechanic": 1,"ragman": 2,"jaeger": 3,"prapor": 4,"peacekeeper": 5,"skier": 6}
-		if (traderIndex[traderIds[traderId]] == undefined) //invalid trader id for this mod
-		{
-			console.log(`Trader with ID ${traderIds[traderId]} is not compatible with this mod (yet), and so won't be modified.`)
-			return false
-		}
 		let durabFilter = ["guns"]
 		if (config.reduce_armor_durability)
 			durabFilter.push(...["armors", "helmets"])
@@ -322,6 +332,30 @@ class FRET
 				"tech": 			[0,	.1,	0,	0,	0,	.2,	.5],
 				"meds": 			[6,	0,	0,	1,	0,	1,	0],
 				"food": 			[1,	0,	0,	0,	0,	0,	0]
+			}
+		}
+		if (traderIndex[traderIds[traderId]] == undefined || config.Use_mod_added_trader_settings_for_vanilla_traders) //Non-vanilla trader
+		{
+			// console.log(`${traderIds[traderId]}`)
+			if (traderIndex[traderIds[traderId]] == undefined)
+				traderIndex[traderIds[traderId]] = count.base.guns.length
+			let TraderNum = traderIndex[traderIds[traderId]]
+			for (let cat in count.base)
+			{
+				let M1 = 0.75; let M2 = 0.55
+				if (cat == "ammo")
+				{
+					M1 = 6
+					M2 = 5
+				}
+				else if (cat == "optionalMods")
+				{
+					M1 = 1.5
+					M2 = 1.4
+				}
+				// console.log(`${cat}: Base: ${count.base[cat][TraderNum]} => ${itemLLs[cat].length / playerLL * 0.66}   ||   Per Level ${count.perLevel[cat][TraderNum]} => ${itemLLs[cat].length / playerLL * 0.45}`)
+				count.base[cat][TraderNum] = itemLLs[cat].length / playerLL * M1
+				count.perLevel[cat][TraderNum] = itemLLs[cat].length / playerLL * M2
 			}
 		}
 		let traderCounts = {}
@@ -618,12 +652,13 @@ class FRET
 		let updateAt = 0
 		let timeToNextUpdate = updateAt - TimeUtil.getTimestamp();
 		timeToNextUpdate < 0 ? timeToNextUpdate = 0 : null
+		FRET.grabConfigValues()
 		FRET.main()
-		return(output)
 		FRET.reduceItemSellPricesByCategory()
 		timerInterval = setInterval(FRET.rotateTraderInventories, (timeToNextUpdate * 1000) + 1000)
-		for (let traderId in traders)
-			FRET.saveToFile(traders[traderId].assort, `z${traderIds[traderId]}.json`)
+		if (debugMode == true)
+			for (let traderId in traders)
+				FRET.saveToFile(traders[traderId].assort, `z${traderIds[traderId]}.json`)
 		return(output)
 	}
 	

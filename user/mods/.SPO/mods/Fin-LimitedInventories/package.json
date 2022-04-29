@@ -3,6 +3,6 @@
 	"author": "Fin",
 	"version": "1.0.0",
 	"akiVersion": "2.*.*",
-	"license": "Artistic License 2.0",
+	"license": "Refer to LICENSE file distributed with this mod",
 	"main": "package.js"
 }

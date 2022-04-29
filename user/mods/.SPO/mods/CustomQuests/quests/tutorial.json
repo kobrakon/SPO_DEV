@@ -3,7 +3,7 @@
         "id": "tutorial_1",
         "trader_id": "Lizard",
         "name": "Welcome to Tarkov Pt. 1",
-        "description": "Welcome to Tarkov, Mercenary. The Contract Wars are over and now your commanders have left you stranded here, yes? I have some work that should help you get on your feet. First thing you should know is this: Money is practically worthless now. Sure some people will still do business with it. But bartering is king out here. There's a few traders still in the zone, you'll find them as you go. I need some things from a couple of them. First, I need a new scope for my Dragunov; Prapor has them, try bringing some pliers or spark plugs. As it turns out, those little items can get you a lot if its the right person at the right time. Prapor is located between the woods and the Factory; the doctor, Therapist is also there should you need medical items. You can get to them either through the Factory entrance on the South-East end of the woods, or by going through Gate 3 in the Factory; though you'll need a key for that.",
+        "description": "Welcome to Tarkov, Mercenary. The Contract Wars are over and now your commanders have left you stranded here, yes? I have some work that should help you get on your feet. First thing you should know is this: Money is practically worthless now. Sure some people will still do business with it. But bartering is king out here. There's a few traders still in the zone, you'll find them as you go. I need some things from a couple of them. First, I need a new sight for my trusty boy here; Last time I checked at Prapors he had Obzor, sure he will barter for it. Find him Tushonka, he is a sucker for it. As it turns out, those little items can get you a lot if its the right person at the right time. Prapor is located between the woods and the Factory; the doctor, Therapist is also there should you need medical items. You can get to them either through the Factory entrance on the South-East end of the woods, or by going through Gate 3 in the Factory; though you'll need a key for that.",
         "success_message": "Good work, my friend. Maybe you'll be able to survive after all.",
         "image": "57e4f1852459772a15635633",
         "rewards": {
@@ -19,12 +19,10 @@
             {
                 "type": "GiveItem",
                 "accepted_items": [
-                    "5c82342f2e221644f31c060e",
-                    "576fd4ec2459777f0b518431",
-                    "5c82343a2e221644f31c0611"
+                    "618a5d5852ecee1505530b2a"
                 ],
                 "count": 1,
-                "message": "Get a PSO scope from Prapor"
+                "message": "Get a Obzor sight from Prapor"
             }
         ]
     },

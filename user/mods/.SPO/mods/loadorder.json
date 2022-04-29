@@ -1,4 +1,4 @@
-[	//"Fin-LimitedInventories",
+[	
 	"Kaiju-api",
 	"CoreMod",
 	"...AdvancedTraderFramework",
@@ -7,7 +7,7 @@
 	"JoshJ5Hawk-SuperItems",
 	"r1ft-BackpackResize",
 	"ServerValueModifier",
-
+	"Fin-LimitedInventories",
 	"AkiConfigurator",
 
 	"Andrudis-QoL-Configurator",

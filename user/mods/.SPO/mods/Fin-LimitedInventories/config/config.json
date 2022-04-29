@@ -1,6 +1,6 @@
 {
 	"allow_barter_trades": true,
-		"show_unavailable_barters_as_zero_stock": true,
+		"show_unavailable_barters_as_zero_stock": false,
 		
 	"reduce_armor_durability": false,
 	
@@ -22,7 +22,16 @@
 			"barter": 			1,
 			"melee": 			1,
 			"tech":				1,
-			"meds": 			1,
+			"meds": 			3,
 			"food": 			1
-	}
+	},
+	
+	"I_am_using_a_mod_to_alter_trader_stock_and_want_FRET_to_play_nice_with_it": true,
+	"Use_mod_added_trader_settings_for_vanilla_traders": false,
+	
+	"new_trader_IDs_to_modify": [
+		"New IDs here",
+		"New IDs here",
+		"New IDs here"
+	]
 }
