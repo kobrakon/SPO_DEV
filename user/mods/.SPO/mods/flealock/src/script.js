@@ -16,9 +16,7 @@ class tweakstuff
     }
 
     load() 
-    {
-        locales.en.interface["hideout_area_11_stage_3_description"] = "A full-fledged intelligence center equipped with computer equipment, radio devices and analytical tools. With the ability to contact anyone including traders from anywhere in Norvinsk, the escape from Tarkov has never felt so close."
-    }
+    {}
     
     static endCheck(url, info, sessionID, output)
     {
@@ -35,8 +33,6 @@ class tweakstuff
     static doTheThing(sessionID) 
     {
         let pmcData = ProfileController.getPmcProfile(sessionID)
-        
-        let blockedTraders
 
         if (!pmcData.Info)
         return
@@ -50,30 +46,8 @@ class tweakstuff
         if (pmcData.Hideout.Areas[4].active && pmcData.Hideout.Areas[11].level > 0)
         {
             globals.RagFair.minUserLevel = 1
-            if (pmcData.Hideout.Areas[11].level == 3)
-            {
-                for (const trader in traders)
-                {
-                    if (!traders[trader].base.unlockedByDefault)
-                    {
-                        blockedTraders = traders[trader]
-                        traders[trader].base.unlockedByDefault = true
-                    }
-                }
-            }
         }
         
-        if (!pmcData.Hideout.Areas[4].active && pmcData.Hideout.Areas[11].level == 3)
-        {
-            for (const trader in traders)
-            {
-                if (blockedTraders !== null && traders[trader] == blockedTraders)
-                {
-                    traders[trader].base.unlockedByDefault = false
-                }
-            }
-        }
-
         if (!pmcData.Hideout.Areas[4].active && pmcData.Hideout.Areas[11].level > 0)
         {
             globals.RagFair.minUserLevel = 90

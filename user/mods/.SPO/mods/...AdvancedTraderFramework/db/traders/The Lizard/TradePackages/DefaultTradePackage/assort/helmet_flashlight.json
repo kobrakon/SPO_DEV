@@ -1,0 +1,49 @@
+{
+	"items": [
+		{
+			"_id": "helmet_flashlight",
+			"_tpl": "5ea05cf85ad9772e6624305d",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 1,
+				"Repairable": {
+					"Durability": 11,
+					"MaxDurability": 25
+				}
+			}
+		},
+		{
+			"_id": "04c1e867d32cdb15b5a634cc",
+			"_tpl": "5a398ab9c4a282000c5a9842",
+			"parentId": "helmet_flashlight",
+			"slotId": "mod_mount"
+		},
+		{
+			"_id": "ff18c98892e39326ec65a283",
+			"_tpl": "57d17c5e2459775a5c57d17d",
+			"parentId": "04c1e867d32cdb15b5a634cc",
+			"slotId": "mod_flashlight",
+			"upd": {
+				"Light": {
+					"IsActive": false,
+					"SelectedMode": 0
+				}
+			}
+		}
+	],
+	"barter_scheme": {
+		"helmet_flashlight": [
+			[
+				{
+					"count": 7337,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}	
+			]
+		]
+	},
+	"loyal_level_items": {
+		"helmet_flashlight": 1
+	}
+}

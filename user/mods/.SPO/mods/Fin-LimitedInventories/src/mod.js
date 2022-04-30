@@ -155,12 +155,6 @@ class FRET
 		TraderConfig.fenceAssortSize = 120
 	}
 	
-	static disableRagfair()
-	{
-		database.globals.config.RagFair.minUserLevel = 100
-		for (let i in DatabaseServer.tables.locales.global)
-			DatabaseServer.tables.locales.global[i]["interface"]["ragfair/Unlocked at character LVL {0}"] = "The Flea Market has been locked by Fin's Limited Inventories for Traders"
-	}
 	
 	static setupTraderInventories()
 	{
@@ -204,7 +198,7 @@ class FRET
 	static saveTraderInventories()
 	{
 		FRET.disableFence()
-		FRET.disableRagfair()
+
 		for (let traderId in traders)
 		{
 			if (["579dc571d53a0658a154fbec", "ragfair"].includes(traderId))
@@ -639,7 +633,7 @@ class FRET
 	static runOnRaidStart(url, info, sessionID, output)
 	{
 		FRET.disableFence()
-		FRET.disableRagfair()
+
 		FRET.saveTraderInventories()
 		return(output)
 	}
@@ -647,7 +641,7 @@ class FRET
 	static runOnGameStart(url, info, sessionID, output)
 	{
 		FRET.disableFence()
-		FRET.disableRagfair()
+
 		sessionId = sessionID
 		let updateAt = 0
 		let timeToNextUpdate = updateAt - TimeUtil.getTimestamp();

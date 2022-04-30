@@ -5,8 +5,8 @@
             "Maximum": 100
         },
         "Energy": {
-            "Current": 100,
-            "Maximum": 100
+            "Current": 150,
+            "Maximum": 150
         },
         "Temperature": {
             "Current": 30,
@@ -39,8 +39,8 @@
             },
             "RightArm": {
                 "Health": {
-                    "Current": 90,
-                    "Maximum": 90
+                    "Current": 95,
+                    "Maximum": 95
                 }
             },
             "LeftLeg": {
@@ -51,8 +51,8 @@
             },
             "RightLeg": {
                 "Health": {
-                    "Current": 95,
-                    "Maximum": 95
+                    "Current": 65,
+                    "Maximum": 65
                 }
             }
         },

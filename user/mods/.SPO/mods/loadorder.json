@@ -2,14 +2,14 @@
 	"Kaiju-api",
 	"CoreMod",
 	"...AdvancedTraderFramework",
-	"LeKaiju-Orbitas-AmmoPouch",
-	"..Revingly-micc",
+	
 	"JoshJ5Hawk-SuperItems",
 	"r1ft-BackpackResize",
 	"ServerValueModifier",
 	"Fin-LimitedInventories",
 	"AkiConfigurator",
-
+	"LeKaiju-Orbitas-AmmoPouch",
+	"..Revingly-micc",
 	"Andrudis-QoL-Configurator",
 	"CustomQuests",
 	"Chomp-RaiderSpawnFix",
@@ -40,9 +40,8 @@
 	"zzReducedProdTime",
 	"Kobrakon-HideoutTweaks",
 	"flealock",
-	"SPO_Tweaks",
+    "SPO_Tweaks",
 	"SPO_ammo",
 	"SPO-LootProgression",
-	"CustomCraft",
 	"Orbitas-MarkItemsFIR"
 ] 

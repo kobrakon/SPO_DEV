@@ -13,7 +13,7 @@
     },
     "gunsmith": {
         "enabled": true,
-        "removeConflicts": true,
+        "removeConflicts": false,
         "mags": false,
         "drums": false,
         "vector_1_height": false,
