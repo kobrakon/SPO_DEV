@@ -5,8 +5,8 @@
 [submodule "user/mods/DynamicTravelTime"]
 	path = user/mods/DynamicTravelTime
 	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
-	branch = release-server
-[submodule "BepInEx/plugins/r1ft.Headlamps.dll"]
-	path = BepInEx/plugins/r1ft.Headlamps.dll
+	branch = release
+[submodule "user/mods/.SPO/mods/Headlamps"]
+	path = user/mods/.SPO/mods/Headlamps
 	url = https://dev.sp-tarkov.com/r1ft/HeadLamps
         branch = release
