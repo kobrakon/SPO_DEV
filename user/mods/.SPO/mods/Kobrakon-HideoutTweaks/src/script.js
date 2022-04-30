@@ -51,6 +51,10 @@ class hideouttweaks
   static getPlayerData(sessionID)
   {
     let pmcData = ProfileController.getPmcProfile(sessionID)
+
+    if (pmcData == null) {
+      return;
+    }
     
     globals.Health.Effects.Regeneration.Energy = 0 // enforce no regen
     globals.Health.Effects.Regeneration.Hydration = 0
@@ -59,6 +63,22 @@ class hideouttweaks
       globals.Health.Effects.Regeneration.BodyHealth[value].Value = 0
     }
     
+    if (pmcData.Hideout == null) {
+      return;
+    }
+
+    if (pmcData.Hideout.Areas == null) {
+      return;
+    }
+
+    if (pmcData.Hideout.Areas[7] == null) {
+      return;
+    }
+    
+    if (pmcData.Hideout.Areas[8] == null) {
+      return;
+    }
+
     if (pmcData.Hideout.Areas[7].level == 1)
     {
       locales.en.interface["{0} wp/hr ({1} wp/hr in total)"] = `+5 WP (${pmcData.Health.Hydration.Maximum} total)`
