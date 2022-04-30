@@ -1453,15 +1453,15 @@ class Armor {
                 fileData._props.BluntThroughput *= 1.17;
             }
 
-            // //Set min/max armor durability for bots
-            // if (fileData._parent === "5448e5284bdc2dcb718b4567" ||
-            //     fileData._parent === "5448e54d4bdc2dcc718b4568" ||
-            //     fileData._parent === "57bef4c42459772e8d35a53b" ||
-            //     fileData._parent === "5a341c4086f77401f2541505" ||
-            //     fileData._parent === "5a341c4686f77469e155819e") {
-            //     fileData._props.durabSpawnMin = 85;
-            //     fileData._props.durabSpawnMax = 100;
-            // }
+            //Set min/max armor durability for bots
+            if (fileData._parent === "5448e5284bdc2dcb718b4567" ||
+                fileData._parent === "5448e54d4bdc2dcc718b4568" ||
+                fileData._parent === "57bef4c42459772e8d35a53b" ||
+                fileData._parent === "5a341c4086f77401f2541505" ||
+                fileData._parent === "5a341c4686f77469e155819e") {
+                fileData._props.durabSpawnMin = 85;
+                fileData._props.durabSpawnMax = 100;
+            }
         }
         if (config.logEverything == true) {
             Logger.info("Armour loaded");

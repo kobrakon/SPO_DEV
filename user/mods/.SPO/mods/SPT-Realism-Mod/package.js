@@ -7,9 +7,8 @@ class Mod {
 			Logger.info("Loading: Realism Mod");
 			ModLoader.onLoad["RealismMod-main"] = Main.loadMain;
 			HttpRouter.onStaticRoute["/client/game/version/validate"]["RealismMod"] = Main.checkProfile;
-			HttpRouter.onStaticRoute["/raid/profile/save"]["pmc"] = Main.loadBotConfig;
-
+			HttpRouter.onStaticRoute["/client/game/profile/create"]["RealismMod"] = Main.runAtProfileCreation;
+			HttpRouter.onStaticRoute["/raid/profile/save"]["pmc"] = Main.runAtRaidEnd;
 		}	
 }
-
 module.exports.Mod = new Mod();

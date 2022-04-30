@@ -1,5 +1,6 @@
 "use strict";
 
+const meds = require("../db/items/med_items.json");
 const itemDB = DatabaseServer.tables.templates.items;
 const arrays = require("./arrays.js");
 const medItems = arrays.stash_meds;

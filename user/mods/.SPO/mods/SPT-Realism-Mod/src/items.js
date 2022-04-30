@@ -8,24 +8,23 @@ const config = require("../config/config.js");
 class Items {
 
     static loadItems() {
-
-        if (config.realism == true) {
-            //Adjust Thermal stim to compensate for lower base temp
-            globalDB.Health.Effects.Stimulator.Buffs.Buffs_BodyTemperature.Value = -3;
-        }
-
-        if (config.allExamined == true) {
+        if (config.all_examined == true) {
             for (let i in itemDB) {
                 let fileData = itemDB[i];
                 fileData._props.ExaminedByDefault = true;
             }
-
             if (config.logEverything == true) {
-                Logger.info("All items examined");
+                Logger.info("All Items Examined");
+            }
+        }
+        if(config.remove_inraid_restrictions == true){
+            globalDB.RestrictionsInRaid = [];
+            if (config.logEverything == true) {
+                Logger.info("In-Raid Restrictions Removed");
             }
         }
         if (config.logEverything == true) {
-            Logger.info("Items loaded");
+            Logger.info("Items Loaded");
         }
     }
 }

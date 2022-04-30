@@ -1,0 +1,111 @@
+{
+  "PTTEnabled ": true,
+  "Locations": [
+    {
+      "OffraidPosition": "factory4_day",
+      "TravelTime": 20
+    },
+    {
+      "OffraidPosition": "factory4_night",
+      "TravelTime": 20
+    },
+    {
+      "OffraidPosition": "bigmap",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "interchange",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "laboratory",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "lighthouse",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "rezervbase",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "shoreline",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "woods",
+      "TravelTime": 60
+    }
+  ],
+  "LocationsPTT": [
+    {
+      "OffraidPosition": "LighthouseReservePath",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "ShorelineLighthousePath",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "ShorelineLighthouseTunnel",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "ShorelineNorthMoutains",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "WoodsReserveShoreline",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "InterchangeCustoms",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "WoodsCustoms",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "ShorelineCustoms",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "CustomsMilitaryBaseCP",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "MilitaryBaseRail",
+      "TravelTime": 120
+    },
+    {
+      "OffraidPosition": "Boat",
+      "TravelTime": 180
+    },
+    {
+      "OffraidPosition": "Car",
+      "TravelTime": 30
+    },
+    {
+      "OffraidPosition": "FactoryZB-1013",
+      "TravelTime": 20
+    },
+    {
+      "OffraidPosition": "FactoryZB-1012",
+      "TravelTime": 20
+    },
+    {
+      "OffraidPosition": "FactoryZB-1011",
+      "TravelTime": 20
+    },
+    {
+      "OffraidPosition": "WoodsFactoryGate",
+      "TravelTime": 60
+    },
+    {
+      "OffraidPosition": "SafeRoom",
+      "TravelTime": 240
+    }
+  ]
+}

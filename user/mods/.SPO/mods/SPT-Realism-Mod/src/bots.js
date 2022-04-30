@@ -51,7 +51,6 @@ class Bots {
         }
     }
 
-
     static botConfig1() {
     
         //Set bot armor and weapon min durability
@@ -142,7 +141,7 @@ class Bots {
         this.bearLoad1_5();
 
         if (config.logEverything == true) {
-            Logger.info("botConfig1 loaded");
+            Logger.info("botConfig1_5 loaded");
         }
     }
 
@@ -190,7 +189,7 @@ class Bots {
             this.usecLoad2();
             this.bearLoad2();
         if (config.logEverything == true) {
-          Logger.info("botConfig3 loaded");
+          Logger.info("botConfig2 loaded");
         }
 
     }
@@ -237,7 +236,7 @@ class Bots {
             this.usecLoad2_5();
             this.bearLoad2_5();
             if (config.logEverything == true) {
-                Logger.info("botConfig3 loaded");
+                Logger.info("botConfig2_5 loaded");
         }
 
     }

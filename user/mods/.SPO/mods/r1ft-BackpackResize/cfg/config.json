@@ -1,6 +1,10 @@
 {
     "5732ee6a24597719ae0c0281": {
         "grid": [{"cellH": 1, "cellV": 1}, {"cellH": 1, "cellV": 1}, {"cellH": 1, "cellV": 1}],
+        "filter": ["superammo",
+                    "superdog",
+                    "superkeytool",
+                    "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -19,6 +23,10 @@
     }, 
     "544a11ac4bdc2d470e8b456a": {
         "grid": [{"cellH": 1, "cellV": 1}, {"cellH": 1, "cellV": 2}, {"cellH": 1, "cellV": 2}, {"cellH": 1, "cellV": 1}],
+        "filter": ["superammo",
+            "superdog",
+            "superkeytool",
+            "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -37,6 +45,10 @@
     }, 
     "5857a8b324597729ab0a0e7d": {
         "grid": [{"cellH": 1, "cellV": 2}, {"cellH": 2, "cellV": 2}, {"cellH": 1, "cellV": 2}],
+        "filter": ["superammo",
+            "superdog",
+            "superkeytool",
+            "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -55,6 +67,10 @@
     }, 
     "5857a8bc2459772bad15db29": {
         "grid": [{"cellH": 1, "cellV": 3}, {"cellH": 2, "cellV": 2}, {"cellH": 1, "cellV": 3}],
+        "filter": ["superammo",
+            "superdog",
+            "superkeytool",
+            "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -73,6 +89,10 @@
     },
     "59db794186f77448bc595262": {
         "grid": [{"cellH": 2, "cellV": 3}, {"cellH": 2, "cellV": 2}],
+        "filter": ["superammo",
+            "superdog",
+            "superkeytool",
+            "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -91,6 +111,10 @@
     }, 
     "5c093ca986f7740a1867ab12": {
         "grid": [{"cellH": 3, "cellV": 3}, {"cellH": 2, "cellV": 2}],
+        "filter": ["superammo",
+            "superdog",
+            "superkeytool",
+            "superscav"],
         "exclude": [
             "5448e54d4bdc2dcc718b4568",
             "5a341c4086f77401f2541505",
@@ -126,7 +150,7 @@
         "grid": [{"cellH": 3, "cellV": 5}, {"cellH": 2, "cellV": 5}], "exclude": ["5448bf274bdc2dfc2f8b456a"]
     }, 
     "544a5cde4bdc2d39388b456b": {
-        "grid": [{"cellH": 3, "cellV": 5}, {"cellH": 3, "cellV": 2}, {"cellH": 2, "cellV": 2}],"GridLayout": "gunslinger1", "exclude": ["5448bf274bdc2dfc2f8b456a"]
+        "grid": [{"cellH": 3, "cellV": 5}, {"cellH": 2, "cellV": 3}, {"cellH": 2, "cellV": 2}],"GridLayout": "gunslinger1", "exclude": ["5448bf274bdc2dfc2f8b456a"]
     }, 
     "56e335e4d2720b6c058b456d": {
         "grid": [{"cellH": 1, "cellV": 5}, {"cellH": 4, "cellV": 6}, {"cellH": 1, "cellV": 5}], "width": 5, "height": 5, "exclude": ["5448bf274bdc2dfc2f8b456a"]

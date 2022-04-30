@@ -794,7 +794,7 @@
             "Chance": 1,
             "Delay": 5,
             "Duration": 30,
-            "Value": 10,
+            "Value": 15,
             "AbsoluteValue": false,
             "SkillName": "",
             "AppliesTo": []
@@ -804,7 +804,7 @@
             "Chance": 1,
             "Delay": 5,
             "Duration": 5,
-            "Value": 5,
+            "Value": 14,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -843,7 +843,7 @@
             "Chance": 1,
             "Delay": 5,
             "Duration": 5,
-            "Value": 3,
+            "Value": 9,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -871,8 +871,8 @@
             "BuffType": "Pain",
             "Chance": 1,
             "Delay": 5,
-            "Duration": 30,
-            "Value": 10,
+            "Duration": 35,
+            "Value": 8,
             "AbsoluteValue": false,
             "SkillName": "",
             "AppliesTo": []
@@ -882,7 +882,7 @@
             "Chance": 1,
             "Delay": 5,
             "Duration": 5,
-            "Value": 3,
+            "Value": 8,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -920,8 +920,8 @@
             "BuffType": "HealthRate",
             "Chance": 1,
             "Delay": 5,
-            "Duration": 5,
-            "Value": 2.5,
+            "Duration": 6,
+            "Value": 8,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -959,8 +959,8 @@
             "BuffType": "HealthRate",
             "Chance": 1,
             "Delay": 5,
-            "Duration": 25,
-            "Value": 2,
+            "Duration": 5,
+            "Value": 5,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -998,8 +998,8 @@
             "BuffType": "HealthRate",
             "Chance": 1,
             "Delay": 5,
-            "Duration": 25,
-            "Value": 1,
+            "Duration": 5,
+            "Value": 3,
             "AbsoluteValue": true,
             "SkillName": ""
         },

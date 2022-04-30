@@ -7,7 +7,7 @@
     "ShowPrizeList": true,
     "ShowPrizeChance": true,
     "ShowFailedPrizeList": true,
-    "RestockTimeInSecond": 4200,
+    "RestockTimeInSecond": 7200,
     "BaseDummyItem": "59fb023c86f7746d0d4b423c",
     "BaseDummyItemWeaponPrebuilt": true,
     "Width": 4,
@@ -717,7 +717,7 @@
           }
         },
         {
-          "Item": "5a01c29586f77474660c694c",
+          "Item": "5de653abf76fdc1ce94a5a2a",
           "Count": "1, 2",
           "FIR": false
         },

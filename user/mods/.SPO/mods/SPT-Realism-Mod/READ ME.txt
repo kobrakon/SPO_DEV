@@ -7,17 +7,21 @@
 
 
 =================================IMPORTANT============================
+The config.js can be modified using notepad or any text editor. Explanations for what each option does is given in that file.
+
 If you have any other mods that modify player or bot health, loudouts, starting gear, movement, stamina, fall damage, or any ammo or armor values, trader assorts, global settings related to ballistics or armor, any mods that relate to bot loot generation,
-then either choose this mod or the other, or ensure this mod is loaded last for it to function correctly, or disable parts of my mod that might conflict that you don't want via the config. 
+then disable parts of my mod that might conflict that you don't want via the config, or choose this mod or the other.
 
 Do note that my mod is built with all features in mind for the sake of balancing, so your experience may be degraded if you disable parts of it.
 
-I can't offer support if you try to play with incompatible mods. If a lot of people want to play with a conflicting mod that's reasonable, I can try to see I can make a compatiblity patch, just contact me.
+Any versions of my mod distributed with modified values is not representative of this mod's balance or goals.
+
+I can't offer support if you try to play with incompatible mods or use a modified version of my mod with a modpack. 
+
+If a lot of people want to play with a conflicting mod that's reasonable, I can try to see I can make a compatiblity patch, just contact me.
 
 I do not recommend editing any values contained within this mod unless you know what you are doing, nor do I recommend applying any modifiers to the ammo or armor values using another mod. 
 Everything I've changed had all the other changes of this mod in mind, changing anything might screw the balance! Things might get very whacky if you do, don't say I didn't warn you.
-
-I will add more configuration options in the future.
 ======================================================================
 
 ---About this mod---

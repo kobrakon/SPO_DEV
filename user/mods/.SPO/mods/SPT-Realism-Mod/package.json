@@ -2,7 +2,7 @@
   "name": "realismmod",
   "author": "Fontaine",
   "license": "CC BY-NC-ND",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "akiVersion": "2.3.1",
   "main": "package.js"
 }
