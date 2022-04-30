@@ -51,6 +51,10 @@ class hideouttweaks
   static getPlayerData(sessionID)
   {
     let pmcData = ProfileController.getPmcProfile(sessionID)
+
+    if (pmcData == null) {
+      return;
+    }
     
     globals.Health.Effects.Regeneration.Energy = 0 // enforce no regen
     globals.Health.Effects.Regeneration.Hydration = 0
