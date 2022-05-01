@@ -132,7 +132,13 @@
           ]
     }, 
     "5ab8f04f86f774585f4237d8": {
-        "grid": [{"cellH": 3, "cellV": 3}, {"cellH": 2, "cellV": 3}], "width": 3, "height": 4, "exclude": ["5448bf274bdc2dfc2f8b456a"]
+        "grid": [{"cellH": 3, "cellV": 3}, {"cellH": 2, "cellV": 3}], "width": 3, "height": 4, "exclude": ["5448bf274bdc2dfc2f8b456a"] 
+    },
+    "5e4abc6786f77406812bd572": {
+        "grid": [{"cellH": 6, "cellV": 8}], "width": 4, "height": 5, "filter":  [
+            "57864c8c245977548867e7f1",
+            "543be5664bdc2dd4348b4569"
+          ]
     }, 
     "5ab8ee7786f7742d8f33f0b9": {
         "grid": [{"cellH": 6, "cellV": 2}], "width": 3, "height": 4, "exclude": ["5448bf274bdc2dfc2f8b456a"]
