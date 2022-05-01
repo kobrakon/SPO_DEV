@@ -1,0 +1,16 @@
+{
+    "TacticalVest": {
+        "item_equipment_rig_tagilla": 1,
+        "item_equipment_rig_strandhogg": 1
+    },
+    "Headwear": {
+        "item_equipment_head_tagillacap": 1
+    },
+    "Earpiece": {},
+    "FaceCover": {
+        "item_equipment_facecover_welding_gorilla": 1,
+        "item_equipment_facecover_welding_kill": 1
+    },
+    "Eyewear": {},
+    "ArmBand": {}
+}

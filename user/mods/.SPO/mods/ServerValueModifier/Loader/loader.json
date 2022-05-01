@@ -1,4 +1,24 @@
 {
+	"Player":
+	{
+		"EnableHealth":false,
+		"EnablePlayer":false,
+		"FallDamage":false,
+		"SkillPointsBeforeFatigue":1,
+		"SkillFatigueReset":0,
+		"SkillFreshEffect":1,
+		"SkillFPoints":1,
+		"BotSound":false,
+		"BotReload":false,
+		"SkillMax":false,
+		"UnlimitedStamina":false,
+		"MaxStamina":100,
+		"SkillMinEffect":0.5,
+		"SkillFatiguePerPoint":0.001,
+		"WeaponSkillMult":1,
+		"SkillProgMult":1,
+		"SkillFatigue":false
+	},
 	"Loot":
 	{
 		"EnableLoot":false
@@ -22,25 +42,10 @@
 	{
 		"checkBox5":false
 	},
-	"Player":
+	"Fleamarket":
 	{
-		"EnableHealth":false,
-		"EnablePlayer":false,
-		"FallDamage":false,
-		"SkillPointsBeforeFatigue":1,
-		"SkillFatigueReset":0,
-		"SkillFreshEffect":1,
-		"SkillFPoints":1,
-		"BotSound":false,
-		"BotReload":false,
-		"SkillMax":false,
-		"UnlimitedStamina":false,
-		"MaxStamina":100,
-		"SkillMinEffect":0.5,
-		"SkillFatiguePerPoint":0.001,
-		"WeaponSkillMult":1,
-		"SkillProgMult":1,
-		"SkillFatigue":false
+		"DisableBSGList":true,
+		"EnableFleamarket":false
 	},
 	"BL":
 	{
@@ -48,51 +53,6 @@
 		"EnableAdvLoad":false,
 		"AddAllKeys":false,
 		"AddAllContainers":false
-	},
-	"Bots":
-	{
-		"HostilePMC":50,
-		"EnableBots":false,
-		"PMCRatio":50
-	},
-	"Deprecated":
-	{
-		"EnableDeprecated":false
-	},
-	"Items":
-	{
-		"BallisticCoefMult":1,
-		"MisfireChance":1,
-		"MalfunctChanceMult":1,
-		"ItemPriceMult":0.5,
-		"AmmoLoadSpeed":35,
-		"EnableItems":true,
-		"AmmoStacks":
-		{
-		"MarksmanRound":80,
-		"RifleRound":120,
-		"ShotgunRound":80,
-		"PistolRound":100
-		},
-		"RemoveRaidRestr":true,
-		"IDChanger":false,
-		"EnableBarterStack":false,
-		"RemoveKeysUsageNumber":false,
-		"NoGearPenalty":false,
-		"RemoveBackpacksRestrictions":false,
-		"ExamineExp":1,
-		"LootExp":1,
-		"CashStack":1000000,
-		"WeightChanger":0.85,
-		"InRaidModdable":false,
-		"RemoveSecureContainerFilters":false,
-		"EquipRigsWithArmors":false,
-		"AllExaminedItems":false
-	},
-	"Fleamarket":
-	{
-		"DisableBSGList":true,
-		"EnableFleamarket":false
 	},
 	"CSM":
 	{
@@ -133,8 +93,8 @@
 		"PistolCaseVSize":4,
 		"DocumentsCaseHSize":4,
 		"DocumentsCaseVSize":4,
-		"KeytoolHSize":4,
-		"KeytoolVSize":4,
+		"KeytoolHSize":5,
+		"KeytoolVSize":5,
 		"MoneyCaseHSize":7,
 		"SimpleWalletVSize":2,
 		"SimpleWalletHSize":2,
@@ -173,6 +133,46 @@
 		"EpsilonVSize":3
 		},
 		"EnableCSM":true
+	},
+	"Bots":
+	{
+		"HostilePMC":50,
+		"EnableBots":false,
+		"PMCRatio":50
+	},
+	"Deprecated":
+	{
+		"EnableDeprecated":false
+	},
+	"Items":
+	{
+		"BallisticCoefMult":1,
+		"MisfireChance":1,
+		"MalfunctChanceMult":1,
+		"ItemPriceMult":0.5,
+		"AmmoLoadSpeed":35,
+		"EnableItems":true,
+		"AmmoStacks":
+		{
+		"MarksmanRound":80,
+		"RifleRound":120,
+		"ShotgunRound":80,
+		"PistolRound":100
+		},
+		"RemoveRaidRestr":true,
+		"IDChanger":false,
+		"EnableBarterStack":false,
+		"RemoveKeysUsageNumber":false,
+		"NoGearPenalty":false,
+		"RemoveBackpacksRestrictions":true,
+		"ExamineExp":1,
+		"LootExp":1,
+		"CashStack":1000000,
+		"WeightChanger":0.85,
+		"InRaidModdable":false,
+		"RemoveSecureContainerFilters":false,
+		"EquipRigsWithArmors":false,
+		"AllExaminedItems":false
 	},
 	"Hideout":
 	{

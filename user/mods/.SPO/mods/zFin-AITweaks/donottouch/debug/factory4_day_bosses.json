@@ -1,0 +1,55 @@
+[
+    {
+        "BossChance": 35,
+        "BossDifficult": "normal",
+        "BossEscortAmount": "0",
+        "BossEscortDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossName": "bossTagilla",
+        "BossPlayer": false,
+        "BossZone": "BotZone",
+        "Time": -1
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    }
+}

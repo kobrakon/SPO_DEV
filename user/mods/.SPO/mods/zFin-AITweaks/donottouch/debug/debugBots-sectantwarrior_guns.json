@@ -1,0 +1,20 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_toz_sks_762x39": 1,
+        "weapon_izhmash_akmn_762x39": 1,
+        "weapon_izhmash_akm_762x39": 1,
+        "weapon_stmarms_stm_9_9x19": 1,
+        "weapon_izhmash_pp-19-01_9x19": 1,
+        "weapon_izhmash_svd_s_762x54": 1,
+        "weapon_izhmash_aks74un_545x39": 1,
+        "weapon_sig_mpx_9x19": 1,
+        "weapon_izhmash_rpk16_545x39": 1,
+        "weapon_izhmash_ak105_545x39": 1,
+        "weapon_tochmash_val_9x39": 1,
+        "weapon_tdi_kriss_vector_gen_2_1143x23": 1,
+        "weapon_kac_sr25_762x51": 1,
+        "weapon_bt_mp9_9x19": 1
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {}
+}

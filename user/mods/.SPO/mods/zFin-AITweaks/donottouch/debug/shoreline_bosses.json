@@ -1,0 +1,77 @@
+[
+    {
+        "BossName": "sectantPriest",
+        "BossChance": 20,
+        "BossZone": "ZoneForestGasStation,ZoneForestSpawn",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "sectantWarrior",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "3",
+        "Time": -1
+    },
+    {
+        "BossName": "bossSanitar",
+        "BossChance": 32,
+        "BossZone": "ZonePort,ZoneGreenHouses,ZoneSanatorium1,ZoneGreenHouses,ZoneSanatorium2",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "followerSanitar",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "2",
+        "Time": -1
+    },
+    {
+        "BossName": "sectantPriest",
+        "BossChance": 20,
+        "BossZone": "ZoneSanatorium1,ZoneSanatorium2",
+        "BossPlayer": false,
+        "BossDifficult": "normal",
+        "BossEscortType": "sectantWarrior",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": "4",
+        "Time": -1
+    }
+]{
+    "Totals:": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Cultists": {
+            "waves": 2,
+            "botsMin": 9,
+            "botsMax": 9
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    }
+}

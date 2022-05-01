@@ -1,0 +1,22 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_colt_m4a1_556x45": 31,
+        "weapon_izhmash_akm_762x39": 22,
+        "weapon_izhmash_ak74m_545x39": 10,
+        "weapon_izhmash_ak104_762x39": 7,
+        "weapon_dsa_sa58_762x51": 2,
+        "weapon_hk_416a5_556x45": 4,
+        "weapon_kac_sr25_762x51": 1,
+        "weapon_sig_mcx_gen1_762x35": 1,
+        "weapon_cmmg_mk47_762x39": 2,
+        "weapon_fn_mk16_556x45": 1,
+        "weapon_fn_mk16_556x45_fde": 19
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {
+        "weapon_glock_glock_17_gen3_9x19": 1,
+        "weapon_beretta_m9a3_9x19": 1,
+        "weapon_colt_m45a1_1143x23": 1,
+        "weapon_hk_usp_45": 1
+    }
+}

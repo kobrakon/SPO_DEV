@@ -1,0 +1,35 @@
+{
+	"items": [
+		{
+			"_id": "medbox",
+			"_tpl": "LLL1_Healbox",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 3
+			}
+		}
+	],
+	"barter_scheme": {
+		"medbox": [
+			[
+				{
+					"count": 2,
+					"_tpl": "619cc01e0a7c3a1a2731940c"
+				},
+				{
+					"count": 2,
+					"_tpl": "5d1b3f2d86f774253763b735"
+				},
+				{ 
+					"count": 1,
+					"_tpl": "5b4335ba86f7744d2837a264"
+				}		
+			]
+		]
+	},
+	"loyal_level_items": {
+		"medbox": 1
+	}
+}

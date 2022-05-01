@@ -1,0 +1,58 @@
+{
+    "TacticalVest": {
+        "standartRig": 1,
+        "item_equipment_rig_commando": 1,
+        "item_equipment_rig_carrierTactec": 1,
+        "item_equipment_rig_d3crx": 1,
+        "item_equipment_rig_multipurpose": 1,
+        "item_equipment_rig_bearing": 1,
+        "item_equipment_rig_thunderbolt": 1,
+        "item_equipment_rig_custom_osprey_defence": 1,
+        "item_equipment_rig_mmac": 1,
+        "item_equipment_rig_strandhogg": 1
+    },
+    "Headwear": {
+        "cap_USEC": 1,
+        "hats_cowboy": 1,
+        "hats_fleece": 1,
+        "helmet_ops_core_fast_tan": 1,
+        "item_equipment_helmet_ULACH_black": 1,
+        "item_equipment_helmet_ULACH_coyote": 1,
+        "item_equipment_head_usec_black": 1,
+        "item_equipment_head_bandana": 1,
+        "item_equipment_head_panama": 1,
+        "helmet_armasight_nvg_googles_mask": 1,
+        "helmet_mich2001_od": 1,
+        "item_equipment_helmet_team_wendy_exfil_coyote": 1,
+        "item_equipment_helmet_tc800": 1,
+        "item_equipment_helmet_diamond_age_bastion": 1,
+        "item_equipment_helmet_galvion_caiman": 1,
+        "item_equipment_head_beret_blk": 1,
+        "item_equipment_head_military2_black": 1
+    },
+    "Earpiece": {
+        "headphones": 1,
+        "headphones_MSA": 1,
+        "item_equipment_headset_xcel": 1,
+        "item_equipment_headset_m32": 1
+    },
+    "FaceCover": {
+        "mask": 1,
+        "balaclava_skull": 1,
+        "shemagh": 1,
+        "item_equipment_facecover_shemagh_02": 1,
+        "item_equipment_facecover_nomexBalaclava": 1,
+        "item_equipment_mustache": 1,
+        "item_equipment_facecover_smoke": 1
+    },
+    "Eyewear": {
+        "Goggles": 1,
+        "tactical_glass": 1,
+        "glasses_Rayban": 1,
+        "item_equipment_glasses_proximity": 1,
+        "item_equipment_glasses_aviator": 1,
+        "item_equipment_glasses_npp": 1,
+        "item_equipment_welder_goggles": 1
+    },
+    "ArmBand": {}
+}

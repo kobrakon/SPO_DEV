@@ -1,0 +1,21 @@
+{
+    "TacticalVest": {},
+    "Headwear": {
+        "hats_cowboy": 1,
+        "item_equipment_head_bomber": 1,
+        "item_equipment_head_leather_cap": 1
+    },
+    "Earpiece": {},
+    "FaceCover": {
+        "item_equipment_mustache": 1
+    },
+    "Eyewear": {
+        "item_equipment_glasses_aviator": 1,
+        "glasses_Rayban": 1,
+        "glasses_Duduma": 1,
+        "item_equipment_welder_goggles": 1
+    },
+    "ArmBand": {
+        "item_equipment_armband_r2": 1
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_izhmash_rpk16_545x39": 17,
+        "weapon_izhmash_pp-19-01_9x19": 2,
+        "weapon_izhmash_akms_762x39": 3
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {
+        "weapon_toz_tt_762x25tt": 1
+    }
+}

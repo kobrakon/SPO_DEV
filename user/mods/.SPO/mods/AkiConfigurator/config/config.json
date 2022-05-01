@@ -48,42 +48,6 @@
 	"Raids values": {
 		"Loot values": {
 			"allowLootOverlay": false,
-			"looseLootMultiplier": {
-				"bigmap": 0.5,
-				"develop": 0.5,
-				"factory4_day": 0.5,
-				"factory4_night": 0.5,
-				"interchange": 0.5,
-				"laboratory": 0.5,
-				"rezervbase": 0.5,
-				"shoreline": 0.5,
-				"woods": 0.5,
-				"hideout": 0,
-				"lighthouse": 0.5,
-				"privatearea": 1,
-				"suburbs": 1,
-				"tarkovstreets": 1,
-				"terminal": 1,
-				"town": 1
-			},
-			"staticLootMultiplier": {
-				"bigmap": 0.5,
-				"develop": 1,
-				"factory4_day": 0.5,
-				"factory4_night": 0.5,
-				"interchange": 0.5,
-				"laboratory": 0.5,
-				"rezervbase": 0.5,
-				"shoreline": 0.5,
-				"woods": 0.5,
-				"hideout": 0,
-				"lighthouse": 0.5,
-				"privatearea": 1,
-				"suburbs": 1,
-				"tarkovstreets": 1,
-				"terminal": 1,
-				"town": 1
-			},
 			"limits": {
 				"bigmap": 1000,
 				"develop": 30,

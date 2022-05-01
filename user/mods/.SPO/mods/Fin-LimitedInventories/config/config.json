@@ -8,21 +8,21 @@
 	
 	"price_multipliers" : {
 			"guns": 			1,
-			"ammo": 			1,
-			"throwables": 		1,
+			"ammo": 			2,
+			"throwables": 		3,
 			"vitalMods": 		1,
 			"optionalMods": 	1,
 			"armors": 			1,
 			"helmets": 			1,
 			"eyewear": 			1,
 			"backpack": 		1,
-			"magazine":			1,
+			"magazine":			2,
 			"rig": 				1,
 			"headset": 			1,
 			"barter": 			1,
 			"melee": 			1,
 			"tech":				1,
-			"meds": 			3,
+			"meds": 			1,
 			"food": 			1
 	},
 	

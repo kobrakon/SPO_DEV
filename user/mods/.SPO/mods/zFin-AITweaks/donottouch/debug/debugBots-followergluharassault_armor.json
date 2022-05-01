@@ -1,0 +1,50 @@
+{
+    "TacticalVest": {
+        "wartech_vest": 10,
+        "item_equipment_rig_beltab": 5,
+        "bear_rig_6h112": 7,
+        "item_equipment_rig_sprofi_mk2_ak": 4,
+        "item_equipment_rig_azimut_surpat": 15,
+        "item_equipment_rig_d3crx": 9,
+        "wartech_mk3": 5,
+        "ana_tactical": 7,
+        "item_equipment_rig_tarzan": 9,
+        "item_equipment_rig_triton": 7,
+        "item_equipment_rig_commando": 10,
+        "item_equipment_armor_6b3": 88
+    },
+    "Headwear": {
+        "item_equipment_head_military2_black": 45,
+        "item_equipment_head_beret_blk": 43,
+        "army_cap": 29,
+        "knitcap": 39,
+        "item_equipment_head_beret_blue": 43,
+        "helmet": 18,
+        "item_equipment_helmet_LSHZ": 20,
+        "item_equipment_helmet_ssh-68": 14,
+        "helmet_ratnik_6B47": 25,
+        "helmet_un": 24,
+        "helmet_6B47_cover": 30,
+        "item_equipment_helmet_team_wendy_exfil_coyote": 27,
+        "item_equipment_helmet_psh97_jeta": 41
+    },
+    "Earpiece": {
+        "item_equipment_headset_m32": 1,
+        "headphones": 1,
+        "item_equipment_headset_gsh01": 1
+    },
+    "FaceCover": {
+        "balaclava_skull": 1,
+        "item_equipment_mustache": 1,
+        "item_equipment_facecover_gasmask_GP5": 1
+    },
+    "Eyewear": {
+        "tactical_glass": 1,
+        "item_equipment_glasses_npp": 1,
+        "item_equipment_glasses_6B34": 1,
+        "item_equipment_welder_goggles": 1
+    },
+    "ArmBand": {
+        "armband_white": 1
+    }
+}

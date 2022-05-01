@@ -1,0 +1,73 @@
+{
+    "TacticalVest": {
+        "wartech_mk3": 8,
+        "wartech_vest": 12,
+        "item_equipment_rig_triton": 20,
+        "item_equipment_rig_sprofi_mk2_smg": 10,
+        "bear_rig_6h112": 9,
+        "item_equipment_rig_commando": 13,
+        "item_equipment_rig_d3crx": 16,
+        "item_equipment_armor_6b3": 88
+    },
+    "Headwear": {
+        "helmet": 17,
+        "item_equipment_helmet_LSHZ": 17,
+        "item_equipment_helmet_ssh-68": 32,
+        "helmet_ratnik_6B47": 25,
+        "helmet_un": 21,
+        "helmet_6B47_cover": 30,
+        "item_equipment_helmet_team_wendy_exfil_coyote": 16,
+        "item_equipment_helmet_psh97_jeta": 41,
+        "item_equipment_head_kotton": 4,
+        "item_equipment_head_military2_brown": 5,
+        "item_equipment_head_tagillacap": 13,
+        "cap_dedmoroz": 8,
+        "item_equipment_head_military2_sand": 2,
+        "item_equipment_head_military2_cadpat": 9,
+        "item_equipment_head_bomber": 3,
+        "hats_cowboy": 3,
+        "item_equipment_head_military2_black": 7,
+        "cap_USEC": 6,
+        "item_equipment_head_military2_ucp": 1,
+        "item_equipment_head_pompon": 5,
+        "army_cap": 9,
+        "cap_mhs": 5,
+        "cap_BEAR": 2,
+        "ushanka": 5,
+        "helmet_crew": 4,
+        "item_equipment_cap_r2": 4,
+        "item_equipment_head_bandana": 13,
+        "item_equipment_head_r2": 3,
+        "item_equipment_head_panama_jackpyke": 6,
+        "item_equipment_head_usec_black": 3,
+        "hats_fleece": 5,
+        "hats_UF_PRO": 7,
+        "helmet_armasight_nvg_googles_mask": 2,
+        "item_equipment_head_panama_stichprofi": 4,
+        "cap_santa": 6,
+        "hats_skihat": 3,
+        "item_equipment_head_doorkicker": 6,
+        "item_equipment_head_panama": 5,
+        "cap_police": 3,
+        "item_equipment_head_bear_black": 4,
+        "item_equipment_head_beret_od": 8,
+        "knitcap": 5,
+        "item_equipment_head_beret_blue": 5,
+        "item_equipment_head_beret_blk": 10,
+        "item_equipment_head_leather_cap": 4,
+        "cap": 2
+    },
+    "Earpiece": {
+        "item_equipment_headset_gsh01": 1,
+        "headphones": 1
+    },
+    "FaceCover": {
+        "item_equipment_facecover_gasmask_GP5": 1
+    },
+    "Eyewear": {
+        "item_equipment_glasses_6B34": 1
+    },
+    "ArmBand": {
+        "armband_white": 1
+    }
+}

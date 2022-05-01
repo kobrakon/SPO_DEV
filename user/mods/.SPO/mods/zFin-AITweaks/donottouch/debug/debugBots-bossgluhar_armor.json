@@ -1,0 +1,40 @@
+{
+    "TacticalVest": {
+        "item_equipment_rig_tv110": 1,
+        "item_equipment_armor_a18": 1,
+        "item_equipment_rig_m1": 1,
+        "item_equipment_rig_azimut_surpat": 1,
+        "item_equipment_rig_d3crx": 1,
+        "standartRig": 1,
+        "ana_tactical_m2": 1,
+        "item_equipment_rig_thunderbolt": 1,
+        "item_equipment_rig_carrierTactec": 1,
+        "item_equipment_rig_mmac": 1,
+        "item_equipment_rig_strandhogg": 1
+    },
+    "Headwear": {
+        "item_equipment_helmet_LSHZ": 1,
+        "item_equipment_helmet_diamond_age_bastion": 1,
+        "helmet_armasight_nvg_googles_mask": 1,
+        "item_equipment_helmet_galvion_caiman": 1,
+        "helmet_wilcox_skull_lock": 1,
+        "item_equipment_helmet_nfm_hjelm": 1
+    },
+    "Earpiece": {
+        "item_equipment_headset_gsh01": 1,
+        "item_equipment_headset_walkers_razor": 1
+    },
+    "FaceCover": {},
+    "Eyewear": {
+        "item_equipment_glasses_ess": 1,
+        "item_equipment_glasses_aviator": 1,
+        "item_equipment_glasses_gascan": 1,
+        "item_equipment_glasses_npp": 1,
+        "item_equipment_glasses_m_frame": 1,
+        "glasses_Duduma": 1,
+        "item_equipment_welder_goggles": 1
+    },
+    "ArmBand": {
+        "armband_white": 1
+    }
+}

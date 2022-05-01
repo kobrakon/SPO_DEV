@@ -72,8 +72,8 @@
                             "ExcludedFilter": []
                         }
                     ],
-                    "cellsH": 2,
-                    "cellsV": 2,
+                    "cellsH": 3,
+                    "cellsV": 3,
                     "minCount": 0,
                     "maxCount": 0,
                     "maxWeight": 0

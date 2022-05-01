@@ -1,0 +1,19 @@
+{
+    "TacticalVest": {},
+    "Headwear": {},
+    "Earpiece": {
+        "item_equipment_headset_m32": 1,
+        "item_equipment_headset_walkers_razor": 1
+    },
+    "FaceCover": {
+        "respirator_3m": 1
+    },
+    "Eyewear": {
+        "item_equipment_glasses_npp": 1,
+        "item_equipment_glasses_ess": 1,
+        "item_equipment_welder_goggles": 1
+    },
+    "ArmBand": {
+        "item_equipment_armband_r2": 1
+    }
+}

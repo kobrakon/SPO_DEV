@@ -1,0 +1,54 @@
+{
+    "TacticalVest": {
+        "bear_rig_6h112": 20,
+        "item_equipment_rig_bearing": 18,
+        "item_equipment_rig_sprofi_mk2_ak": 13,
+        "item_equipment_rig_bssmk1": 20,
+        "item_equipment_rig_thunderbolt": 17,
+        "item_equipment_armor_6b3": 88
+    },
+    "Headwear": {
+        "item_equipment_head_military2_cadpat": 18,
+        "cap_USEC": 18,
+        "cap_police": 24,
+        "hats_fleece": 27,
+        "item_equipment_head_military2_black": 27,
+        "item_equipment_head_military2_ucp": 18,
+        "item_equipment_head_usec_black": 22,
+        "item_equipment_head_bear_black": 30,
+        "cap_BEAR": 15,
+        "helmet": 25,
+        "item_equipment_helmet_LSHZ": 27,
+        "item_equipment_helmet_ssh-68": 16,
+        "helmet_ratnik_6B47": 27,
+        "helmet_un": 22,
+        "helmet_6B47_cover": 21,
+        "item_equipment_helmet_team_wendy_exfil_coyote": 20,
+        "item_equipment_helmet_psh97_jeta": 41
+    },
+    "Earpiece": {
+        "headphones": 1,
+        "item_equipment_headset_m32": 1,
+        "item_equipment_headset_xcel": 1,
+        "item_equipment_headset_gsh01": 1,
+        "headphones_MSA": 1
+    },
+    "FaceCover": {
+        "item_equipment_facecover_nomexBalaclava": 1,
+        "respirator_3m": 1,
+        "mask": 1,
+        "balaclava_skull": 1,
+        "item_equipment_mustache": 1,
+        "shemagh": 1,
+        "item_equipment_facecover_gasmask_GP5": 1
+    },
+    "Eyewear": {
+        "Goggles": 1,
+        "item_equipment_glasses_6B34": 1,
+        "tactical_glass": 1,
+        "item_equipment_glasses_npp": 1
+    },
+    "ArmBand": {
+        "armband_white": 1
+    }
+}

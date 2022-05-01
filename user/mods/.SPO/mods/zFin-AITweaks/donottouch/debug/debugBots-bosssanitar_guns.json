@@ -1,0 +1,12 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_zmz_pp-91-01_9x18pm": 1,
+        "weapon_tochmash_vss_9x39": 1,
+        "weapon_remington_model_870_12g": 1,
+        "weapon_molot_op_sks_762x39": 1
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {
+        "weapon_molot_aps_9x18pm": 1
+    }
+}

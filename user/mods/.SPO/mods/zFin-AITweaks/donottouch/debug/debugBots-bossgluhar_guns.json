@@ -1,0 +1,17 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_ckib_ash_12_127x55": 1,
+        "weapon_springfield_m1a_762x51": 1
+    },
+    "SecondPrimaryWeapon": {
+        "weapon_izhmash_pp-19-01_9x19": 1
+    },
+    "Holster": {
+        "weapon_colt_m1911a1_1143x23": 1,
+        "weapon_molot_aps_9x18pm": 1,
+        "weapon_izhmash_pl15_9x19": 1,
+        "weapon_toz_apb_9x18pm": 1,
+        "weapon_colt_m45a1_1143x23": 1,
+        "weapon_hk_usp_45": 1
+    }
+}

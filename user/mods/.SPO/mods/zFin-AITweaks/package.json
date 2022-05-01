@@ -1,0 +1,8 @@
+{
+	"name": "Fin's AI Tweaks",
+	"author": "Fin",
+	"version": "1.0.0",
+	"akiVersion": "2.*.*",
+	"license": "Artistic License 2.0",
+	"main": "package.js"
+}

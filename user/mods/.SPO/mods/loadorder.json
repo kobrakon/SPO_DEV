@@ -1,6 +1,7 @@
 [	
 	"Kaiju-api",
 	"CoreMod",
+	"SPO_heal",
 	"...AdvancedTraderFramework",
 	"JoshJ5Hawk-SuperItems",
 	"LeKaiju-Orbitas-AmmoPouch",
@@ -22,13 +23,13 @@
 	"JoshJ5Hawk-NoHydroEnergy",
 	"Kiki-ScavTweaks",
 	"spt-expanded-scav-karma",
-	"KcY-SeeItemValue 1.2.1",
 	"Kiki-MysteriousKeys",
 	"Lua-TheGachaBox",
 	"Kiki-HealthMultiplier2.0.4",
 	"Fin-BigRigs",
+
 	"SPT-Realism-Mod",
-	"Fin-AILoader",
+	"zFin-AITweaks",
 	"Lua-CustomSpawnPoints",
 	"Fin-ChokingHazard",
 	"Lua-SpawnRework",
@@ -40,5 +41,6 @@
     "SPO_Tweaks",
 	"SPO_ammo",
 	"SPO-LootProgression",
+	"KcY-SeeItemValue 1.2.1",
 	"Orbitas-MarkItemsFIR"
 ] 

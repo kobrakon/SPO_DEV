@@ -1,0 +1,10 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_izhmash_aks74un_545x39": 7,
+        "weapon_izhmash_saiga12k_10_12g": 12,
+        "weapon_izhmash_rpk16_545x39": 2,
+        "weapon_kalashnikov_mp155_12g": 1
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {}
+}

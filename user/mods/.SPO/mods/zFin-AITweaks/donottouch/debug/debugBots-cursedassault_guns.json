@@ -1,0 +1,29 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_izhmeh_mr153_12g": 1,
+        "weapon_molot_akm_vpo_209_366_TKM": 1,
+        "weapon_izhmash_ak74m_545x39": 1,
+        "weapon_adar_2-15_556x45": 1,
+        "weapon_toz_toz-106_20g": 1,
+        "weapon_izhmash_saiga12k_10_12g": 1,
+        "weapon_izhmeh_mr133_12g": 1,
+        "weapon_izhmash_aks74u_545x39": 1,
+        "weapon_izhmash_saiga_9_9x19": 1,
+        "weapon_izhmash_mosin_rifle_762x54": 1,
+        "weapon_molot_vepr_km_vpo_136_762x39": 1,
+        "weapon_molot_op_sks_762x39": 1,
+        "weapon_izhmash_ak74n_545x39": 1,
+        "weapon_izhmash_akms_762x39": 1,
+        "weapon_toz_sks_762x39": 1,
+        "weapon_izhmash_ak105_545x39": 1,
+        "weapon_izhmash_akm_762x39": 1,
+        "weapon_zmz_pp-91_9x18pm": 1
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {
+        "weapon_izhmeh_pm_treaded_9x18pm": 1,
+        "weapon_toz_tt_762x25tt": 1,
+        "weapon_izhmeh_mp443_9x19": 1,
+        "weapon_izhmeh_pm_9x18pm": 1
+    }
+}

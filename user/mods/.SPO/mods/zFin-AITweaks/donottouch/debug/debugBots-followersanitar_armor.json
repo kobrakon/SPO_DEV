@@ -1,0 +1,30 @@
+{
+    "TacticalVest": {
+        "wartech_vest": 1,
+        "item_equipment_rig_triton": 1,
+        "item_equipment_rig_bssmk1": 1,
+        "item_equipment_rig_tarzan": 1
+    },
+    "Headwear": {
+        "helmet_zsh_1-2m_v1": 1,
+        "helmet_zsh_1-2m_v2": 1,
+        "item_equipment_helmet_ACHHC_green": 1,
+        "cap_mhs": 1,
+        "helmet_altyn": 1,
+        "helmet_sphera-C": 1,
+        "hats_cowboy": 1,
+        "item_equipment_helmet_lshz2dtm": 1
+    },
+    "Earpiece": {},
+    "FaceCover": {
+        "item_equipment_facecover_nomexBalaclava": 1,
+        "item_equipment_facecover_smoke": 1,
+        "item_equipment_facecover_pestily": 1
+    },
+    "Eyewear": {
+        "tactical_glass": 1
+    },
+    "ArmBand": {
+        "item_equipment_armband_r2": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_molot_op_sks_762x39": 292,
+        "weapon_izhmash_mosin_rifle_762x54": 244,
+        "weapon_izhmash_sv-98_762x54r": 87,
+        "weapon_toz_sks_762x39": 149,
+        "weapon_izhmash_svd_s_762x54": 97,
+        "weapon_izhmash_aks74u_545x39": 27,
+        "weapon_izhmash_ak74n_545x39": 58,
+        "weapon_izhmash_aks74ub_545x39": 16,
+        "weapon_remington_model_700_762x51": 13,
+        "weapon_tochmash_vss_9x39": 12
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {}
+}

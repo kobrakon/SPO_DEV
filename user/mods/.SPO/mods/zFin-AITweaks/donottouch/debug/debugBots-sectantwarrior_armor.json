@@ -1,0 +1,30 @@
+{
+    "TacticalVest": {
+        "item_equipment_rig_bssmk1": 1,
+        "item_equipment_rig_micro": 1,
+        "wartech_mk3": 1,
+        "item_equipment_rig_d3crx": 1,
+        "item_equipment_rig_tarzan": 1,
+        "item_equipment_rig_bearing": 1,
+        "item_equipment_rig_bankrobber": 1,
+        "item_equipment_rig_triton": 1,
+        "item_equipment_rig_mmac": 1
+    },
+    "Headwear": {},
+    "Earpiece": {},
+    "FaceCover": {
+        "item_equipment_facecover_gasmask_gp7": 1,
+        "item_equipment_facecover_pestily": 1,
+        "item_equipment_facecover_shatteredmask": 1,
+        "balaclava_skull": 1,
+        "mask": 1,
+        "item_equipment_facecover_gasmask_GP5": 1,
+        "respirator_3m": 1,
+        "item_equipment_facecover_HALLOWEEN_Jason": 1,
+        "item_equipment_facecover_HALLOWEEN_Slander": 1,
+        "item_equipment_facecover_halloween_vampire": 1,
+        "item_equipment_facecover_HALLOWEEN_Micheal": 1
+    },
+    "Eyewear": {},
+    "ArmBand": {}
+}

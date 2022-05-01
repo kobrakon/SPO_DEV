@@ -1,0 +1,31 @@
+{
+    "TacticalVest": {
+        "bear_rig_6h112": 1,
+        "ana_tactical": 1,
+        "item_equipment_rig_tarzan": 1,
+        "wartech_vest": 1,
+        "item_equipment_rig_triton": 1
+    },
+    "Headwear": {
+        "helmet_wilcox_skull_lock": 1,
+        "helmet_armasight_nvg_googles_mask": 1,
+        "item_equipment_head_panama_stichprofi": 1,
+        "item_equipment_head_doorkicker": 1
+    },
+    "Earpiece": {
+        "item_equipment_headset_m32": 1
+    },
+    "FaceCover": {
+        "item_equipment_facecover_nomexBalaclava": 1,
+        "shemagh": 1,
+        "balaclava_skull": 1,
+        "item_equipment_facecover_shemagh_02": 1,
+        "item_equipment_facecover_skullmask": 1,
+        "item_equipment_facecover_shroud": 1,
+        "item_equipment_facecover_pestily": 1
+    },
+    "Eyewear": {},
+    "ArmBand": {
+        "item_equipment_armband_r2": 1
+    }
+}

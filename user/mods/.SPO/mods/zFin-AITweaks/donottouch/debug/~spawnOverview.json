@@ -1,0 +1,384 @@
+{
+    "Interchange": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 25,
+            "botsMin": 8,
+            "botsMax": 38
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1,
+            "types": [
+                "followerTagilla"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+        }
+    },
+    "Customs": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 21,
+            "botsMin": 14,
+            "botsMax": 48
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 5,
+            "botsMax": 5
+        },
+        "Cultists": {
+            "waves": 1,
+            "botsMin": 5,
+            "botsMax": 5
+        },
+        "Marksmen": {
+            "waves": 5,
+            "botsMin": 0,
+            "botsMax": 5
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Reserve": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 4,
+            "botsMin": null,
+            "botsMax": null
+        },
+        "Scavs": {
+            "waves": 15,
+            "botsMin": 12,
+            "botsMax": 28
+        },
+        "GluharRaiders": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Woods": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 20,
+            "botsMin": 13,
+            "botsMax": 53
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Cultists": {
+            "waves": 1,
+            "botsMin": 5,
+            "botsMax": 5
+        },
+        "Marksmen": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Shoreline": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 26,
+            "botsMin": 30,
+            "botsMax": 94
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Cultists": {
+            "waves": 2,
+            "botsMin": 9,
+            "botsMax": 9
+        },
+        "Marksmen": {
+            "waves": 2,
+            "botsMin": 0,
+            "botsMax": 1
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Labs": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 16,
+            "botsMin": null,
+            "botsMax": null
+        },
+        "Scavs": {
+            "waves": 3,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Lighthouse": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 12,
+            "botsMin": 16,
+            "botsMax": 39
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "Unknown": {
+            "waves": 8,
+            "botsMin": null,
+            "botsMax": null,
+            "types": [
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec",
+                "exUsec"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+        }
+    },
+    "Factory_Day": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 8,
+            "botsMin": 7,
+            "botsMax": 24
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "Cultists": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    },
+    "Factory_Night": {
+        "PMCs": {
+            "spawnChance": {}
+        },
+        "Raiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Scavs": {
+            "waves": 8,
+            "botsMin": 8,
+            "botsMax": 22
+        },
+        "GluharRaiders": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "BossMinions": {
+            "waves": 1,
+            "botsMin": 1,
+            "botsMax": 1
+        },
+        "Cultists": {
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Marksmen": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
+        },
+        "Unknown": {
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "FirstPrimaryWeapon": {
+        "weapon_izhmeh_mr133_12g": 61,
+        "weapon_izhmeh_mr43e-1c_12g": 4,
+        "weapon_izhmash_ak74n_545x39": 10,
+        "weapon_izhmeh_mr153_12g": 80,
+        "weapon_toz_sks_762x39": 56,
+        "weapon_izhmash_saiga12k_10_12g": 80,
+        "weapon_zmz_pp-91_9x18pm": 16,
+        "weapon_izhmash_aks74u_545x39": 41,
+        "weapon_molot_op_sks_762x39": 37,
+        "weapon_izhmash_akm_762x39": 22,
+        "weapon_molot_vepr_km_vpo_136_762x39": 83,
+        "weapon_molot_akm_vpo_209_366_TKM": 61,
+        "weapon_izhmash_saiga_9_9x19": 49,
+        "weapon_izhmash_akms_762x39": 12,
+        "weapon_toz_toz-106_20g": 78,
+        "weapon_izhmash_aks74n_545x39": 4,
+        "weapon_izhmash_ak74m_545x39": 32,
+        "weapon_izhmash_ak105_545x39": 9,
+        "weapon_izhmash_mosin_rifle_762x54": 4,
+        "weapon_izhmash_ak74_545x39": 4,
+        "weapon_izhmash_aks74_545x39": 7,
+        "weapon_izhmash_mosin_infantry_762x54": 5,
+        "weapon_adar_2-15_556x45": 33,
+        "weapon_molot_vepr_hunter_vpo-101_762x51": 27,
+        "weapon_molot_vpo_215_366tkm": 17,
+        "weapon_mossberg_590a1_12g": 29,
+        "weapon_zis_ppsh41_762x25": 11,
+        "weapon_kalashnikov_mp155_12g": 57,
+        "weapon_ckib_mc_255_12g": 4
+    },
+    "SecondPrimaryWeapon": {},
+    "Holster": {
+        "weapon_izhmeh_pm_9x18pm": 1,
+        "weapon_sig_p226r_9x19": 1,
+        "weapon_tochmash_pb_9x18pm": 1,
+        "weapon_toz_tt_762x25tt": 1,
+        "weapon_izhmeh_mp443_9x19": 1,
+        "weapon_izhmeh_pm_treaded_9x18pm": 1,
+        "weapon_molot_aps_9x18pm": 1
+    }
+}

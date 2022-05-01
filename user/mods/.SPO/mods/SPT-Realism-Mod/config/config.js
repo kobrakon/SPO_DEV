@@ -19,7 +19,7 @@ class Config {
 
     //Bots will no longer have tiered loadouts and will use vanilla loadouts, if set to false. 
     //This also disables changes made to botconfig (durability, bot ratios, loot limits) and custom loot generation functions that override AKI-SPT's.
-    static bot_changes = true;
+    static bot_changes = false;
 
     //Disables global recoil changes if set to false.
     static recoil_changes = false;
