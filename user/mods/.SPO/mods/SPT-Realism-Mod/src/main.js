@@ -75,23 +75,23 @@ class Main {
             }
     
             if (pmcData.Info.Level >= 15 && pmcData.Info.Level <= 25) {
-                Bots.botConfig1_5();
-                Logger.info("Realism mod: Bots have been adjusted to tier 1_5");
-            }
-    
-            if (pmcData.Info.Level >= 26 && pmcData.Info.Level <= 35) {
                 Bots.botConfig2();
                 Logger.info("Realism mod: Bots have been adjusted to tier 2");
             }
     
-            if (pmcData.Info.Level >= 36 && pmcData.Info.Level <= 44) {
-                Bots.botConfig2_5();
-                Logger.info("Realism mod: Bots have been adjusted to tier 2_5");
-            }
-    
-            if (pmcData.Info.Level >= 45 && pmcData.Info.Level <= 100) {
+            if (pmcData.Info.Level >= 26 && pmcData.Info.Level <= 35) {
                 Bots.botConfig3();
                 Logger.info("Realism mod: Bots have been adjusted to tier 3");
+            }
+    
+            if (pmcData.Info.Level >= 36 && pmcData.Info.Level <= 44) {
+                Bots.botConfig4();
+                Logger.info("Realism mod: Bots have been adjusted to tier 4");
+            }
+    
+            if (pmcData.Info.Level >= 45) {
+                Bots.botConfig5();
+                Logger.info("Realism mod: Bots have been adjusted to tier 5");
             }
         }
 
@@ -131,7 +131,7 @@ class Main {
                 Logger.info("Realism mod: Fleamarket tier 6 unlocked");
             }
 
-            if (pmcData.Info.Level >= 35 && pmcData.Info.Level <= 100) {
+            if (pmcData.Info.Level >= 35) {
                 Flea.fleaFullUnlock();
                 Logger.info("Realism mod: Fleamarket unlocked");
             }

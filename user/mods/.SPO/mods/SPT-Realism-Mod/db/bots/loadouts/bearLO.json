@@ -1290,7 +1290,7 @@
       }
     }
   },
-  "bearLO1_5": {
+  "bearLO2": {
     "experience": {
       "level": {
         "max": 20,
@@ -2767,7 +2767,7 @@
       }
     }
   },
-  "bearLO2": {
+  "bearLO3": {
     "experience": {
       "level": {
         "max": 30,
@@ -4290,7 +4290,7 @@
       }
     }
   },
-  "bearLO2_5": {
+  "bearLO4": {
     "experience": {
       "level": {
         "max": 35,
@@ -6105,7 +6105,7 @@
       }
     }
   },
-  "bearLO3": {
+  "bearLO5": {
     "experience": {
       "level": {
         "max": 50,
