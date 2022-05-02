@@ -1360,7 +1360,7 @@
       }
     }
   },
-  "usecLO1_5": {
+  "usecLO2": {
     "experience": {
       "aggressorBonus": 0.02,
       "level": {
@@ -3163,7 +3163,7 @@
       }
     }
   },
-  "usecLO2": {
+  "usecLO3": {
     "experience": {
       "aggressorBonus": 0.03,
       "level": {
@@ -4966,7 +4966,7 @@
       }
     }
   },
-  "usecLO2_5": {
+  "usecLO4": {
     "experience": {
       "aggressorBonus": 0.03,
       "level": {
@@ -7393,7 +7393,7 @@
       }
     }
   },
-  "usecLO3": {
+  "usecLO5": {
     "experience": {
       "aggressorBonus": 0.03,
       "level": {

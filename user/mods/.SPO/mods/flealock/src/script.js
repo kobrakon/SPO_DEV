@@ -20,6 +20,11 @@ class tweakstuff
     
     static endCheck(url, info, sessionID, output)
     {
+        locales.en.interface["ragfair/Unlocked at character LVL {0}"] = "The Intelligence Center must be installed in your Hideout in order to communicate with the Flea Market network."
+    }
+    
+    static endCheck(url, info, sessionID, output)
+    {
         clearInterval(check)
         return(output)
     }
@@ -40,7 +45,6 @@ class tweakstuff
         if (pmcData.Hideout.Areas[11].level == 0)
         {
             globals.RagFair.minUserLevel = 90
-            locales.en.interface["ragfair/Unlocked at character LVL {0}"] = "The Intelligence Center must be installed in your Hideout in order to communicate with the Flea Market network."
         }
         
         if (pmcData.Hideout.Areas[4].active && pmcData.Hideout.Areas[11].level > 0)
