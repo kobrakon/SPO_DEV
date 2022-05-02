@@ -132,7 +132,7 @@ class Bots {
         }
     }
 
-    static botConfig1_5() {
+    static botConfig2() {
 
         //Set bot armor and weapon min durability
         BotConfig.durability.pmc = rmBotConfig.durability1.pmc
@@ -171,15 +171,15 @@ class Bots {
         BotConfig.maxBotCap = rmBotConfig.maxBotCap *= 1.1;
                 
         this.scavLoad1();
-        this.usecLoad1_5();
-        this.bearLoad1_5();
+        this.usecLoad2();
+        this.bearLoad2();
 
         if (config.logEverything == true) {
             Logger.info("botConfig1 loaded");
         }
     }
 
-    static botConfig2() {
+    static botConfig3() {
         
             //Set bot armor and weapon min durability
             BotConfig.durability.pmc = rmBotConfig.durability2.pmc
@@ -220,15 +220,15 @@ class Bots {
 
 
             this.scavLoad2();
-            this.usecLoad2();
-            this.bearLoad2();
+            this.usecLoad3();
+            this.bearLoad3();
         if (config.logEverything == true) {
           Logger.info("botConfig3 loaded");
         }
 
     }
 
-    static botConfig2_5() {
+    static botConfig4() {
 
             //Set bot armor and weapon min durability
             BotConfig.durability.pmc = rmBotConfig.durability2.pmc
@@ -267,15 +267,15 @@ class Bots {
             BotConfig.maxBotCap = rmBotConfig.maxBotCap *= 1.1;
         
             this.scavLoad2();
-            this.usecLoad2_5();
-            this.bearLoad2_5();
+            this.usecLoad4();
+            this.bearLoad4();
             if (config.logEverything == true) {
                 Logger.info("botConfig3 loaded");
         }
 
     }
 
-    static botConfig3() {
+    static botConfig5() {
 
             //Set bot armor and weapon min durability
             BotConfig.durability.pmc = rmBotConfig.durability3.pmc
@@ -314,8 +314,8 @@ class Bots {
             BotConfig.maxBotCap = rmBotConfig.maxBotCap *= 1.0;
         
             this.scavLoad3();
-            this.usecLoad3();
-            this.bearLoad3();
+            this.usecLoad5();
+            this.bearLoad5();
 
         if (config.logEverything == true) {
            Logger.info("botConfig3 loaded");
@@ -387,21 +387,6 @@ class Bots {
         }
     }
 
-    static usecLoad1_5() {
-        usecBase.inventory.equipment = usecLO.usecLO1_5.inventory.equipment;
-        usecBase.inventory.items = usecLO.usecLO1_5.inventory.items;
-        usecBase.inventory.mods = usecLO.usecLO1_5.inventory.mods;
-        usecBase.chances = usecLO.usecLO1_5.chances;
-        usecBase.generation = usecLO.usecLO1_5.generation;
-        usecBase.appearance.body = usecLO.usecLO1_5.appearance.body;
-        usecBase.appearance.feet = usecLO.usecLO1_5.appearance.feet;
-        usecBase.experience.level = usecLO.usecLO1_5.experience.level;
-
-        if (config.logEverything == true) {
-            Logger.info("botTest loaded");
-        }
-    }
-
     static usecLoad2() {
         usecBase.inventory.equipment = usecLO.usecLO2.inventory.equipment;
         usecBase.inventory.items = usecLO.usecLO2.inventory.items;
@@ -417,21 +402,6 @@ class Bots {
         }
     }
 
-    static usecLoad2_5() {
-        usecBase.inventory.equipment = usecLO.usecLO2_5.inventory.equipment;
-        usecBase.inventory.items = usecLO.usecLO2_5.inventory.items;
-        usecBase.inventory.mods = usecLO.usecLO2_5.inventory.mods;
-        usecBase.chances = usecLO.usecLO2_5.chances;
-        usecBase.generation = usecLO.usecLO2_5.generation;
-        usecBase.appearance.body = usecLO.usecLO2_5.appearance.body;
-        usecBase.appearance.feet = usecLO.usecLO2_5.appearance.feet;
-        usecBase.experience.level = usecLO.usecLO2_5.experience.level;
-
-        if (config.logEverything == true) {
-            Logger.info("botTest loaded");
-        }
-    }
-
     static usecLoad3() {
         usecBase.inventory.equipment = usecLO.usecLO3.inventory.equipment;
         usecBase.inventory.items = usecLO.usecLO3.inventory.items;
@@ -441,6 +411,36 @@ class Bots {
         usecBase.appearance.body = usecLO.usecLO3.appearance.body;
         usecBase.appearance.feet = usecLO.usecLO3.appearance.feet;
         usecBase.experience.level = usecLO.usecLO3.experience.level;
+
+        if (config.logEverything == true) {
+            Logger.info("botTest loaded");
+        }
+    }
+
+    static usecLoad4() {
+        usecBase.inventory.equipment = usecLO.usecLO4.inventory.equipment;
+        usecBase.inventory.items = usecLO.usecLO4.inventory.items;
+        usecBase.inventory.mods = usecLO.usecLO4.inventory.mods;
+        usecBase.chances = usecLO.usecLO4.chances;
+        usecBase.generation = usecLO.usecLO4.generation;
+        usecBase.appearance.body = usecLO.usecLO4.appearance.body;
+        usecBase.appearance.feet = usecLO.usecLO4.appearance.feet;
+        usecBase.experience.level = usecLO.usecLO4.experience.level;
+
+        if (config.logEverything == true) {
+            Logger.info("botTest loaded");
+        }
+    }
+
+    static usecLoad5() {
+        usecBase.inventory.equipment = usecLO.usecLO5.inventory.equipment;
+        usecBase.inventory.items = usecLO.usecLO5.inventory.items;
+        usecBase.inventory.mods = usecLO.usecLO5.inventory.mods;
+        usecBase.chances = usecLO.usecLO5.chances;
+        usecBase.generation = usecLO.usecLO5.generation;
+        usecBase.appearance.body = usecLO.usecLO5.appearance.body;
+        usecBase.appearance.feet = usecLO.usecLO5.appearance.feet;
+        usecBase.experience.level = usecLO.usecLO5.experience.level;
 
         if (config.logEverything == true) {
             Logger.info("botTest loaded");
@@ -464,23 +464,8 @@ class Bots {
         }
     }
 
-    static bearLoad1_5() {
-
-        bearBase.inventory.equipment = bearLO.bearLO1_5.inventory.equipment;
-        bearBase.inventory.items = bearLO.bearLO1_5.inventory.items;
-        bearBase.inventory.mods = bearLO.bearLO1_5.inventory.mods;
-        bearBase.chances = bearLO.bearLO1_5.chances;
-        bearBase.generation = bearLO.bearLO1_5.generation;
-        bearBase.appearance.body = bearLO.bearLO1_5.appearance.body;
-        bearBase.appearance.feet = bearLO.bearLO1_5.appearance.feet;
-        bearBase.experience.level = bearLO.bearLO1_5.experience.level;
-
-        if (config.logEverything == true) {
-            Logger.info("botTest loaded");
-        }
-    }
-
     static bearLoad2() {
+
         bearBase.inventory.equipment = bearLO.bearLO2.inventory.equipment;
         bearBase.inventory.items = bearLO.bearLO2.inventory.items;
         bearBase.inventory.mods = bearLO.bearLO2.inventory.mods;
@@ -489,21 +474,6 @@ class Bots {
         bearBase.appearance.body = bearLO.bearLO2.appearance.body;
         bearBase.appearance.feet = bearLO.bearLO2.appearance.feet;
         bearBase.experience.level = bearLO.bearLO2.experience.level;
-
-        if (config.logEverything == true) {
-            Logger.info("botTest loaded");
-        }
-    }
-
-    static bearLoad2_5() {
-        bearBase.inventory.equipment = bearLO.bearLO2_5.inventory.equipment;
-        bearBase.inventory.items = bearLO.bearLO2_5.inventory.items;
-        bearBase.inventory.mods = bearLO.bearLO2_5.inventory.mods;
-        bearBase.chances = bearLO.bearLO2_5.chances;
-        bearBase.generation = bearLO.bearLO2_5.generation;
-        bearBase.appearance.body = bearLO.bearLO2_5.appearance.body;
-        bearBase.appearance.feet = bearLO.bearLO2_5.appearance.feet;
-        bearBase.experience.level = bearLO.bearLO2_5.experience.level;
 
         if (config.logEverything == true) {
             Logger.info("botTest loaded");
@@ -519,6 +489,36 @@ class Bots {
         bearBase.appearance.body = bearLO.bearLO3.appearance.body;
         bearBase.appearance.feet = bearLO.bearLO3.appearance.feet;
         bearBase.experience.level = bearLO.bearLO3.experience.level;
+
+        if (config.logEverything == true) {
+            Logger.info("botTest loaded");
+        }
+    }
+
+    static bearLoad4() {
+        bearBase.inventory.equipment = bearLO.bearLO4.inventory.equipment;
+        bearBase.inventory.items = bearLO.bearLO4.inventory.items;
+        bearBase.inventory.mods = bearLO.bearLO4.inventory.mods;
+        bearBase.chances = bearLO.bearLO4.chances;
+        bearBase.generation = bearLO.bearLO4.generation;
+        bearBase.appearance.body = bearLO.bearLO4.appearance.body;
+        bearBase.appearance.feet = bearLO.bearLO4.appearance.feet;
+        bearBase.experience.level = bearLO.bearLO4.experience.level;
+
+        if (config.logEverything == true) {
+            Logger.info("botTest loaded");
+        }
+    }
+
+    static bearLoad5() {
+        bearBase.inventory.equipment = bearLO.bearLO5.inventory.equipment;
+        bearBase.inventory.items = bearLO.bearLO5.inventory.items;
+        bearBase.inventory.mods = bearLO.bearLO5.inventory.mods;
+        bearBase.chances = bearLO.bearLO5.chances;
+        bearBase.generation = bearLO.bearLO5.generation;
+        bearBase.appearance.body = bearLO.bearLO5.appearance.body;
+        bearBase.appearance.feet = bearLO.bearLO5.appearance.feet;
+        bearBase.experience.level = bearLO.bearLO5.experience.level;
 
         if (config.logEverything == true) {
             Logger.info("botTest loaded");
