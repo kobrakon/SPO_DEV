@@ -103,7 +103,7 @@
     "AIgearChanges": {
         "CheckREADMEforInfo": {
             "optimizedLoading": true,
-            "saveGearToFile": true,
+            "saveGearToFile": false,
             "loadGearFromFile": false
         },
         "scavBots": [

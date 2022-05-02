@@ -9,9 +9,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 25,
-            "botsMin": 8,
-            "botsMax": 38
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "GluharRaiders": {
             "waves": 0,
@@ -34,28 +34,31 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1,
-            "types": [
-                "followerTagilla"
-            ],
-            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
         }
     },
     "Customs": {
         "PMCs": {
-            "spawnChance": {}
+            "spawnChance": {
+                "100": {
+                    "waves": 3,
+                    "botsMin": 7,
+                    "botsMax": 7
+                }
+            }
         },
         "Raiders": {
-            "waves": 0,
-            "botsMin": 0,
-            "botsMax": 0
+            "waves": 3,
+            "botsMin": 6,
+            "botsMax": 5
         },
         "Scavs": {
-            "waves": 21,
-            "botsMin": 14,
-            "botsMax": 48
+            "waves": 4,
+            "botsMin": 11,
+            "botsMax": 10
         },
         "GluharRaiders": {
             "waves": 0,
@@ -64,44 +67,54 @@
         },
         "BossMinions": {
             "waves": 1,
-            "botsMin": 5,
-            "botsMax": 5
+            "botsMin": 6,
+            "botsMax": 6
         },
         "Cultists": {
-            "waves": 1,
-            "botsMin": 5,
-            "botsMax": 5
-        },
-        "Marksmen": {
-            "waves": 5,
-            "botsMin": 0,
-            "botsMax": 5
-        },
-        "Unknown": {
             "waves": 0,
             "botsMin": 0,
-            "botsMax": 0,
-            "types": []
+            "botsMax": 0
+        },
+        "Marksmen": {
+            "waves": 3,
+            "botsMin": 3,
+            "botsMax": 3
+        },
+        "Unknown": {
+            "waves": 2,
+            "botsMin": 5,
+            "botsMax": 5,
+            "types": [
+                "cursedAssault",
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
         }
     },
     "Reserve": {
         "PMCs": {
-            "spawnChance": {}
+            "spawnChance": {
+                "100": {
+                    "waves": 2,
+                    "botsMin": 5,
+                    "botsMax": 5
+                }
+            }
         },
         "Raiders": {
-            "waves": 4,
-            "botsMin": null,
-            "botsMax": null
+            "waves": 2,
+            "botsMin": 5,
+            "botsMax": 4
         },
         "Scavs": {
-            "waves": 15,
-            "botsMin": 12,
-            "botsMax": 28
+            "waves": 4,
+            "botsMin": 10,
+            "botsMax": 9
         },
         "GluharRaiders": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "BossMinions": {
             "waves": 0,
@@ -119,10 +132,14 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 0,
-            "botsMin": 0,
-            "botsMax": 0,
-            "types": []
+            "waves": 2,
+            "botsMin": 5,
+            "botsMax": 5,
+            "types": [
+                "cursedAssault",
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
         }
     },
     "Woods": {
@@ -135,9 +152,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 20,
-            "botsMin": 13,
-            "botsMax": 53
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "GluharRaiders": {
             "waves": 0,
@@ -145,19 +162,19 @@
             "botsMax": 0
         },
         "BossMinions": {
-            "waves": 1,
-            "botsMin": 3,
-            "botsMax": 3
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Cultists": {
-            "waves": 1,
-            "botsMin": 5,
-            "botsMax": 5
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Marksmen": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Unknown": {
             "waves": 0,
@@ -176,9 +193,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 26,
-            "botsMin": 30,
-            "botsMax": 94
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "GluharRaiders": {
             "waves": 0,
@@ -186,19 +203,19 @@
             "botsMax": 0
         },
         "BossMinions": {
-            "waves": 1,
-            "botsMin": 3,
-            "botsMax": 3
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Cultists": {
-            "waves": 2,
-            "botsMin": 9,
-            "botsMax": 9
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Marksmen": {
-            "waves": 2,
+            "waves": 0,
             "botsMin": 0,
-            "botsMax": 1
+            "botsMax": 0
         },
         "Unknown": {
             "waves": 0,
@@ -212,12 +229,12 @@
             "spawnChance": {}
         },
         "Raiders": {
-            "waves": 16,
-            "botsMin": null,
-            "botsMax": null
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Scavs": {
-            "waves": 3,
+            "waves": 0,
             "botsMin": 0,
             "botsMax": 0
         },
@@ -258,9 +275,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 12,
-            "botsMin": 16,
-            "botsMax": 39
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "GluharRaiders": {
             "waves": 0,
@@ -278,30 +295,26 @@
             "botsMax": 0
         },
         "Marksmen": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Unknown": {
-            "waves": 8,
-            "botsMin": null,
-            "botsMax": null,
-            "types": [
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec"
-            ],
-            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
         }
     },
     "Factory_Day": {
         "PMCs": {
-            "spawnChance": {}
+            "spawnChance": {
+                "100": {
+                    "waves": 2,
+                    "botsMin": 3,
+                    "botsMax": 3
+                }
+            }
         },
         "Raiders": {
             "waves": 0,
@@ -309,9 +322,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 8,
-            "botsMin": 7,
-            "botsMax": 24
+            "waves": 4,
+            "botsMin": 13,
+            "botsMax": 13
         },
         "GluharRaiders": {
             "waves": 0,
@@ -319,9 +332,9 @@
             "botsMax": 0
         },
         "BossMinions": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Cultists": {
             "waves": 0,
@@ -334,15 +347,25 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 0,
-            "botsMin": 0,
-            "botsMax": 0,
-            "types": []
+            "waves": 2,
+            "botsMin": 4,
+            "botsMax": 3,
+            "types": [
+                "cursedAssault",
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
         }
     },
     "Factory_Night": {
         "PMCs": {
-            "spawnChance": {}
+            "spawnChance": {
+                "100": {
+                    "waves": 3,
+                    "botsMin": 4,
+                    "botsMax": 4
+                }
+            }
         },
         "Raiders": {
             "waves": 0,
@@ -350,9 +373,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 8,
-            "botsMin": 8,
-            "botsMax": 22
+            "waves": 4,
+            "botsMin": 15,
+            "botsMax": 15
         },
         "GluharRaiders": {
             "waves": 0,
@@ -360,14 +383,14 @@
             "botsMax": 0
         },
         "BossMinions": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 2,
+            "botsMin": 2,
+            "botsMax": 2
         },
         "Cultists": {
-            "waves": 1,
-            "botsMin": 3,
-            "botsMax": 3
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Marksmen": {
             "waves": 0,
@@ -375,10 +398,13 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 0,
-            "botsMin": 0,
-            "botsMax": 0,
-            "types": []
+            "waves": 1,
+            "botsMin": 2,
+            "botsMax": 1,
+            "types": [
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
         }
     }
 }

@@ -1,104 +1,110 @@
 [
     {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
-        "SpawnPoints": "BotZone",
-        "WildSpawnType": "assault",
-        "isPlayers": true,
         "number": 0,
-        "slots_max": 2,
-        "slots_min": 1,
-        "time_max": 100,
-        "time_min": 40
-    },
-    {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
-        "SpawnPoints": "BotZone",
-        "WildSpawnType": "assault",
-        "isPlayers": false,
-        "number": 1,
-        "slots_max": 4,
-        "slots_min": 1,
+        "time_min": -1,
         "time_max": -1,
-        "time_min": -1
-    },
-    {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
-        "SpawnPoints": "BotZone",
-        "WildSpawnType": "assault",
-        "isPlayers": true,
-        "number": 2,
-        "slots_max": 3,
-        "slots_min": 1,
-        "time_max": 300,
-        "time_min": 210
-    },
-    {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
-        "SpawnPoints": "BotZone",
-        "WildSpawnType": "assault",
-        "isPlayers": true,
-        "number": 3,
-        "slots_max": 3,
-        "slots_min": 0,
-        "time_max": 350,
-        "time_min": 260
-    },
-    {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
-        "SpawnPoints": "BotZone",
-        "WildSpawnType": "assault",
-        "isPlayers": true,
-        "number": 4,
-        "slots_max": 3,
         "slots_min": 2,
-        "time_max": 500,
-        "time_min": 410
+        "slots_max": 2,
+        "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
+        "WildSpawnType": "assault",
+        "isPlayers": false
     },
     {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 2,
         "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
         "WildSpawnType": "assault",
-        "isPlayers": true,
-        "number": 5,
-        "slots_max": 3,
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "impossible",
+        "WildSpawnType": "assaultGroup",
+        "isPlayers": false
+    },
+    {
+        "number": 0,
+        "time_min": -1,
+        "time_max": -1,
+        "slots_min": 2,
+        "slots_max": 2,
+        "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "impossible",
+        "WildSpawnType": "cursedAssault",
+        "isPlayers": false
+    },
+    {
+        "number": 1,
+        "time_min": 397,
+        "time_max": 397,
+        "slots_min": 2,
+        "slots_max": 1,
+        "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "hard",
+        "WildSpawnType": "cursedAssault",
+        "isPlayers": false
+    },
+    {
+        "number": 2,
+        "time_min": 796,
+        "time_max": 796,
         "slots_min": 1,
-        "time_max": 510,
-        "time_min": 460
+        "slots_max": 1,
+        "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "easy",
+        "WildSpawnType": "assaultGroup",
+        "isPlayers": false
     },
     {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
+        "number": 3,
+        "time_min": 434,
+        "time_max": 434,
+        "slots_min": 4,
+        "slots_max": 4,
         "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "easy",
         "WildSpawnType": "assault",
-        "isPlayers": false,
-        "number": 6,
-        "slots_max": 3,
-        "slots_min": 1,
-        "time_max": 1500,
-        "time_min": 1200
+        "isPlayers": false
     },
     {
-        "BotPreset": "easy",
-        "BotSide": "Savage",
+        "number": 4,
+        "time_min": 796,
+        "time_max": 796,
+        "slots_min": 5,
+        "slots_max": 5,
         "SpawnPoints": "BotZone",
+        "BotSide": "Savage",
+        "BotPreset": "normal",
         "WildSpawnType": "assault",
-        "isPlayers": false,
-        "number": 7,
-        "slots_max": 3,
-        "slots_min": 0,
-        "time_max": 1700,
-        "time_min": 1600
+        "isPlayers": false
     }
 ]{
     "Totals:": {
         "PMCs": {
-            "spawnChance": {}
+            "spawnChance": {
+                "100": {
+                    "waves": 2,
+                    "botsMin": 3,
+                    "botsMax": 3
+                }
+            }
         },
         "Raiders": {
             "waves": 0,
@@ -106,9 +112,9 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 8,
-            "botsMin": 7,
-            "botsMax": 24
+            "waves": 4,
+            "botsMin": 13,
+            "botsMax": 13
         },
         "GluharRaiders": {
             "waves": 0,
@@ -131,10 +137,14 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 0,
-            "botsMin": 0,
-            "botsMax": 0,
-            "types": []
+            "waves": 2,
+            "botsMin": 4,
+            "botsMax": 3,
+            "types": [
+                "cursedAssault",
+                "cursedAssault"
+            ],
+            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
         }
     }
 }

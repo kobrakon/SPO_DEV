@@ -1,16 +1,4 @@
-[
-    {
-        "BossChance": 35,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "0",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "followerTagilla",
-        "BossName": "bossKilla",
-        "BossPlayer": false,
-        "BossZone": "ZoneCenterBot,ZoneCenter,ZoneOLI,ZoneIDEA,ZoneGoshan,ZoneIDEAPark,ZoneOLIPark",
-        "Time": -1
-    }
-]{
+[]{
     "Totals:": {
         "PMCs": {
             "spawnChance": {}
@@ -46,13 +34,10 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1,
-            "types": [
-                "followerTagilla"
-            ],
-            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
         }
     }
 }

@@ -1,24 +1,13 @@
 [
     {
-        "BossChance": 20,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "4",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "sectantWarrior",
-        "BossName": "sectantPriest",
-        "BossPlayer": false,
-        "BossZone": "ZoneScavBase",
-        "Time": -1
-    },
-    {
-        "BossChance": 36,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "4",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "followerBully",
         "BossName": "bossBully",
+        "BossChance": 100,
+        "BossZone": "ZoneGasStation",
         "BossPlayer": false,
-        "BossZone": "ZoneDormitory,ZoneGasStation,ZoneScavBase",
+        "BossDifficult": "normal",
+        "BossEscortType": "followerBully",
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 5,
         "Time": -1
     }
 ]{
@@ -43,13 +32,13 @@
         },
         "BossMinions": {
             "waves": 1,
-            "botsMin": 5,
-            "botsMax": 5
+            "botsMin": 6,
+            "botsMax": 6
         },
         "Cultists": {
-            "waves": 1,
-            "botsMin": 5,
-            "botsMax": 5
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "Marksmen": {
             "waves": 0,

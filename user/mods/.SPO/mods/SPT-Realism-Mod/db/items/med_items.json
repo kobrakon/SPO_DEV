@@ -131,7 +131,7 @@
                 "fadeOut": 0
             }
         },
-        "StimulatorBuffs": "Buffs_imobo",
+        "StimulatorBuffs": "Buffs_immobo",
         "MaxHpResource": 1,
         "hpResourceRate": 0
     },

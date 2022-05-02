@@ -1,109 +1,4 @@
-[
-    {
-        "BossChance": 0,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "1,1,1,2",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_TreatmentRocks",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 100,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "3",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_TreatmentContainers",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 0,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "1,1,1,2",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_TreatmentBeach",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 100,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "1",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_RoofBeach",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 100,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "2",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_RoofContainers",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 100,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "1",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_RoofRocks",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 75,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "2",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_Hellicopter",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 100,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "1",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "exUsec",
-        "BossName": "exUsec",
-        "BossPlayer": false,
-        "BossZone": "Zone_Blockpost",
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    }
-]{
+[]{
     "Totals:": {
         "PMCs": {
             "spawnChance": {}
@@ -139,20 +34,10 @@
             "botsMax": 0
         },
         "Unknown": {
-            "waves": 8,
-            "botsMin": null,
-            "botsMax": null,
-            "types": [
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec",
-                "exUsec"
-            ],
-            "shrug": "I don't know why these are here. Fin's mod didn't add these bois."
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0,
+            "types": []
         }
     }
 }

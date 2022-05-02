@@ -6,7 +6,7 @@
         "Notes on Map Names": "Customs = bigmap, Woods = woods, Reserve = rezervbase, Shoreline = shoreline, Factory (day) = factory4_day, Factory (night) = factory4_night, Interchange = interchange, Labs = laboratory"
     },
     "disableAllSpawnChanges": true,
-    "disableAllGearChanges": false,
+    "disableAllGearChanges": true,
     "disableAllAIChanges": false,
     "silenceWeaponGenErrors": true,
     "aiChanges": {
@@ -100,7 +100,7 @@
     },
     "AIgearChanges": {
         "CheckREADMEforInfo": {
-            "optimizedLoading": false,
+            "optimizedLoading": true,
             "saveGearToFile": false,
             "loadGearFromFile": false
         },

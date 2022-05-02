@@ -1,41 +1,4 @@
-[
-    {
-        "number": 0,
-        "time_min": 0,
-        "time_max": 10,
-        "slots_min": 0,
-        "slots_max": 0,
-        "BotSide": "Savage",
-        "BotPreset": "easy",
-        "SpawnPoints": "",
-        "WildSpawnType": "assault",
-        "isPlayers": false
-    },
-    {
-        "number": 1,
-        "time_min": 10,
-        "time_max": 120,
-        "slots_min": 0,
-        "slots_max": 0,
-        "BotSide": "Savage",
-        "BotPreset": "easy",
-        "SpawnPoints": "",
-        "WildSpawnType": "assault",
-        "isPlayers": false
-    },
-    {
-        "number": 0,
-        "time_min": 120,
-        "time_max": 240,
-        "slots_min": 0,
-        "slots_max": 0,
-        "BotSide": "Savage",
-        "BotPreset": "easy",
-        "SpawnPoints": "",
-        "WildSpawnType": "assault",
-        "isPlayers": false
-    }
-]{
+[]{
     "Totals:": {
         "PMCs": {
             "spawnChance": {}
@@ -46,7 +9,7 @@
             "botsMax": 0
         },
         "Scavs": {
-            "waves": 3,
+            "waves": 0,
             "botsMin": 0,
             "botsMax": 0
         },

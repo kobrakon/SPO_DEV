@@ -1850,7 +1850,7 @@
             "DANGER_POINT_CHOOSE_COEF": 1,
             "DEFAULT_ENEMY_BEAR": true,
             "DEFAULT_ENEMY_SAVAGE": true,
-            "DEFAULT_ENEMY_USEC": false,
+            "DEFAULT_ENEMY_USEC": true,
             "DIST_TO_ENEMY_SPOTTED_ON_HIT": 20,
             "DIST_TO_ENEMY_YO_CAN_HEAL": 30,
             "DIST_TO_FOUND_SQRT": 400,

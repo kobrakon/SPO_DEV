@@ -1848,7 +1848,7 @@
             "DANGER_EXPIRE_TIME_MAX": 1.2,
             "DANGER_EXPIRE_TIME_MIN": 0.4,
             "DANGER_POINT_CHOOSE_COEF": 1,
-            "DEFAULT_ENEMY_BEAR": false,
+            "DEFAULT_ENEMY_BEAR": true,
             "DEFAULT_ENEMY_SAVAGE": true,
             "DEFAULT_ENEMY_USEC": true,
             "DIST_TO_ENEMY_SPOTTED_ON_HIT": 20,

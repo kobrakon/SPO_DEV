@@ -1,95 +1,17 @@
 [
     {
-        "BossChance": 28,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "0",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "followerGluharAssault",
-        "BossName": "bossGluhar",
-        "BossPlayer": false,
-        "BossZone": "ZoneRailStrorage,ZoneRailStrorage,ZoneRailStrorage,ZonePTOR1,ZonePTOR2,ZoneBarrack,ZoneBarrack,ZoneBarrack,ZoneSubStorage",
-        "Supports": [
-            {
-                "BossEscortAmount": "2",
-                "BossEscortDifficult": [
-                    "normal"
-                ],
-                "BossEscortType": "followerGluharAssault"
-            },
-            {
-                "BossEscortAmount": "2",
-                "BossEscortDifficult": [
-                    "normal"
-                ],
-                "BossEscortType": "followerGluharSecurity"
-            },
-            {
-                "BossEscortAmount": "2",
-                "BossEscortDifficult": [
-                    "normal"
-                ],
-                "BossEscortType": "followerGluharScout"
-            }
-        ],
-        "Time": -1,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 40,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "2,2,2,2,3",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "pmcBot",
         "BossName": "pmcBot",
-        "BossPlayer": false,
+        "BossChance": 100,
         "BossZone": "ZoneRailStrorage",
-        "Supports": null,
-        "Time": 1470,
-        "TriggerId": "",
-        "TriggerName": ""
-    },
-    {
-        "BossChance": 55,
+        "BossPlayer": false,
         "BossDifficult": "normal",
-        "BossEscortAmount": "2,2,2,2,3",
-        "BossEscortDifficult": "normal",
         "BossEscortType": "pmcBot",
-        "BossName": "pmcBot",
-        "BossPlayer": false,
-        "BossZone": "ZoneRailStrorage",
-        "Supports": null,
+        "BossEscortDifficult": "normal",
+        "BossEscortAmount": 2,
         "Time": -1,
         "TriggerId": "autoId_00632_EXFIL",
-        "TriggerName": "interactObject"
-    },
-    {
-        "BossChance": 50,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "2,2,2,2,3",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "pmcBot",
-        "BossName": "pmcBot",
-        "BossPlayer": false,
-        "BossZone": "ZoneSubCommand",
-        "Supports": null,
-        "Time": -1,
-        "TriggerId": "autoId_00000_D2_LEVER",
-        "TriggerName": "interactObject"
-    },
-    {
-        "BossChance": 36,
-        "BossDifficult": "normal",
-        "BossEscortAmount": "2,2,2,2,3",
-        "BossEscortDifficult": "normal",
-        "BossEscortType": "pmcBot",
-        "BossName": "pmcBot",
-        "BossPlayer": false,
-        "BossZone": "ZoneSubCommand",
-        "Supports": null,
-        "Time": 3,
-        "TriggerId": "raider_simple_patroling",
-        "TriggerName": "interactObject"
+        "TriggerName": "interactObject",
+        "Supports": null
     }
 ]{
     "Totals:": {
@@ -97,9 +19,9 @@
             "spawnChance": {}
         },
         "Raiders": {
-            "waves": 4,
-            "botsMin": null,
-            "botsMax": null
+            "waves": 1,
+            "botsMin": 3,
+            "botsMax": 3
         },
         "Scavs": {
             "waves": 0,
@@ -107,9 +29,9 @@
             "botsMax": 0
         },
         "GluharRaiders": {
-            "waves": 1,
-            "botsMin": 1,
-            "botsMax": 1
+            "waves": 0,
+            "botsMin": 0,
+            "botsMax": 0
         },
         "BossMinions": {
             "waves": 0,
