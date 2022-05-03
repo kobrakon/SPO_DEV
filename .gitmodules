@@ -6,6 +6,14 @@
 	path = user/mods/DynamicTravelTime
 	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
 	branch = release
+[submodule "user/mods/r1ft-PTTExtractRequirements"]
+	path = user/mods/r1ft-PTTExtractRequirements
+	url = https://dev.sp-tarkov.com/r1ft/PTTExtractRequirements
+	branch = release
+[submodule "user/mods/r1ft-DynamicTravelTime"]
+	path = user/mods/r1ft-DynamicTravelTime
+	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
+	branch = release
 [submodule "user/mods/.SPO/mods/Headlamps"]
 	path = user/mods/.SPO/mods/Headlamps
 	url = https://dev.sp-tarkov.com/r1ft/HeadLamps.git
