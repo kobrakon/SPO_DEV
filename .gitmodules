@@ -1,11 +1,3 @@
-[submodule "user/mods/PTTExtractRequirements"]
-	path = user/mods/PTTExtractRequirements
-	url = https://dev.sp-tarkov.com/r1ft/PTTExtractRequirements
-	branch = release
-[submodule "user/mods/DynamicTravelTime"]
-	path = user/mods/DynamicTravelTime
-	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
-	branch = release
 [submodule "user/mods/r1ft-PTTExtractRequirements"]
 	path = user/mods/r1ft-PTTExtractRequirements
 	url = https://dev.sp-tarkov.com/r1ft/PTTExtractRequirements
