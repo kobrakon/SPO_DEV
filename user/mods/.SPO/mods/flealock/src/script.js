@@ -16,9 +16,6 @@ class tweakstuff
     }
 
     load() 
-    {}
-    
-    static endCheck(url, info, sessionID, output)
     {
         locales.en.interface["ragfair/Unlocked at character LVL {0}"] = "The Intelligence Center must be installed in your Hideout in order to communicate with the Flea Market network."
     }
