@@ -1,5 +1,7 @@
 {
   "PTTEnabled ": true,
+  "NightTimeAccel": true,
+  "NightTimeAccelTime": 240,
   "Locations": [
     {
       "OffraidPosition": "factory4_day",
@@ -77,27 +79,27 @@
     },
     {
       "OffraidPosition": "MilitaryBaseRail",
-      "TravelTime": 120
+      "TravelTime": 60
     },
     {
       "OffraidPosition": "Boat",
-      "TravelTime": 180
+      "TravelTime": 60
     },
     {
       "OffraidPosition": "Car",
-      "TravelTime": 30
+      "TravelTime": 60
     },
     {
       "OffraidPosition": "FactoryZB-1013",
-      "TravelTime": 20
+      "TravelTime": 0
     },
     {
       "OffraidPosition": "FactoryZB-1012",
-      "TravelTime": 20
+      "TravelTime": 0
     },
     {
       "OffraidPosition": "FactoryZB-1011",
-      "TravelTime": 20
+      "TravelTime": 0
     },
     {
       "OffraidPosition": "WoodsFactoryGate",
@@ -105,7 +107,7 @@
     },
     {
       "OffraidPosition": "SafeRoom",
-      "TravelTime": 240
+      "TravelTime": 60
     }
   ]
 }

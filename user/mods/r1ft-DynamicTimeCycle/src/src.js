@@ -42,11 +42,9 @@ class DynamicTimeCycle {
             }
         }
 
-        if (pttEnabled) {
-            HttpRouter.onStaticRoute["/dynamictimecycle/offraidPosition"] = {
-                config: DynamicTimeCycle.onRequestPosition.bind(this)
-            };
-        }
+        HttpRouter.onStaticRoute["/dynamictimecycle/offraidPosition"] = {
+            config: DynamicTimeCycle.onRequestPosition.bind(this)
+        };
 
         HttpRouter.onStaticRoute["/dynamictimecycle/deathcount"] = {
             config: DynamicTimeCycle.onRequestDeath.bind(this)
@@ -124,8 +122,8 @@ class DynamicTimeCycle {
             profile.PathToTarkov.offraidPosition = "null";
         }
 
-        Logger.info("=> Dynamic Time Cycle : Returning PTT Config");
-        return HttpResponse.noBody(SaveServer.profiles[sessionID].PathToTarkov);
+        Logger.info("=> Dynamic Time Cycle : Returning PTT Config Offraid POS = " + profile.PathToTarkov.offraidPosition);
+        return HttpResponse.noBody(profile.PathToTarkov.offraidPosition);
     }
 
     static onRequesPostConfig(url, info, sessionID) {
@@ -139,7 +137,7 @@ class DynamicTimeCycle {
         getFactory(sessionID);
 
         Logger.info("=> Dynamic Time Cycle : Updating Config");
-        return HttpResponse.noBody(SaveServer.profiles[sessionID].DynamicTimeCycle);
+        return HttpResponse.noBody(profile.DynamicTimeCycle);
     }
 }
 
