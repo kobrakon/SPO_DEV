@@ -8,16 +8,16 @@
     ],
     "maxBotCap": 24,
     "lootNValue1": {
-        "scav": 0.8,
-        "pmc": 1
+        "scav": 0.2,
+        "pmc": 0.3
     },
     "lootNValue2": {
-        "scav": 1,
-        "pmc": 1.25
+        "scav": 0.3,
+        "pmc": 0.5
     },
     "lootNValue3": {
-        "scav": 1.2,
-        "pmc": 1.4
+        "scav": 0.55,
+        "pmc": 0.8
     },
     "durability1": {
         "pmc": {
@@ -423,9 +423,9 @@
         },
         "difficulty": "AsOnline",
         "chanceSameSideIsHostilePercent": 0,
-        "maxBackpackLootTotalRub": 30000,
-        "maxPocketLootTotalRub": 20000,
-        "maxVestLootTotalRub": 10000,
+        "maxBackpackLootTotalRub": 20000,
+        "maxPocketLootTotalRub": 10000,
+        "maxVestLootTotalRub": 5000,
         "types": {
             "assault": 50,
             "cursedAssault": 50,
@@ -465,9 +465,9 @@
         },
         "difficulty": "AsOnline",
         "chanceSameSideIsHostilePercent": 0,
-        "maxBackpackLootTotalRub": 50000,
-        "maxPocketLootTotalRub": 40000,
-        "maxVestLootTotalRub": 20000,
+        "maxBackpackLootTotalRub": 30000,
+        "maxPocketLootTotalRub": 17500,
+        "maxVestLootTotalRub": 10000,
         "types": {
             "assault": 45,
             "cursedAssault": 45,
@@ -507,9 +507,9 @@
         },
         "difficulty": "AsOnline",
         "chanceSameSideIsHostilePercent": 0,
-        "maxBackpackLootTotalRub": 75000,
-        "maxPocketLootTotalRub": 50000,
-        "maxVestLootTotalRub": 30000,
+        "maxBackpackLootTotalRub": 50000,
+        "maxPocketLootTotalRub": 25000,
+        "maxVestLootTotalRub": 10000,
         "types": {
             "assault": 40,
             "cursedAssault": 40,

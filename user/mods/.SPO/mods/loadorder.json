@@ -27,15 +27,13 @@
 	"Lua-TheGachaBox",
 	"Kiki-HealthMultiplier2.0.4",
 	"Fin-BigRigs",
-
+	"Fin-AILoader",
 	"SPT-Realism-Mod",
-	"Fin-AILoader",	
+	"Nexus-AIDisabler",
 	"Lua-CustomSpawnPoints",
 	"Fin-ChokingHazard",
 	"Lua-SpawnRework",
-
-	"zSotthata-SleepyTime",
-	"Alex-AIO",
+	"Fin-AILoader",
 	"zzReducedProdTime",
 	"Kobrakon-HideoutTweaks",
 	"flealock",
@@ -43,5 +41,6 @@
 	"SPO_ammo",
 	"SPO-LootProgression",
 	"KcY-SeeItemValue 1.2.1",
+	"ODT-ItemInfo-main",
 	"Orbitas-MarkItemsFIR"
 ] 

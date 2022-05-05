@@ -4,11 +4,11 @@
         "effects_damage": {
             "Pain": {
                 "delay": 60,
-                "duration": 300
+                "duration": 360
             },
             "Contusion": {
                 "delay": 60,
-                "duration": 300,
+                "duration": 360,
                 "fadeOut": 0
             }
         },
@@ -20,11 +20,11 @@
         "effects_health": {},
         "effects_damage": {
             "Pain": {
-                "delay": 40,
+                "delay": 30,
                 "duration": 240
             },
             "Contusion": {
-                "delay": 40,
+                "delay": 30,
                 "duration": 240,
                 "fadeOut": 0
             }
@@ -38,12 +38,12 @@
         "effects_damage": {
             "Pain": {
                 "delay": 15,
-                "duration": 720
+                "duration": 900
             }
         },
         "Contusion": {
             "delay": 15,
-            "duration": 720,
+            "duration": 900,
             "fadeOut": 0
         },
         "StimulatorBuffs": "Buffs_morphine",

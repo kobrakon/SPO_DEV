@@ -1,4 +1,4 @@
-{
+ {
     "Lay": {
         "ATTACK_LAY_CHANCE": [2],
         "CHECK_SHOOT_WHEN_LAYING": [false],
@@ -300,7 +300,7 @@
         "MIN_DAMAGE_SCARE": [30,35,40,45,50,55],
         "WILL_PERSUE_AXEMAN": [true],
         "CHANCE_SHOOT_WHEN_WARN_PLAYER_100": [75],
-        "PART_PERCENT_TO_HEAL": [0.7,0.75,0.8,0.85,0.9,0.95],
+        "PART_PERCENT_TO_HEAL": [0.5,0.55,0.6,0.65,0.7,0.75],
         "ATTACK_IMMEDIATLY_CHANCE_0_100": [45,55,65,75,85,90,90],
         "DOG_FIGHT_OUT": [6],
         "DOG_FIGHT_IN": [3],
@@ -334,10 +334,10 @@
         "FIND_COVER_TO_GET_POSITION_WITH_SHOOT": [2],
         "PROTECT_TIME_REAL": [true],
         "CAN_PANIC_IS_PROTECT": [true],
-        "PROTECT_DELTA_HEAL_SEC": [10],
+        "PROTECT_DELTA_HEAL_SEC": [1],
         "GROUP_ANY_PHRASE_DELAY": [4],
         "GROUP_EXACTLY_PHRASE_DELAY": [4],
-        "DIST_TO_ENEMY_YO_CAN_HEAL": [20],
+        "DIST_TO_ENEMY_YO_CAN_HEAL": [4],
         "CHANCE_TO_STAY_WHEN_WARN_PLAYER_100": [80],
         "SHOOT_INSTEAD_DOG_FIGHT": [9],
         "PISTOL_SHOTGUN_AMBUSH_DIST": [20],
@@ -346,7 +346,7 @@
         "COVER_SECONDS_AFTER_LOSE_VISION": [1],
         "COVER_SELF_ALWAYS_IF_DAMAGED": [true],
         "SEC_TO_MORE_DIST_TO_RUN": [2],
-        "HEAL_DELAY_SEC": [2],
+        "HEAL_DELAY_SEC": [0.25],
         "AGGRESSOR_LOYALTY_BONUS": [0],
         "HIT_DELAY_WHEN_HAVE_SMT": [-1],
         "HIT_DELAY_WHEN_PEACE": [-1]
