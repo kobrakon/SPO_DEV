@@ -10,3 +10,6 @@
 	path = user/mods/.SPO/mods/Headlamps
 	url = https://dev.sp-tarkov.com/r1ft/HeadLamps.git
 	branch = release
+[submodule "user/mods/.SPO/mods/SPO-LootProgression"]
+	path = user/mods/.SPO/mods/SPO-LootProgression
+	url = https://github.com/kobrakon/SPO-LootProgression

@@ -29,7 +29,6 @@
 	"Fin-BigRigs",
 	"Fin-AILoader",
 	"SPT-Realism-Mod",
-	"Nexus-AIDisabler",
 	"Lua-CustomSpawnPoints",
 	"Fin-ChokingHazard",
 	"Lua-SpawnRework",
@@ -41,6 +40,6 @@
 	"SPO_ammo",
 	"SPO-LootProgression",
 	"KcY-SeeItemValue 1.2.1",
-	"ODT-ItemInfo-main",
+	"ItemInfo",
 	"Orbitas-MarkItemsFIR"
 ] 
