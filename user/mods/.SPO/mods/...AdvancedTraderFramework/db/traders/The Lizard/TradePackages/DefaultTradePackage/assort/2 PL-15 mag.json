@@ -6,7 +6,7 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"UnlimitedCount": true,
+				"UnlimitedCount": false,
 				"StackObjectsCount": 3
 			}
 		}

@@ -82,10 +82,10 @@ class SuperItems
         }
 		
 		//Therapist
-		CoreMod.CreateTraderAssort("superdog_trade", "superdog", "54cb57776803fa99248b456e", config.prices.dog, "GEIGER", 1, true, 999999, 50);
-		CoreMod.CreateTraderAssort("superkeytool_trade", "superkeytool", "54cb57776803fa99248b456e", config.prices.keytool, "GAS", 1, true, 999999, 50);	
-        CoreMod.CreateTraderAssort("superammo_trade", "superammo", "5a7c2eca46aef81a7ca2145d", config.prices.ammo, "TOOL", 1, true, 999999, 50);
-        CoreMod.CreateTraderAssort("superscav_trade", "superscav", "5ac3b934156ae10c4430e83c", config.prices.scav, "PARA", 1, true, 999999, 50);
+		CoreMod.CreateTraderAssort("superdog_trade", "superdog", "54cb57776803fa99248b456e", config.prices.dog, "GEIGER", 1, false, 1, 1);
+		CoreMod.CreateTraderAssort("superkeytool_trade", "superkeytool", "54cb57776803fa99248b456e", config.prices.keytool, "GAS", 1, false, 1, 1);	
+        CoreMod.CreateTraderAssort("superammo_trade", "superammo", "5a7c2eca46aef81a7ca2145d", config.prices.ammo, "TOOL", 1, false, 1, 1);
+        CoreMod.CreateTraderAssort("superscav_trade", "superscav", "5ac3b934156ae10c4430e83c", config.prices.scav, "PARA", 1, false, 1, 1);
 		//Ragman		
     }
 	

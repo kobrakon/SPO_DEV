@@ -73,14 +73,14 @@ class Health {
             ///Bandages///
             //Aeseptic Bandage
             if (fileData._id === "544fb25a4bdc2dfb738b4567") {
-                fileData._parent = "5448f3a14bdc2d27728b4569";
+                fileData._parent = "5448f39d4bdc2d0a728b4568";
                 fileData._props.MaxHpResource = meds.aeseptic.MaxHpResource;
                 fileData._props.effects_damage = meds.aeseptic.effects_damage;
                 fileData._props.effects_health = meds.aeseptic.effects_health;
             }
             //Army Bandage
             if (fileData._id === "5751a25924597722c463c472") {
-                fileData._parent = "5448f3a14bdc2d27728b4569";
+                fileData._parent = "5448f39d4bdc2d0a728b4568";
                 fileData._props.MaxHpResource = meds.army.MaxHpResource;
                 fileData._props.effects_damage = meds.army.effects_damage;
                 fileData._props.effects_health = meds.army.effects_health;

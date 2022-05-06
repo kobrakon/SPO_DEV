@@ -56,8 +56,8 @@ class BOT_MED
         // change item properties
         item._id = i_id;
         item._props.BackgroundColor = "blue"
-        item._props.MaxHpResource = 1000
-        item._props.hpResourceRate = 1
+        item._props.MaxHpResource = 2400
+        item._props.hpResourceRate = 24
         item._props.Width = 1
         item._props.Height = 1
                                           

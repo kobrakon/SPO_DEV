@@ -2498,12 +2498,6 @@
 			"slotId": "mod_stock"
 		},
 		{
-			"_id": "61e0a296033bdc459438c67a",
-			"_tpl": "5a33b2c9c4a282000c5a9511",
-			"parentId": "61e0a296033bdc459438c679",
-			"slotId": "mod_scope"
-		},
-		{
 			"_id": "61e0a296033bdc459438c67d",
 			"_tpl": "5addbf175acfc408fb13965b",
 			"parentId": "hideout",
@@ -2805,9 +2799,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 30,
+				"BuyRestrictionMax": 21,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 30
+				"StackObjectsCount": 21
 			}
 		},
 		{
@@ -2887,9 +2881,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 100,
+				"BuyRestrictionMax": 25,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 100
+				"StackObjectsCount": 25
 			}
 		},
 		{
@@ -3847,9 +3841,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 20,
+				"BuyRestrictionMax": 10,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 20
+				"StackObjectsCount": 10
 			}
 		},
 		{
@@ -5319,9 +5313,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 80,
+				"BuyRestrictionMax": 23,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 80
+				"StackObjectsCount": 23
 			}
 		},
 		{
@@ -6064,9 +6058,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 49,
+				"BuyRestrictionMax": 19,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 49
+				"StackObjectsCount": 19
 			}
 		},
 		{
@@ -6075,9 +6069,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 50,
+				"BuyRestrictionMax": 21,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 50
+				"StackObjectsCount": 21
 			}
 		},
 		{
@@ -7236,9 +7230,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 40,
+				"BuyRestrictionMax": 18,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 40
+				"StackObjectsCount": 18
 			}
 		},
 		{
@@ -7445,9 +7439,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 20,
+				"BuyRestrictionMax": 8,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 20
+				"StackObjectsCount": 8
 			}
 		},
 		{
@@ -7456,9 +7450,9 @@
 			"parentId": "hideout",
 			"slotId": "hideout",
 			"upd": {
-				"BuyRestrictionMax": 40,
+				"BuyRestrictionMax": 21,
 				"BuyRestrictionCurrent": 0,
-				"StackObjectsCount": 40
+				"StackObjectsCount": 21
 			}
 		},
 		{

@@ -291,7 +291,7 @@ class FRET
 		let count = {
 			"base":{
 				"guns": 			[0,	2,	0,	3,	4,	2,	3],
-				"ammo": 			[0,	2,	0,	24,	32,	20,	20],
+				"ammo": 			[0,	1,	0,	8,	11,	9,	9],
 				"throwables": 		[0,	0,	0,	0,	2,	0,	0],
 				"vitalMods": 		[0,	10,	0,	20,	5,	4,	5],
 				"optionalMods": 	[0,	8,	0,	10,	10,	7,	13],
@@ -310,7 +310,7 @@ class FRET
 			},
 			"perLevel":{
 				"guns": 			[0,	1,	0,	1,	1,	2,	1],
-				"ammo": 			[0,	1,	0,	7,	10,	10,	10],
+				"ammo": 			[0,	1,	0,	3,	5,	5,	5],
 				"throwables": 		[0,	0,	0,	0,	1,	0,	0],
 				"vitalMods": 		[0,	14,	0,	10,	2,	6,	7],
 				"optionalMods": 	[0,	6,	0,	6,	8,	7,	6],
@@ -339,8 +339,8 @@ class FRET
 				let M1 = 0.75; let M2 = 0.55
 				if (cat == "ammo")
 				{
-					M1 = 6
-					M2 = 5
+					M1 = 3
+					M2 = 2
 				}
 				else if (cat == "optionalMods")
 				{
