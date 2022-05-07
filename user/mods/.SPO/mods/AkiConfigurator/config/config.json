@@ -438,8 +438,8 @@
 				"5ac3b934156ae10c4430e83c": 0.72
 			},
 			"returnChancePercent": {
-				"54cb50c76803fa8b248b4571": 50,
-				"5ac3b934156ae10c4430e83c": 75
+				"54cb50c76803fa8b248b4571": 75,
+				"5ac3b934156ae10c4430e83c": 100
 			},
 			"runIntervalSeconds": 600,
 			"returnChance": 70

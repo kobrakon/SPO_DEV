@@ -470,9 +470,9 @@
         {
             "BuffType": "HealthRate",
             "Chance": 1,
-            "Delay": 5,
-            "Duration": 15,
-            "Value": 4,
+            "Delay": 10,
+            "Duration": 96,
+            "Value": 1.25,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -509,9 +509,9 @@
         {
             "BuffType": "HealthRate",
             "Chance": 1,
-            "Delay": 5,
-            "Duration": 15,
-            "Value": 6,
+            "Delay": 6,
+            "Duration": 42,
+            "Value": 2.5,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -548,9 +548,9 @@
         {
             "BuffType": "HealthRate",
             "Chance": 1,
-            "Delay": 5,
-            "Duration": 16,
-            "Value": 8,
+            "Delay": 12,
+            "Duration": 8,
+            "Value": 16,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -587,9 +587,9 @@
         {
             "BuffType": "HealthRate",
             "Chance": 1,
-            "Delay": 5,
-            "Duration": 15,
-            "Value": 9,
+            "Delay": 8,
+            "Duration": 16,
+            "Value": 8,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -635,9 +635,9 @@
         {
             "BuffType": "HealthRate",
             "Chance": 1,
-            "Delay": 5,
-            "Duration": 15,
-            "Value": 9,
+            "Delay": 4,
+            "Duration": 32,
+            "Value": 4,
             "AbsoluteValue": true,
             "SkillName": ""
         },
@@ -675,8 +675,8 @@
             "BuffType": "HealthRate",
             "Chance": 1,
             "Delay": 5,
-            "Duration": 30,
-            "Value": 10,
+            "Duration": 96,
+            "Value": 5.25,
             "AbsoluteValue": true,
             "SkillName": ""
         },
