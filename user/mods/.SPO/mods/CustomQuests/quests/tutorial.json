@@ -122,7 +122,7 @@
         "id": "tutorial_5",
         "trader_id": "Lizard",
         "name": "Welcome to Tarkov Pt. 5",
-        "description": "I'm about to run out of work for you Merc. Just need a suppressor for my handgun. Skier has some for trade usually. He likes that Majaica coffee, bring him some for that suppressor. You can get to him at the RUAF/UN roadblocks on Customs or Woods respectively.",
+        "description": "I'm about to run out of work for you Merc. Just need a suppressor for my handgun. But this maybe tricky, those are rare, and Skier sometimes have some for trade. You will need to check his stock from time to time. He likes that Majaica coffee, so make sure to stock some near him. You can get to him at the RUAF/UN roadblocks on Customs or Woods respectively.",
         "success_message": "I'll be in touch if I have more work for you",
         "image": "57e4f1852459772a15635633",
         "rewards": {
@@ -169,7 +169,7 @@
                 "5d02778e86f774203e7dedbe": 1,
                 "590c661e86f7741e566b646a": 2,
                 "5af0454c86f7746bf20992e8": 1,
-                "5c94bbff86f7747ee735c08f": 1,
+                "5c94bbff86f7747ee735c08f": 3,
                 "5644bd2b4bdc2d3b4c8b4572": 1,
                 "5649b0fc4bdc2d17108b4588": 1,
                 "59c6633186f7740cf0493bb9": 1,

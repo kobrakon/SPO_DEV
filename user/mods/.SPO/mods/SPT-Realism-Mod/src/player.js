@@ -14,7 +14,7 @@ class Player {
     static armHealth = commonStats.health.BodyParts[0].RightArm.max;
     static legHealth = commonStats.health.BodyParts[0].RightLeg.max;
     static hydration = 100;
-    static energy = 150;
+    static energy = 100;
     static tempCurr = 30;
     static tempMax = 30;
 
