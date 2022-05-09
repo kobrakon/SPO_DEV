@@ -60,7 +60,7 @@
   "hideout_secondary_stashes": [
     {
       "id": "PathToTarkov_Car_stash",
-      "size": 28,
+      "size": 18,
       "access_via": [
         "Car"
       ]
@@ -81,35 +81,35 @@
     },
     {
       "id": "PathToTarkov_WoodsCustoms_stash",
-      "size": 12,
+      "size": 8,
       "access_via": [
         "WoodsCustoms"
       ]
     },
     {
       "id": "PathToTarkov_InterchangeCustoms_stash",
-      "size": 12,
+      "size": 8,
       "access_via": [
         "InterchangeCustoms"
       ]
     },
     {
       "id": "PathToTarkov_WoodsReserveShoreline_stash",
-      "size": 12,
+      "size": 8,
       "access_via": [
         "WoodsReserveShoreline"
       ]
     },
     {
       "id": "PathToTarkov_CustomsMilitaryBaseCP_stash",
-      "size": 12,
+      "size": 8,
       "access_via": [
         "CustomsMilitaryBaseCP"
       ]
     },
     {
       "id": "PathToTarkov_SafeRoom_stash",
-      "size": 34,
+      "size": 22,
       "access_via": [
         "SafeRoom"
       ]
@@ -294,28 +294,28 @@
         "repair_price_coef": 0
       }
     },
-    "Priscilu": {
-      "// mod integration for Priscilu": true,
-      "// Priscilu is available after extracting from Outskirts (woods map)": true,
+    "gunsmith7898": {
+      "// mod integration for gunsmith7898": true,
+      "// gunsmith7898 is available after extracting from Outskirts (woods map)": true,
       "disable_warning": true,
       "override_description": true,
       "location_description": {
-        "ch": "Somewhere between woods, military reserve and shoreline",
-        "cz": "Somewhere between woods, military reserve and shoreline",
-        "en": "Somewhere between woods, military reserve and shoreline",
-        "es-mx": "Somewhere between woods, military reserve and shoreline",
-        "es": "Somewhere between woods, military reserve and shoreline",
-        "fr": "Quelque part entre les bois, la base militaire et le littoral",
-        "ge": "Somewhere between woods, military reserve and shoreline",
-        "hu": "Somewhere between woods, military reserve and shoreline",
-        "it": "Somewhere between woods, military reserve and shoreline",
-        "jp": "Somewhere between woods, military reserve and shoreline",
-        "kr": "Somewhere between woods, military reserve and shoreline",
-        "pl": "Somewhere between woods, military reserve and shoreline",
-        "po": "Somewhere between woods, military reserve and shoreline"
+        "ch": "Hidding in safe room, somewhere between military reserve and interchange",
+        "cz": "Hidding in safe room, somewhere between military reserve and interchange",
+        "en": "Hidding in safe room, somewhere between military reserve and interchange",
+        "es-mx": "Hidding in safe room, somewhere between military reserve and interchange",
+        "es": "Hidding in safe room, somewhere between military reserve and interchange",
+        "fr": "Hidding in safe room, somewhere between military reserve and interchange",
+        "ge": "Hidding in safe room, somewhere between military reserve and interchange",
+        "hu": "Hidding in safe room, somewhere between military reserve and interchange",
+        "it": "Hidding in safe room, somewhere between military reserve and interchange",
+        "jp": "Hidding in safe room, somewhere between military reserve and interchange",
+        "kr": "Hidding in safe room, somewhere between military reserve and interchange",
+        "pl": "Hidding in safe room, somewhere between military reserve and interchange",
+        "po": "Hidding in safe room, somewhere between military reserve and interchange"
       },
       "access_via": [
-        "WoodsReserveShoreline"
+        "SafeRoom"
       ]
     },
     "operator": {

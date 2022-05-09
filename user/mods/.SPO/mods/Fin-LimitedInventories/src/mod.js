@@ -155,7 +155,7 @@ class FRET
 	
 	static disableFence()
 	{
-		TraderConfig.fenceAssortSize = 0
+		//TraderConfig.fenceAssortSize = 0
 	}
 	
 	
