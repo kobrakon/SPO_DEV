@@ -4,7 +4,7 @@
 	"script_file": "Lua-Default.js",
 
 	"spawns":{
-		"max_alive_bots": 32,
+		"max_alive_bots": 24,
 		"pmc_usec_chance": 0,
 		"pmc_behavior_role": "assaultgroup",
 		"usec_default_enemy": {
