@@ -83,8 +83,10 @@ class FRET
 			asset.nextUpdateTime = TimeUtil.getTimestamp() + RD
 		for (let traderId in traderIds)
 			if (!["fence"].includes(traderIds[traderId]))
-			
-			{}
+			{
+				TraderConfig.updateTime.find(i => i.traderId == traderId).seconds = asset.nextUpdateTime - TimeUtil.getTimestamp()
+				traders[traderId].assort.nextResupply = asset.nextUpdateTime
+			}
 	}
 	
 	static main()
@@ -151,6 +153,10 @@ class FRET
 									optionalMods.push(mod)
 	}
 	
+	static disableFence()
+	{
+		TraderConfig.fenceAssortSize = 0
+	}
 	
 	
 	static setupTraderInventories()
@@ -194,8 +200,7 @@ class FRET
 	
 	static saveTraderInventories()
 	{
-
-
+		FRET.disableFence()
 		for (let traderId in traders)
 		{
 			if (["579dc571d53a0658a154fbec", "ragfair"].includes(traderId))
@@ -289,7 +294,7 @@ class FRET
 		let count = {
 			"base":{
 				"guns": 			[0,	2,	0,	3,	4,	2,	3],
-				"ammo": 			[0,	1,	0,	8,	11,	9,	9],
+				"ammo": 			[0,	2,	0,	24,	32,	20,	20],
 				"throwables": 		[0,	0,	0,	0,	2,	0,	0],
 				"vitalMods": 		[0,	10,	0,	20,	5,	4,	5],
 				"optionalMods": 	[0,	8,	0,	10,	10,	7,	13],
@@ -308,7 +313,7 @@ class FRET
 			},
 			"perLevel":{
 				"guns": 			[0,	1,	0,	1,	1,	2,	1],
-				"ammo": 			[0,	1,	0,	3,	5,	5,	5],
+				"ammo": 			[0,	1,	0,	7,	10,	10,	10],
 				"throwables": 		[0,	0,	0,	0,	1,	0,	0],
 				"vitalMods": 		[0,	14,	0,	10,	2,	6,	7],
 				"optionalMods": 	[0,	6,	0,	6,	8,	7,	6],
@@ -639,7 +644,7 @@ class FRET
 	
 	static runOnRaidStart(url, info, sessionID, output)
 	{
-
+		FRET.disableFence()
 
 		FRET.saveTraderInventories()
 		return(output)
@@ -647,7 +652,7 @@ class FRET
 	
 	static runOnGameStart(url, info, sessionID, output)
 	{
-
+		FRET.disableFence()
 
 		sessionId = sessionID
 		let updateAt = 0
@@ -708,9 +713,18 @@ class FRET
 	{
 		TradeController.incrementAssortBuyCount = function(traderId, assortId, itemCount)
 		{
+			const isFence = traderId === TraderHelper.TRADER.Fence;
+			const traderAssorts = isFence
+				? TraderController.fenceAssort.items
+				: DatabaseServer.tables.traders[traderId].assort.items;
+
 			const relatedAssortIndex = traderAssorts.findIndex(i => i._id === assortId);
 
-		
+			if (isFence)
+			{
+				traderAssorts.splice(relatedAssortIndex, 1);
+				return;
+			}
 
 			const itemToUpdate = traderAssorts[relatedAssortIndex];
 			if (itemToUpdate)
@@ -748,6 +762,24 @@ class FRET
 				else if (PaymentController.isMoneyTpl(baseItem.item_id))
 				{
 					itemLib.push({ _id: baseItem.item_id, _tpl: baseItem.item_id });
+				}
+				else if (body.tid === TraderHelper.TRADER.Fence)
+				{
+					const fenceItem = TraderController.fenceAssort.items;
+					const item = fenceItem[fenceItem.findIndex(i => i._id === baseItem.item_id)];
+
+					// handle when item being bought is preset
+					if (item.upd.presetId)
+					{
+						const presetItems = JsonUtil.clone(DatabaseServer.tables.globals.ItemPresets[item.upd.presetId]._items);
+						itemLib.push(...presetItems);
+						baseItem.isPreset = true;
+						baseItem.item_id = presetItems[0]._id;
+					}
+					else
+					{
+						itemLib.push({ _id: baseItem.item_id, _tpl: item._tpl });
+					}
 				}
 				else
 				{
