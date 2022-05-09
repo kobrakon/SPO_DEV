@@ -1,0 +1,8 @@
+{
+    "name": "Hex'sFPBPresets",
+	"author": "VirtualHex",
+	"version": "1.0.6",
+	"akiVersion": "2.3.1",
+	"license": "Public",
+	"main": "mod.js"
+}

@@ -133,8 +133,8 @@
 				}
 			],
 			"updateTimeDefault": 2100,
-			"fenceAssortSize": 150,
-			"fenceMaxPresetsCount": 2,
+			"fenceAssortSize": 35,
+			"fenceMaxPresetsCount": 0,
 			"fencePresetPriceMult": 2.5,
 			"minDurabilityForSale": 75,
 			"fenceItemIgnoreList": [

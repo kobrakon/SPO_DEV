@@ -172,9 +172,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneDormitory":2,
@@ -345,9 +345,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneSanatorium":2,
@@ -478,9 +478,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneIDEAPark":1,
@@ -631,9 +631,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneRailStrorage":1,
@@ -1108,8 +1108,8 @@
 					"raider_high_role":true,
 					"raider_high_role_chance":22,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":2,
-					"slot_min":0,
+					"wave_total":5,
+					"slot_min":2,
 					"slot_max":3,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 120,
@@ -1119,9 +1119,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"BotZoneMain":2,
@@ -1135,9 +1135,9 @@
 					"wave_total":2,
 					"slot_min":1,
 					"slot_max":5,
-					"insta_spawn_waves":3,
-					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
+					"insta_spawn_waves":2,
+					"spawn_scav_raider_location_chance": 0,
+					"spawn_time_delay_after_insta_wave": 1,
 					"spawn_time_delay_for_each_min": 300,
 					"spawn_time_delay_for_each_max": 480,
 					"spawn_time_delay_accumulate_for_each_zone": false,
@@ -1449,9 +1449,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneRedHouse":1,
@@ -1506,7 +1506,7 @@
 			"allow_other_bot_spawn_with_boss":false,
 			"has_boss":true,
 			"bosses_spawn_location_type":"evenly",
-			"max_boss":2,
+			"max_boss":3,
 			"boss_spawn_trying_loop":1,
 			"allow_same_boss_spawn":true,
 			"bosses_also_use_scavs_spawn_locations":false,
@@ -1523,8 +1523,8 @@
 					"escort_amount_min":1,
 					"escort_amount_max":3,
 					"wave_total":5,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
+					"wave_spawn_time_for_each_min":2,
+					"wave_spawn_time_for_each_max":2,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"Zone_TreatmentRocks":1,
@@ -1543,11 +1543,11 @@
 			],
 			"wave_settings":{
 				"scav_waves":{
-					"wave_total":12,
-					"slot_min":0,
+					"wave_total":9,
+					"slot_min":1,
 					"slot_max":6,
 					"insta_spawn_waves":2,
-					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_after_insta_wave": 90,
 					"spawn_time_delay_for_each_min": 360,
 					"spawn_time_delay_for_each_max": 580,
 					"spawn_time_delay_accumulate_for_each_zone": false,
@@ -1610,9 +1610,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"Zone_Village":1,

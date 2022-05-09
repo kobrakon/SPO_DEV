@@ -172,9 +172,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneDormitory":2,
@@ -345,9 +345,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneSanatorium":2,
@@ -478,9 +478,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneIDEAPark":1,
@@ -631,9 +631,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneRailStrorage":1,
@@ -909,7 +909,7 @@
 			"boss_settings":[
 				{
 					"name":"bossBully",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":"followerBully",
 					"escort_difficulty":"normal, hard",
@@ -927,7 +927,7 @@
 				},
 				{
 					"name":"bossSanitar",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":"followerSanitar",
 					"escort_difficulty":"normal, hard",
@@ -945,7 +945,7 @@
 				},
 				{
 					"name":"bossKilla",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":null,
 					"escort_difficulty":null,
@@ -961,7 +961,7 @@
 				},
 				{
 					"name":"bossGluhar",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":"followerGluharAssault",
 					"escort_difficulty":"normal, hard",
@@ -1002,7 +1002,7 @@
 				},
 				{
 					"name":"bossKojaniy",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":"followerKojaniy",
 					"escort_difficulty":"normal, hard",
@@ -1020,7 +1020,7 @@
 				},
 				{
 					"name":"bossTagilla",
-					"chance":30,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":null,
 					"escort_difficulty":null,
@@ -1036,7 +1036,7 @@
 				},
 				{
 					"name":"sectantPriest",
-					"chance":20,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"escort_type":"sectantWarrior",
 					"escort_difficulty":"normal, hard",
@@ -1054,13 +1054,13 @@
 				},
 				{
 					"name":"exUsec",
-					"chance":30,
+					"chance":44,
 					"difficulty":"normal, hard",
 					"escort_type":"exUsec",
 					"escort_difficulty":"normal, hard",
 					"escort_amount_min":1,
 					"escort_amount_max":3,
-					"wave_total":1,
+					"wave_total":2,
 					"wave_spawn_time_for_each_min":600,
 					"wave_spawn_time_for_each_max":900,
 					"wave_spawn_all_same_location":false,
@@ -1072,7 +1072,7 @@
 				},
 				{
 					"name":"bossBully, bossGluhar, bossKilla, bossKojaniy, bossSanitar, bossTagilla, sectantPriest, exUsec",
-					"chance":20,
+					"chance":11,
 					"difficulty":"normal, hard",
 					"wave_total":1,
 					"wave_spawn_time_for_each_min":600,
@@ -1108,8 +1108,8 @@
 					"raider_high_role":true,
 					"raider_high_role_chance":22,
 					"raider_high_role_list":"followerBully, followerGluharAssault, followerGluharScout, followerGluharSecurity, followerGluharSnipe, followerKojaniy, followerSanitar",
-					"wave_total":3,
-					"slot_min":0,
+					"wave_total":4,
+					"slot_min":1,
 					"slot_max":4,
 					"insta_spawn_waves":1,
 					"spawn_time_delay_after_insta_wave": 120,
@@ -1119,9 +1119,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"BotZoneMain":1,
@@ -1136,8 +1136,8 @@
 					"slot_min":1,
 					"slot_max":5,
 					"insta_spawn_waves":2,
-					"spawn_scav_raider_location_chance": 22,
-					"spawn_time_delay_after_insta_wave": 180,
+					"spawn_scav_raider_location_chance": 0,
+					"spawn_time_delay_after_insta_wave": 1,
 					"spawn_time_delay_for_each_min": 300,
 					"spawn_time_delay_for_each_max": 480,
 					"spawn_time_delay_accumulate_for_each_zone": false,
@@ -1449,9 +1449,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"ZoneRedHouse":1,
@@ -1522,9 +1522,9 @@
 					"escort_difficulty":"normal",
 					"escort_amount_min":1,
 					"escort_amount_max":3,
-					"wave_total":5,
-					"wave_spawn_time_for_each_min":0,
-					"wave_spawn_time_for_each_max":0,
+					"wave_total":6,
+					"wave_spawn_time_for_each_min":2,
+					"wave_spawn_time_for_each_max":2,
 					"wave_spawn_all_same_location":false,
 					"spawn_locations":{
 						"Zone_TreatmentRocks":1,
@@ -1547,7 +1547,7 @@
 					"slot_min":1,
 					"slot_max":6,
 					"insta_spawn_waves":2,
-					"spawn_time_delay_after_insta_wave": 0,
+					"spawn_time_delay_after_insta_wave": 90,
 					"spawn_time_delay_for_each_min": 360,
 					"spawn_time_delay_for_each_max": 580,
 					"spawn_time_delay_accumulate_for_each_zone": false,
@@ -1610,9 +1610,9 @@
 					"spawn_location_type": "random",
 					"difficulty":{
 						"easy":0,
-						"normal":6,
-						"hard":3,
-						"impossible":1
+						"normal":3,
+						"hard":6,
+						"impossible":2
 					},
 					"spawn_locations":{
 						"Zone_Village":1,

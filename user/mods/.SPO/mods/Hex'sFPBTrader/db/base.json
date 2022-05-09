@@ -1,0 +1,96 @@
+{
+	"_id": "gunsmith7898",
+	"working": true,
+	"customization_seller": false,
+	"name": "Yuri Bolovnik",
+	"surname": "",
+	"nickname": "Gunsmith",
+	"location": "Chemical factory #12, a biochem warehouse repurposed as a weapon manufacturing facility.",
+	"avatar": "/files/trader/avatar/FGunsmith.jpg",
+	"balance_rub": 1,
+	"balance_dol": 0,
+	"balance_eur": 0,
+	"unlockedByDefault": true,
+	"discount": 0,
+	"discount_end": 0,
+	"buyer_up": false,
+	"currency": "RUB",
+	"nextResupply": 100000,
+	"repair": {
+		"availability": false,
+		"quality": "1.0",
+		"excluded_id_list": [],
+		"excluded_category": [
+                        "5b47574386f77428ca22b331",
+                        "5b5f6f8786f77447ed563642",
+                        "5b47574386f77428ca22b330",
+                        "5b47574386f77428ca22b32f",
+                        "5b5f701386f774093f2ecf0f",
+                        "5b47574386f77428ca22b33e",
+                        "5b47574386f77428ca22b33f",
+                        "5b47574386f77428ca22b340",
+                        "5b47574386f77428ca22b344",
+                        "5b47574386f77428ca22b342"
+                ],
+		"currency": "5449016a4bdc2d6f028b456f",
+		"currency_coefficient": 0,
+		"price_rate": 0
+	},
+	"insurance": {
+		"availability": false,
+		"min_payment": 0,
+		"min_return_hour": 0,
+		"max_return_hour": 2,
+		"max_storage_time": 144,
+		"excluded_category": []
+	},
+	"medic": false,
+	"gridHeight": 2000,
+    "loyaltyLevels": [{
+            "minLevel": 1,
+            "minSalesSum": 0,
+            "minStanding": 0,
+            "buy_price_coef": 300,
+            "repair_price_coef": 50,
+            "insurance_price_coef": 0,
+            "exchange_price_coef": 300,
+            "heal_price_coef": 0
+        }, {
+            "minLevel": 10,
+            "minSalesSum": 2000000,
+            "minStanding": 0,
+            "buy_price_coef": 300,
+            "repair_price_coef": "150",
+            "insurance_price_coef": "0",
+            "exchange_price_coef":300,
+            "heal_price_coef": "0"
+        }, {
+            "minLevel": "18",
+            "minSalesSum": 5000000,
+            "minStanding": 0,
+            "buy_price_coef": 300,
+            "repair_price_coef": "125",
+            "insurance_price_coef": "0",
+            "exchange_price_coef": 300,
+            "heal_price_coef": "0"
+        }, {
+            "minLevel": "25",
+            "minSalesSum": 8000000,
+            "minStanding": 0,
+            "buy_price_coef": 300,
+            "repair_price_coef": "0",
+            "insurance_price_coef": "0",
+            "exchange_price_coef": 300,
+            "heal_price_coef": "0"
+        }   
+    ],
+	"sell_category": [
+                "590c745b86f7743cc433c5f2",
+                "57864e4c24597754843f8723",
+                "5b47574386f77428ca22b2f1",
+                "5b47574386f77428ca22b341",	
+		"5b5f78dc86f77409407a7f8e",
+		"5b5f71a686f77447ed5636ab",
+                "5b47574386f77428ca22b33e"
+	]
+}
