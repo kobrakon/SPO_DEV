@@ -487,7 +487,8 @@ class Mod {
             profiles[side] = this.createProfile(side);
         }
 
-        DatabaseServer.tables.templates.profiles["Single Player Overhaul"] = profiles;
+        DatabaseServer.tables.templates.profiles = {};
+		DatabaseServer.tables.templates.profiles["Single Player Overhaul"] = profiles;
     }
 	
     createProfile(side) {
