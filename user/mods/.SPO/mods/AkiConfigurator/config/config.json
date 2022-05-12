@@ -93,48 +93,48 @@
 			"updateTime": [
 				{
 					"traderId": "54cb50c76803fa8b248b4571",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "54cb57776803fa99248b456e",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "579dc571d53a0658a154fbec",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "58330581ace78e27b8b10cee",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "5935c25fb3acc3127c3d8cd9",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "5a7c2eca46aef81a7ca2145d",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "5ac3b934156ae10c4430e83c",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "5c0647fdd443bc2504c2d371",
-					"seconds": 2100
+					"seconds": 21000
 				},
 				{
 					"traderId": "Lizard",
-					"seconds": 7600
+					"seconds": 11000
 				},
 				{
 					"traderId": "ragfair",
-					"seconds": 3600
+					"seconds": 21000
 				}
 			],
-			"updateTimeDefault": 2100,
-			"fenceAssortSize": 150,
-			"fenceMaxPresetsCount": 2,
+			"updateTimeDefault": 21000,
+			"fenceAssortSize": 35,
+			"fenceMaxPresetsCount": 0,
 			"fencePresetPriceMult": 2.5,
 			"minDurabilityForSale": 75,
 			"fenceItemIgnoreList": [
@@ -435,10 +435,10 @@
 		"Insurances": {
 			"insuranceMultiplier": {
 				"54cb50c76803fa8b248b4571": 0.5,
-				"5ac3b934156ae10c4430e83c": 0.72
+				"5ac3b934156ae10c4430e83c": 3
 			},
 			"returnChancePercent": {
-				"54cb50c76803fa8b248b4571": 75,
+				"54cb50c76803fa8b248b4571": 65,
 				"5ac3b934156ae10c4430e83c": 100
 			},
 			"runIntervalSeconds": 600,
@@ -1118,7 +1118,7 @@
 		"maxBotCap": 20
 	},
 	"Weather values": {
-		"acceleration": 5,
+		"acceleration": 7,
 		"weather": {
 			"clouds": {
 				"min": -1.5,

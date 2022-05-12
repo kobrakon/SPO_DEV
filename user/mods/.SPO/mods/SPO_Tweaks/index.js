@@ -16,6 +16,7 @@ const DB = DatabaseServer.tables;
 const itemDB = DB.templates.items;
 const globalDB = DB.globals.config;
 const interiaDB = globalDB.Inertia;
+
 //const DBlootCont = DB.loot.staticContainers;
 const resKeys = ["5780cf7f2459777de4559322", "5ede7a8229445733cb4c18e2", "5efde6b4f5448336730dbd61", "5c94bbff86f7747ee735c08f", "5d80c60f86f77440373c4ece", "5d80c62a86f7744036212b3f", "5d08d21286f774736e7c94c3", "5e42c83786f7742a021fdf3c", "5e42c81886f7742a01529f57",  ]
 for (const id in items){
@@ -28,7 +29,11 @@ for (const id in items){
         }
     }
 }
-itemDB[Labcard]._props.MaximumNumberOfUsage = 3
+
+
+
+
+itemDB[Labcard]._props.MaximumNumberOfUsage = 1
 //Increase base stamina
 globalDB.Stamina.Capacity = 150;
 

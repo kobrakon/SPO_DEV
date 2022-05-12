@@ -27,7 +27,7 @@
 	},
 	
 	"I_am_using_a_mod_to_alter_trader_stock_and_want_FRET_to_play_nice_with_it": true,
-	"Use_mod_added_trader_settings_for_vanilla_traders": false,
+	"Use_mod_added_trader_settings_for_vanilla_traders": true,
 	
 	"new_trader_IDs_to_modify": [
 		"New IDs here",

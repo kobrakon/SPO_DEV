@@ -1,0 +1,8 @@
+{
+    "name": "Hex'sFPBTrader",
+    "author": "VirtualHex",
+    "version": "1.0.6",
+    "license": "NCSA",
+    "main": "package.js",
+    "akiVersion": "2.3.1"
+}

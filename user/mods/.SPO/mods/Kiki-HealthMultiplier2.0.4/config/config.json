@@ -21,13 +21,13 @@
 		"enabled" : true,
 		"bodyPartMode" :{
 			"enabled" : false,
-			"Head" : 65,
-			"Chest" : 120,
-			"Stomach" : 100,
-			"LeftArm" : 90,
-			"RightArm" : 90,
-			"LeftLeg" : 95,
-			"RightLeg" : 95			
+			"Head" : 100,
+			"Chest" : 250,
+			"Stomach" : 150,
+			"LeftArm" : 150,
+			"RightArm" : 150,
+			"LeftLeg" : 150,
+			"RightLeg" : 150			
 		},
 		"if bodyPartMode.enabled is false" : "then",
 		"healthMultiplier" : 1
