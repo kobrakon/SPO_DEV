@@ -96,23 +96,23 @@ class Player {
             globalDB.StomachOverdamage *= 2.1;
 
             //Custom starter kits to be more balanced with the changes
-            DB.templates.profiles.Standard.bear.character.Inventory = myProfile.Standard.bear.Inventory;
-            DB.templates.profiles.Standard.usec.character.Inventory = myProfile.Standard.usec.Inventory;
+            //DB.templates.profiles.Standard.bear.character.Inventory = myProfile.Standard.bear.Inventory;
+            //DB.templates.profiles.Standard.usec.character.Inventory = myProfile.Standard.usec.Inventory;
             // DB.templates.profiles.Standard.bear.character.Health = myProfile.Health;
             // DB.templates.profiles.Standard.usec.character.Health = myProfile.Health;
 
-            DB.templates.profiles["Left Behind"].bear.character.Inventory = myProfile["Left Behind"].bear.Inventory;
-            DB.templates.profiles["Left Behind"].usec.character.Inventory = myProfile["Left Behind"].usec.Inventory;
+            //DB.templates.profiles["Left Behind"].bear.character.Inventory = myProfile["Left Behind"].bear.Inventory;
+            //DB.templates.profiles["Left Behind"].usec.character.Inventory = myProfile["Left Behind"].usec.Inventory;
             // DB.templates.profiles["Left Behind"].bear.character.Health = myProfile.Health;
             // DB.templates.profiles["Left Behind"].usec.character.Health = myProfile.Health;
 
-            DB.templates.profiles["Prepare To Escape"].bear.character.Inventory = myProfile["Prepare To Escape"].bear.Inventory;
-            DB.templates.profiles["Prepare To Escape"].usec.character.Inventory = myProfile["Prepare To Escape"].usec.Inventory;
+            //DB.templates.profiles["Prepare To Escape"].bear.character.Inventory = myProfile["Prepare To Escape"].bear.Inventory;
+            //DB.templates.profiles["Prepare To Escape"].usec.character.Inventory = myProfile["Prepare To Escape"].usec.Inventory;
             // DB.templates.profiles["Prepare To Escape"].bear.character.Health = myProfile.Health;
             // DB.templates.profiles["Prepare To Escape"].usec.character.Health = myProfile.Health;
 
-            DB.templates.profiles["Edge Of Darkness"].bear.character.Inventory = myProfile["Edge Of Darkness"].bear.Inventory;
-            DB.templates.profiles["Edge Of Darkness"].usec.character.Inventory = myProfile["Edge Of Darkness"].usec.Inventory;
+            //DB.templates.profiles["Edge Of Darkness"].bear.character.Inventory = myProfile["Edge Of Darkness"].bear.Inventory;
+            //DB.templates.profiles["Edge Of Darkness"].usec.character.Inventory = myProfile["Edge Of Darkness"].usec.Inventory;
             // DB.templates.profiles["Edge Of Darkness"].bear.character.Health = myProfile.Health;
             // DB.templates.profiles["Edge Of Darkness"].usec.character.Health = myProfile.Health;
         }
