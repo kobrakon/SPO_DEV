@@ -24,7 +24,7 @@
         "currency_coefficient": 1
     },
     "insurance": {
-        "availability": false,
+        "availability": true,
         "min_payment": 50000,
         "min_return_hour": 4,
         "max_return_hour": 8,
