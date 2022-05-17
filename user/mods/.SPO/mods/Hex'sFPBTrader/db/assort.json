@@ -78,11 +78,23 @@
             "parentId": "hideout",
             "slotId": "hideout",
             "upd": {
-                "StackObjectsCount": 999999,
-                "UnlimitedCount": true,
-                "BuyRestrictionMax": 999999,
+                "StackObjectsCount": 2,
+                "UnlimitedCount": false,
+                "BuyRestrictionMax": 2,
                 "BuyRestrictionCurrent": 0
             }
+        },
+        {
+                "_id": "59faff1d86f7746c51718c9c",
+                "_tpl": "59faff1d86f7746c51718c9c",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 1,
+                    "UnlimitedCount": false,
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0
+                }
         }     
 	],
 	"barter_scheme": {
@@ -138,9 +150,17 @@
             [
                 {
                     "_tpl": "5449016a4bdc2d6f028b456f",
-                    "count": 250000
+                    "count": 125000
                 }
             ]
+        ],
+            "59faff1d86f7746c51718c9c": [
+                [
+                    {
+                        "_tpl": "5d235b4d86f7742e017bc88a",
+                        "count": 2
+                    }
+                ]
         ]                              
 	},
 	"loyal_level_items": {
@@ -150,6 +170,7 @@
         "FREEKITE": 2,
         "FREEHAWK": 3,
         "FREEEAGLE": 4,
-        "GPCOIN": 1 	
+        "GPCOIN": 1,
+        "59faff1d86f7746c51718c9c": 1
 	}
 }
