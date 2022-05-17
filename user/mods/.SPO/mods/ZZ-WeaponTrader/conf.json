@@ -1,9 +1,9 @@
 {
     "traderId": "gunsmith7898",
     "traderLevel": 2,
-    "barterId": "5449016a4bdc2d6f028b456f",
+    "barterId": "59faff1d86f7746c51718c9c",
     "barterCnt": 2,
-    "dynamicBarter": true,
+    "dynamicBarter": false,
     "dynamicPriceMinMultiple": 0.3,
     "dynamicPriceMaxMultiple": 0.6
 }
