@@ -80,20 +80,12 @@ interiaDB.TiltStartSideBackSpeed["y"] *= 1.05;
 //Recoil changes 
     for (let i in itemDB) {
         let fileData = itemDB[i];
-        if (fileData._props.weapClass === "smg"
-               || fileData._props.weapClass === "shotgun"
-               || fileData._props.weapClass === "assaultCarbine"
-               || fileData._props.weapClass === "sniperRifle"
-               || fileData._props.weapClass === "assaultRifle"
-               || fileData._props.weapClass === "machinegun"
-               || fileData._props.weapClass === "marksmanRifle"
-               || fileData._props.weapClass === "assaultRifle"
-           ) {
+        if (fileData._props.weapClass !== "pistol") 
+           {
                fileData._props.CameraRecoil *= 1.2;
                fileData._props.CameraSnap = 3.5;
-           }
-           if (fileData._props.weapClass === "pistol"
-           ) {
+           } else
+           {
                fileData._props.CameraRecoil *= 0.25;
                fileData._props.CameraSnap = 3.5;
            }
