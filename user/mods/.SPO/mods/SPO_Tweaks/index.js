@@ -78,25 +78,34 @@ interiaDB.TiltStartSideBackSpeed["x"] *= 1.05;
 interiaDB.TiltStartSideBackSpeed["y"] *= 1.05;
 
 //Recoil changes 
-    for (let i in itemDB) {
-        let fileData = itemDB[i];
-        if (fileData._props.weapClass !== "pistol") 
-           {
-               fileData._props.CameraRecoil *= 1.2;
-               fileData._props.CameraSnap = 3.5;
-           } else
-           {
-               fileData._props.CameraRecoil *= 0.25;
-               fileData._props.CameraSnap = 3.5;
+ for (let i in itemDB) {
+            let fileData = itemDB[i];
+            if (fileData._props.weapClass === "smg"
+                   || fileData._props.weapClass === "shotgun"
+                   || fileData._props.weapClass === "assaultCarbine"
+                   || fileData._props.weapClass === "sniperRifle"
+                   || fileData._props.weapClass === "assaultRifle"
+                   || fileData._props.weapClass === "machinegun"
+                   || fileData._props.weapClass === "marksmanRifle"
+                   || fileData._props.weapClass === "assaultRifle"
+               ) {
+                   fileData._props.CameraRecoil *= 0.25;
+                   fileData._props.CameraSnap = 3.5;
+               }
+               if (fileData._props.weapClass === "pistol"
+               ) {
+                   fileData._props.CameraRecoil *= 0.25;
+                   fileData._props.CameraSnap = 3.5;
+                   fileData._props.RecoilForceUp *= 2;
+               }
            }
-       }
-        globalDB.Aiming.RecoilCrank = true;
-        globalDB.Aiming.AimProceduralIntensity = 0.7;
-        globalDB.Aiming.RecoilHandDamping = 0.6;
-        globalDB.Aiming.RecoilDamping = 0.5;
-        globalDB.Aiming.RecoilConvergenceMult *= 5;
-        globalDB.Aiming.RecoilVertBonus = 100;
-        globalDB.Aiming.RecoilBackBonus = 80;
+            globalDB.Aiming.RecoilCrank = true;
+            globalDB.Aiming.AimProceduralIntensity = 0.7;
+            globalDB.Aiming.RecoilHandDamping = 0.6;
+            globalDB.Aiming.RecoilDamping = 0.5;
+            globalDB.Aiming.RecoilConvergenceMult *= 5;
+            globalDB.Aiming.RecoilVertBonus = 100;
+            globalDB.Aiming.RecoilBackBonus = 80;
 
 
 
