@@ -1,14 +1,14 @@
 [submodule "user/mods/r1ft-DynamicTimeCycle"]
 	path = user/mods/r1ft-DynamicTimeCycle
-	url = https://dev.sp-tarkov.com/r1ft/DynamicTravelTime
+	url = https://github.com/r1ft4469/SPT-DynamicTravelTime
 	branch = release
 [submodule "user/mods/r1ft-PTTExtractRequirements"]
 	path = user/mods/r1ft-PTTExtractRequirements
-	url = https://dev.sp-tarkov.com/r1ft/PTTExtractRequirements
+	url = https://github.com/r1ft4469/SPT-PTTExtractRequirements
 	branch = release
 [submodule "user/mods/.SPO/mods/Headlamps"]
 	path = user/mods/.SPO/mods/Headlamps
-	url = https://dev.sp-tarkov.com/r1ft/HeadLamps.git
+	url = https://github.com/r1ft4469/SPT-HeadLampss
 	branch = release
 [submodule "user/mods/.SPO/mods/SPO-LootProgression"]
 	path = user/mods/.SPO/mods/SPO-LootProgression
