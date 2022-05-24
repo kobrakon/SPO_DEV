@@ -1,0 +1,8 @@
+{
+    "name": "BotVitality",
+    "author": "r1ft",
+    "version": "1.0.0",
+    "akiVersion": "2.3.*",
+    "license": "NCSA Open Source",
+    "main": "package.js"
+}
