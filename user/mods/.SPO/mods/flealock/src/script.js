@@ -37,6 +37,12 @@ class tweakstuff
 
         if (!pmcData.Info)
         return
+        
+        if (pmcData.Info.Side == "Bear") // drop-in hotfix for quest "Counteraction" being impossible to complete if the player is a BEAR
+        {
+            database.templates.quests["6179b5eabca27a099552e052"].conditions.AvailableForFinish[0]._props.counter.conditions[0]._props.target = "Usec"
+            locales.en.quest["6179b5eabca27a099552e052"].conditions["61a61c085d06a344766f3a29"] = "Eliminate USEC PMC operatives all over the Lighthouse territory"
+        }
 
         if (pmcData.Hideout.Areas[11].level == 0)
         {
